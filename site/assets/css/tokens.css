@@ -1,0 +1,131 @@
+/* ==========================================================================
+   TXYDE design tokens
+   Every colour, font, size and radius used by the site lives here.
+   See DESIGN-SYSTEM.md for what each token is for.
+   ========================================================================== */
+
+:root {
+  /* ---- Surfaces --------------------------------------------------------- */
+  --color-bg: #050608;              /* page, header area, content */
+  --color-surface: #111418;         /* header bar, cards, About band */
+  --color-surface-footer: #101015;
+  --color-surface-drawer: #191919;  /* mobile slide-out menu */
+  --color-overlay: rgb(0 0 0 / 0.6);
+
+  /* ---- Text ------------------------------------------------------------- */
+  --color-text: #eef1f1;            /* body + headings */
+  --color-text-soft: #d6dadf;       /* long-form copy on surfaces */
+  --color-text-muted: #c4c7cd;      /* section subtitles */
+  --color-text-footer: #bababa;
+  --color-text-on-light: #111418;   /* text on light / sand buttons */
+  --color-text-on-teal: #e5e5e5;
+
+  /* ---- Navigation ------------------------------------------------------- */
+  --color-nav: #f2f2f2;
+  --color-nav-active: #c6c6c6;      /* hover + current page */
+  --color-drawer-link: #a6a6a6;
+  --color-drawer-link-active: #ffffff;
+  --color-link: #006edf;            /* default links, menu toggle */
+
+  /* ---- Lines ------------------------------------------------------------ */
+  --color-border: #4b5563;
+  --color-hairline: rgb(255 255 255 / 0.1);
+
+  /* ---- Brand accents (the "diamond" palette) ---------------------------- */
+  --color-forest: #2f6b45;          /* Homeland */
+  --color-brick: #6b2f2f;           /* Diaspora */
+  --color-teal: #2f5f6b;            /* primary buttons, active filters */
+  --color-amber: #8a5a2f;
+  --color-rose: #b46b7a;
+  --color-sand: #e5d0be;            /* secondary buttons */
+
+  /* ---- Light button ----------------------------------------------------- */
+  --color-button-light: #f3f4f6;
+  --color-button-light-hover: #ffffff;
+  --color-icon-muted: #65666c;
+
+  /* ---- Typography ------------------------------------------------------- */
+  --font-serif: Georgia, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --font-sans: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  /* Roles. To switch to the fonts uploaded to WordPress (Cantata One for
+     headings, Open Sans for UI), add the @font-face rules and change these. */
+  --font-body: var(--font-serif);
+  --font-heading: var(--font-serif);
+  --font-nav: var(--font-sans);
+
+  /* Type scale: desktop (>= 960px). Smaller screens override below. */
+  --fs-body: 15px;  --lh-body: 28px;
+  --fs-nav: 15px;
+  --fs-h1: 50px;    --lh-h1: 60px;
+  --fs-h2: 40px;    --lh-h2: 50px;
+  --fs-h3: 30px;    --lh-h3: 40px;
+  --fs-h4: 20px;    --lh-h4: 30px;
+  --fs-button: 14px;
+  --fs-tag: 13px;
+
+  /* ---- Shape ------------------------------------------------------------ */
+  --radius-xs: 3px;      /* buttons */
+  --radius-sm: 10px;     /* gallery thumbnails */
+  --radius-md: 12px;     /* gallery cards */
+  --radius-lg: 18px;     /* filter panel */
+  --radius-xl: 20px;     /* category cards */
+  --radius-image: 25px;  /* framed card photos */
+  --radius-portrait: 150px;
+  --radius-pill: 999px;
+
+  /* ---- Layout ----------------------------------------------------------- */
+  --page-max: 1240px;        /* the boxed page */
+  --container-max: 1220px;   /* header + footer content */
+  --gutter: 12px;            /* horizontal space inside every column */
+  --block-gap: 40px;         /* space below every content block */
+  --section-pad-x: 0px;      /* side padding of content sections */
+  --page-offset: 25px;       /* space around the boxed page */
+  --header-height: 100px;
+}
+
+@media (min-width: 960px) and (max-width: 1239px) {
+  :root {
+    --page-max: 960px;
+    --container-max: 940px;
+  }
+}
+
+@media (max-width: 959px) {
+  :root {
+    --fs-body: 13px;  --lh-body: 24px;
+    --fs-nav: 13px;
+    --fs-h1: 43px;    --lh-h1: 51px;
+    --fs-h2: 34px;    --lh-h2: 43px;
+    --fs-h3: 26px;    --lh-h3: 34px;
+    --fs-h4: 17px;    --lh-h4: 26px;
+    --page-max: 728px;
+    --container-max: 708px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --lh-body: 21px;
+    --fs-h1: 38px;    --lh-h1: 45px;
+    --fs-h2: 30px;    --lh-h2: 38px;
+    --fs-h3: 23px;    --lh-h3: 30px;
+    --fs-h4: 15px;    --lh-h4: 23px;
+    --page-max: calc(100% - 67px);
+    --gutter: 0px;
+    --block-gap: 20px;
+    --section-pad-x: 33px;
+  }
+}
+
+@media (max-width: 479px) {
+  :root {
+    --lh-body: 19px;
+    --fs-h1: 30px;    --lh-h1: 36px;
+    --fs-h2: 24px;    --lh-h2: 30px;
+    --fs-h3: 18px;    --lh-h3: 24px;
+    --fs-h4: 13px;    --lh-h4: 19px;
+  }
+}

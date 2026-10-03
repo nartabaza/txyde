@@ -1,0 +1,45 @@
+{
+  "slug": "diaspora",
+  "title": "Diaspora",
+  "metaTitle": "Diaspora - TXYDE",
+  "description": "The Visual Memory of the Circassian People",
+  "placesLabel": "Places",
+  "photos": [
+    {
+      "title": "Quneitra city",
+      "image": "https://cdn.txyde.com/03_Root_Final/F_SYR/20th/15_SYR_20th_Circassian+city+in+Jolan+hights.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "Quneitra city which was the main city in Golan heights, and became the new home for many Circassian immigrants."
+    },
+    {
+      "title": "The Adyghe School in Syria",
+      "image": "https://cdn.txyde.com/03_Root_Final/F_SYR/20th/7_SYR_20th_The+Circassian+school+in+Syria.bmp",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [
+        "Education",
+        "School",
+        "Students"
+      ],
+      "description": "A 20th-century photograph from Qunaitra, Syria showing the Adyghe School. The school was established in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language except for Arabic language classes."
+    },
+    {
+      "title": "The South Temple",
+      "image": "https://cdn.txyde.com/03_Root_Final/F_JRD/20th/17_JRD_20th_The+South+Temple.jpg",
+      "year": "19th",
+      "country": "Jordan",
+      "city": "Jerash",
+      "tags": [],
+      "description": "A photo depicting the South Temple, in Jerash, Jordan, where Circassian immigrants established a community."
+    }
+  ]
+}

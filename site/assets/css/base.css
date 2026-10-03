@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Base: reset, typography, buttons, shared utilities
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: var(--page-offset) 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (min-width: 1240px) {
+  body {
+    padding: var(--page-offset);
+  }
+}
+
+h1, h2, h3, h4, h5, h6, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: var(--color-link);
+  color: #fff;
+}
+
+/* ---- Type scale ---------------------------------------------------------
+   Heading classes let the visual size differ from the semantic level. */
+
+h1, .text-h1 { font: 500 var(--fs-h1) / var(--lh-h1) var(--font-heading); }
+h2, .text-h2 { font: 500 var(--fs-h2) / var(--lh-h2) var(--font-heading); }
+h3, .text-h3 { font: 400 var(--fs-h3) / var(--lh-h3) var(--font-heading); }
+h4, .text-h4 { font: 600 var(--fs-h4) / var(--lh-h4) var(--font-heading); }
+
+h1, h2, h3, h4, .text-h1, .text-h2, .text-h3, .text-h4 {
+  color: var(--color-text);
+}
+
+/* ---- Buttons ------------------------------------------------------------ */
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-body);
+  font-size: var(--fs-button);
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.btn--light {
+  background-color: var(--color-button-light);
+  color: var(--color-text-on-light);
+}
+.btn--light:hover {
+  background-color: var(--color-button-light-hover);
+}
+
+.btn--teal {
+  background-color: var(--color-teal);
+  color: var(--color-text-on-teal);
+}
+.btn--teal-bright {
+  background-color: var(--color-teal);
+  color: #fff;
+}
+
+.btn--sand {
+  background-color: var(--color-sand);
+  color: var(--color-text-on-light);
+}
+
+/* Large buttons are the regular button scaled up 10%. */
+.btn--lg {
+  transform: scale(1.1);
+}
+
+/* ---- Icons (inline SVG, sized like the old icon font) ------------------- */
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+/* ---- Pill tags ---------------------------------------------------------- */
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: inherit;
+  font-size: var(--fs-tag);
+  line-height: 1;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.tag:hover {
+  opacity: 1;
+}
+
+/* ---- Diamond heading ornament -------------------------------------------
+   The three-diamond mark under a heading. Set --accent on a parent. */
+
+.diamond-heading {
+  position: relative;
+  padding-bottom: 40px;
+}
+.diamond-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 28px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgb(255 255 255 / 0.35), transparent);
+}
+.diamond-heading::after {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: 2px;
+  width: 72px;
+  height: 24px;
+  background-color: var(--accent, #fff);
+  -webkit-mask: url("../img/brand/diamonds.svg") left center / contain no-repeat;
+  mask: url("../img/brand/diamonds.svg") left center / contain no-repeat;
+}
+.diamond-heading > * {
+  position: relative;
+  display: inline-block;
+}

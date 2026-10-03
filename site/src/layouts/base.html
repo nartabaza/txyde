@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="{{ canonical }}">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="{{ ogType }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="icon" href="/assets/img/brand/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/brand/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/img/brand/favicon-180.png">
+
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+{{{ styles }}}
+{{{ analytics }}}
+</head>
+<body>
+  <div class="page">
+{{> header }}
+    <main class="site-main" id="content">
+{{{ content }}}
+    </main>
+{{> footer }}
+  </div>
+{{> drawer }}
+{{{ afterPage }}}
+  <script src="/assets/js/site.js" defer></script>
+{{{ scripts }}}
+</body>
+</html>

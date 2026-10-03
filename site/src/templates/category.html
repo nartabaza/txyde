@@ -1,0 +1,21 @@
+<div class="section section--contained">
+  <div class="gallery">
+    <div class="gallery__inner">
+      <h1 class="text-h2 gallery__title">{{ title }}</h1>
+
+      <div class="filter-panel" role="group" aria-label="Photo filters">
+        <div class="filter-group">
+          <div class="filter-group__label">{{ placesLabel }}</div>
+          <div class="filter-group__buttons">
+{{{ placeButtons }}}
+          </div>
+        </div>
+{{{ tagGroup }}}
+      </div>
+
+      <div class="photo-grid">
+{{{ cards }}}
+      </div>
+    </div>
+  </div>
+</div>

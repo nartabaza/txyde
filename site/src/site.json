@@ -1,0 +1,11 @@
+{
+  "name": "TXYDE",
+  "url": "https://txyde.com",
+  "description": "The Visual Memory of the Circassian People",
+  "analyticsId": "GT-K4CR4545",
+  "nav": [
+    { "label": "Diaspora", "href": "/diaspora/" },
+    { "label": "About us", "href": "/about-us/" },
+    { "label": "Support", "href": "/support/" }
+  ]
+}

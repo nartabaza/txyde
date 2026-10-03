@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Home page sections
+   ========================================================================== */
+
+/* ---- Hero --------------------------------------------------------------- */
+
+.home-hero {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.home-hero__intro {
+  padding-top: 30px;
+  /* 10% of the column, expressed against the full section width */
+  padding-right: 6.6666%;
+  border-right: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.home-hero__title {
+  margin: 0 var(--gutter) 30px;
+}
+
+@media (max-width: 767px) {
+  .home-hero__intro {
+    padding-right: 10%;
+  }
+  .home-hero__intro > * {
+    text-align: center;
+  }
+}
+
+/* ---- Category cards ----------------------------------------------------- */
+
+.home-categories {
+  padding-top: 110px;
+}
+
+.category-card {
+  display: flow-root;
+  margin: 5%;
+  border-left: 10px solid var(--accent);
+  border-radius: var(--radius-xl);
+  background-color: var(--color-surface);
+}
+.category-card--homeland { --accent: var(--color-forest); }
+.category-card--diaspora { --accent: var(--color-brick); }
+
+.category-card__header {
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.category-card__media {
+  line-height: 0;
+  text-align: center;
+}
+.category-card__frame {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-image);
+}
+
+.category-card__tags {
+  padding-left: 5%;
+}
+
+@media (max-width: 767px) {
+  .category-card {
+    padding: 0 5%;
+  }
+  .category-card__header {
+    padding-top: 5%;
+  }
+}
+
+/* ---- Call-to-action rows ------------------------------------------------ */
+
+.home-cta {
+  padding-bottom: 70px;
+}
+.home-cta--last {
+  padding-bottom: 110px;
+}
+
+/* ---- About band --------------------------------------------------------- */
+
+.home-about {
+  background-color: var(--color-surface);
+}
+.home-about__heading {
+  padding-top: 20px;
+}
+.home-about__body {
+  padding-left: 10px;
+  color: var(--color-text-soft);
+}
+
+/* ---- Voices of History -------------------------------------------------- */
+
+.home-voices__heading {
+  padding-top: 50px;
+}
+.home-voices__subtitle {
+  color: var(--color-text-muted);
+}
+
+.figure-card {
+  display: flow-root;
+  margin: 0 10px 20px;
+}
+.figure-card__image {
+  line-height: 0;
+}
+.figure-card__portrait {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-portrait);
+}
+.figure-card__portrait img {
+  width: 100%;
+}
+.figure-card__name {
+  margin-bottom: 5px;
+}
