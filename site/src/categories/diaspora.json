@@ -6,8 +6,36 @@
   "placesLabel": "Places",
   "photos": [
     {
+      "id": 7,
+      "title": "The Adyghe School in Syria",
+      "image": "https://cdn.txyde.com/03_Root_Final/7_SYR_20th_The+Adyghe+School+in+Syria.bmp",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [
+        "Education",
+        "School",
+        "Students"
+      ],
+      "description": "A 20th-century photograph from Qunaitra, Syria showing the Adyghe School. The school was established in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language except for Arabic language classes."
+    },
+    {
+      "id": 10,
+      "title": "Damascus dancing troupe",
+      "image": "https://cdn.txyde.com/03_Root_Final/10_SYR_20th_Damascus+dancing+troupe.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [
+        "Circassian Benevolent Association",
+        "Troupe"
+      ],
+      "description": "The dancing troupe of the Circassian Benevolent Association."
+    },
+    {
+      "id": 15,
       "title": "Quneitra city",
-      "image": "https://cdn.txyde.com/03_Root_Final/F_SYR/20th/15_SYR_20th_Circassian+city+in+Jolan+hights.jpg",
+      "image": "https://cdn.txyde.com/03_Root_Final/15_SYR_20th_Quneitra+city.jpg",
       "year": "20th",
       "country": "Syria",
       "city": "Quneitra",
@@ -20,26 +48,395 @@
       "description": "Quneitra city which was the main city in Golan heights, and became the new home for many Circassian immigrants."
     },
     {
+      "id": 16,
+      "title": "Traditional costumes and instruments",
+      "image": "https://cdn.txyde.com/03_Root_Final/16_RUS_20th_Traditional+costumes+and+instruments.png",
+      "year": "20th",
+      "country": "Russia",
+      "city": "",
+      "tags": [
+        "Ajeghafe",
+        "Qamil",
+        "Pkhachach",
+        "Pshina"
+      ],
+      "description": "A general set of traditional costumes including the Ajeghafe costume which is practiced in festives."
+    },
+    {
+      "id": 17,
+      "title": "The South Temple",
+      "image": "https://cdn.txyde.com/03_Root_Final/17_JRD_19th_The+South+Temple.jpg",
+      "year": "19th",
+      "country": "Jordan",
+      "city": "Jerash",
+      "tags": [],
+      "description": "A photo depicting the South Temple, in Jerash, Jordan, where Circassian immigrants established a community."
+    },
+    {
+      "id": 26,
+      "title": "Azheghafe",
+      "image": "https://cdn.txyde.com/03_Root_Final/26_RUS_20th_Azheghafe.jpg",
+      "year": "20th",
+      "country": "Russia",
+      "city": "Saint-Petersburg",
+      "tags": [
+        "Animism",
+        "Masks",
+        "Goat mask",
+        "Ajeghafe",
+        "Mask ornament"
+      ],
+      "description": "Ajeghafe is a traditional role played in festive occasions and rituals representing death, resurrection and fertility. The mask is displayed at the Russian Museum of Ethnography in Saint Petersburg."
+    },
+    {
+      "id": 35,
+      "title": "Circassian holding a horse by its bridle",
+      "image": "https://cdn.txyde.com/03_Root_Final/35_nAn_19th_Circassian+holding+a+horse+by+its+bridle.jpg",
+      "year": "19th",
+      "country": "",
+      "city": "",
+      "tags": [],
+      "description": "A painting by Eugène Delacroix, dating to 1858. The painting is displayed at the Tokyo Fuji Art Museum."
+    },
+    {
+      "id": 36,
+      "title": "Two Circassian polkas",
+      "image": "https://cdn.txyde.com/03_Root_Final/36_UK_19th_Two+Circassian+polkas.jpg",
+      "year": "19th",
+      "country": "United Kingdom",
+      "city": "",
+      "tags": [
+        "Advertizing",
+        "Commercial"
+      ],
+      "description": "The cover of a victorian-era music sheet of a piano piece written by Khue Lindoff, titled Two Circassian Polkas. The cover illustraion was created by John Brandard."
+    },
+    {
+      "id": 39,
+      "title": "Georgian, Circassian, and Armenian costumes",
+      "image": "https://cdn.txyde.com/03_Root_Final/39_nAn_19th_Georgian%2C+Circassian%2C+and+Armenian+costumes.jpg",
+      "year": "19th",
+      "country": "",
+      "city": "",
+      "tags": [
+        "Caucasians",
+        "Costumes",
+        "Anapa"
+      ],
+      "description": "A painting by J.L. Williams dating to 1882, showing Georgian, Circassian, and Armenian costumes."
+    },
+    {
+      "id": 41,
+      "title": "Circassian Warrior",
+      "image": "https://cdn.txyde.com/03_Root_Final/41_TUR_19th_Circassian+Warrior.jpg",
+      "year": "19th",
+      "country": "Turkey",
+      "city": "",
+      "tags": [
+        "Warrior",
+        "Rifle",
+        "Weapon"
+      ],
+      "description": "A painting dating to 1862 from one of twenty illustrations by Van-Lennep, Henry J. (Henry John), in oil colors. It illustrates circassians and scenery of Turkey."
+    },
+    {
+      "id": 65,
+      "title": "Gathering at the Circassian Benevolent Association",
+      "image": "https://cdn.txyde.com/03_Root_Final/65_SYR_20th_Gathering+at+the+Circassian+Benevolent+Association.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [],
+      "description": "An 1969 photograph from Damascus, Syria, in the Circassian diaspora, featuring Zouher, Ferzat, Nabil, Adnan, Shareef, Hamadah, Rofa-at."
+    },
+    {
+      "id": 66,
       "title": "The Adyghe School in Syria",
-      "image": "https://cdn.txyde.com/03_Root_Final/F_SYR/20th/7_SYR_20th_The+Circassian+school+in+Syria.bmp",
+      "image": "https://cdn.txyde.com/03_Root_Final/66_SYR_20th_The+Adyghe+School+in+Syria.jpg",
       "year": "20th",
       "country": "Syria",
       "city": "Quneitra",
       "tags": [
         "Education",
         "School",
-        "Students"
+        "Students",
+        "Circassian school uniform"
       ],
-      "description": "A 20th-century photograph from Qunaitra, Syria showing the Adyghe School. The school was established in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language except for Arabic language classes."
+      "description": "A 1938 photograph from Quneitra, Syria, in the Circassian diaspora, featuring Akeff Khonako and his 5th class pupils from the Circassian School."
     },
     {
-      "title": "The South Temple",
-      "image": "https://cdn.txyde.com/03_Root_Final/F_JRD/20th/17_JRD_20th_The+South+Temple.jpg",
+      "id": 80,
+      "title": "Football players of two villages in Golan heights",
+      "image": "https://cdn.txyde.com/03_Root_Final/80_SYR_20th_Football+players+of+two+villages+in+Golan+heights.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Khushnyieh",
+      "tags": [
+        "Breika",
+        "Al Khushnyieh",
+        "Amicable",
+        "Match",
+        "Golan",
+        "Town"
+      ],
+      "description": "A 1966 showing football players from Khushnyieh and Bariqa villages in the Golan heights."
+    },
+    {
+      "id": 95,
+      "title": "Circassian Cavalry",
+      "image": "https://cdn.txyde.com/03_Root_Final/95_nAn_19th_Circassian+Cavalry.jpg",
       "year": "19th",
-      "country": "Jordan",
-      "city": "Jerash",
+      "country": "",
+      "city": "",
       "tags": [],
-      "description": "A photo depicting the South Temple, in Jerash, Jordan, where Circassian immigrants established a community."
+      "description": "A painting by Alberto Pasini dating to 1880, titled Circassian Cavalry."
+    },
+    {
+      "id": 96,
+      "title": "Circassian soldiers standing trial",
+      "image": "https://cdn.txyde.com/03_Root_Final/96_Poland_19th_Circassian+soldiers+standing+trial.jpg",
+      "year": "19th",
+      "country": "Poland",
+      "city": "Bromberg",
+      "tags": [],
+      "description": "A painting dating to 1851, from Bromberg, Poland, showing Circassian soldiers standing trial. In September 1850, ten Kabardian horsemen deserted Russian service in Warsaw and fled into Prussia, hoping eventually to return to the Caucasus via Turkey. A clash with Prussian authorities near Bromberg left several dead and the survivors imprisoned. Their trial attracted European attention and sympathy, but Prussia later extradited them to Russia, where they lost their ranks and noble status and were sentenced to hard labor or exile."
+    },
+    {
+      "id": 97,
+      "title": "Arrival of Two Circassian Soldiers",
+      "image": "https://cdn.txyde.com/03_Root_Final/97_nAn_19th_Arrival+of+Two+Circassian+Soldiers.jpg",
+      "year": "19th",
+      "country": "",
+      "city": "",
+      "tags": [],
+      "description": "A painting by Alberto Pasini, titled Arrivo di Due Cavalieri Circassi in Italian, dates to 1869, shows the arrival of two Circassian soldiers."
+    },
+    {
+      "id": 100,
+      "title": "Circassians in Istanbul",
+      "image": "https://cdn.txyde.com/03_Root_Final/100_TUR_19th_Circassians+in+Istanbul.jpg",
+      "year": "19th",
+      "country": "Turkey",
+      "city": "Istanbul",
+      "tags": [],
+      "description": "A photograph dating to 1882, showing Circassians in Istanbul."
+    },
+    {
+      "id": 106,
+      "title": "Bedouins and Circassian chiefs",
+      "image": "https://cdn.txyde.com/03_Root_Final/106_JRD_20th_Bedouins+and+Circassian+chiefs.jpg",
+      "year": "20th",
+      "country": "Jordan",
+      "city": "Amman",
+      "tags": [],
+      "description": "A 1921 photograph from Amman, Jordan, taken during Sir Herbert Samuel's second visit to Transjordan."
+    },
+    {
+      "id": 109,
+      "title": "Traditional male costume",
+      "image": "https://cdn.txyde.com/03_Root_Final/109_SYR_20th_Traditional+male+costume.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Aleppo",
+      "tags": [
+        "Parade"
+      ],
+      "description": "Three men walking in Aleppo city in the early 20th century, wearing traditional Circassian costume."
+    },
+    {
+      "id": 127,
+      "title": "Bedouins and Circassian chiefs",
+      "image": "https://cdn.txyde.com/03_Root_Final/127_JRD_20th_Bedouins+and+Circassian+chiefs.jpg",
+      "year": "20th",
+      "country": "Jordan",
+      "city": "Amman",
+      "tags": [],
+      "description": "A 1921 photograph from Amman, Jordan, taken during Sir Herbert Samuel's second visit to Transjordan."
+    },
+    {
+      "id": 140,
+      "title": "Event in Rehaniya",
+      "image": "https://cdn.txyde.com/03_Root_Final/140_ISR_20th_Event+in+Rehaniya.jpg",
+      "year": "20th",
+      "country": "Israel",
+      "city": "Rehaniya",
+      "tags": [],
+      "description": "A 1984 photograph from Rehaniya, Israel"
+    },
+    {
+      "id": 144,
+      "title": "Abida Wmar",
+      "image": "https://cdn.txyde.com/03_Root_Final/144_JRD_20th_Abida+Wmar.jpg",
+      "year": "20th",
+      "country": "Jordan",
+      "city": "Amman",
+      "tags": [],
+      "description": "Radio journalist from the Kabardino-Balkarian Republic Raisa Afaewune (АфIэунэ Раисэ) interviews the Circassian accordionist Abida Wmar (Умар Абидэ) in Amman, Jordan, in 1993."
+    },
+    {
+      "id": 170,
+      "title": "Syrian president Ahmad Nami",
+      "image": "https://cdn.txyde.com/03_Root_Final/170_SYR_20th_Syrian+president+Ahmad+Nami.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "",
+      "tags": [],
+      "description": "A 1925 photograph from Syria, featuring Ahmad Ibrahim Fakhri Nami (Damat Ahmet Nami). Ahmad was married to Aysha, the daughter of the Ottoman Sultan Abdul Hamid II. He was a prominent political figure who served as the second president of Syria and its fifth Prime Minister. He was referred to as \"Damat\" (Son in law in Turkish) because he was married to the daughter of the Ottoman Sultan."
+    },
+    {
+      "id": 171,
+      "title": "Syrian president Ahmad Nami",
+      "image": "https://cdn.txyde.com/03_Root_Final/171_SYR_20th_Syrian+president+Ahmad+Nami.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "",
+      "tags": [],
+      "description": "A 1926 photograph from Syria, featuring Ahmad Nami and his government members. Nami was the second president of Syria and its fifth Prime Minister"
+    },
+    {
+      "id": 194,
+      "title": "Damascus dancing troupe",
+      "image": "https://cdn.txyde.com/03_Root_Final/194_SYR_20th_Damascus+dancing+troupe.bmp",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [],
+      "description": "A 20th-century photograph from Damascus, Syria, in the Circassian diaspora, showing the Damascus dancing troupe forming a dancing circle (Djegu)."
+    },
+    {
+      "id": 195,
+      "title": "Damascus dancing troupe",
+      "image": "https://cdn.txyde.com/03_Root_Final/195_SYR_20th_Damascus+dancing+troupe.bmp",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [],
+      "description": "A 20th-century photograph from Damascus, Syria, in the Circassian diaspora, showing the Damascus dancing troupe forming a dancing circle (Djegu)."
+    },
+    {
+      "id": 196,
+      "title": "Damascus dancing troupe",
+      "image": "https://cdn.txyde.com/03_Root_Final/196_SYR_20th_Damascus+dancing+troupe.bmp",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [],
+      "description": "A 20th-century photograph from Damascus, Syria, in the Circassian diaspora, showing the Damascus dancing troupe forming a group dance called Wdj."
+    },
+    {
+      "id": 197,
+      "title": "Damascus dancing troupe",
+      "image": "https://cdn.txyde.com/03_Root_Final/197_SYR_20th_Damascus+dancing+troupe.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Damascus",
+      "tags": [],
+      "description": "An 1951 photograph from Damascus, Syria, in the Circassian diaspora, showing Damascus dancing troupe during a group dance (Wdj) in the Alsharq hotel in Damascus."
+    },
+    {
+      "id": 199,
+      "title": "Ein Ziwan, a town in Golan",
+      "image": "https://cdn.txyde.com/03_Root_Final/199_SYR_20th_Ein+Ziwan%2C+a+town+in+Golan.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Ein Ziwan",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "A photograph dating to the 1960s of Ein Ziwan, a village in the Golan heights, Syria."
+    },
+    {
+      "id": 200,
+      "title": "A trip from Beir Ajam",
+      "image": "https://cdn.txyde.com/03_Root_Final/200_SYR_20th_A+trip+from+Beir+Ajam.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [],
+      "description": "A 1967 photograph from Quneitra, Syria, in the Circassian diaspora, showing a trip from Beir Ajam to Alhimme region in Quneitra."
+    },
+    {
+      "id": 201,
+      "title": "Al Khushnyieh, a town in Golan",
+      "image": "https://cdn.txyde.com/03_Root_Final/201_SYR_20th_Al+Khushnyieh%2C+a+town+in+Golan.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Khushnyieh",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "An 1965 photograph of Khushnyieh, a town in the Golan heights in Syria."
+    },
+    {
+      "id": 202,
+      "title": "Al Khushnyieh, a town in Golan",
+      "image": "https://cdn.txyde.com/03_Root_Final/202_SYR_20th_Al+Khushnyieh%2C+a+town+in+Golan.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Khushnyieh",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "An 1965 photograph of Khushnyieh, a town in the Golan heights in Syria."
+    },
+    {
+      "id": 204,
+      "title": "Qunaitra",
+      "image": "https://cdn.txyde.com/03_Root_Final/204_SYR_20th_Qunaitra.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "A 1943 photograph of Qunaitra city in the Golan heights, Syria."
+    },
+    {
+      "id": 205,
+      "title": "Qunaitra",
+      "image": "https://cdn.txyde.com/03_Root_Final/205_SYR_20th_Qunaitra.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Quneitra",
+      "tags": [
+        "Circassian Architecture",
+        "Circassian building style",
+        "Rural planning",
+        "Golan"
+      ],
+      "description": "A 1943 photograph of Qunaitra city in the Golan heights, Syria."
+    },
+    {
+      "id": 206,
+      "title": "Gathering in Manbij",
+      "image": "https://cdn.txyde.com/03_Root_Final/206_SYR_20th_Gathering+in+Manbij.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Manbij",
+      "tags": [],
+      "description": "A 1968 photograph from Manbij, Syria, in the Circassian diaspora, featuring a group of men of which we recognize Jamal Apezau (middle row, first from the right)."
+    },
+    {
+      "id": 208,
+      "title": "Salmanyieh, a town in Golan",
+      "image": "https://cdn.txyde.com/03_Root_Final/208_SYR_20th_Salmanyieh%2C+a+town+in+Golan.jpg",
+      "year": "20th",
+      "country": "Syria",
+      "city": "Salmanyieh",
+      "tags": [],
+      "description": "A 20th-century photograph showing Salmanyieh, a town in the Golan heights, Syria."
     }
   ]
 }

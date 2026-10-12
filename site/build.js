@@ -4,6 +4,10 @@
 //   node build.js           build the site into dist/
 //   node build.js --serve   build, serve on http://localhost:8080 and rebuild on changes
 //
+// Environment (used for the GitHub Pages preview):
+//   BASE_PATH=/txyde        prefix every site link, for hosting under a sub-path
+//   PREVIEW=1               no analytics, and ask search engines not to index
+//
 // Sources:
 //   src/site.json           site name, URL, navigation, analytics id
 //   src/layouts/base.html   the HTML shell every page uses
@@ -20,6 +24,8 @@ const http = require('http');
 const ROOT = __dirname;
 const SRC = path.join(ROOT, 'src');
 const OUT = path.join(ROOT, 'dist');
+const BASE = (process.env.BASE_PATH || '').replace(/\/+$/, '');
+const PREVIEW = Boolean(process.env.PREVIEW);
 
 // Icons extracted from the original theme's icon font (1000-unit em, baseline at 850).
 const glyph = (d, x = 0) =>
@@ -76,7 +82,11 @@ function copyDir(from, to) {
   }
 }
 
+// Root-relative links ("/assets/...", "/homeland/") get the base path in front.
+const withBase = (html) => (BASE ? html.replace(/\b(href|src)="\/(?!\/)/g, `$1="${BASE}/`) : html);
+
 function writePage(url, html) {
+  html = withBase(html);
   const file = path.join(OUT, url, 'index.html');
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, html);
@@ -119,7 +129,8 @@ function renderDocument({ site, partials, layout }, page) {
     ogType: page.ogType || 'article',
     styles: stylesheetLinks(page.styles || []),
     scripts: (page.scripts || []).map((s) => `  <script src="/assets/js/${s}.js" defer></script>`).join('\n'),
-    analytics: renderAnalytics(site.analyticsId),
+    analytics: PREVIEW ? '' : renderAnalytics(site.analyticsId),
+    robots: PREVIEW ? '<meta name="robots" content="noindex, nofollow">' : '',
     navDesktop: renderNav(site, page.url, 'site-nav__item', 'site-nav__link'),
     navDrawer: renderNav(site, page.url, 'drawer__item', 'drawer__link'),
     content: page.content,

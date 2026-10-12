@@ -4,6 +4,7 @@
   "description": "The Visual Memory of the Circassian People",
   "analyticsId": "GT-K4CR4545",
   "nav": [
+    { "label": "Homeland", "href": "/homeland/" },
     { "label": "Diaspora", "href": "/diaspora/" },
     { "label": "About us", "href": "/about-us/" },
     { "label": "Support", "href": "/support/" }

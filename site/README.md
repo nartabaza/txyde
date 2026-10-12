@@ -15,6 +15,8 @@ npm run build   # build into dist/
 
 To deploy, upload the contents of `dist/` to the web root of txyde.com.
 
+**Team preview:** every push to `main` is built and published to GitHub Pages by `.github/workflows/pages.yml`. The preview is served from `https://<user>.github.io/<repo>/`, so the build adds the repo name to every link (`BASE_PATH`). It also leaves out analytics and tells search engines not to index it (`PREVIEW`).
+
 ## Folder structure
 
 ```
@@ -31,6 +33,8 @@ site/
 │   ├── css/                 tokens → base → layout → page CSS
 │   ├── js/                  site.js (every page), gallery.js (categories)
 │   └── img/                 brand/ (logo, favicons, diamonds) and home/
+├── scripts/import_sheet.py  spreadsheet → src/categories/*.json
+├── data/                    the spreadsheet (not committed) and REVIEW-NOTES.md
 ├── DESIGN-SYSTEM.md         colours, type, spacing and components
 └── dist/                    generated output (not committed)
 ```
@@ -57,7 +61,17 @@ The filters are built from the data, so you never edit buttons by hand:
 - **Places** buttons come from the `country` values (sorted A–Z).
 - **Tags** buttons come from every `tags` entry (sorted A–Z). If no photo has tags, the Tags row is hidden.
 
-The old WordPress workflow used a Python script to paste HTML between `TXYDE_PHOTOS_START/END` markers. That script can now write this JSON instead, which is simpler and harder to break.
+### Importing from the photo archive spreadsheet
+
+`homeland.json` and `diaspora.json` are generated from the team's Google Sheet, so edit the sheet rather than these files. Download the sheet as .xlsx into `data/`, then run:
+
+```bash
+pip install openpyxl               # once
+python scripts/import_sheet.py     # rewrites the photos in homeland.json and diaspora.json
+npm run build
+```
+
+The script splits the photos by the Location column and checks that every image loads. It lists any rows it skipped or found suspicious. The spreadsheet stays in `data/`, which is neither published nor committed, because it contains contact details. Open questions about the data are tracked in `data/REVIEW-NOTES.md`.
 
 > Thumbnails: the grid currently loads the full-size image. Once there are many photos, add a `thumb` (about 600px wide) for each one. Pages will load much faster.
 

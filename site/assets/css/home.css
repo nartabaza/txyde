@@ -49,6 +49,9 @@
   padding-top: 2%;
   padding-left: 5%;
 }
+.category-card__header a {
+  color: inherit;
+}
 
 .category-card__media {
   line-height: 0;
