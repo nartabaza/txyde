@@ -187,7 +187,7 @@ Note the site breakpoints use `max-width: 767px` while the gallery uses `max-wid
 | ≥1240px | 1240px | 1220px |
 | 960–1239px | 960px | 940px |
 | 768–959px | 728px | 708px |
-| ≤767px | `calc(100% - 67px)` | 708px (inherited; page is narrower, so effectively full width) |
+| ≤767px | `100%` (full width) | 708px (inherited; page is narrower, so effectively full width) |
 
 ### Spacing tokens
 
@@ -195,7 +195,7 @@ Note the site breakpoints use `max-width: 767px` while the gallery uses `max-wid
 |---|---|---|---|
 | `--gutter` | 12px | 0px | Horizontal margin inside every column (`.block`, `.home-hero__title`, `.gallery`) |
 | `--block-gap` | 40px | 20px | Space below every `.block` |
-| `--section-pad-x` | 0px | 33px | Side padding of `.section`; also added to footer side padding |
+| `--section-pad-x` | 0px | 16px | Side padding of `.section`; also added to footer side padding |
 | `--page-offset` | 25px | 25px | Space around the boxed page (`body` padding) |
 | `--header-height` | 100px | 100px | `min-height` of `.site-header` |
 

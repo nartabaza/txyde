@@ -113,10 +113,10 @@
     --fs-h2: 30px;    --lh-h2: 38px;
     --fs-h3: 23px;    --lh-h3: 30px;
     --fs-h4: 15px;    --lh-h4: 23px;
-    --page-max: calc(100% - 67px);
+    --page-max: 100%;
     --gutter: 0px;
     --block-gap: 20px;
-    --section-pad-x: 33px;
+    --section-pad-x: 16px;
   }
 }
 
