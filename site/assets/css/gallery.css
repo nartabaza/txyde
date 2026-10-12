@@ -130,7 +130,8 @@
 }
 
 .photo-card {
-  flex: 1 1 calc(33.333% - 20px);
+  /* Fixed width (3 per row, minus the two 20px gaps) so a short last row keeps the regular card size. */
+  flex: 0 0 calc((100% - 40px) / 3);
   padding: 18px;
   border: 1px solid rgb(75 85 99 / 0.55);
   border-radius: var(--radius-md);
@@ -179,7 +180,7 @@
 }
 
 @media (max-width: 900px) {
-  .photo-card { flex-basis: calc(50% - 20px); }
+  .photo-card { flex-basis: calc((100% - 20px) / 2); }
 }
 
 @media (max-width: 768px) {
