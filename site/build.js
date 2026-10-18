@@ -159,7 +159,7 @@ function renderCategory(category, template, partials) {
   const tags = new Map();
   photos.forEach((p) => p.tagList.forEach((t) => tags.has(t.slug) || tags.set(t.slug, t.label)));
   const tagGroup = tags.size
-    ? `        <div class="filter-group">
+    ? `        <div class="filter-group" data-tag-group>
           <div class="filter-group__label">Tags</div>
           <div class="filter-group__buttons">
 ${[
@@ -173,6 +173,7 @@ ${[
   const cards = photos
     .map((p) => {
       const data = {
+        id: p.id ?? '',
         country: p.country,
         tags: p.tagList.map((t) => t.slug).join(','),
         full: p.image,

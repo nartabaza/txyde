@@ -59,7 +59,9 @@ Photos live in `src/categories/<category>.json`. Add an entry to the `photos` li
 The filters are built from the data, so you never edit buttons by hand:
 
 - **Places** buttons come from the `country` values (sorted A–Z).
-- **Tags** buttons come from every `tags` entry (sorted A–Z). If no photo has tags, the Tags row is hidden.
+- **Tags** buttons come from every `tags` entry (sorted A–Z). If no photo has tags, the Tags row is hidden. When a place is selected, tags with no photos in that place are hidden.
+
+Each photo's `id` is used in shareable links: `/homeland/#photo-13` opens that photo in the viewer. Opening a photo adds a browser history entry, so the Back button closes the viewer.
 
 ### Importing from the photo archive spreadsheet
 

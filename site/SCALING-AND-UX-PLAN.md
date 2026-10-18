@@ -2,7 +2,15 @@
 
 Planning notes from 18 October 2026. The question was: can the site handle 1,000+ photos added in batches of about 200, and what slows it down or gets in the way of visitors on laptops and phones today?
 
-Nothing here has been built yet. Each item says whether it changes what visitors see.
+Each item says whether it changes what visitors see.
+
+## Status
+
+On branch `claude/static-site-image-scalability-626gc9`. Not merged into `main` until Khaled approves the direction.
+
+- **Done:** B1–B6 (all behaviour fixes) and U1-B in its simplest form (tags with no photos in the selected place are hidden; no counts). The branch also includes the earlier phone-width fix ("Widen main container on mobile").
+- **Waiting on S3 and hosting access (Khaled):** P1–P6 and A1–A2.
+- **Waiting on the team:** U1-A, U1-C, U1-D, U1-E, U2 and U3.
 
 ## Summary
 

@@ -488,3 +488,30 @@ body.viewer-open .site-header {
   .viewer__nav--prev { left: calc(50% - 70px); }
   .viewer__nav--next { right: calc(50% - 70px); }
 }
+
+/* ---- Filter states and empty result ------------------------------------- */
+
+/* Tags with no photos in the selected place are hidden by gallery.js */
+.filter-button[hidden],
+.filter-group[hidden] {
+  display: none;
+}
+
+.gallery__empty {
+  margin: 24px auto 8px;
+  color: #c9d0d8;
+}
+.gallery__empty[hidden] {
+  display: none;
+}
+.gallery__empty-text {
+  margin-bottom: 14px;
+}
+
+/* Viewer: dim the current photo while the next one downloads */
+.viewer__image {
+  transition: opacity 160ms ease;
+}
+.viewer.is-loading .viewer__image {
+  opacity: 0.4;
+}
