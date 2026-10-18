@@ -117,6 +117,9 @@ See [DESIGN-SYSTEM.md](DESIGN-SYSTEM.md) for the full reference.
 
 ## Open items for the owners
 
+See [SCALING-AND-UX-PLAN.md](SCALING-AND-UX-PLAN.md) for the plan to grow to 1,000+ photos and the speed and usability review.
+
+
 - **Placeholder links**: the category-card tags, "More categories", the "Learn more" buttons and "See all notable figures" link to `#`. They also went nowhere on the WordPress site.
 - **Pages not migrated yet**: `/about-us/`, `/support/` and `/circassion/`, `/new-adds/`. The menu links to About us and Support, which return 404 until those pages are added.
 - **Archive images**: `cdn.txyde.com` currently returns 403 for every photo, on the live site too.
