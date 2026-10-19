@@ -50,7 +50,9 @@ Photos live in `src/categories/<category>.json`. Add an entry to the `photos` li
   "thumb": "optional smaller image for the grid; falls back to image",
   "year": "20th",
   "country": "Syria",
-  "city": "Quneitra",
+  "region": "Quneitra Governorate",
+  "locality": "Quneitra",
+  "sublocality": "",
   "tags": ["Circassian Architecture", "Rural planning", "Golan"],
   "description": "Quneitra city which was the main city in Golan heights…"
 }

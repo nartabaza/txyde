@@ -105,8 +105,9 @@ def main():
             "image": url,
             "year": text(row[PERIOD]),
             "country": countries.get(code, code),
-            # The most specific place we have.
-            "city": text(row[SUBLOCALITY]) or text(row[LOCALITY]) or text(row[REGION]),
+            "region": text(row[REGION]),
+            "locality": text(row[LOCALITY]),
+            "sublocality": text(row[SUBLOCALITY]),
             "tags": tags,
             "description": text(row[DESCRIPTION]),
         })

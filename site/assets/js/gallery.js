@@ -28,7 +28,9 @@
     fields: {
       year: viewer.querySelector('[data-field="year"]'),
       country: viewer.querySelector('[data-field="country"]'),
-      city: viewer.querySelector('[data-field="city"]'),
+      region: viewer.querySelector('[data-field="region"]'),
+      locality: viewer.querySelector('[data-field="locality"]'),
+      sublocality: viewer.querySelector('[data-field="sublocality"]'),
       tags: viewer.querySelector('[data-field="tags"]'),
     },
   };
@@ -113,7 +115,9 @@
     view.title.textContent = data.title || 'Untitled photo';
     view.fields.year.textContent = data.year || 'Unknown';
     view.fields.country.textContent = data.country || 'Unknown';
-    view.fields.city.textContent = data.city || 'Unknown';
+    view.fields.region.textContent = data.region || 'Unknown';
+    view.fields.locality.textContent = data.locality || 'Unknown';
+    view.fields.sublocality.textContent = data.sublocality || 'Unknown';
     view.fields.tags.textContent = data.tagsDisplay || 'None';
     view.tagsRow.hidden = !data.tagsDisplay;
     view.description.textContent = data.description || '';

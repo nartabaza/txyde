@@ -28,7 +28,7 @@ The script prints every skipped or suspicious row, so this file only needs updat
 4. **Repeated photos are kept as separate tiles**, even when they share a title and description (see Duplicates below).
 5. **Unknown values ("nAn") are hidden.** The viewer shows "Unknown". Photos without a country only appear under **Show All**, not under any place button.
 6. **Country codes are shown as full names**, using the Options tab (KBR becomes Kabardino-Balkaria).
-7. **The "City" line shows the most specific place available**: Sub-Locality, then Locality, then Region.
+7. **The viewer shows Country, Region, Locality and Sub-locality as separate lines** (team request, 2026-10). Until the sheet is re-imported, the JSON only has the old merged place name, which is shown as Locality.
 8. **Keywords become tag filters.** Trailing commas and repeats are removed, and spelling and capitalisation are kept as written.
 9. **Photos are ordered by File ID.**
 10. **Rows whose image doesn't load are left out**, so the demo has no broken tiles.

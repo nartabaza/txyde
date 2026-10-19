@@ -179,7 +179,10 @@ ${[
         full: p.image,
         title: p.title,
         year: p.year,
-        city: p.city,
+        region: p.region,
+        // Older imports only kept one merged place name ("city"); show it as the locality until re-imported.
+        locality: p.locality ?? p.city,
+        sublocality: p.sublocality,
         'tags-display': p.tagList.map((t) => t.label).join(', '),
         description: p.description,
       };

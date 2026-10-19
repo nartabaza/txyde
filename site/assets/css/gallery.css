@@ -308,7 +308,7 @@ body.viewer-open .site-header {
 }
 .viewer__meta-row {
   display: grid;
-  grid-template-columns: 86px 1fr;
+  grid-template-columns: 112px 1fr;
   gap: 10px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgb(75 85 99 / 0.25);
@@ -360,7 +360,7 @@ body.viewer-open .site-header {
   min-height: 42px;
   margin-top: 12px;
   padding: 10px 14px;
-  background: var(--color-teal);
+  background: #000;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -469,7 +469,7 @@ body.viewer-open .site-header {
     max-height: calc(100dvh - 250px - env(safe-area-inset-bottom));
   }
   .viewer__meta-row {
-    grid-template-columns: 76px 1fr;
+    grid-template-columns: 104px 1fr;
   }
   .viewer__details {
     overflow: visible;
@@ -514,4 +514,36 @@ body.viewer-open .site-header {
 }
 .viewer.is-loading .viewer__image {
   opacity: 0.4;
+}
+
+/* Viewer: hiding the details makes the photo fill the screen (wider than phones;
+   phones already show the photo alone). */
+@media (min-width: 769px) {
+  .viewer.details-hidden {
+    padding: 0;
+    background: #000;
+  }
+  .viewer.details-hidden .viewer__shell {
+    width: 100vw;
+    height: 100dvh;
+    max-height: 100dvh;
+    gap: 0;
+  }
+  .viewer.details-hidden .viewer__details {
+    display: none;
+  }
+  .viewer.details-hidden .viewer__media {
+    padding: 16px 96px;
+    border: 0;
+    border-radius: 0;
+    background: #000;
+    box-shadow: none;
+  }
+  .viewer.details-hidden .viewer__stage {
+    align-items: center;
+  }
+  .viewer.details-hidden .viewer__image {
+    max-height: calc(100dvh - 110px);
+    object-position: center;
+  }
 }

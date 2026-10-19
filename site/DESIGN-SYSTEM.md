@@ -81,7 +81,7 @@ All tokens are defined in `:root` in `tokens.css`.
 |---|---|---|---|
 | `--color-forest` | `#2f6b45` | **Homeland** | `.category-card--homeland` |
 | `--color-brick` | `#6b2f2f` | **Diaspora** | `.category-card--diaspora` |
-| `--color-teal` | `#2f5f6b` | **Primary action** | `.btn--teal`, `.btn--teal-bright`, `.filter-button.is-active`, `.viewer__show-details` |
+| `--color-teal` | `#2f5f6b` | **Primary action** | `.btn--teal`, `.btn--teal-bright`, `.filter-button.is-active` |
 | `--color-amber` | `#8a5a2f` | Reserved | Not used yet |
 | `--color-rose` | `#b46b7a` | Reserved | Not used yet |
 | `--color-sand` | `#e5d0be` | Secondary action | `.btn--sand` |
@@ -514,7 +514,7 @@ There are no focus, active or disabled styles for `.btn`.
 
 ```html
 <article class="photo-card" data-country="Syria" data-tags="education,school" data-full="https://cdn.txyde.com/…jpg"
-         data-title="The Adyghe School in Syria" data-year="20th" data-city="Quneitra"
+         data-title="The Adyghe School in Syria" data-year="20th" data-locality="Quneitra"
          data-tags-display="Education, School" data-description="…">
   <button class="photo-card__trigger" type="button" aria-label="View The Adyghe School in Syria">
     <img class="photo-card__image" src="https://cdn.txyde.com/…jpg" alt="The Adyghe School in Syria" loading="lazy" decoding="async">
@@ -547,7 +547,7 @@ There are no focus, active or disabled styles for `.btn`.
       <h2 class="viewer__title"></h2>
       <dl class="viewer__meta">
         <div class="viewer__meta-row"><dt>Year:</dt><dd data-field="year"></dd></div>
-        <!-- Country, City, Tags rows -->
+        <!-- Country, Region, Locality, Sub-locality, Tags rows -->
       </dl>
       <p class="viewer__description"></p>
       <button class="viewer__button viewer__hide-details" type="button">Hide details</button>
@@ -557,11 +557,11 @@ There are no focus, active or disabled styles for `.btn`.
 </div>
 ```
 
-- **Layout:** backdrop `rgb(0 0 0 / 0.88)`; shell `min(1320px, 96vw)` × `min(860px, 100dvh - 56px)`. Media panel (`--color-bg`) flexes; details panel (`--color-surface`) is fixed at 360px. Both panels: 14px radius, border, large shadow. Image uses `object-fit: contain`, `object-position: top center`. Meta rows are a two-column grid (86px label, 76px at ≤768px).
-- **Buttons:** close (46×46px, top-right) and prev/next (48×64px, vertically centred at the sides) are fixed pills with `rgb(17 20 24 / 0.94)` background. Show/hide details are pills with `#f2f7f8` text, weight 800; show-details is teal, hide-details is near-black.
+- **Layout:** backdrop `rgb(0 0 0 / 0.88)`; shell `min(1320px, 96vw)` × `min(860px, 100dvh - 56px)`. Media panel (`--color-bg`) flexes; details panel (`--color-surface`) is fixed at 360px. Both panels: 14px radius, border, large shadow. Image uses `object-fit: contain`, `object-position: top center`. Meta rows are a two-column grid (112px label, 104px at ≤768px).
+- **Buttons:** close (46×46px, top-right) and prev/next (48×64px, vertically centred at the sides) are fixed pills with `rgb(17 20 24 / 0.94)` background. Show/hide details are pills with `#f2f7f8` text, weight 800; show-details is black (`#000`) so it does not pull the eye from the photo, hide-details is near-black.
 - **States:**
   - Open: `.viewer.is-open` (display flex) and `body.viewer-open` (hides header; body scroll locked).
-  - Details hidden: `.viewer.details-hidden` hides the details panel and reveals "Show details".
+  - Details hidden: `.viewer.details-hidden` hides the details panel and reveals "Show details". Wider than 768px, the photo then fills the whole screen on a black background, centred.
   - Hover on any `.viewer__button`: white background, `--color-text-on-light` text.
   - Disabled: `.viewer__nav:disabled` at 0.35 opacity, `not-allowed` cursor (set when only one photo is visible).
   - Tags row is hidden when the photo has no tags; empty fields show "Unknown".
