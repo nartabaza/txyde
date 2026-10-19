@@ -50,7 +50,9 @@ Photos live in `src/categories/<category>.json`. Add an entry to the `photos` li
   "thumb": "optional smaller image for the grid; falls back to image",
   "year": "20th",
   "country": "Syria",
-  "city": "Quneitra",
+  "region": "Quneitra Governorate",
+  "locality": "Quneitra",
+  "sublocality": "",
   "tags": ["Circassian Architecture", "Rural planning", "Golan"],
   "description": "Quneitra city which was the main city in Golan heights…"
 }
@@ -59,7 +61,9 @@ Photos live in `src/categories/<category>.json`. Add an entry to the `photos` li
 The filters are built from the data, so you never edit buttons by hand:
 
 - **Places** buttons come from the `country` values (sorted A–Z).
-- **Tags** buttons come from every `tags` entry (sorted A–Z). If no photo has tags, the Tags row is hidden.
+- **Tags** buttons come from every `tags` entry (sorted A–Z). If no photo has tags, the Tags row is hidden. When a place is selected, tags with no photos in that place are hidden.
+
+Each photo's `id` is used in shareable links: `/homeland/#photo-13` opens that photo in the viewer. Opening a photo adds a browser history entry, so the Back button closes the viewer.
 
 ### Importing from the photo archive spreadsheet
 
@@ -116,6 +120,9 @@ See [DESIGN-SYSTEM.md](DESIGN-SYSTEM.md) for the full reference.
 - Fixed: on the Diaspora page, broken markup let the footer draw on top of the open photo viewer and stretched the footer wider than the page. Both now behave as on the other pages.
 
 ## Open items for the owners
+
+See [SCALING-AND-UX-PLAN.md](SCALING-AND-UX-PLAN.md) for the plan to grow to 1,000+ photos and the speed and usability review.
+
 
 - **Placeholder links**: the category-card tags, "More categories", the "Learn more" buttons and "See all notable figures" link to `#`. They also went nowhere on the WordPress site.
 - **Pages not migrated yet**: `/about-us/`, `/support/` and `/circassion/`, `/new-adds/`. The menu links to About us and Support, which return 404 until those pages are added.

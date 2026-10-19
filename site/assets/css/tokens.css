@@ -6,29 +6,30 @@
 
 :root {
   /* ---- Surfaces --------------------------------------------------------- */
-  --color-bg: #050608;              /* page, header area, content */
-  --color-surface: #111418;         /* header bar, cards, About band */
-  --color-surface-footer: #101015;
+  /* Green-black "chiy mat" tone: a trace of the flag / Homeland green. */
+  --color-bg: #050807;              /* page, header area, content */
+  --color-surface: #0f1513;         /* header bar, cards, About band */
+  --color-surface-footer: #0d1210;
   --color-surface-drawer: #191919;  /* mobile slide-out menu */
   --color-overlay: rgb(0 0 0 / 0.6);
 
   /* ---- Text ------------------------------------------------------------- */
-  --color-text: #eef1f1;            /* body + headings */
-  --color-text-soft: #d6dadf;       /* long-form copy on surfaces */
-  --color-text-muted: #c4c7cd;      /* section subtitles */
-  --color-text-footer: #bababa;
-  --color-text-on-light: #111418;   /* text on light / sand buttons */
+  --color-text: #ecf1ee;            /* body + headings */
+  --color-text-soft: #d3dbd6;       /* long-form copy on surfaces */
+  --color-text-muted: #c0c9c3;      /* section subtitles */
+  --color-text-footer: #b4bdb7;
+  --color-text-on-light: #0f1513;   /* text on light / sand buttons */
   --color-text-on-teal: #e5e5e5;
 
   /* ---- Navigation ------------------------------------------------------- */
-  --color-nav: #f2f2f2;
-  --color-nav-active: #c6c6c6;      /* hover + current page */
+  --color-nav: #eff3f0;
+  --color-nav-active: #c3cbc6;      /* hover + current page */
   --color-drawer-link: #a6a6a6;
   --color-drawer-link-active: #ffffff;
   --color-link: #006edf;            /* default links, menu toggle */
 
   /* ---- Lines ------------------------------------------------------------ */
-  --color-border: #4b5563;
+  --color-border: #46524b;
   --color-hairline: rgb(255 255 255 / 0.1);
 
   /* ---- Brand accents (the "diamond" palette) ---------------------------- */
@@ -40,7 +41,7 @@
   --color-sand: #e5d0be;            /* secondary buttons */
 
   /* ---- Light button ----------------------------------------------------- */
-  --color-button-light: #f3f4f6;
+  --color-button-light: #eef2ef;
   --color-button-light-hover: #ffffff;
   --color-icon-muted: #65666c;
 
@@ -113,10 +114,10 @@
     --fs-h2: 30px;    --lh-h2: 38px;
     --fs-h3: 23px;    --lh-h3: 30px;
     --fs-h4: 15px;    --lh-h4: 23px;
-    --page-max: calc(100% - 67px);
+    --page-max: 100%;
     --gutter: 0px;
     --block-gap: 20px;
-    --section-pad-x: 33px;
+    --section-pad-x: 16px;
   }
 }
 

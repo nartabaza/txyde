@@ -1,0 +1,62 @@
+# Branch preview for review (lives on this branch only; remove it before merging into main).
+# Publishes to the same GitHub Pages site as pages.yml:
+#   https://<user>.github.io/<repo>/          main, rebuilt unchanged so the team preview stays as it is
+#   https://<user>.github.io/<repo>/preview/  this branch
+# The next push to main redeploys main alone, which removes /preview/. Re-run this workflow to bring it back.
+name: Deploy branch preview to GitHub Pages
+
+on:
+  push:
+    branches: [claude/static-site-image-scalability-626gc9, ccr-a871528c-u5c9ra]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}preview/
+    steps:
+      - name: Check out this branch
+        uses: actions/checkout@v4
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-src
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build main
+        working-directory: main-src/site
+        run: node build.js
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}
+          PREVIEW: 1
+      - name: Build this branch
+        working-directory: site
+        run: node build.js
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/preview
+          PREVIEW: 1
+      - name: Combine
+        run: |
+          mkdir -p out
+          cp -r main-src/site/dist/. out/
+          mkdir -p out/preview
+          cp -r site/dist/. out/preview/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - id: deployment
+        uses: actions/deploy-pages@v4

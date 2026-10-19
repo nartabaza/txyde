@@ -29,7 +29,7 @@ Everything here describes what is already in the code. The source of truth is:
 
 ## 1. Overview
 
-TXYDE is a dark, archival interface: near-black page (`#050608`) with slightly lifted charcoal surfaces (`#111418`) for the header bar, cards and the About band, and off-white text (`#eef1f1`). Type is serif-led: body copy and headings both use Georgia, and only navigation uses Arial. Colour is held back for meaning: a muted heritage palette (forest, brick, teal, amber, rose, sand) marks categories and actions, with forest for Homeland, brick for Diaspora and teal for primary actions. The recurring brand motif is a row of three outlined diamonds, used as an ornament under card headings.
+TXYDE is a dark, archival interface: green-black page (`#050807`, the "chiy mat" tone, a trace of the flag's green) with slightly lifted surfaces (`#0f1513`) for the header bar, cards and the About band, and off-white text (`#ecf1ee`). The margins around the boxed page carry a faint stepped-diamond reed weave (`texture-chiy-diamond.svg`) on every page. Type is serif-led: body copy and headings both use Georgia, and only navigation uses Arial. Colour is held back for meaning: a muted heritage palette (forest, brick, teal, amber, rose, sand) marks categories and actions, with forest for Homeland, brick for Diaspora and teal for primary actions. The recurring brand motif is a row of three outlined diamonds, used as an ornament under card headings.
 
 ---
 
@@ -41,9 +41,9 @@ All tokens are defined in `:root` in `tokens.css`.
 
 | Token | Value | Used for |
 |---|---|---|
-| `--color-bg` | `#050608` | `html`, `.page`, `.site-header`, `.site-main`, viewer media panel |
-| `--color-surface` | `#111418` | Header bar (`.site-header__inner`, sticky bar), `.category-card`, `.home-about`, `.photo-card`, viewer details panel |
-| `--color-surface-footer` | `#101015` | `.site-footer` |
+| `--color-bg` | `#050807` | `html`, `.page`, `.site-header`, `.site-main`, viewer |
+| `--color-surface` | `#0f1513` | Header bar (`.site-header__inner`, sticky bar), `.category-card`, `.home-about`, `.photo-card` |
+| `--color-surface-footer` | `#0d1210` | `.site-footer` |
 | `--color-surface-drawer` | `#191919` | `.drawer` background and its 60px bottom border |
 | `--color-overlay` | `rgb(0 0 0 / 0.6)` | `.drawer-overlay` |
 
@@ -51,19 +51,19 @@ All tokens are defined in `:root` in `tokens.css`.
 
 | Token | Value | Used for |
 |---|---|---|
-| `--color-text` | `#eef1f1` | Body text and all headings |
-| `--color-text-soft` | `#d6dadf` | Long-form copy on surfaces (`.home-about__body`) |
-| `--color-text-muted` | `#c4c7cd` | Section subtitles (`.home-voices__subtitle`) |
-| `--color-text-footer` | `#bababa` | Footer text |
-| `--color-text-on-light` | `#111418` | Text on `.btn--light`, `.btn--sand`, viewer button hover |
+| `--color-text` | `#ecf1ee` | Body text and all headings |
+| `--color-text-soft` | `#d3dbd6` | Long-form copy on surfaces (`.home-about__body`) |
+| `--color-text-muted` | `#c0c9c3` | Section subtitles (`.home-voices__subtitle`) |
+| `--color-text-footer` | `#b4bdb7` | Footer text |
+| `--color-text-on-light` | `#0f1513` | Text on `.btn--light`, `.btn--sand`, viewer button hover |
 | `--color-text-on-teal` | `#e5e5e5` | Text on `.btn--teal` |
 
 ### Navigation and links
 
 | Token | Value | Used for |
 |---|---|---|
-| `--color-nav` | `#f2f2f2` | Desktop nav links |
-| `--color-nav-active` | `#c6c6c6` | Desktop nav hover and current page |
+| `--color-nav` | `#eff3f0` | Desktop nav links |
+| `--color-nav-active` | `#c3cbc6` | Desktop nav hover and current page |
 | `--color-drawer-link` | `#a6a6a6` | Drawer links and drawer close button |
 | `--color-drawer-link-active` | `#ffffff` | Drawer link hover and current page |
 | `--color-link` | `#006edf` | Default `a` colour, `.menu-toggle` icon, `::selection` background |
@@ -72,7 +72,7 @@ All tokens are defined in `:root` in `tokens.css`.
 
 | Token | Value | Used for |
 |---|---|---|
-| `--color-border` | `#4b5563` | `.tag` border. The gallery uses the same colour as `rgb(75 85 99 / alpha)` literals (see below) |
+| `--color-border` | `#46524b` | `.tag` border. The gallery uses the same colour as `rgb(75 85 99 / alpha)` literals (see below) |
 | `--color-hairline` | `rgb(255 255 255 / 0.1)` | Footer top border |
 
 ### Brand accents (the "diamond" palette)
@@ -81,7 +81,7 @@ All tokens are defined in `:root` in `tokens.css`.
 |---|---|---|---|
 | `--color-forest` | `#2f6b45` | **Homeland** | `.category-card--homeland` |
 | `--color-brick` | `#6b2f2f` | **Diaspora** | `.category-card--diaspora` |
-| `--color-teal` | `#2f5f6b` | **Primary action** | `.btn--teal`, `.btn--teal-bright`, `.filter-button.is-active`, `.viewer__show-details` |
+| `--color-teal` | `#2f5f6b` | **Primary action** | `.btn--teal`, `.btn--teal-bright`, `.filter-button.is-active` |
 | `--color-amber` | `#8a5a2f` | Reserved | Not used yet |
 | `--color-rose` | `#b46b7a` | Reserved | Not used yet |
 | `--color-sand` | `#e5d0be` | Secondary action | `.btn--sand` |
@@ -90,7 +90,7 @@ All tokens are defined in `:root` in `tokens.css`.
 
 | Token | Value | Used for |
 |---|---|---|
-| `--color-button-light` | `#f3f4f6` | `.btn--light` background |
+| `--color-button-light` | `#eef2ef` | `.btn--light` background |
 | `--color-button-light-hover` | `#ffffff` | `.btn--light:hover` |
 | `--color-icon-muted` | `#65666c` | Back-to-top arrow icon |
 
@@ -187,7 +187,7 @@ Note the site breakpoints use `max-width: 767px` while the gallery uses `max-wid
 | ≥1240px | 1240px | 1220px |
 | 960–1239px | 960px | 940px |
 | 768–959px | 728px | 708px |
-| ≤767px | `calc(100% - 67px)` | 708px (inherited; page is narrower, so effectively full width) |
+| ≤767px | `100%` (full width) | 708px (inherited; page is narrower, so effectively full width) |
 
 ### Spacing tokens
 
@@ -195,7 +195,7 @@ Note the site breakpoints use `max-width: 767px` while the gallery uses `max-wid
 |---|---|---|---|
 | `--gutter` | 12px | 0px | Horizontal margin inside every column (`.block`, `.home-hero__title`, `.gallery`) |
 | `--block-gap` | 40px | 20px | Space below every `.block` |
-| `--section-pad-x` | 0px | 33px | Side padding of `.section`; also added to footer side padding |
+| `--section-pad-x` | 0px | 16px | Side padding of `.section`; also added to footer side padding |
 | `--page-offset` | 25px | 25px | Space around the boxed page (`body` padding) |
 | `--header-height` | 100px | 100px | `min-height` of `.site-header` |
 
@@ -514,7 +514,7 @@ There are no focus, active or disabled styles for `.btn`.
 
 ```html
 <article class="photo-card" data-country="Syria" data-tags="education,school" data-full="https://cdn.txyde.com/…jpg"
-         data-title="The Adyghe School in Syria" data-year="20th" data-city="Quneitra"
+         data-title="The Adyghe School in Syria" data-year="20th" data-locality="Quneitra"
          data-tags-display="Education, School" data-description="…">
   <button class="photo-card__trigger" type="button" aria-label="View The Adyghe School in Syria">
     <img class="photo-card__image" src="https://cdn.txyde.com/…jpg" alt="The Adyghe School in Syria" loading="lazy" decoding="async">
@@ -523,9 +523,9 @@ There are no focus, active or disabled styles for `.btn`.
 </article>
 ```
 
-- **Grid:** `.photo-grid` is a centred wrapping flex row with 20px gaps. Cards are `calc(33.333% - 20px)` (3 columns), `calc(50% - 20px)` at ≤900px, 100% at ≤768px.
+- **Grid:** `.photo-grid` uses CSS columns ("masonry"): 3 columns with a 20px gap, 2 at ≤900px, 1 at ≤768px. Cards keep the column width and `break-inside: avoid`, with 20px below each. Order runs down each column, then across.
 - **Card:** 18px padding, `--color-surface`, `--radius-md`, border `rgb(75 85 99 / 0.55)`, shadow.
-- **Image:** 220px tall, full width, `object-fit: cover`, `object-position: top`, `--radius-sm`, 1px border.
+- **Image:** full width at its own height (never cropped), `--radius-sm`, 1px border.
 - **Title:** `#e9eef2`, 1.05rem, weight 400, line height `--lh-h3`, `letter-spacing: -0.02em`.
 - **States:** hover on the trigger lifts the image 2px with `brightness(1.06)`; filtered-out cards get the `hidden` attribute (`display: none`).
 
@@ -546,9 +546,10 @@ There are no focus, active or disabled styles for `.btn`.
     <aside class="viewer__details">
       <h2 class="viewer__title"></h2>
       <dl class="viewer__meta">
-        <div class="viewer__meta-row"><dt>Year:</dt><dd data-field="year"></dd></div>
-        <!-- Country, City, Tags rows -->
+        <div class="viewer__meta-row"><dt>Year</dt><dd data-field="year"></dd></div>
+        <!-- Country, Region, Locality, Sub-locality rows -->
       </dl>
+      <ul class="viewer__tags" aria-label="Tags"></ul>
       <p class="viewer__description"></p>
       <button class="viewer__button viewer__hide-details" type="button">Hide details</button>
     </aside>
@@ -557,17 +558,15 @@ There are no focus, active or disabled styles for `.btn`.
 </div>
 ```
 
-- **Layout:** backdrop `rgb(0 0 0 / 0.88)`; shell `min(1320px, 96vw)` × `min(860px, 100dvh - 56px)`. Media panel (`--color-bg`) flexes; details panel (`--color-surface`) is fixed at 360px. Both panels: 14px radius, border, large shadow. Image uses `object-fit: contain`, `object-position: top center`. Meta rows are a two-column grid (86px label, 76px at ≤768px).
-- **Buttons:** close (46×46px, top-right) and prev/next (48×64px, vertically centred at the sides) are fixed pills with `rgb(17 20 24 / 0.94)` background. Show/hide details are pills with `#f2f7f8` text, weight 800; show-details is teal, hide-details is near-black.
+- **Layout ("Open wall"):** full screen on `--color-bg`, no boxed panels. The photo is centred in the media area (64px 88px 48px padding, `object-fit: contain`). The details are a 400px column (340px at ≤1100px) on `#0a0e0c` with a hairline left edge. Year, Country, Region, Locality and Sub-locality sit in two columns: small grey uppercase caption above the value. Tags are outlined pills (`.viewer__tags`). The counter sits top-left in small caps.
+- **Buttons:** close is a plain × (42px, top-right); prev/next are soft 44px round buttons on the photo edges (next clears the details column). Show/hide details keep their pill style: `#f2f7f8` text, weight 800; show-details is black (`#000`), hide-details is near-black, full width at the foot of the column. Their hover is white with `--color-text-on-light` text.
 - **States:**
-  - Open: `.viewer.is-open` (display flex) and `body.viewer-open` (hides header; body scroll locked).
-  - Details hidden: `.viewer.details-hidden` hides the details panel and reveals "Show details".
-  - Hover on any `.viewer__button`: white background, `--color-text-on-light` text.
+  - Open: `.viewer.is-open` and `body.viewer-open` (hides header; body scroll locked).
+  - Details hidden: `.viewer.details-hidden` hides the column and reveals "Show details" under the photo; the photo fills the screen on black.
+  - Empty fields are hidden, not shown as "Unknown"; the whole field list, tags and description hide when empty. Centuries such as "20th" read "20th century".
   - Disabled: `.viewer__nav:disabled` at 0.35 opacity, `not-allowed` cursor (set when only one photo is visible).
-  - Tags row is hidden when the photo has no tags; empty fields show "Unknown".
-  - Keyboard: Escape closes, Left/Right arrows step. Clicking the backdrop closes.
-- **≤900px:** shell stacks vertically and scrolls; details go full width.
-- **≤768px:** prev/next move to the bottom centre (54×54px), close moves to `10px/10px`, padding accounts for `env(safe-area-inset-bottom)`.
+  - Keyboard: Escape closes, Left/Right arrows step.
+- **≤768px:** photo edge to edge at the top, details underneath on one scroll, prev/next in the bottom corners over a fade, close at `10px/10px`, padding accounts for `env(safe-area-inset-bottom)`.
 
 ---
 
@@ -590,6 +589,7 @@ Three inline SVG icons are defined in `build.js` (`ICONS`), extracted from the o
 | File | Use |
 |---|---|
 | `logo-mark.png` | Header logo (60×60, shown at max 60px tall, 35px when sticky) |
+| `texture-chiy-diamond.svg` | Chiy mat: stepped diamonds on a reed grid (64×64 tile, white at 1.5% / 3.4% opacity). Tiled as the `html` background, so it shows only in the margins outside `.page` |
 | `diamonds.svg` | Three outlined diamonds (72×24, 12px squares rotated 45°, 2px stroke, `rx="2"`). Used only as a CSS mask in `.diamond-heading::after`, so its stroke colour is irrelevant; the colour comes from `--accent` |
 | `favicon-32.png`, `favicon-192.png`, `favicon-180.png` | Favicons / Apple touch icon |
 
@@ -598,8 +598,8 @@ Three inline SVG icons are defined in `build.js` (`ICONS`), extracted from the o
 - **Site imagery** (home cards, portraits) lives in `assets/img/` (`assets/img/home/` for the home page) and is copied as-is to `dist/`. Names are descriptive and kebab-case, e.g. `homeland-card-circassian-soldiers-trial.jpg`. Always include `width`, `height` and `alt`.
 - **Archive photos** are served from `https://cdn.txyde.com/…` and referenced from `src/categories/<slug>.json`. Each photo has `title`, `image`, optional `thumb` (falls back to `image`), `year`, `country`, `city`, `tags`, `description`. Thumbnails get `loading="lazy"` and `decoding="async"`.
 - **Aspect handling:**
-  - Gallery thumbnails: fixed 220px height, `object-fit: cover`, `object-position: top` (keeps faces and skies; crops the bottom).
-  - Viewer: `object-fit: contain`, `object-position: top center`, never cropped.
+  - Gallery thumbnails: full width at natural height (columns layout), never cropped.
+  - Viewer: `object-fit: contain`, centred, never cropped.
   - Category card and figure portrait images have **no** `object-fit`; they display at their natural ratio inside the rounded frame. The current files are square (400×400, 768×768, 299×300), so use square images there.
 
 ---
