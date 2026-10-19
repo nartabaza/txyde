@@ -7,7 +7,7 @@ name: Deploy branch preview to GitHub Pages
 
 on:
   push:
-    branches: [claude/static-site-image-scalability-626gc9]
+    branches: [claude/static-site-image-scalability-626gc9, ccr-a871528c-u5c9ra]
   workflow_dispatch:
 
 permissions:
