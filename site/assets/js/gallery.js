@@ -24,15 +24,9 @@
     close: viewer.querySelector('.viewer__close'),
     prev: viewer.querySelector('.viewer__nav--prev'),
     next: viewer.querySelector('.viewer__nav--next'),
-    tagsRow: viewer.querySelector('[data-row="tags"]'),
-    fields: {
-      year: viewer.querySelector('[data-field="year"]'),
-      country: viewer.querySelector('[data-field="country"]'),
-      region: viewer.querySelector('[data-field="region"]'),
-      locality: viewer.querySelector('[data-field="locality"]'),
-      sublocality: viewer.querySelector('[data-field="sublocality"]'),
-      tags: viewer.querySelector('[data-field="tags"]'),
-    },
+    meta: viewer.querySelector('.viewer__meta'),
+    tags: viewer.querySelector('.viewer__tags'),
+    fields: Array.from(viewer.querySelectorAll('[data-field]')),
   };
 
   const filters = { place: 'all', tag: 'all' };
@@ -113,14 +107,25 @@
     view.image.src = data.full || img.src;
     view.image.alt = img.alt || data.title || '';
     view.title.textContent = data.title || 'Untitled photo';
-    view.fields.year.textContent = data.year || 'Unknown';
-    view.fields.country.textContent = data.country || 'Unknown';
-    view.fields.region.textContent = data.region || 'Unknown';
-    view.fields.locality.textContent = data.locality || 'Unknown';
-    view.fields.sublocality.textContent = data.sublocality || 'Unknown';
-    view.fields.tags.textContent = data.tagsDisplay || 'None';
-    view.tagsRow.hidden = !data.tagsDisplay;
+    // Fields the photo has no data for are left out, not shown as "Unknown".
+    let anyField = false;
+    view.fields.forEach((dd) => {
+      let value = data[dd.dataset.field] || '';
+      if (dd.dataset.field === 'year' && /^\d+(st|nd|rd|th)$/.test(value)) value += ' century';
+      dd.textContent = value;
+      dd.parentElement.hidden = !value;
+      if (value) anyField = true;
+    });
+    view.meta.hidden = !anyField;
+    const tags = (data.tagsDisplay || '').split(', ').filter(Boolean);
+    view.tags.replaceChildren(...tags.map((tag) => {
+      const li = document.createElement('li');
+      li.textContent = tag;
+      return li;
+    }));
+    view.tags.hidden = !tags.length;
     view.description.textContent = data.description || '';
+    view.description.hidden = !data.description;
     view.counter.textContent = `${current + 1} / ${visible.length}`;
     view.shell.scrollTop = 0;
     view.prev.disabled = visible.length <= 1;

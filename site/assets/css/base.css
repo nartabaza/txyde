@@ -10,6 +10,9 @@
 
 html {
   background-color: var(--color-bg);
+  /* Chiy mat: a stepped-diamond reed weave in the margins around the boxed page.
+     The page itself keeps a plain ground, so nothing behind text or photos changes. */
+  background-image: url("../img/brand/texture-chiy-diamond.svg");
   overflow-x: hidden;
 }
 
