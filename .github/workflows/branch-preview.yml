@@ -25,6 +25,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}preview/
+    env:
+      HAS_AWS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID != '' }}
     steps:
       - name: Check out this branch
         uses: actions/checkout@v4
@@ -42,6 +44,43 @@ jobs:
         env:
           BASE_PATH: /${{ github.event.repository.name }}
           PREVIEW: 1
+      # Photo copies for this branch's build: same steps as pages.yml.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore downloaded originals and copies
+        uses: actions/cache@v4
+        with:
+          path: site/images
+          key: images-${{ hashFiles('site/src/categories/*.json', 'site/scripts/make_images.py') }}
+          restore-keys: images-
+      - name: AWS access (role, no stored key)
+        if: vars.AWS_ROLE_ARN != ''
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: eu-north-1
+      - name: AWS access (access key)
+        if: vars.AWS_ROLE_ARN == '' && env.HAS_AWS_KEY == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-north-1
+      - name: Make photo copies
+        working-directory: site
+        run: |
+          pip install -q Pillow boto3
+          python scripts/make_images.py
+      - name: Upload photo copies
+        if: env.AWS_ACCESS_KEY_ID != ''
+        continue-on-error: true
+        working-directory: site
+        run: python scripts/make_images.py --upload
+      - name: Record live copies
+        working-directory: site
+        run: python scripts/make_images.py --check
+
       - name: Build this branch
         working-directory: site
         run: node build.js

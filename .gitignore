@@ -4,3 +4,5 @@ node_modules/
 dist/
 .DS_Store
 Thumbs.db
+site/images/
+site/src/images.json

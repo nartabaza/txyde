@@ -141,7 +141,14 @@ function renderDocument({ site, partials, layout }, page) {
 
 // ---- Category (gallery) pages ---------------------------------------------
 
-function renderCategory(category, template, partials) {
+// Smaller copies made by scripts/make_images.py: original URL -> { thumb, large, width, height }.
+// Only copies confirmed on the CDN are listed; other photos use the original.
+function readImageCopies() {
+  const file = path.join(SRC, 'images.json');
+  return fs.existsSync(file) ? readJSON(file) : {};
+}
+
+function renderCategory(category, template, partials, copies) {
   const photos = category.photos.map((photo) => ({
     ...photo,
     tagList: (photo.tags || []).map((label) => ({ label, slug: slugify(label) })),
@@ -172,11 +179,12 @@ ${[
 
   const cards = photos
     .map((p) => {
+      const copy = copies[p.image];
       const data = {
         id: p.id ?? '',
         country: p.country,
         tags: p.tagList.map((t) => t.slug).join(','),
-        full: p.image,
+        full: copy?.large || p.image,
         title: p.title,
         year: p.year,
         region: p.region,
@@ -187,9 +195,10 @@ ${[
         description: p.description,
       };
       const attrs = Object.entries(data).map(([k, v]) => `data-${k}="${escape(v)}"`).join(' ');
+      const size = copy ? ` width="${copy.width}" height="${copy.height}"` : '';
       return `        <article class="photo-card" ${attrs}>
           <button class="photo-card__trigger" type="button" aria-label="View ${escape(p.title)}">
-            <img class="photo-card__image" src="${escape(p.thumb || p.image)}" alt="${escape(p.title)}" loading="lazy" decoding="async">
+            <img class="photo-card__image" src="${escape(copy?.thumb || p.thumb || p.image)}" alt="${escape(p.title)}"${size} loading="lazy" decoding="async">
           </button>
           <h2 class="photo-card__title">${escape(p.title)}</h2>
         </article>`;
@@ -227,6 +236,7 @@ function build() {
 
   // Category gallery pages
   const template = read(path.join(SRC, 'templates', 'category.html'));
+  const copies = readImageCopies();
   for (const file of fs.readdirSync(path.join(SRC, 'categories')).filter((f) => f.endsWith('.json'))) {
     const category = readJSON(path.join(SRC, 'categories', file));
     const url = `/${category.slug}/`;
@@ -236,7 +246,7 @@ function build() {
       description: category.description,
       styles: ['gallery'],
       scripts: ['gallery'],
-      content: renderCategory(category, template, partials),
+      content: renderCategory(category, template, partials, copies),
       afterPage: partials.viewer,
     }));
     built.push(url);
