@@ -6,3 +6,7 @@ dist/
 Thumbs.db
 site/images/
 site/src/images.json
+
+# AWS keys: never commit
+.env
+*accessKeys*.csv
