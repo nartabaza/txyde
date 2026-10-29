@@ -85,6 +85,13 @@
   --section-pad-x: 0px;      /* side padding of content sections */
   --page-offset: 25px;       /* space around the boxed page */
   --header-height: 100px;
+
+  /* ---- Motion ----------------------------------------------------------- */
+  /* One timing style for every show / hide, so the site moves consistently.
+     Visitors who ask for reduced motion get none (see base.css). */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);   /* quick start, soft landing */
+  --dur-fast: 180ms;   /* swapping photos, fading text */
+  --dur: 350ms;        /* panels, opening the viewer */
 }
 
 @media (min-width: 960px) and (max-width: 1239px) {

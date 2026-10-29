@@ -188,3 +188,15 @@ h1, h2, h3, h4, .text-h1, .text-h2, .text-h3, .text-h4 {
   position: relative;
   display: inline-block;
 }
+
+/* ---- Reduced motion -------------------------------------------------------
+   Visitors whose device asks for less motion get instant changes everywhere. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}

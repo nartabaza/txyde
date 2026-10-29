@@ -13,6 +13,11 @@
   const tagButtons = Array.from(gallery.querySelectorAll('[data-filter-tag]'));
   const tagGroup = gallery.querySelector('[data-tag-group]');
   const empty = gallery.querySelector('.gallery__empty');
+  const grid = gallery.querySelector('.photo-grid');
+
+  // Matches --dur-fast in tokens.css; no waiting for visitors who ask for reduced motion.
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const fadeTime = () => (reduceMotion.matches ? 0 : 180);
 
   const view = {
     image: viewer.querySelector('.viewer__image'),
@@ -63,6 +68,17 @@
     if (empty) empty.hidden = shown > 0;
   }
 
+  // The cards that remain after a filter click fade in (see .is-filtering in gallery.css).
+  function fadeInCards() {
+    if (!grid) return;
+    grid.classList.remove('is-filtering');
+    void grid.offsetWidth; // restart the animation on every click
+    grid.classList.add('is-filtering');
+  }
+  if (grid) grid.addEventListener('animationend', (e) => {
+    if (e.target.classList.contains('photo-card')) grid.classList.remove('is-filtering');
+  });
+
   function setFilter(key, value) {
     filters[key] = value;
     const buttons = key === 'place' ? placeButtons : tagButtons;
@@ -74,12 +90,14 @@
     button.addEventListener('click', () => {
       setFilter('place', button.dataset.filterPlace);
       applyFilters();
+      fadeInCards();
     });
   });
   tagButtons.forEach((button) => {
     button.addEventListener('click', () => {
       setFilter('tag', button.dataset.filterTag);
       applyFilters();
+      fadeInCards();
     });
   });
 
@@ -142,15 +160,18 @@
       render(card);
       return;
     }
-    // Keep the current photo (dimmed) until the next one has downloaded.
+    // Crossfade: the current photo and text fade down, and stay dim until the next
+    // photo has downloaded; then the new ones are put in and fade up.
     viewer.classList.add('is-loading');
     const next = new Image();
-    next.onload = next.onerror = () => {
+    const downloaded = new Promise((resolve) => { next.onload = next.onerror = resolve; });
+    next.src = card.dataset.full || card.querySelector('img').src;
+    const fadedOut = new Promise((resolve) => setTimeout(resolve, fadeTime()));
+    Promise.all([downloaded, fadedOut]).then(() => {
       if (token !== loading) return; // the visitor already moved on
       render(card);
-      viewer.classList.remove('is-loading');
-    };
-    next.src = card.dataset.full || card.querySelector('img').src;
+      requestAnimationFrame(() => viewer.classList.remove('is-loading'));
+    });
   }
 
   // Back button: opening a photo adds a history entry, so Back closes the viewer
@@ -180,7 +201,7 @@
 
   function hide() {
     loading += 1;
-    viewer.classList.remove('is-open', 'details-hidden', 'is-loading');
+    viewer.classList.remove('is-open', 'is-loading'); // details-hidden is reset on the next open, so the column doesn't slide back during the fade-out
     viewer.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     document.body.classList.remove('viewer-open');
@@ -252,6 +273,20 @@
   }, { passive: true });
 
   // ---- Start -------------------------------------------------------------
+
+  // Thumbnails fade in as they finish loading. Ones already loaded are marked first,
+  // in the same step, so they never blink.
+  if (grid) {
+    grid.querySelectorAll('.photo-card__image').forEach((img) => {
+      const done = () => img.classList.add('is-loaded');
+      if (img.complete) done();
+      else {
+        img.addEventListener('load', done, { once: true });
+        img.addEventListener('error', done, { once: true });
+      }
+    });
+    grid.classList.add('fade-images');
+  }
 
   applyFilters();
   const linked = cardFromHash();
