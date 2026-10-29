@@ -150,6 +150,25 @@
     view.next.disabled = visible.length <= 1;
   }
 
+  // Once a photo is showing, the photos either side of it start downloading,
+  // so Next/Previous usually find them already in the browser cache.
+  const fullSrc = (card) => card.dataset.full || card.querySelector('img').src;
+  const fetched = new Set();
+  let neighbours = []; // keeps the in-flight downloads referenced
+  function preloadNeighbours() {
+    if (visible.length < 2) return;
+    neighbours = [1, -1]
+      .map((delta) => fullSrc(visible[(current + delta + visible.length) % visible.length]))
+      .filter((src) => !fetched.has(src))
+      .map((src) => {
+        fetched.add(src);
+        const img = new Image();
+        img.decoding = 'async';
+        img.src = src;
+        return img;
+      });
+  }
+
   let loading = 0;
   function show({ wait }) {
     const card = visible[current];
@@ -158,6 +177,10 @@
     if (!wait) {
       viewer.classList.remove('is-loading');
       render(card);
+      // Let the opened photo download first, then fetch its neighbours.
+      const after = () => { if (token === loading) preloadNeighbours(); };
+      view.image.addEventListener('load', after, { once: true });
+      view.image.addEventListener('error', after, { once: true });
       return;
     }
     // Crossfade: the current photo and text fade down, and stay dim until the next
@@ -165,12 +188,13 @@
     viewer.classList.add('is-loading');
     const next = new Image();
     const downloaded = new Promise((resolve) => { next.onload = next.onerror = resolve; });
-    next.src = card.dataset.full || card.querySelector('img').src;
+    next.src = fullSrc(card);
     const fadedOut = new Promise((resolve) => setTimeout(resolve, fadeTime()));
     Promise.all([downloaded, fadedOut]).then(() => {
       if (token !== loading) return; // the visitor already moved on
       render(card);
       requestAnimationFrame(() => viewer.classList.remove('is-loading'));
+      preloadNeighbours();
     });
   }
 
