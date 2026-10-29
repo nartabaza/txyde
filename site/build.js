@@ -233,6 +233,7 @@ ${[
         country: p.country,
         tags: p.tagList.map((t) => t.slug).join(','),
         full: copy?.large || p.image,
+        'full-size': copy?.largeWidth ? `${copy.largeWidth}x${copy.largeHeight}` : '',
         title: p.title,
         year: p.year,
         region: p.region,

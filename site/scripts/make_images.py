@@ -192,6 +192,11 @@ def check():
         with Image.open(thumb_file) as thumb:
             width, height = thumb.size  # lets the grid reserve space before the image loads
         manifest[url] = {"thumb": copy_url(url, "thumbs"), "large": copy_url(url, "large"), "width": width, "height": height}
+        large_file = OUT / copy_key(url, "large")
+        if large_file.exists():
+            with Image.open(large_file) as large:
+                # lets the viewer show the thumbnail at the large photo's size while it downloads
+                manifest[url]["largeWidth"], manifest[url]["largeHeight"] = large.size
 
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"{MANIFEST.relative_to(ROOT)}: {len(manifest)} of {len(urls)} photos use their copies")

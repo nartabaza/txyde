@@ -301,6 +301,8 @@ body.viewer-open .site-header {
   max-width: 100%;
   max-height: calc(100dvh - 112px);
   object-fit: contain;
+  /* While the full photo downloads, the thumbnail is stretched across this box (see render() in gallery.js) */
+  background: center / 100% 100% no-repeat;
   transition: opacity var(--dur-fast) ease, max-height var(--dur) var(--ease);
 }
 /* Moving between photos: the photo fades down (and stays dim if the next one is slow

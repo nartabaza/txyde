@@ -118,11 +118,22 @@
     return match ? cards.find((card) => card.dataset.id === decodeURIComponent(match[1])) : null;
   };
 
+  // A blank image exactly the size of the full photo (data-full-size, from build.js),
+  // so the thumbnail can stand in for it without a jump in size.
+  function previewBox(card) {
+    const [w, h] = (card.dataset.fullSize || '').split('x').map(Number);
+    if (!w || !h) return null;
+    return `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='${w}' height='${h}'/%3E`;
+  }
+
   // Text and image change together, so a caption never sits under the previous photo.
-  function render(card) {
+  // With `preview`, the thumbnail is shown stretched until the full photo is swapped in.
+  function render(card, { preview = false } = {}) {
     const data = card.dataset;
     const img = card.querySelector('img');
-    view.image.src = data.full || img.src;
+    const box = preview && previewBox(card);
+    view.image.style.backgroundImage = box ? `url("${img.currentSrc || img.src}")` : '';
+    view.image.src = box || fullSrc(card);
     view.image.alt = img.alt || data.title || '';
     view.title.textContent = data.title || 'Untitled photo';
     // Fields the photo has no data for are left out, not shown as "Unknown".
@@ -176,11 +187,15 @@
     const token = ++loading;
     if (!wait) {
       viewer.classList.remove('is-loading');
-      render(card);
-      // Let the opened photo download first, then fetch its neighbours.
-      const after = () => { if (token === loading) preloadNeighbours(); };
-      view.image.addEventListener('load', after, { once: true });
-      view.image.addEventListener('error', after, { once: true });
+      render(card, { preview: true });
+      // The full photo downloads, then replaces the thumbnail; then the neighbours load.
+      const full = new Image();
+      full.src = fullSrc(card);
+      full.decode().catch(() => {}).then(() => {
+        if (token !== loading) return;
+        view.image.src = full.src;
+        preloadNeighbours();
+      });
       return;
     }
     // Crossfade: the current photo and text fade down, and stay dim until the next
@@ -252,6 +267,13 @@
     if (hash) history.replaceState(history.state, '', hash);
     show({ wait: true });
   }
+
+  // Once the viewer has faded out, drop its photo so it can't flash on the next open.
+  viewer.addEventListener('transitionend', (event) => {
+    if (event.target !== viewer || isOpen()) return;
+    view.image.removeAttribute('src');
+    view.image.style.backgroundImage = '';
+  });
 
   window.addEventListener('popstate', () => {
     const card = cardFromHash();
