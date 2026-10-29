@@ -251,7 +251,7 @@
   line-height: var(--lh-body);
   opacity: 0;
   /* Fades in and out; "allow-discrete" keeps it shown until the fade-out ends */
-  transition: opacity var(--dur) var(--ease), background-color var(--dur) var(--ease),
+  transition: opacity var(--dur) var(--ease), background-color var(--dur-panel) var(--ease-panel),
     display var(--dur) allow-discrete;
   --details-w: 400px;
 }
@@ -284,7 +284,7 @@ body.viewer-open .site-header {
   min-width: 0;
   min-height: 0;
   padding: 64px 88px 48px;
-  transition: padding var(--dur) var(--ease), min-height var(--dur) var(--ease);
+  transition: padding var(--dur-panel) var(--ease-panel), min-height var(--dur-panel) var(--ease-panel);
 }
 
 .viewer__stage {
@@ -303,7 +303,7 @@ body.viewer-open .site-header {
   object-fit: contain;
   /* While the full photo downloads, the thumbnail is stretched across this box (see render() in gallery.js) */
   background: center / 100% 100% no-repeat;
-  transition: opacity var(--dur-fast) ease, max-height var(--dur) var(--ease);
+  transition: opacity var(--dur-fast) ease, max-height var(--dur-panel) var(--ease-panel);
 }
 /* Moving between photos: the photo fades down (and stays dim if the next one is slow
    to download), then the new one fades up. The details text fades with it. */
@@ -338,7 +338,7 @@ body.viewer-open .site-header {
   border-left: 1px solid rgb(255 255 255 / 0.07);
   background: #0a0e0c; /* a step above --color-bg */
   /* Hiding slides the column off the right edge; the photo grows into the space */
-  transition: margin-right var(--dur) var(--ease), opacity var(--dur) var(--ease),
+  transition: margin-right var(--dur-panel) var(--ease-panel), opacity var(--dur-panel) ease,
     visibility 0s;
 }
 
@@ -495,7 +495,7 @@ body.viewer-open .site-header {
 }
 .viewer__nav--prev { left: 22px; }
 .viewer__nav--next { right: calc(var(--details-w) + 22px); } /* clear of the details column */
-.viewer__nav { transition: right var(--dur) var(--ease), color 0.2s ease-in-out, background-color 0.2s ease-in-out; }
+.viewer__nav { transition: right var(--dur-panel) var(--ease-panel), color 0.2s ease-in-out, background-color 0.2s ease-in-out; }
 .viewer__nav:disabled {
   opacity: 0.35;
   cursor: not-allowed;
@@ -510,8 +510,8 @@ body.viewer-open .site-header {
   margin-right: calc(-1 * var(--details-w));
   opacity: 0;
   visibility: hidden;
-  transition: margin-right var(--dur) var(--ease), opacity var(--dur) var(--ease),
-    visibility 0s var(--dur);
+  transition: margin-right var(--dur-panel) var(--ease-panel), opacity var(--dur-panel) ease,
+    visibility 0s var(--dur-panel);
 }
 .viewer.details-hidden .viewer__media {
   padding: 16px 96px;
@@ -522,7 +522,7 @@ body.viewer-open .site-header {
 .viewer.details-hidden .viewer__show-details {
   opacity: 1;
   visibility: visible;
-  transition: opacity var(--dur) ease var(--dur-fast), visibility 0s,
+  transition: opacity var(--dur) ease calc(var(--dur-panel) * 0.6), visibility 0s,
     color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .viewer.details-hidden .viewer__nav--next {
@@ -562,7 +562,7 @@ body.viewer-open .site-header {
   }
   .viewer__details {
     display: block;
-    transition: opacity var(--dur) var(--ease), display var(--dur) allow-discrete;
+    transition: opacity var(--dur-panel) ease, display var(--dur-panel) allow-discrete;
     padding: 24px 20px calc(100px + env(safe-area-inset-bottom));
     overflow: visible;
     border-left: 0;
@@ -608,7 +608,7 @@ body.viewer-open .site-header {
   .viewer.details-hidden .viewer__details {
     display: none;
     opacity: 0;
-    transition: opacity var(--dur-fast) ease, display var(--dur-fast) allow-discrete;
+    transition: opacity var(--dur) ease, display var(--dur) allow-discrete;
   }
   @starting-style {
     .viewer:not(.details-hidden) .viewer__details { opacity: 0; }

@@ -91,7 +91,12 @@
      Visitors who ask for reduced motion get none (see base.css). */
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);   /* quick start, soft landing */
   --dur-fast: 180ms;   /* swapping photos, fading text */
-  --dur: 350ms;        /* panels, opening the viewer */
+  --dur: 350ms;        /* opening the viewer, fading cards */
+
+  /* Big moves (the viewer's details pane) take longer and ease off gently,
+     so a large slide never feels abrupt: a soft start, then a long slow landing. */
+  --ease-panel: cubic-bezier(0.3, 0, 0.1, 1);
+  --dur-panel: 650ms;
 }
 
 @media (min-width: 960px) and (max-width: 1239px) {
