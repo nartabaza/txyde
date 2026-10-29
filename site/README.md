@@ -17,6 +17,27 @@ To deploy, upload the contents of `dist/` to the web root of txyde.com.
 
 **Team preview:** every push to `main` is built and published to GitHub Pages by `.github/workflows/pages.yml`. The preview is served from `https://<user>.github.io/<repo>/`, so the build adds the repo name to every link (`BASE_PATH`). It also leaves out analytics and tells search engines not to index it (`PREVIEW`).
 
+## Coming-soon page and password
+
+While the site is not public yet, every page sends visitors to `/welcome/`: a slideshow of archive photos with "Coming soon". Clicking anywhere (or pressing Enter) shows a password field. The right password is remembered on that device, and the visitor goes on to the page they first asked for. Search engines are told not to index any page while the gate is on.
+
+The password is not built into the pages. Its hash sits in one small file, `gate.json`, in the web root next to the pages, so changing the password never needs a full redeploy.
+
+**Change the password**
+
+1. Run `node scripts/set_password.js "new password"`. It saves the hash to `.env` (for later builds) and to `site/dist/gate.json`, and prints it.
+2. Live site (GoDaddy): upload that `gate.json` to the web root, replacing the old one. Or open the old one in the File Manager and paste the new hash in place of the old.
+3. GitHub preview: `gh variable set GATE_PASSWORD_HASH --body <hash>`, then re-run the "Deploy preview" workflow from the Actions tab.
+
+Everyone signed in with the old password is sent back to the sign-in page on their next visit.
+
+**Other settings** (in `src/site.json`, then build and deploy)
+
+- **Photos:** `gate.slides`: an image URL, a caption, and a `focus` point: where the main subject of the photo sits, as "across down" (`"50% 25%"` = centred, a quarter of the way down). That point stays in view when the photo is cropped to fit the screen, and the slow zoom moves toward it.
+- **Open the site to everyone:** set `gate.enabled` to `false`.
+
+This keeps casual visitors and search engines out. It is not real security: the pages and photos can still be reached by someone who knows how, and the repo is public. For a server-side lock on GoDaddy, use the hosting panel's "password protect directory" feature (Apache basic auth) instead.
+
 ## Folder structure
 
 ```

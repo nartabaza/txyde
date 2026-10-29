@@ -1,0 +1,176 @@
+/* Coming-soon page with the password gate (src/gate.html, assets/js/gate.js). */
+
+html, body { height: 100%; margin: 0; }
+
+.gate {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-serif);
+  cursor: pointer;
+}
+
+/* ---- Slideshow: slow crossfade with a gentle zoom ---------------------- */
+.gate__slides { position: fixed; inset: 0; }
+
+.gate__slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 2.4s ease, transform 9s linear;
+  filter: grayscale(0.15) contrast(1.05);
+}
+.gate__slide.is-active { opacity: 1; transform: scale(1.1); }
+
+.gate__shade {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, rgb(5 8 7 / 0.35) 0%, rgb(5 8 7 / 0.8) 75%),
+    linear-gradient(to bottom, rgb(5 8 7 / 0.2), rgb(5 8 7 / 0.85));
+}
+
+/* ---- Title ------------------------------------------------------------- */
+.gate__intro {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  text-align: center;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.gate__logo { width: 72px; height: 72px; margin-bottom: 20px; }
+.gate__title {
+  margin: 0;
+  font-size: clamp(44px, 9vw, 96px);
+  line-height: 1;
+  letter-spacing: 0.18em;
+  font-weight: normal;
+  padding-left: 0.18em; /* balance the trailing letter-spacing */
+}
+.gate__tagline {
+  margin: 18px 0 0;
+  font-size: clamp(15px, 2.2vw, 20px);
+  color: var(--color-text-soft);
+}
+.gate__soon {
+  margin: 34px 0 0;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--color-sand);
+}
+.gate__soon::before,
+.gate__soon::after {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  margin: 0 14px;
+  vertical-align: middle;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+.gate__caption {
+  position: fixed;
+  left: 16px;
+  bottom: 14px;
+  max-width: calc(100% - 32px);
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-text-muted);
+  opacity: 0.8;
+  transition: opacity 0.8s ease;
+}
+.gate__caption.is-changing { opacity: 0; }
+
+/* ---- Password panel ---------------------------------------------------- */
+.gate.is-signing-in { cursor: default; }
+.gate.is-signing-in .gate__intro { opacity: 0; transform: translateY(-40px); pointer-events: none; }
+
+.gate__panel {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  animation: gate-fade-in 0.4s ease both;
+}
+.gate__panel[hidden] { display: none; }
+@keyframes gate-fade-in { from { opacity: 0; transform: translateY(12px); } }
+
+.gate__form {
+  width: 100%;
+  max-width: 340px;
+  padding: 28px 24px 20px;
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-lg);
+  background: rgb(15 21 19 / 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: default;
+}
+.gate__label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.gate__input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  background: rgb(5 8 7 / 0.6);
+  color: var(--color-text);
+  font-size: 16px; /* 16px stops iOS zooming in */
+}
+.gate__input:focus { outline: 2px solid var(--color-teal); outline-offset: 1px; border-color: var(--color-teal); }
+.gate__submit {
+  width: 100%;
+  margin-top: 14px;
+  padding: 12px;
+  border: 0;
+  border-radius: var(--radius-xs);
+  background: var(--color-teal);
+  color: var(--color-text-on-teal);
+  font-family: var(--font-sans);
+  font-size: var(--fs-button);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.gate__submit:hover { filter: brightness(1.15); }
+.gate__error {
+  min-height: 20px;
+  margin: 10px 0 0;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: var(--color-rose);
+}
+.gate__form.is-wrong { animation: gate-shake 0.4s ease; }
+@keyframes gate-shake {
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gate__slide, .gate__slide.is-active { transform: none; transition: opacity 1s ease; }
+  .gate__form.is-wrong { animation: none; }
+}

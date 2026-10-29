@@ -9,7 +9,8 @@
 //   PREVIEW=1               no analytics, and ask search engines not to index
 //
 // Sources:
-//   src/site.json           site name, URL, navigation, analytics id
+//   src/site.json           site name, URL, navigation, analytics id, password gate
+//   src/gate.html           the coming-soon page with the password form -> /welcome/
 //   src/layouts/base.html   the HTML shell every page uses
 //   src/partials/*.html     header, footer, drawer, viewer
 //   src/pages/*.html        one file per page (front matter + HTML)
@@ -118,6 +119,52 @@ function renderAnalytics(id) {
 const stylesheetLinks = (names) =>
   names.map((n) => `  <link rel="stylesheet" href="/assets/css/${n}.css">`).join('\n');
 
+// Password gate (site.json "gate"). Each page checks, before anything shows, that this device
+// has entered the password, and otherwise goes to /welcome/. It keeps casual visitors and
+// search engines out; it is not real security (see README).
+//
+// The password's hash is not built into the pages. It lives in /gate.json next to them, so the
+// password can be changed by replacing that one file. Visitors signed in with an old password
+// are sent back to /welcome/. The build writes gate.json from GATE_PASSWORD_HASH (environment or .env).
+const GATE_PATH = '/welcome/';
+const GATE_FILE = '/gate.json';
+const gateOn = (site) => Boolean(site.gate?.enabled);
+
+// GATE_PASSWORD_HASH from the environment, else from .env in site/ or the repo root.
+function readGateHash() {
+  if (process.env.GATE_PASSWORD_HASH) return process.env.GATE_PASSWORD_HASH.trim();
+  for (const file of [path.join(ROOT, '.env'), path.join(ROOT, '..', '.env')]) {
+    if (!fs.existsSync(file)) continue;
+    const match = read(file).match(/^\s*GATE_PASSWORD_HASH\s*=\s*"?([0-9a-f]{64})"?\s*$/m);
+    if (match) return match[1];
+  }
+  return '';
+}
+
+function renderGateCheck(site) {
+  if (!gateOn(site)) return '';
+  const gate = JSON.stringify(BASE + GATE_PATH);
+  const file = JSON.stringify(BASE + GATE_FILE);
+  return `<script>(function(){var t=null;try{t=localStorage.getItem('txyde-pass')}catch(e){}function out(){try{localStorage.removeItem('txyde-pass')}catch(e){}location.replace(${gate}+'?next='+encodeURIComponent(location.pathname+location.search+location.hash))}if(!t){document.documentElement.style.display='none';out();return}fetch(${file},{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(g){if(g&&g.hash&&g.hash!==t)out()}).catch(function(){})})();</script>`;
+}
+
+function renderGatePage(site, partials) {
+  const slides = (site.gate.slides || [])
+    .map((s, i) => {
+      // "focus" is where the main subject sits; it stays in view when the photo is cropped to the screen.
+      const focus = /^\d+% \d+%$/.test(s.focus || '') ? s.focus : '50% 50%';
+      return `    <img class="gate__slide" ${i === 0 ? 'src' : 'data-src'}="${escape(s.image)}" style="object-position: ${focus}; transform-origin: ${focus}" data-caption="${escape(s.caption || '')}" alt="" decoding="async">`;
+    })
+    .join('\n');
+  return render(read(path.join(SRC, 'gate.html')), {
+    site,
+    slides,
+    file: BASE + GATE_FILE,
+    home: BASE + '/',
+    analytics: PREVIEW ? '' : renderAnalytics(site.analyticsId),
+  }, partials);
+}
+
 function renderDocument({ site, partials, layout }, page) {
   const ctx = {
     site,
@@ -130,7 +177,8 @@ function renderDocument({ site, partials, layout }, page) {
     styles: stylesheetLinks(page.styles || []),
     scripts: (page.scripts || []).map((s) => `  <script src="/assets/js/${s}.js" defer></script>`).join('\n'),
     analytics: PREVIEW ? '' : renderAnalytics(site.analyticsId),
-    robots: PREVIEW ? '<meta name="robots" content="noindex, nofollow">' : '',
+    robots: PREVIEW || gateOn(site) ? '<meta name="robots" content="noindex, nofollow">' : '',
+    gateCheck: renderGateCheck(site),
     navDesktop: renderNav(site, page.url, 'site-nav__item', 'site-nav__link'),
     navDrawer: renderNav(site, page.url, 'drawer__item', 'drawer__link'),
     content: page.content,
@@ -250,6 +298,19 @@ function build() {
       afterPage: partials.viewer,
     }));
     built.push(url);
+  }
+
+  // Coming-soon page with the password form
+  if (gateOn(site)) {
+    writePage(GATE_PATH, renderGatePage(site, partials));
+    built.push(GATE_PATH);
+    const hash = readGateHash();
+    if (/^[0-9a-f]{64}$/.test(hash)) {
+      fs.writeFileSync(path.join(OUT, GATE_FILE), JSON.stringify({ hash }) + '\n');
+    } else {
+      console.warn('No GATE_PASSWORD_HASH set, so dist/gate.json was not written and nobody can sign in.\n' +
+        'Run: node scripts/set_password.js "your password"   (or upload a gate.json you already have)');
+    }
   }
 
   console.log(`Built ${built.length} pages in ${Date.now() - started}ms: ${built.join(' ')}`);

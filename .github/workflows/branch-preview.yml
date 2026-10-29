@@ -44,6 +44,7 @@ jobs:
         env:
           BASE_PATH: /${{ github.event.repository.name }}
           PREVIEW: 1
+          GATE_PASSWORD_HASH: ${{ vars.GATE_PASSWORD_HASH }}
       # Photo copies for this branch's build: same steps as pages.yml.
       - uses: actions/setup-python@v5
         with:
@@ -87,6 +88,7 @@ jobs:
         env:
           BASE_PATH: /${{ github.event.repository.name }}/preview
           PREVIEW: 1
+          GATE_PASSWORD_HASH: ${{ vars.GATE_PASSWORD_HASH }}
       - name: Combine
         run: |
           mkdir -p out

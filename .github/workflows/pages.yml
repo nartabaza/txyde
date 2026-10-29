@@ -76,6 +76,7 @@ jobs:
         env:
           BASE_PATH: /${{ github.event.repository.name }}
           PREVIEW: 1
+          GATE_PASSWORD_HASH: ${{ vars.GATE_PASSWORD_HASH }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

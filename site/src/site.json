@@ -4,9 +4,56 @@
   "description": "The Visual Memory of the Circassian People",
   "analyticsId": "GT-K4CR4545",
   "nav": [
-    { "label": "Homeland", "href": "/homeland/" },
-    { "label": "Diaspora", "href": "/diaspora/" },
-    { "label": "About us", "href": "/about-us/" },
-    { "label": "Support", "href": "/support/" }
-  ]
+    {
+      "label": "Homeland",
+      "href": "/homeland/"
+    },
+    {
+      "label": "Diaspora",
+      "href": "/diaspora/"
+    },
+    {
+      "label": "About us",
+      "href": "/about-us/"
+    },
+    {
+      "label": "Support",
+      "href": "/support/"
+    }
+  ],
+  "gate": {
+    "enabled": true,
+    "slides": [
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/93_nAn_19th_Frontier+Guards.webp",
+        "caption": "Frontier Guards, 19th century",
+        "focus": "55% 45%"
+      },
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/96_Poland_19th_Circassian+soldiers+standing+trial.webp",
+        "caption": "Circassian soldiers standing trial, Poland, 19th century",
+        "focus": "50% 28%"
+      },
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/105_RUS_20th_Katao+Hasan+and+Shhalakhua+Fatimat.webp",
+        "caption": "Katao Hasan and Shhalakhua Fatimat, 20th century",
+        "focus": "50% 22%"
+      },
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/197_SYR_20th_Damascus+dancing+troupe.webp",
+        "caption": "Damascus dancing troupe, Syria, 20th century",
+        "focus": "50% 18%"
+      },
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/129_RUS_20th_Shapsugh+revolutionary+committee.webp",
+        "caption": "Shapsugh revolutionary committee, 20th century",
+        "focus": "50% 30%"
+      },
+      {
+        "image": "https://cdn.txyde.com/large/03_Root_Final/86_RUS_20th_The+forth+Shapsug+congress.webp",
+        "caption": "The fourth Shapsug congress, Tuapse, 1924",
+        "focus": "50% 50%"
+      }
+    ]
+  }
 }

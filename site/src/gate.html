@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} · Coming soon</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#050807">
+  <link rel="icon" href="/assets/img/brand/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/brand/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/img/brand/favicon-180.png">
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/gate.css">
+{{{ analytics }}}
+</head>
+<body class="gate">
+  <div class="gate__slides" aria-hidden="true">
+{{{ slides }}}
+  </div>
+  <div class="gate__shade" aria-hidden="true"></div>
+
+  <main class="gate__intro">
+    <img class="gate__logo" src="/assets/img/brand/logo-mark.png" width="72" height="72" alt="">
+    <h1 class="gate__title">{{ site.name }}</h1>
+    <p class="gate__tagline">The visual memory of the Circassian people</p>
+    <p class="gate__soon">Coming soon</p>
+  </main>
+
+  <p class="gate__caption" aria-live="off"></p>
+
+  <div class="gate__panel" hidden>
+    <form class="gate__form" autocomplete="on">
+      <label class="gate__label" for="gate-password">Password</label>
+      <input class="gate__input" id="gate-password" name="password" type="password" autocomplete="current-password" required>
+      <button class="gate__submit" type="submit">Enter</button>
+      <p class="gate__error" role="alert"></p>
+    </form>
+  </div>
+
+  <script>window.GATE = { file: '{{ file }}', home: '{{ home }}' };</script>
+  <script src="/assets/js/gate.js" defer></script>
+</body>
+</html>
