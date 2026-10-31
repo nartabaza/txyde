@@ -34,10 +34,35 @@ FTP is blocked from outside on this host, and the account has no shell (so no rs
 
 **Notes**
 
-- Nothing is deleted on the server: a file removed from the site stays on the server until it is deleted by hand in File Manager.
+- Nothing is deleted on the server: a file removed from the site stays there until it is deleted by hand in File Manager (the old WordPress files are still in `_wp_old/`).
 - Every file newer than the server's copy is sent again; the whole site is only a few hundred KB.
-- The key can log in as the whole cPanel account, so it can reach the other sites too. Keep the secret private, and see "Open items" below if it is restricted to txyde's folder.
+- The key can log in as the whole cPanel account, so it can reach the other sites too. Keep the `SSH_PRIVATE_KEY` secret private. It is not limited to txyde's folder, because the account has no shell to apply restrictions with.
 - To undo a bad deploy, revert the commit on `main`; the next run puts the old files back.
+
+**What we found when setting this up (2026-10-31)**
+
+- **FTP does not work.** Port 21 on `ftp.greenhermes.com` (and ports 22/990 on that name) are closed from outside, so the first FTP-based workflow timed out with "Timeout (control socket)". `txyde.com` itself answers on port 22.
+- **SSH has no shell.** The key is accepted, but the server says "Shell access is not enabled on your account", and there is no switch for it in cPanel (it would need GoDaddy support). So `rsync` and any remote command fail with "protocol version mismatch -- is your shell clean?". **SFTP works**, so the workflow uses `lftp` over SFTP.
+- **The account:** cPanel user `slvmm3ncthix`, primary domain `greenhermes.com`, txyde's web root `/home/slvmm3ncthix/public_html/txyde.com`.
+
+**Settings in GitHub (Settings → Secrets and variables → Actions)**
+
+| Name | Kind | What it is |
+|---|---|---|
+| `SSH_PRIVATE_KEY` | secret | private half of the deploy key (the public half is authorized in cPanel as `github-deploy`) |
+| `SSH_HOST` | variable | `txyde.com` |
+| `SSH_USER` | variable | `slvmm3ncthix` |
+| `SSH_REMOTE_DIR` | variable | `/home/slvmm3ncthix/public_html/txyde.com` |
+| `SSH_KNOWN_HOSTS` | variable | the pinned server fingerprint |
+| `GATE_PASSWORD_HASH` | variable | password hash for the preview build (the live one is the `gate.json` on the server) |
+| `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` | secrets | uploads of the smaller photo copies |
+
+**Troubleshooting**
+
+- *"Host key verification failed":* the server's key changed (GoDaddy moved the site or rebuilt the server). Check it is really the server, then update `SSH_KNOWN_HOSTS` with `ssh-keyscan -t ed25519,rsa txyde.com`.
+- *"Permission denied (publickey)":* the key was removed or de-authorized in cPanel → Manage SSH Keys. Make a new key (steps above) and replace the secret.
+- *The run succeeds but the site looks old:* hard-refresh (Ctrl+F5); browsers cache CSS and JS.
+- *Leftover credentials:* the FTP account `nartgithub@txyde.com` in cPanel and the `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` secrets were from the first (FTP) attempt and are no longer used by the workflow.
 
 ## Coming-soon page and password
 
