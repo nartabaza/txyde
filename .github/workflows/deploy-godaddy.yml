@@ -1,5 +1,5 @@
-# Builds the live site and uploads it to GoDaddy (cPanel hosting) over FTP after every push to main.
-# See "Deploying to GoDaddy" in site/README.md for the one-time setup (FTP account and secrets).
+# Builds the live site and uploads it to GoDaddy (cPanel hosting) over SSH (rsync) after every push to main.
+# See "Deploying to GoDaddy" in site/README.md for the one-time setup (SSH key and variables).
 #
 # It waits for the "Deploy preview to GitHub Pages" workflow to finish first: that one makes and
 # uploads the smaller photo copies, and this build needs to see them as live.
@@ -48,16 +48,21 @@ jobs:
         working-directory: site
         run: node build.js
 
+      # rsync over SSH. The server's fingerprint is pinned (SSH_KNOWN_HOSTS), so the key is only ever
+      # offered to the real server. Nothing is deleted on the server, and gate.json is never touched.
+      # --checksum sends only files whose content changed, since every build gives fresh timestamps.
       - name: Upload to GoDaddy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
-          local-dir: site/dist/
-          server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
-          exclude: |
-            **/.git*
-            **/.git*/**
-            gate.json
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+          SSH_HOST: ${{ vars.SSH_HOST }}
+          SSH_USER: ${{ vars.SSH_USER }}
+          SSH_REMOTE_DIR: ${{ vars.SSH_REMOTE_DIR }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s
+' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s
+' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          rsync -rlz --checksum --itemize-changes --chmod=D755,F644             --exclude 'gate.json'             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"             site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/"

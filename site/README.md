@@ -19,26 +19,25 @@ To deploy, push to `main` (see [Deploying to GoDaddy](#deploying-to-godaddy)), o
 
 **Where the site lives.** txyde.com is on Khaled's GoDaddy **Web Hosting Deluxe** (cPanel) account. The same account hosts a couple of other websites, so be careful in File Manager: only ever touch txyde's own folder.
 
-**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` over FTP. Only changed files are sent. It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
+**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` with rsync over SSH. It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
 
 **`gate.json` is never uploaded.** The live password file is changed by hand only (see "Change the password"), so a deploy cannot overwrite it. On a brand-new server, upload one `gate.json` manually first.
 
-**One-time setup**
+**One-time setup** (done; kept here in case it has to be redone)
 
-1. In cPanel → **FTP Accounts**, create an account whose directory is txyde's folder only (not the account's home), so a mistake can never touch the other sites. Note the FTP server name, username and password.
-2. In GitHub → Settings → Secrets and variables → Actions, add the secrets `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
-3. Optional variables (same page, Variables tab):
-   - `FTP_PROTOCOL`: `ftps` (default, encrypted), or `ftp` (plain, unencrypted) if FTPS fails on the host.
-   - `FTP_SERVER_DIR`: the folder to upload into, relative to the FTP account's directory. Default `./`.
-4. Push to `main`, or run the workflow by hand, and check the Actions tab.
+FTP is blocked from outside on this host, so the deploy uses rsync over SSH.
+
+1. Generate a key with no passphrase: `ssh-keygen -t ed25519 -N "" -f txyde_deploy`.
+2. cPanel (user `slvmm3ncthix`) → Security → SSH Access → Manage SSH Keys → **Import Key**: paste the public key (`.pub`), then **Manage → Authorize**.
+3. GitHub secret `SSH_PRIVATE_KEY`: the private key (`gh secret set SSH_PRIVATE_KEY < txyde_deploy`). Then delete both key files from the computer.
+4. GitHub variables: `SSH_HOST` (`txyde.com`), `SSH_USER` (`slvmm3ncthix`), `SSH_REMOTE_DIR` (`/home/slvmm3ncthix/public_html/txyde.com`) and `SSH_KNOWN_HOSTS` (the output of `ssh-keyscan -t ed25519,rsa txyde.com`, which pins the server so the key is only offered to the real one).
 
 **Notes**
 
-- The first run uploads everything. The action keeps a small `.ftp-deploy-sync-state.json` on the server to remember what it sent; leave it there.
-- Files deleted from the site are removed from the server on the next deploy only if they were uploaded by this workflow. Files uploaded by hand are left alone.
+- Nothing is deleted on the server: a file removed from the site stays on the server until it is deleted by hand in File Manager.
+- Only files whose content changed are uploaded (`rsync --checksum`).
+- The key can log in as the whole cPanel account, so it can reach the other sites too. Keep the secret private, and see "Open items" below if it is restricted to txyde's folder.
 - To undo a bad deploy, revert the commit on `main`; the next run puts the old files back.
-
-**Team preview:** every push to `main` is built and published to GitHub Pages by `.github/workflows/pages.yml`. The preview is served from `https://<user>.github.io/<repo>/`, so the build adds the repo name to every link (`BASE_PATH`). It also leaves out analytics and tells search engines not to index it (`PREVIEW`).
 
 ## Coming-soon page and password
 
