@@ -60,9 +60,8 @@ jobs:
           SSH_REMOTE_DIR: ${{ vars.SSH_REMOTE_DIR }}
         run: |
           install -m 700 -d ~/.ssh
-          printf '%s
-' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          printf '%s
-' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          rsync -rlz --checksum --itemize-changes --chmod=D755,F644             --exclude 'gate.json'             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"             site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/"
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          SSH_CMD="ssh -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"
+          rsync -rlz --checksum --itemize-changes --chmod=D755,F644 --exclude gate.json -e "$SSH_CMD" site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/"
