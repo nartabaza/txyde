@@ -19,13 +19,13 @@ To deploy, push to `main` (see [Deploying to GoDaddy](#deploying-to-godaddy)), o
 
 **Where the site lives.** txyde.com is on Khaled's GoDaddy **Web Hosting Deluxe** (cPanel) account. The same account hosts a couple of other websites, so be careful in File Manager: only ever touch txyde's own folder.
 
-**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` with rsync over SSH. It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
+**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` with SFTP (`lftp`). It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
 
 **`gate.json` is never uploaded.** The live password file is changed by hand only (see "Change the password"), so a deploy cannot overwrite it. On a brand-new server, upload one `gate.json` manually first.
 
 **One-time setup** (done; kept here in case it has to be redone)
 
-FTP is blocked from outside on this host, so the deploy uses rsync over SSH.
+FTP is blocked from outside on this host, and the account has no shell (so no rsync), so the deploy uses SFTP with an SSH key.
 
 1. Generate a key with no passphrase: `ssh-keygen -t ed25519 -N "" -f txyde_deploy`.
 2. cPanel (user `slvmm3ncthix`) → Security → SSH Access → Manage SSH Keys → **Import Key**: paste the public key (`.pub`), then **Manage → Authorize**.
@@ -35,7 +35,7 @@ FTP is blocked from outside on this host, so the deploy uses rsync over SSH.
 **Notes**
 
 - Nothing is deleted on the server: a file removed from the site stays on the server until it is deleted by hand in File Manager.
-- Only files whose content changed are uploaded (`rsync --checksum`).
+- Every file newer than the server's copy is sent again; the whole site is only a few hundred KB.
 - The key can log in as the whole cPanel account, so it can reach the other sites too. Keep the secret private, and see "Open items" below if it is restricted to txyde's folder.
 - To undo a bad deploy, revert the commit on `main`; the next run puts the old files back.
 

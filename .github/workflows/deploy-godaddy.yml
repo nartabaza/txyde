@@ -1,4 +1,4 @@
-# Builds the live site and uploads it to GoDaddy (cPanel hosting) over SSH (rsync) after every push to main.
+# Builds the live site and uploads it to GoDaddy (cPanel hosting) over SFTP after every push to main.
 # See "Deploying to GoDaddy" in site/README.md for the one-time setup (SSH key and variables).
 #
 # It waits for the "Deploy preview to GitHub Pages" workflow to finish first: that one makes and
@@ -48,9 +48,10 @@ jobs:
         working-directory: site
         run: node build.js
 
-      # rsync over SSH. The server's fingerprint is pinned (SSH_KNOWN_HOSTS), so the key is only ever
-      # offered to the real server. Nothing is deleted on the server, and gate.json is never touched.
-      # --checksum sends only files whose content changed, since every build gives fresh timestamps.
+      # SFTP over SSH (the account has file access but no shell, so rsync cannot run). The server's
+      # fingerprint is pinned (SSH_KNOWN_HOSTS), so the key is only ever offered to the real server.
+      # Nothing is deleted on the server, and gate.json is never touched. The whole site is a few
+      # hundred KB, so every file newer than the server's copy is simply sent again.
       - name: Upload to GoDaddy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
@@ -59,11 +60,9 @@ jobs:
           SSH_USER: ${{ vars.SSH_USER }}
           SSH_REMOTE_DIR: ${{ vars.SSH_REMOTE_DIR }}
         run: |
+          sudo apt-get install -y -q lftp
           install -m 700 -d ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          SSH_CMD="ssh -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"
-          rsync -rlz --checksum --itemize-changes --chmod=D755,F644 --exclude gate.json -e "$SSH_CMD" site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/" || echo "rsync failed"
-          echo "--- sftp test ---"
-          echo "ls $SSH_REMOTE_DIR" | sftp -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes -b - "$SSH_USER@$SSH_HOST" 2>&1 | head -20 || true
+          lftp -u "$SSH_USER,x" -e "set sftp:connect-program 'ssh -a -x -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes'; set cmd:fail-exit yes; mirror -R --no-perms --verbose --exclude gate.json site/dist $SSH_REMOTE_DIR; bye" "sftp://$SSH_HOST"
