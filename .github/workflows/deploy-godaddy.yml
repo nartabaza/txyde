@@ -1,16 +1,12 @@
-# Builds the live site and uploads it to GoDaddy (cPanel hosting) over SFTP after every push to main.
-# See "Deploying to GoDaddy" in site/README.md for the one-time setup (SSH key and variables).
+# Builds the live site and uploads it to GoDaddy (cPanel hosting) over SFTP. Manual only:
+# every push to main goes to the team preview (pages.yml), and this is run once the changes
+# have been reviewed and approved. Actions tab -> "Deploy to GoDaddy" -> Run workflow (branch: main).
+# See "Deploying to GoDaddy" in site/README.md for the setup.
 #
-# It waits for the "Deploy preview to GitHub Pages" workflow to finish first: that one makes and
-# uploads the smaller photo copies, and this build needs to see them as live.
 # gate.json is never uploaded, so the live password is only ever changed by hand (see README).
 name: Deploy to GoDaddy
 
 on:
-  workflow_run:
-    workflows: ["Deploy preview to GitHub Pages"]
-    types: [completed]
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,13 +18,9 @@ concurrency:
 
 jobs:
   deploy:
-    # Run after a successful preview deploy, or when started by hand.
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20

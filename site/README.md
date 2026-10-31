@@ -19,7 +19,7 @@ To deploy, push to `main` (see [Deploying to GoDaddy](#deploying-to-godaddy)), o
 
 **Where the site lives.** txyde.com is on Khaled's GoDaddy **Web Hosting Deluxe** (cPanel) account. The same account hosts a couple of other websites, so be careful in File Manager: only ever touch txyde's own folder.
 
-**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` with SFTP (`lftp`). It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
+**Deploying is manual.** Every push to `main` goes to the team preview only (`pages.yml`). Once the changes are reviewed and approved, publish them to txyde.com: GitHub → Actions → **Deploy to GoDaddy** → Run workflow (branch `main`), or `gh workflow run "Deploy to GoDaddy"`. `.github/workflows/deploy-godaddy.yml` builds the live version of `main` (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` with SFTP (`lftp`). It uses the photo copies the preview deploy already published, so run it after the preview for that commit has finished.
 
 **`gate.json` is never uploaded.** The live password file is changed by hand only (see "Change the password"), so a deploy cannot overwrite it. On a brand-new server, upload one `gate.json` manually first.
 
@@ -62,7 +62,7 @@ FTP is blocked from outside on this host, and the account has no shell (so no rs
 - *"Host key verification failed":* the server's key changed (GoDaddy moved the site or rebuilt the server). Check it is really the server, then update `SSH_KNOWN_HOSTS` with `ssh-keyscan -t ed25519,rsa txyde.com`.
 - *"Permission denied (publickey)":* the key was removed or de-authorized in cPanel → Manage SSH Keys. Make a new key (steps above) and replace the secret.
 - *The run succeeds but the site looks old:* hard-refresh (Ctrl+F5); browsers cache CSS and JS.
-- *Leftover credentials:* the FTP account `nartgithub@txyde.com` in cPanel and the `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` secrets were from the first (FTP) attempt and are no longer used by the workflow.
+- *FTP:* the first attempt used an FTP account; it was deleted along with its secrets, since FTP is blocked from outside.
 
 ## Coming-soon page and password
 
