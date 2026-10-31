@@ -13,7 +13,30 @@ npm run dev     # build, serve on http://localhost:8080, rebuild when files chan
 npm run build   # build into dist/
 ```
 
-To deploy, upload the contents of `dist/` to the web root of txyde.com.
+To deploy, push to `main` (see [Deploying to GoDaddy](#deploying-to-godaddy)), or upload the contents of `dist/` to the web root of txyde.com by hand.
+
+## Deploying to GoDaddy
+
+**Where the site lives.** txyde.com is on Khaled's GoDaddy **Web Hosting Deluxe** (cPanel) account. The same account hosts a couple of other websites, so be careful in File Manager: only ever touch txyde's own folder.
+
+**Automatic deploy.** `.github/workflows/deploy-godaddy.yml` runs after every push to `main` (once the preview deploy has finished, because that step publishes the smaller photo copies). It builds the live version (no `BASE_PATH`, no `PREVIEW`, analytics on) and uploads `dist/` over FTP. Only changed files are sent. It can also be started by hand from the Actions tab ("Deploy to GoDaddy" → Run workflow).
+
+**`gate.json` is never uploaded.** The live password file is changed by hand only (see "Change the password"), so a deploy cannot overwrite it. On a brand-new server, upload one `gate.json` manually first.
+
+**One-time setup**
+
+1. In cPanel → **FTP Accounts**, create an account whose directory is txyde's folder only (not the account's home), so a mistake can never touch the other sites. Note the FTP server name, username and password.
+2. In GitHub → Settings → Secrets and variables → Actions, add the secrets `FTP_SERVER`, `FTP_USERNAME` and `FTP_PASSWORD`.
+3. Optional variables (same page, Variables tab):
+   - `FTP_PROTOCOL`: `ftps` (default, encrypted), or `ftp` (plain, unencrypted) if FTPS fails on the host.
+   - `FTP_SERVER_DIR`: the folder to upload into, relative to the FTP account's directory. Default `./`.
+4. Push to `main`, or run the workflow by hand, and check the Actions tab.
+
+**Notes**
+
+- The first run uploads everything. The action keeps a small `.ftp-deploy-sync-state.json` on the server to remember what it sent; leave it there.
+- Files deleted from the site are removed from the server on the next deploy only if they were uploaded by this workflow. Files uploaded by hand are left alone.
+- To undo a bad deploy, revert the commit on `main`; the next run puts the old files back.
 
 **Team preview:** every push to `main` is built and published to GitHub Pages by `.github/workflows/pages.yml`. The preview is served from `https://<user>.github.io/<repo>/`, so the build adds the repo name to every link (`BASE_PATH`). It also leaves out analytics and tells search engines not to index it (`PREVIEW`).
 
