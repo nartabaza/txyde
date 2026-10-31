@@ -64,4 +64,6 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
           SSH_CMD="ssh -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes"
-          rsync -rlz --checksum --itemize-changes --chmod=D755,F644 --exclude gate.json -e "$SSH_CMD" site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/"
+          rsync -rlz --checksum --itemize-changes --chmod=D755,F644 --exclude gate.json -e "$SSH_CMD" site/dist/ "$SSH_USER@$SSH_HOST:$SSH_REMOTE_DIR/" || echo "rsync failed"
+          echo "--- diagnostics ---"
+          $SSH_CMD "$SSH_USER@$SSH_HOST" 'echo "[login ok]"; echo "shell=$SHELL"; which rsync; rsync --version | head -1; ls -d '"$SSH_REMOTE_DIR"'' 2>&1 | cat -A | head -30 || true
