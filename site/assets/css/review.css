@@ -27,7 +27,8 @@
 }
 .review__input,
 .review-card__text,
-.review-card__comment {
+.review-card__comment,
+.review-card__corrections {
   width: 100%;
   border: 1px solid rgb(75 85 99 / 0.55);
   border-radius: var(--radius-sm);
@@ -217,6 +218,7 @@ kbd {
 }
 .review-card__text:focus,
 .review-card__comment:focus,
+.review-card__corrections:focus,
 .review__input:focus {
   outline: 2px solid var(--color-teal);
   outline-offset: 1px;
@@ -238,6 +240,23 @@ kbd {
 }
 .review-card__checks li + li {
   margin-top: 6px;
+}
+
+.review-card__corrections-label {
+  margin-top: 18px;
+}
+.review-card__corrections-label span {
+  color: #8d949d;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.review-card__corrections {
+  min-height: 64px;
+  field-sizing: content;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.55;
+  resize: vertical;
 }
 
 .review-card__more {

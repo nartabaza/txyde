@@ -29,7 +29,11 @@ Claude Code session on the subscription.
 5. **Learn:** `python scripts/push_drafts.py pull round-1`, then ask Claude to compare the drafts
    with the researcher's versions and update `style-guide.md`, `prompt.md` and `examples.json`
    (bump the version).
-6. **Publish:** copy approved descriptions into the Description column of the Main tab, then run
+6. **Fix the facts:** the researcher answers the checks in the "Corrections for the archive sheet"
+   field, in plain words (the `corrections` column of the Review tab). Ask Claude to turn the
+   pulled corrections into a list of exact changes (ID, column, old value, new value). Check the
+   list, then apply it to the Main tab. Claude never writes to the master sheet itself.
+7. **Publish:** copy approved descriptions into the Description column of the Main tab, then run
    the usual `import_sheet.py`.
 
 ## One-time setup

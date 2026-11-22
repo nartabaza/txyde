@@ -17,9 +17,10 @@ const COLUMNS = [
   'batch', 'id', 'promptVersion', 'imageUrl', 'title', 'period', 'location', 'country', 'region',
   'locality', 'sublocality', 'keywords', 'notes', 'draft', 'checks', 'draftedAt',
   'status', 'final', 'reasons', 'comment', 'reviewedAt',
+  'corrections', // added later: new columns go at the end, so existing tabs keep their layout
 ];
 // Fields the review page may change. Everything else is written only when drafts are added.
-const REVIEW_FIELDS = ['status', 'final', 'reasons', 'comment'];
+const REVIEW_FIELDS = ['status', 'final', 'reasons', 'comment', 'corrections'];
 const STATUSES = ['', 'approved', 'edited', 'rejected'];
 
 // ---- Entry points ------------------------------------------------------------
@@ -79,6 +80,7 @@ function saveReview(body) {
     final: String(body.final || ''),
     reasons: (body.reasons || []).join(', '),
     comment: String(body.comment || ''),
+    corrections: String(body.corrections || ''),
   };
   const s = sheet();
   REVIEW_FIELDS.forEach((field) => s.getRange(rowNumber, COLUMNS.indexOf(field) + 1).setValue(values[field]));
@@ -124,6 +126,10 @@ function sheet() {
     s = b.insertSheet(SHEET_NAME);
     s.getRange(1, 1, 1, COLUMNS.length).setValues([COLUMNS]).setFontWeight('bold');
     s.setFrozenRows(1);
+  } else if (s.getLastColumn() < COLUMNS.length) {
+    // A tab made before a column was added: add the missing headers at the end.
+    const from = s.getLastColumn() + 1;
+    s.getRange(1, from, 1, COLUMNS.length - from + 1).setValues([COLUMNS.slice(from - 1)]).setFontWeight('bold');
   }
   return s;
 }

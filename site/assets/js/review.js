@@ -212,7 +212,12 @@
 
     const checks = $('.review-card__checks', el);
     checks.hidden = !item.checks.length;
-    $('ul', checks).replaceChildren(...item.checks.map((c) => Object.assign(document.createElement('li'), { textContent: c })));
+    $('ul', checks).replaceChildren(...item.checks.map((c) => {
+      const li = document.createElement('li');
+      li.append(...isolateRtl(c));
+      return li;
+    }));
+    $('.review-card__corrections', el).value = item.corrections || '';
 
     $('.review-card__reasons', el).replaceChildren(...REASONS.map((reason) => {
       const b = pill('tag', reason, item.reasons.includes(reason), () => b.classList.toggle('is-active'));
@@ -230,6 +235,21 @@
     el.addEventListener('pointerdown', () => setCurrent(el));
     update(el);
     return el;
+  }
+
+  // Arabic (or other right-to-left) runs inside an English check go in <bdi>, so quotes, dashes and
+  // numbers around them stay in order instead of jumping across the line.
+  function isolateRtl(text) {
+    const RTL = /[֐-ࣿיִ-﷿ﹰ-﻿](?:[֐-ࣿיִ-﷿ﹰ-﻿٠-٩\d\s\-–.,:;+/]*[֐-ࣿיִ-﷿ﹰ-﻿٠-٩])?/g;
+    const parts = [];
+    let last = 0;
+    for (const m of text.matchAll(RTL)) {
+      if (m.index > last) parts.push(text.slice(last, m.index));
+      parts.push(Object.assign(document.createElement('bdi'), { textContent: m[0] }));
+      last = m.index + m[0].length;
+    }
+    if (last < text.length) parts.push(text.slice(last));
+    return parts;
   }
 
   // Badge, word count and "edited" mark, from the card's current state.
@@ -262,6 +282,7 @@
       final: status === 'rejected' || !status ? '' : text,
       reasons: status ? [...el.querySelectorAll('.review-card__reasons .is-active')].map((b) => b.textContent) : [],
       comment: status ? $('.review-card__comment', el).value.trim() : '',
+      corrections: status ? $('.review-card__corrections', el).value.trim() : '',
     };
     const note = $('.review-card__save', el);
     note.textContent = 'Saving…';
@@ -276,6 +297,7 @@
     if (!status) {
       el.querySelectorAll('.review-card__reasons .is-active').forEach((b) => b.click());
       $('.review-card__comment', el).value = '';
+      $('.review-card__corrections', el).value = '';
     }
     note.textContent = status ? 'Saved' : 'Back to the draft';
     update(el);
