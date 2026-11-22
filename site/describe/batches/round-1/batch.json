@@ -1,0 +1,351 @@
+{
+  "batch": "round-1",
+  "sheet": "PhotoArchive_Master_Sheet14112026.xlsx",
+  "items": [
+    {
+      "id": 21,
+      "title": "Healing music ritual",
+      "period": "20th",
+      "dateTaken": "1927 - 1929",
+      "location": "Homeland",
+      "country": "Abkhazia",
+      "region": "Gudauta District",
+      "sublocality": "Kaldakhvara",
+      "names": "Shach Chukbar, laying: Khoza Ampar, and Alexa Ampar",
+      "originalNames": "Чукбар Шач, Ампар Хоза (Гуаза), Ампар Алыкса",
+      "dignitaries": "Shach Chukbar",
+      "dignitaryBorn": "Circa the mid of 1840s",
+      "dignitaryDied": "Circa the 1930s",
+      "tribe": "Abkhaz",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "keywords": "Aze, Azeghue, Healing",
+      "notes": "The image shows Abkhazian folk singer and storyteller Shach Chukbar playing an apkhartsa (a two-stringed bowed instrument) at the bedside of the ailing Khoza Ampar in Abkhazia, around 1929. Performances like this were used to comfort the sick, promote healing, and soothe spirits.",
+      "context": {
+        "ritual": "Healing and soothing spirits",
+        "music": "Healing and comforting process",
+        "instrument": "Apkhartsa (a two-stringed bowed instrument)"
+      },
+      "image": "images/21.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 22,
+      "title": "Circassian war boat",
+      "period": "19th",
+      "dateTaken": "1837",
+      "location": "Homeland",
+      "artType": "Painting",
+      "book": "Three Voyages in the Black Sea to the Coast of Circassia, etc_ by Taitbout de Marigny p_9 - 1837",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "keywords": "Boat, Ship, Sea",
+      "notes": "One of the rare paintings show the equipments Circassian used in the sea.",
+      "context": {
+        "art": "Orientalism",
+        "other": "War boat"
+      },
+      "image": "images/22.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 24,
+      "title": "Kabarda major minor-Que",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "keywords": "Kabarda major, Kabarda minor",
+      "notes": "A map painting showing the landforms of Caucasus in general and both Kabarda major and minor.",
+      "context": {
+        "other": "Kabarda minor"
+      },
+      "image": "images/24.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 28,
+      "title": "Kfar Kama",
+      "period": "21st",
+      "location": "Diaspora",
+      "country": "Israel",
+      "sublocality": "Kfar Kama",
+      "names": "Apsha Rustam, !",
+      "context": {
+        "house": "A style in Diaspora, Black stone,",
+        "fashion": "Fasha,Tsai,"
+      },
+      "image": "images/28.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 32,
+      "title": "Royal guards in Jordan",
+      "period": "21st",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "region": "Amman",
+      "tribe": "All",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Circassian royal guards"
+      },
+      "image": "images/32.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 33,
+      "title": "Day of Mourning",
+      "period": "21st",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "originalNames": "Шъыгъо-шӏэжъ маф / щыгъуэ махуэ",
+      "tribe": "All",
+      "keywords": "Marching, Day of mourning, 1964",
+      "notes": "every year on 21st of may Circassians march all over the world in remembrance of the victims of the Russo-Circassian War. and This march took place in Turkey.",
+      "context": {
+        "other": "Day of mourning"
+      },
+      "image": "images/33.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 34,
+      "title": "Royal guards in Jordan",
+      "period": "21st",
+      "dateTaken": "2016",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "region": "Amman",
+      "tribe": "All",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Circassian royal guards"
+      },
+      "image": "images/34.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 38,
+      "title": "Circassian Charity Association",
+      "period": "20th",
+      "dateTaken": "1958",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "region": "Amman",
+      "originalNames": "الجمعية الخيرية الشركسية",
+      "tribe": "All",
+      "inscription": "Script",
+      "inscriptionLanguage": "Arabic",
+      "image": "images/38.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 42,
+      "title": "Students of Kabekhabl",
+      "period": "20th",
+      "dateTaken": "1913 - 1915",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Shovgenovsky District",
+      "sublocality": "Kabekhabl",
+      "names": "Galim Shaov",
+      "keywords": "Necklaces, Students, Young girls",
+      "notes": "Some sources refer to this as it is from Panazhkuay",
+      "context": {
+        "place": "Panazhikuay",
+        "fashion": "Traditional male and female costumes",
+        "other": "Necklaces,"
+      },
+      "image": "images/42.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 64,
+      "title": "Damascus dancing troupe",
+      "period": "20th",
+      "dateTaken": "1972",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "tribe": "All",
+      "collection": "Nart Majajah",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "keywords": "Circassian Benevolent Association, Troupe",
+      "context": {
+        "fashion": "Traditional male and female costumes",
+        "other": "troupe"
+      },
+      "image": "images/64.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 84,
+      "title": "Zaramuk Qerdengushev and Hasan Khavpatchev",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "names": "Qanshobi Batsezhev, Zaramuk Qerdengushev, and Hasan Khavpatchev",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "keywords": "Singing, Traditional Ancamble",
+      "context": {
+        "fashion": "Traditional male costume",
+        "instrument": "Shichepshine, Pkhetarq"
+      },
+      "image": "images/84.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 102,
+      "title": "Chapshe",
+      "period": "20th",
+      "dateTaken": "1927",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Shovgenovsky District",
+      "sublocality": "Hakurynehebl",
+      "photographer": "V. Kanatov",
+      "names": "Lying down is Talib Khataovich Kubov, Seated on a chair at the head of the bed on the left is the bonesetter Makhmud Azashikov; standing on the right is the \"Dae\" Khadjikhan Shalikhovna",
+      "originalNames": "КӀапщэ",
+      "keywords": "Azze the healer, \"Dae\" a young woman who cares for the patient until recovery, plowshare and a hammer, neckless",
+      "notes": "One of the rituals when a person gets sick is that people visit and play music, sing, and play games in merrying atmosphere, believing hat helps the ill to recover quickly and show the respect and hostality to the mighty (lord) of sickness and health (Sozeresh). Residents of the Circassian village of Khakurinokhabl perform a traditional healing ritual, \"Klapshch,\" in connection with a broken leg sustained by 15-year-old rider Talib Kubov during a race. Seated on a chair at the head of the bed on the left is the bonesetter Makhmud Azashikov; standing on the right is the \"Dae\"—a young woman who cares for the patient until recovery—Khadjikhan Shalikhovna Meretukova. On the ground in front of the patient's bed lie a plowshare and a hammer; every visitor was required to strike the plowshare with the hammer upon arrival.",
+      "context": {
+        "ritual": "Chapshe"
+      },
+      "image": "images/102.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 107,
+      "title": "In front of the Circassian Charity Association",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "region": "Amman",
+      "tribe": "All",
+      "notes": "The flag of the Arabic revolution is hanged over the Circassian Association while a big group of Circassian and Arab are standing under it.",
+      "context": {
+        "fashion": "Traditional male costumes"
+      },
+      "image": "images/107.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 115,
+      "title": "Circassian participants in Russo Japanese war",
+      "period": "20th",
+      "dateTaken": "1905",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Shovgenovsky District",
+      "sublocality": "Hakurynehebl",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "keywords": "Circassian dagger, Circassian sword",
+      "context": {
+        "fashion": "Traditional male costumes",
+        "other": "Army, Russo-Japanese war"
+      },
+      "image": "images/115.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 117,
+      "title": "Circassian participants in Russo Japanese war",
+      "period": "20th",
+      "dateTaken": "1904",
+      "location": "Homeland",
+      "context": {
+        "fashion": "Traditional male costumes",
+        "other": "Army, Russo-Japanese war"
+      },
+      "image": "images/117.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 121,
+      "title": "Circassia on the map of the Blacksea basin",
+      "period": "18th",
+      "dateTaken": "1720",
+      "dateType": "Estimate",
+      "location": "Diaspora",
+      "country": "Germany",
+      "region": "Nuremberg",
+      "photographer": "Homann, Johann Baptist",
+      "inscription": "Both",
+      "inscriptionLanguage": "Latin",
+      "notes": "An 18th-century hand-colored copperplate engraved map titled Tabula geographica qua pars Rusiae Magnae, Pontus Euxinus seu Mare Nigrum et Tartaria Minor, created by German cartographer Johann Baptist Homann around 1720 in Nuremberg",
+      "context": {
+        "map": "hand-colored copperplate engraved map",
+        "other": "Circassia"
+      },
+      "image": "images/121.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 123,
+      "title": "Archaeological finds",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "book": "Тенишева М.К., кн. Эмаль и инкрустация. Прага, 1930",
+      "notes": "Koban culture, Bronze period",
+      "context": {
+        "ornaments": "Koban Culture",
+        "archaeology": "Koban Culture",
+        "other": "Koban Culture, Bronze, Jar"
+      },
+      "image": "images/123.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 124,
+      "title": "Archaeological finds",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "book": "Тенишева М.К., кн. Эмаль и инкрустация. Прага, 1931",
+      "notes": "Koban culture, Bronze period",
+      "context": {
+        "ornaments": "Koban Culture",
+        "archaeology": "Koban Culture",
+        "other": "Koban Culture, Bronze"
+      },
+      "image": "images/124.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 185,
+      "title": "Shapsugh man",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Bolshoi Kechmai",
+      "names": "Хушт Кельмет",
+      "originalNames": "Шапсугъу",
+      "tribe": "Shapsugh",
+      "notes": "It's claimed to be (Khusht Kelemt) who was one of the first dwellers and establishers of the town Bolshoi Kichmai",
+      "image": "images/185.jpg",
+      "imageUrl": ""
+    },
+    {
+      "id": 186,
+      "title": "Yakvash (Skhabo) Pshykhach",
+      "period": "20th",
+      "dateTaken": "190?",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "names": "Яквашев (Схабо) Пшихач",
+      "originalNames": "Яквашев Пшихач",
+      "dignitaries": "Яквашев (Схабо) Пшихач",
+      "dignitaryBorn": "1830",
+      "dignitaryDied": "1917",
+      "notes": "He fleed to the mountains in the time of circassian deportation after the Russo-Circassian war. Came back later to Aguey (Bolshoi psewshxue). His daughter is Guashefyj.",
+      "image": "images/186.jpg",
+      "imageUrl": ""
+    }
+  ]
+}

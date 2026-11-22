@@ -2,3 +2,5 @@ dist/
 node_modules/
 data/*.xlsx
 __pycache__/
+describe/batches/*/images/
+assets/review/images/

@@ -1,0 +1,81 @@
+---
+title: Description review - TXYDE
+description: Review the drafted photo descriptions
+styles: gallery, review
+scripts: review
+---
+<div class="section section--contained">
+  <div class="gallery review" data-endpoint="{{ site.review.endpoint }}" data-base="{{ base }}">
+    <div class="gallery__inner">
+      <h1 class="text-h2 gallery__title">Description review</h1>
+      <p class="review__intro">Read each draft beside its photo. Approve it as it is, or correct it and then approve. Every decision is saved straight away.</p>
+
+      <form class="review__key" hidden>
+        <label class="filter-group__label" for="review-key">Review key</label>
+        <div class="review__key-row">
+          <input id="review-key" class="review__input" type="password" autocomplete="current-password" required>
+          <button class="filter-button filter-button--primary is-active" type="submit">Open</button>
+        </div>
+        <p class="review__key-error" hidden>That key was not accepted. Please check it and try again.</p>
+      </form>
+
+      <div class="filter-panel review__panel" role="group" aria-label="Batches and progress" hidden>
+        <div class="filter-group">
+          <div class="filter-group__label">Batch</div>
+          <div class="filter-group__buttons" data-batches></div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group__label">Show</div>
+          <div class="filter-group__buttons" data-show></div>
+        </div>
+        <div class="review__progress">
+          <div class="review__progress-text" aria-live="polite"></div>
+          <div class="review__progress-bar"><span></span></div>
+        </div>
+        <p class="review__keys-hint">Keys: <kbd>J</kbd>/<kbd>K</kbd> next and previous, <kbd>E</kbd> edit, <kbd>A</kbd> approve, <kbd>R</kbd> reject, <kbd>Ctrl</kbd>+<kbd>Enter</kbd> approve while editing.</p>
+      </div>
+
+      <p class="review__message" hidden></p>
+      <div class="review__list"></div>
+    </div>
+  </div>
+</div>
+
+<template id="review-card">
+  <article class="review-card" tabindex="-1">
+    <a class="review-card__media" target="_blank" rel="noopener" title="Open the full image in a new tab">
+      <img class="review-card__image" alt="" loading="lazy" decoding="async">
+    </a>
+    <div class="review-card__details">
+      <div class="review-card__top">
+        <span class="review-card__id"></span>
+        <span class="review-card__status"></span>
+      </div>
+      <h2 class="viewer__title review-card__title"></h2>
+      <dl class="viewer__meta review-card__meta"></dl>
+      <ul class="viewer__tags review-card__tags" aria-label="Keywords"></ul>
+
+      <label class="review-card__label">Description <span class="review-card__changed" hidden>edited</span></label>
+      <textarea class="review-card__text" rows="5" spellcheck="true"></textarea>
+      <div class="review-card__count"></div>
+
+      <div class="review-card__checks" hidden>
+        <div class="review-card__label">To check or add</div>
+        <ul></ul>
+      </div>
+
+      <details class="review-card__more">
+        <summary>What was wrong with the draft? <span>(optional)</span></summary>
+        <div class="review-card__reasons"></div>
+        <textarea class="review-card__comment" rows="2" placeholder="Any note for the next round"></textarea>
+      </details>
+
+      <div class="review-card__actions">
+        <button class="filter-button filter-button--primary review-card__approve" type="button">Approve</button>
+        <button class="filter-button filter-button--tag review-card__reject" type="button">Reject draft</button>
+        <button class="filter-button filter-button--tag review-card__reset" type="button">Back to draft</button>
+        <span class="review-card__save" aria-live="polite"></span>
+      </div>
+    </div>
+  </article>
+</template>

@@ -1,0 +1,312 @@
+{
+  "note": "Approved descriptions (column CN) with the input the drafting gets for each photo. Made by scripts/prep_batch.py examples; edit a description here to correct it.",
+  "examples": [
+    {
+      "input": {
+        "id": 7,
+        "title": "The Adyghe School in Syria",
+        "period": "20th",
+        "location": "Diaspora",
+        "country": "Syria",
+        "region": "Quneitra",
+        "originalNames": "المدرسة الاديكية الاهلية",
+        "tribe": "All",
+        "keywords": "Education, School, Students",
+        "notes": "The Adyghe Private School was established in Qunaitra, Syria, in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language, except for Arabic language classes.",
+        "context": {
+          "place": "The Circassian school",
+          "fashion": "Circassian school uniform",
+          "other": "The Circassian School"
+        }
+      },
+      "description": "A 20th-century photograph from Qunaitra, Syria showing the Adyghe School. The school was established in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language except for Arabic language classes."
+    },
+    {
+      "input": {
+        "id": 13,
+        "title": "A meeting under a tree",
+        "location": "Homeland",
+        "artType": "Painting",
+        "keywords": "Tree, tree veneration, under tree gathering",
+        "notes": "It was a tradition among Circassian people to hold their gatherings, meetings, and rituals under trees. Each village or town would have a specific tree designated for such gatherings.",
+        "context": {
+          "art": "Orientalism/painting"
+        }
+      },
+      "description": "A painting showing a meeting under a tree. It was a tradition among Circassian people to hold their gatherings, meetings, and rituals under trees."
+    },
+    {
+      "input": {
+        "id": 17,
+        "title": "The South Temple",
+        "period": "19th",
+        "dateTaken": "1878-1880",
+        "location": "Diaspora",
+        "country": "Jordan",
+        "region": "Jerash",
+        "photographer": "Félix Bonfils (Maison Bonfils)",
+        "collection": "Brünnow, Rudolf-Ernst",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "French, English",
+        "notes": "One of the Circassian settlements in Jordan was in Jerash where Circassian became a community there.",
+        "context": {
+          "place": "The south temple"
+        }
+      },
+      "description": "A photo depicting the South Temple, in Jerash, Jordan, where Circassian immigrants established a community."
+    },
+    {
+      "input": {
+        "id": 36,
+        "title": "Two Circassian polkas",
+        "period": "19th",
+        "location": "Diaspora",
+        "country": "United Kingdom",
+        "artType": "Poster",
+        "creator": "John Brandard and processed and printed by Michael & Nicholas Hanhart",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "English",
+        "keywords": "Advertizing, Commercial",
+        "notes": "This is the cover of a Victorian-era piano sheet music titled \"Two Circassian Polkas,\" featuring an illustration by John Brandard",
+        "context": {
+          "art": "Victorian sheet music",
+          "dance": "Polak dance",
+          "other": "Poster"
+        }
+      },
+      "description": "The cover of a victorian-era music sheet of a piano piece written by Khue Lindoff, titled Two Circassian Polkas. The cover illustraion was created by John Brandard."
+    },
+    {
+      "input": {
+        "id": 57,
+        "title": "Pachev Bekmurza",
+        "period": "20th",
+        "location": "Homeland",
+        "country": "Kabardino-Balkaria",
+        "names": "Bekmurze Pachev",
+        "originalNames": "Пащӏэ Машэ и къуэ Бэчмырзэ",
+        "dignitaries": "Пащ1э Бэчмырза (Пачев Бекмурзa Машевич)",
+        "dignitaryBorn": "1854",
+        "dignitaryDied": "1936",
+        "tribe": "Kabardian/Kabartai/Kabardey",
+        "artType": "Painting",
+        "keywords": "Collector and creator of folk poetry",
+        "notes": "Kabardinian poet in Soviet time, andhe was a collector and creator of folk poetry, some of his works The Dagger (1909–10) and the poems “The Wind,” “The Japanese War,” and “Hard Times,”",
+        "context": {
+          "art": "Portrait",
+          "fashion": "Traditional male costume"
+        }
+      },
+      "description": "Kabardinian poet in Soviet time. He was a collector and creator of folk poetry. Some of his works include The Dagger (1909–10) and the poems “The Wind”, “The Japanese War”, and “Hard Times,”."
+    },
+    {
+      "input": {
+        "id": 71,
+        "title": "Dautoqua Zaurbek (Serebriakov)",
+        "period": "20th",
+        "location": "Homeland",
+        "country": "Kabardino-Balkaria",
+        "names": "Заурбек Асланбекович Даутоков-Серебряков",
+        "originalNames": "Даутокъуэ Заурбэч",
+        "dignitaries": "Заурбек Асланбекович Даутоков-Серебряков",
+        "dignitaryBorn": "1886",
+        "dignitaryDied": "1919",
+        "tribe": "Kabardian/Kabartai/Kabardey",
+        "keywords": "Participant in WW1",
+        "notes": "Fought in WW1 and returned home as a commander, and became the organizer of the anti-Bolshevik movement in Kabarda in 1918. He was the assistant to Prince Tembot Zhankhotovich. and he announced the creation of the \"Free Kabarda\" party.",
+        "context": {
+          "other": "Photo Session, \"Free Kabarda\" Party, Bolshevik Revolution"
+        }
+      },
+      "description": "Datouqua Zaurbek (1886-1919), fought in WW1 and returned home as a commander, and became the organizer of the anti-Bolshevik movement in Kabarda in 1918."
+    },
+    {
+      "input": {
+        "id": 92,
+        "title": "Thaquakhua Shaban, Habakhu Aslanbek, and Qatbambet Shumaf",
+        "period": "20th",
+        "location": "Homeland",
+        "country": "Adygea",
+        "locality": "Teuchezhsky District",
+        "sublocality": "Asokolai",
+        "photographer": "Сумовский И.А в г. Краснодаре",
+        "names": "Tihaquakhua Shaban Petitavich, Habakhu Aslanbek Djambulatovich, Qatbambet Shumaf Amedovich",
+        "keywords": "Killed by Bolshoviks",
+        "notes": "The two standing men were killed by the Bolsheviks in Asokolai town with other men in 1918.",
+        "context": {
+          "fashion": "Traditional male costume",
+          "other": "Photo Session"
+        }
+      },
+      "description": "A photograph from Assokolay, Adygea, featuring (left to right) Thaquakhua Shaban Petitavich, Habakhu Aslanbek Djambulatovich, Qatbambet Shumaf Amedovich. Thaquakhua and Qatbambet were killed by the Bolsheviks in Assokolay town with other men in 1918."
+    },
+    {
+      "input": {
+        "id": 95,
+        "title": "Circassian Cavalry",
+        "period": "19th",
+        "dateTaken": "1880",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "artType": "Painting",
+        "creator": "Alberto Pasini",
+        "artDate": "1880",
+        "artOwner": "Art Institute of Chicago",
+        "museum": "Art Institute of Chicago",
+        "notes": "Circassian Cavalry Awaiting their Commanding Officer at the Door of a Byzantine Monument; Memory of the Orient",
+        "context": {
+          "art": "Oil on canvas",
+          "fashion": "Traditional male costume"
+        }
+      },
+      "description": "A painting by Alberto Pasini dating to 1880, titled Circassian Cavalry."
+    },
+    {
+      "input": {
+        "id": 97,
+        "title": "Arrival of Two Circassian Soldiers",
+        "period": "19th",
+        "dateTaken": "1869",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "artType": "Painting",
+        "creator": "Alberto Pasini",
+        "artDate": "1869",
+        "artOwner": "Philadelphia Museum of Art",
+        "museum": "Philadelphia Museum of Art",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "Italian",
+        "notes": "Arrivo di due cavalieri circassi",
+        "context": {
+          "art": "on sheet",
+          "fashion": "Traditional male costume"
+        }
+      },
+      "description": "A painting by Alberto Pasini, titled Arrivo di Due Cavalieri Circassi in Italian, dates to 1869, shows the arrival of two Circassian soldiers."
+    },
+    {
+      "input": {
+        "id": 106,
+        "title": "Bedouins and Circassian chiefs",
+        "period": "20th",
+        "dateTaken": "1921",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "country": "Jordan",
+        "region": "Amman",
+        "photographer": "G. Eric and Edith Matson",
+        "names": "Sir Herbert Samuel",
+        "collection": "Matson photograph collection",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "English",
+        "notes": "Sir Herbert Samuel's second visit to Transjordan, etc. Britishers, Bedouins and Circassians with airplane",
+        "context": {
+          "fashion": "Traditional male costumes",
+          "other": "Circassian and Bedouins"
+        }
+      },
+      "description": "A 1921 photograph from Amman, Jordan, taken during Sir Herbert Samuel's second visit to Transjordan."
+    },
+    {
+      "input": {
+        "id": 112,
+        "title": "Dolmen in Shhafit",
+        "period": "20th",
+        "dateTaken": "1912",
+        "dateType": "Accurate",
+        "location": "Homeland",
+        "country": "Russia",
+        "region": "Krasnodar",
+        "locality": "Sochi",
+        "sublocality": "Shkhafit",
+        "originalNames": "Испы-унэ, Щхьэфит",
+        "notes": "One of many Dolmens exist in Circassian homeland, and this one is located in Sochi, near Shhafit town.",
+        "context": {
+          "archaeology": "Dolmen in Shhafit town",
+          "other": "Dolmen"
+        }
+      },
+      "description": "An archival archaeological image dating to 1912, from Sochi, Russia, showing Dolmen in Shhafit."
+    },
+    {
+      "input": {
+        "id": 113,
+        "title": "Celebration organizer and ensemble",
+        "period": "20th",
+        "dateTaken": "1910",
+        "location": "Homeland",
+        "country": "Adygea",
+        "locality": "Krasnogvardeysky District",
+        "sublocality": "Ulap",
+        "names": "Wj Sid, Ach'ej L'maf, Tehaghush Pshyqar, Ghat T'ykhu, ch'ase Edydj, Alyberd Paqej, Khudyrypsh Pyk'unit'u",
+        "originalNames": "ДжэгуакӀуэ, ХьэтякӀуэ",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "Circassian",
+        "keywords": "Hatyak'ue bash",
+        "notes": "(Djeguak'ue Gup)The Hatyak'ue (Dance organizer) with his Ritual stick standing in the middle of the ensemble",
+        "context": {
+          "music": "Musical and wedding ensemble",
+          "instrument": "Qemil, Pkhetarq (Pkhechich)",
+          "other": "Djeguak'ue, Wedding dance organizer"
+        }
+      },
+      "description": "An 1910 photograph from Ulap, Adygea, featuring local musicians."
+    },
+    {
+      "input": {
+        "id": 134,
+        "title": "Kharikhan Shaova",
+        "period": "20th",
+        "dateTaken": "1909 - 1911",
+        "location": "Homeland",
+        "country": "Adygea",
+        "locality": "Maykop",
+        "names": "Shaova H'arih'an (Father is Ishak)",
+        "originalNames": "Шаова Харихан",
+        "notes": "From Kabihable town in Adygea now",
+        "context": {
+          "fashion": "Traditional female costume",
+          "other": "Photo Session"
+        }
+      },
+      "description": "A photograph dating approximately to 1909 - 1911, from Kabihable town in Maykop, Adygea, featuring Shaova Ishakovna H'arih'an."
+    },
+    {
+      "input": {
+        "id": 152,
+        "title": "Kobj Hasan",
+        "period": "20th",
+        "dateTaken": "1920 - 1930",
+        "location": "Homeland",
+        "country": "Russia",
+        "region": "Krasnodar",
+        "locality": "Sochi",
+        "sublocality": "Bolshoi Kechmai",
+        "names": "Kobj Hasan (Father is Tlhypshay)",
+        "notes": "He is the son of Tlhypshay from Village Bolshoi Ichmai",
+        "context": {
+          "fashion": "Traditional male costume",
+          "other": "Weapon, Dagger, АУЛ БОЛЬШОЙ ИЧМАЙ"
+        }
+      },
+      "description": "A photograph dating approximately to 1920 - 1930, from Krasnodar, Russia, featuring Kobj Hasan (Father is Tlhypshay)."
+    },
+    {
+      "input": {
+        "id": 180,
+        "title": "Pegasus Rhyton",
+        "period": "500 B.C",
+        "location": "Homeland",
+        "country": "Adygea",
+        "locality": "Krasnogvardeysky District",
+        "sublocality": "Ulap",
+        "museum": "The Museum of Oriental Art, Moscow",
+        "notes": "Rhyton with the Pegasus protome from burial mound 4 near the village of Ulyap. © State Museum of Oriental Art, Moscow",
+        "context": {
+          "archaeology": "Meot Culture"
+        }
+      },
+      "description": "Rhyton with the Pegasus protome from burial mound 4 near the village of Ulyap displayed at the State Museum of Oriental Art, Moscow."
+    }
+  ]
+}

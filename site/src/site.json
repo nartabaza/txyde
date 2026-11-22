@@ -21,6 +21,9 @@
       "href": "/support/"
     }
   ],
+  "review": {
+    "endpoint": "https://script.google.com/macros/s/AKfycbzlRbCFC4ViI9AjFyjwtjY4hLJeyfk2LhPmsDQ09N3rspTlPqXLhnrZj4xVL--U3hkf/exec"
+  },
   "gate": {
     "enabled": true,
     "slides": [

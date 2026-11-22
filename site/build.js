@@ -278,8 +278,10 @@ function build() {
     const name = path.basename(file, '.html');
     const url = name === 'index' ? '/' : `/${name}/`;
     const { data, body } = parseFrontMatter(read(path.join(SRC, 'pages', file)));
-    const styles = data.styles ? data.styles.split(',').map((s) => s.trim()) : [];
-    writePage(url, renderDocument(env, { ...data, url, styles, content: body }));
+    const list = (value) => (value ? value.split(',').map((s) => s.trim()) : []);
+    // Page bodies may use {{ site.* }} and {{ base }} (the review page reads its settings this way).
+    const content = render(body, { site, base: BASE }, partials);
+    writePage(url, renderDocument(env, { ...data, url, styles: list(data.styles), scripts: list(data.scripts), content }));
     built.push(url);
   }
 

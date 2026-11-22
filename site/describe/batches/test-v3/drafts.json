@@ -1,0 +1,122 @@
+{
+  "promptVersion": "v3",
+  "drafts": [
+    {
+      "id": 18,
+      "description": "A 1979 photograph from Kabardino-Balkaria featuring Hasan Khavpatchev playing the traditional shychepshyne, Zaramuk Qerdengushev, and, standing behind, Qanshobi Batsezhev holding a pkhechech.",
+      "checks": [
+        "Date type is not given. Is 1979 exact? Draft uses \"A 1979 photograph\".",
+        "Positions: the seated man on the left appears to be playing the shychepshyne (so Hasan Khavpatchev), the seated man on the right would be Zaramuk Qerdengushev. Confirm, and add (left)/(right) if correct.",
+        "The pkhechech held by the standing young man is not clearly visible in the image. Confirm.",
+        "Country field is \"Kabardino-Balkaria\" (a region, not a country). Should the draft add \"Russia\"?",
+        "More specific place (town or village)?"
+      ]
+    },
+    {
+      "id": 25,
+      "description": "Tembot Kerashev (1902-1988) was a director of the Adyghe Research Institute of Local History, an associate professor at the Krasnodar Institute, and a researcher in Circassian folklore and literature.",
+      "checks": [
+        "The printed caption reads \"Т. М. Керашев, 1980 г.\" (T. M. Kerashev, 1980), which matches the name and the date taken. The image looks like a magazine or book page; should the description say so?",
+        "No place given beyond Adygea. Where was the photograph taken?"
+      ]
+    },
+    {
+      "id": 45,
+      "description": "A page from a 20th-century publication showing Azheghafe masks: a rare pumpkin mask from the Shapsug area (left) and two Kabardian felt masks, from the collection of the Central Museum of Ethnology.",
+      "checks": [
+        "Spelling: title \"Azheghafe\" used; keywords and context have \"Ajeghafe\".",
+        "Museum name: field \"Музея народоведения\"; caption reads \"Колл. Центр. Музея Народоведения\" (Collection of the Central Museum of Ethnology / Folk Studies). Confirm the English name and whether the masks are still held there.",
+        "Caption to fig. 17 (\"Рис. 17. Маска из тыквы и бараньей шерсти ... Шапсуги, аул Красно-Александровский\") says the pumpkin mask is made with sheep's wool and comes from the Shapsug aul of Krasno-Aleksandrovsky. Add the village?",
+        "Caption to fig. 18 (\"Кабардинские войлочные маски ... с пришитыми кусками бараньей шкуры\") says the felt masks have sewn-on pieces of sheepskin. Add?",
+        "Notes say one felt mask bears a human being symbol; it cannot be made out clearly at this resolution. Which mask?",
+        "Publication title and year? The location Kabardino-Balkaria is left out because the pumpkin mask is from the Shapsug area."
+      ]
+    },
+    {
+      "id": 86,
+      "description": "A 1924 photograph from Tuapse, Russia, showing the fourth Congress of the Black Sea Shapsugs, held on 26-29 August 1924, which adopted a resolution forming the Shapsug National Region of the Black Sea District.",
+      "checks": [
+        "Dates differ: notes say August 26-29; the handwritten caption reads \"IV съезд шапсугов август 1924г г Туапсе 28-29 авг.\" (4th congress of the Shapsugs, August 1924, Tuapse, 28-29 Aug). Draft follows the notes.",
+        "Title spells \"forth\"; draft uses \"fourth\".",
+        "Names of any of the delegates in the group?"
+      ]
+    },
+    {
+      "id": 105,
+      "description": "A 1930 photograph from a wedding in Mala Kechmai, Russia, featuring Shhalakhua Fatimat (left) dancing with the eldest, Katao Hasan (right), after she was chosen as the most beautiful girl of the day, as is customary at every dance.",
+      "checks": [
+        "Place spelling: sub-locality \"Mala Kechmai\" used; notes have \"Maly Kichmay\".",
+        "Positions inferred from the image (woman in white on the left, elderly bearded man on the right). Confirm.",
+        "Date type is not given. Is 1930 exact?",
+        "Context mentions the female costume by Nabze Nibe (Shhalakhua) and a pkhechech; the instrument is not clearly visible. Add the costume maker?"
+      ]
+    },
+    {
+      "id": 131,
+      "description": "A photograph from Hakurynehebl village showing a teacher and pupils in a classroom; it is uncertain whether it was taken in Adygea in 1910 or in Turkey in 1918.",
+      "checks": [
+        "Notes give two stories (Adygea 1910 or Turkey 1918); the fields say 1910 and Adygea. Which is right? If resolved, the opening can become \"A 1910 photograph from Hakurynehebl, Adygea, showing a classroom.\"",
+        "Place spelling: sub-locality \"Hakurynehebl\" used; title and notes have \"Hakurinahabl\"."
+      ]
+    },
+    {
+      "id": 132,
+      "description": "Chesebi Shumaf Beslanovich (1852-1918) was an officer from 1879 and later head of Asokolai town; he was killed by the Bolsheviks in 1918 together with other men.",
+      "checks": [
+        "Place spelling: \"Asokolai\" as in the sub-locality field; the approved description of ID 92 uses \"Assokolay\". Which is preferred?",
+        "Photo date (1915) and photographer (М.Н.Каневцов, Armavir) are not in the draft. Add them?",
+        "There are handwritten marks at the bottom left of the photo that cannot be read. Do they say anything?"
+      ]
+    },
+    {
+      "id": 141,
+      "description": "A photograph from the northern outskirts of Kamennomostsky, Adygea, showing the Chygudj (Khadzhokh) Dolmen, thought to be named for its location near a holy grove and a sacred tree.",
+      "checks": [
+        "Spelling: title \"Chygudj\" used; notes also have \"Chigiwij\" and \"Chygyuj\", context has \"Chyghuydj\".",
+        "Place spelling: sub-locality \"Kamennomostsky\" used; notes have \"Kamennomost hamlet\".",
+        "Period is unknown, so no date is given. When was the photograph taken?"
+      ]
+    },
+    {
+      "id": 158,
+      "description": "Three boxwood knives and a bone knife (top to bottom), tools for weaving on boards, from the collection of the Lazarevskoye Ethnographic Museum, Sochi, Russia.",
+      "checks": [
+        "Notes say the museum holds them in its collection; are they on display (\"displayed at\")?",
+        "The third knife has writing on the handle that cannot be read clearly. Inventory number?",
+        "Notes add that the top two have solid pommels; left out for length.",
+        "Period is unknown, so no date is given."
+      ]
+    },
+    {
+      "id": 171,
+      "description": "A 1926 photograph from Syria, in the Circassian diaspora, featuring Ahmad Nami (1873-1963), the second President of Syria and its fifth Prime Minister, with members of his government.",
+      "checks": [
+        "Which man is Ahmad Nami? Probably the seated man in the middle, but not stated.",
+        "Names of the five standing government members?",
+        "City (Damascus?) not given in the fields.",
+        "Date type is not given. Is 1926 exact?",
+        "Notes also give his full name (Ahmad Ibrahim Fakhri Nami, Damat Ahmet Nami) and his marriage to Aysha, daughter of Sultan Abdul Hamid II; left out for length."
+      ]
+    },
+    {
+      "id": 184,
+      "description": "An illustration by Christian Gottfried Heinrich Geissler, dating to 1793, titled Russian National Costumes, showing armed Circassian nobles, Circassian commoners and a Circassian prince's daughter among other Caucasus peoples, drawn during Peter Simon Pallas's expedition.",
+      "checks": [
+        "Art type field says \"Painting\", but the image is a printed plate (engraving or lithograph). Which word to use?",
+        "Title from the plate: \"Russische National-Trachten. Tatarische Völker. Taf. 5\" (Russian National Costumes. Tatar Peoples. Plate 5). Use this or the archive title \"Fashion and armory\"?",
+        "Figures from the printed key: \"1. 2. Tscherkässische Edle, gewaffnet\" (armed Circassian nobles), \"3. 4. Gemeine Tscherkessen\" (Circassian commoners), \"5. Tscherkessische Fürstentochter\" (Circassian prince's daughter); the others are \"Türkmane mit Bogen\" (Turkmen with bow), \"Frau und Mädchen der Kundorofskischen Tataren\" (Kundorovsk Tatar woman and girl) and \"Zwey gemeine Inguschen\" (two Ingush commoners).",
+        "Handwritten \"Х. Гейслер\" at top left matches the creator field.",
+        "Notes give no expedition year; 1793 is from the date fields (the book covers 1793 and 1794)."
+      ]
+    },
+    {
+      "id": 197,
+      "description": "A 1951 photograph from Damascus, Syria, in the Circassian diaspora, showing a group dance (Wdj) by three couples in Circassian dress at the Alsharq Hotel.",
+      "checks": [
+        "Arabic caption: \"دمشق - ١٩٥١ لقطة من الرقص الشركسي في حفلة أقيمت في فندق الشرق\" (Damascus - 1951, a shot of Circassian dancing at a party held at the al-Sharq [Orient] Hotel). Confirms the year, city and hotel.",
+        "Date type is not given; the year 1951 is confirmed by the caption.",
+        "Names of the dancers? Is this a dance troupe (as the title says) or a party?"
+      ]
+    }
+  ]
+}

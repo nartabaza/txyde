@@ -1,0 +1,239 @@
+{
+  "batch": "test-v3",
+  "sheet": "PhotoArchive_Master_Sheet14112026.xlsx",
+  "items": [
+    {
+      "id": 18,
+      "title": "Zaramuk Qerdengushev and Hasan Khavpatchev",
+      "period": "20th",
+      "dateTaken": "1979",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "names": "Hasan Khavpatchev, Zaramuk Qerdengushev, and standing Qanshobi Batsezhev",
+      "originalNames": "КъардэнгъущӀ ПӀатӀурэ и къуэ Зырамыку, Хьэхъупащ1э Хьэсэн, ШыкӀэпшынэ, пхъэк1ыч (пхъэц1ыч),",
+      "dignitaries": "Hasan Khavpatchev, Zaramuk Qerdengushev",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "book": "Circassian Songs and Instrumental Folk-Tunes Vol. 2 1981 by V.H. Baragunov and Z.P. Qardangushev",
+      "notes": "Hasan Khavpatchev playing on the traditional shychepshyne instrument, Zaramuk Qerdengushev, and standing, Qanshobi Batsezhev holding a traditional pkhechech instrument.",
+      "context": {
+        "fashion": "Tsai, Jana,"
+      },
+      "image": "images/18.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/18_KBR_20th_Zaramuk+Qerdengushev+and+Hasan+Khavpatchev.webp"
+    },
+    {
+      "id": 25,
+      "title": "Tembot Kerashev",
+      "period": "20th",
+      "dateTaken": "1980",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Adygea",
+      "names": "Tembot Kerashev",
+      "originalNames": "КӀэрэщэ Тембот",
+      "dignitaries": "Tembot Kerashev",
+      "dignitaryBorn": "1902",
+      "dignitaryDied": "1988",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "notes": "A director of the Adyghe Research Institute of Local History, an associate professor at the Krasnodar Institute, and a researcher in Circassian folklore and literature.",
+      "image": "images/25.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/25_ADG_20th_Tembot+Kerashev.webp"
+    },
+    {
+      "id": 45,
+      "title": "Azheghafe",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "originalNames": "Ажэгъафэ",
+      "museum": "Музея народоведения",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "keywords": "Animism, Masks, Goat mask, Ajeghafe, Pumpkin mask",
+      "notes": "A rare mask made of pumpkin from shapsoghu area besides two felt masks from Kabardian area, one with a human being symbol on it which is seen on other ajeghafe masks too",
+      "context": {
+        "ornaments": "Human being symbol on a mask",
+        "ritual": "Ajeghafe",
+        "fashion": "Ajeghafe mask"
+      },
+      "image": "images/45.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/45_KBR_20th_Azheghafe.webp"
+    },
+    {
+      "id": 86,
+      "title": "The forth Shapsug congress",
+      "period": "20th",
+      "dateTaken": "1924",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "originalNames": "Шапсугъу",
+      "tribe": "Shapsugh",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "keywords": "Shapsug",
+      "notes": "4th Congress of the Black Sea Shapsugs. August 26-29, 1924, Tuapse. Adopted a resolution on the formation of the Shapsug National Region of the Black Sea District.",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/86.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/86_RUS_20th_The+forth+Shapsug+congress.webp"
+    },
+    {
+      "id": 105,
+      "title": "Katao Hasan and Shhalakhua Fatimat",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Mala Kechmai",
+      "names": "Shhalakhua Fatimat, Katao Hasan",
+      "originalNames": "Кетао Хасан, Шхалахова Фатимет",
+      "notes": "Wedding in the village of Maly Kichmay. Shhalakhua Fatimat is dancing withe eldest Katao Hasan as she was chosen as the most beautiful girl of the day in a usual ritual happenes in every dance.",
+      "context": {
+        "ornaments": "Female costume by Nabze Nibe (SHhalakhua)",
+        "fashion": "Traditional male and female costumes",
+        "instrument": "Pkhetarq (Pkhechich)",
+        "other": "Dance in a wedding"
+      },
+      "image": "images/105.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/105_RUS_20th_Katao+Hasan+and+Shhalakhua+Fatimat.webp"
+    },
+    {
+      "id": 131,
+      "title": "Classroom in Hakurinahabl",
+      "period": "20th",
+      "dateTaken": "1910",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Shovgenovsky District",
+      "sublocality": "Hakurynehebl",
+      "originalNames": "Хьэкурынэхьабл",
+      "keywords": "Class, teacher, students",
+      "notes": "The picture has been taken in Hakurinahabl village, but there are two stories whether it is in Adygea 1910 or in Turkey 1918",
+      "context": {
+        "fashion": "Traditional male and female costumes",
+        "other": "Education, School, Classroom, teacher, Students"
+      },
+      "image": "images/131.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/131_ADG_20th_Classroom+in+Hakurinahabl+.webp"
+    },
+    {
+      "id": 132,
+      "title": "Chesebi Shumaf Beslanovich",
+      "period": "20th",
+      "dateTaken": "1915",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Teuchezhsky District",
+      "sublocality": "Asokolai",
+      "photographer": "М.Н.Каневцов в г. Армавире",
+      "names": "Chesebi Shumaf Beslanovich",
+      "originalNames": "Чесебиев Шумаф Бесланович",
+      "dignitaries": "Chesebi Shumaf Beslanovich",
+      "dignitaryBorn": "1852",
+      "dignitaryDied": "1918",
+      "keywords": "Killed by Bolshoviks",
+      "notes": "He was an officer from 1879 and then he became the head of Asokolai town, was killed by the Bolshoviks in 1918 with other men.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Photo Session"
+      },
+      "image": "images/132.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/132_ADG_20th_Chesebi+Shumaf+Beslanovich.webp"
+    },
+    {
+      "id": 141,
+      "title": "Dolmen in Chygudj",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Maykop",
+      "sublocality": "Kamennomostsky",
+      "originalNames": "Чъыгыудж, Хьаджэкъо",
+      "notes": "Khadzhokh or Chigiwij Dolmen [Chygyuj] in the northern outskirts of the Kamennomost hamlet, Maikop District, Adigea. It is thought that the dolmen received its name from its location near a holy grove and a sacred tree",
+      "context": {
+        "archaeology": "Dolmen Chyghuydj in Kaminomost"
+      },
+      "image": "images/141.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/141_ADG_nAn_Dolmen+in+Chygudj.webp"
+    },
+    {
+      "id": 158,
+      "title": "Knives",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Lazarevskoye",
+      "museum": "этнографического музея пос. Лазаревского",
+      "notes": "From top to bottom. Three boxwood knives (the top two with solid pommels) and a bone knife—tools for weaving on boards. From the collection of the Lazarevskoye Ethnographic Museum",
+      "context": {
+        "other": "Knives"
+      },
+      "image": "images/158.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/158_RUS_nAn_Knives.webp"
+    },
+    {
+      "id": 171,
+      "title": "Syrian president Ahmad Nami",
+      "period": "20th",
+      "dateTaken": "1926",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Ahmad Nami",
+      "dignitaries": "Ahmad Nami",
+      "dignitaryBorn": "1873",
+      "dignitaryDied": "1963",
+      "notes": "Ahmad Nami is with his government members. Ahmad Ibrahim Fakhri Nami (Damat Ahmet Nami). Married to Aysha, the daughter of Ottoman Sultan Abdul Hamid II. He was a prominent political figure who served as the second President of Syria and its fifth Prime Minister.",
+      "context": {
+        "other": "President"
+      },
+      "image": "images/171.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/171_SYR_20th_Syrian+president+Ahmad+Nami.webp"
+    },
+    {
+      "id": 184,
+      "title": "Fashion and armory",
+      "period": "18th",
+      "dateTaken": "1793",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "artType": "Painting",
+      "creator": "Christian Gottfried Heinrich Geissler - Гейслер",
+      "artDate": "1793",
+      "artOwner": "Peter Simon Pallas",
+      "book": "Travels Through The Southern Provinces Of The Russian Empire, In The Years 1793 And 1794",
+      "inscription": "Script",
+      "inscriptionLanguage": "German",
+      "notes": "Peter Simon Pallas's expedition to Caucasus with Geissler who drew nature, people, animal, and plants.",
+      "image": "images/184.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/184_RUS_18th_Fashion+and+armory.webp"
+    },
+    {
+      "id": 197,
+      "title": "Damascus dancing troupe",
+      "period": "20th",
+      "dateTaken": "1951",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "tribe": "All",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "notes": "A group dance (Wdj) in the (Alsharq) hotel in Damascus",
+      "context": {
+        "fashion": "Traditional male and female costumes",
+        "dance": "Wdj"
+      },
+      "image": "images/197.jpg",
+      "imageUrl": "https://cdn.txyde.com/large/03_Root_Final/197_SYR_20th_Damascus+dancing+troupe.webp"
+    }
+  ]
+}

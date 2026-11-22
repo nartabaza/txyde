@@ -1,0 +1,314 @@
+/* ==========================================================================
+   Description review page (/review/). Built from the gallery and viewer styles in gallery.css:
+   each card is a small, always-open viewer (photo stage + details column).
+   ========================================================================== */
+
+.review__intro {
+  max-width: 60ch;
+  margin: 0 auto;
+  color: var(--color-text-muted);
+}
+
+.review__message,
+.review__empty {
+  margin: 24px auto;
+  color: var(--color-text-muted);
+}
+
+/* ---- Review key -------------------------------------------------------------- */
+
+.review__key {
+  width: min(420px, 100%);
+  margin: 28px auto;
+}
+.review__key-row {
+  display: flex;
+  gap: 10px;
+}
+.review__input,
+.review-card__text,
+.review-card__comment {
+  width: 100%;
+  border: 1px solid rgb(75 85 99 / 0.55);
+  border-radius: var(--radius-sm);
+  background: rgb(5 7 11 / 0.72);
+  color: var(--color-text);
+  font: inherit;
+}
+.review__input {
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+}
+.review__key-error {
+  margin-top: 10px;
+  color: var(--color-rose);
+}
+
+/* ---- Panel: batches, filter, progress ----------------------------------------------- */
+
+.review__panel .filter-button--primary {
+  margin-bottom: 0;
+}
+.review__progress {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgb(75 85 99 / 0.28);
+}
+.review__progress-text {
+  color: #c9d0d8;
+  font-size: 0.92rem;
+}
+.review__progress-bar {
+  height: 4px;
+  margin-top: 8px;
+  border-radius: var(--radius-pill);
+  background: rgb(255 255 255 / 0.08);
+  overflow: hidden;
+}
+.review__progress-bar span {
+  display: block;
+  height: 100%;
+  background: var(--color-forest);
+  transition: width var(--dur) var(--ease);
+}
+.review__keys-hint {
+  margin-top: 10px;
+  color: #8d949d;
+  font: 12px / 1.6 var(--font-sans);
+}
+kbd {
+  padding: 1px 5px;
+  border: 1px solid #343a42;
+  border-radius: var(--radius-xs);
+  font: inherit;
+}
+
+/* ---- Review cards ----------------------------------------------------------------- */
+
+.review__list {
+  display: grid;
+  gap: 28px;
+  text-align: left;
+}
+
+.review-card {
+  --details-w: 440px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--details-w);
+  min-height: min(78vh, 760px);
+  overflow: hidden;
+  border: 1px solid rgb(75 85 99 / 0.45);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  box-shadow: 0 14px 36px rgb(0 0 0 / 0.22);
+  scroll-margin-top: 70px; /* clear of the site's sticky header bar */
+  transition: border-color var(--dur-fast) ease, box-shadow var(--dur-fast) ease;
+}
+.review-card:focus {
+  outline: none;
+}
+.review-card.is-current {
+  border-color: rgb(255 255 255 / 0.28);
+  box-shadow: 0 0 0 3px rgb(47 95 107 / 0.35), 0 14px 36px rgb(0 0 0 / 0.22);
+}
+
+.review-card__media {
+  /* Stays in view while the details column scrolls past */
+  position: sticky;
+  top: 60px;
+  align-self: start;
+  height: min(78vh, 760px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #000;
+  cursor: zoom-in;
+}
+/* Fill the stage, scaling small scans up, so faces and inscriptions can be read. */
+.review-card__image {
+  width: 100%;
+  height: min(72vh, 720px);
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.review-card__details {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 30px 24px;
+  border-left: 1px solid rgb(255 255 255 / 0.07);
+  background: #0a0e0c;
+}
+.review-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  color: #8d949d;
+  font: 12px / 1.2 var(--font-sans);
+  letter-spacing: 0.06em;
+}
+.review-card__status {
+  padding: 4px 10px;
+  border: 1px solid #343a42;
+  border-radius: var(--radius-pill);
+  color: #c9d0d8;
+}
+.review-card__status[data-status="approved"] { border-color: var(--color-forest); background: rgb(47 107 69 / 0.35); color: #e6efe9; }
+.review-card__status[data-status="edited"]   { border-color: var(--color-teal);   background: rgb(47 95 107 / 0.4);  color: #e6eef0; }
+.review-card__status[data-status="rejected"] { border-color: var(--color-brick);  background: rgb(107 47 47 / 0.4);  color: #f1e6e6; }
+
+.review-card__title {
+  font-size: 1.5rem;
+}
+.review-card__meta {
+  margin-top: 18px;
+  gap: 14px 24px;
+}
+.review-card__tags {
+  margin-top: 16px;
+}
+.review-card__source {
+  margin-top: 16px;
+  color: #c9d0d8;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.review-card__source summary {
+  color: #8d949d;
+  font: 11px / 1.2 var(--font-sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.review-card__source p {
+  margin-top: 8px;
+}
+.review-card__source strong {
+  color: #e6e8ec;
+  font-weight: 600;
+}
+
+.review-card__label {
+  display: block;
+  margin: 22px 0 8px;
+  color: #8d949d;
+  font: 11px / 1.2 var(--font-sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.review-card__changed {
+  margin-left: 6px;
+  padding: 2px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--color-teal);
+  color: #f2f7f8;
+  letter-spacing: 0.08em;
+}
+.review-card__text {
+  min-height: 150px;
+  field-sizing: content; /* grows with the draft (Chrome, Edge, Safari 26+) */
+  padding: 12px 14px;
+  font-size: 15.5px;
+  line-height: 1.7;
+  resize: vertical;
+}
+.review-card__text:focus,
+.review-card__comment:focus,
+.review__input:focus {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 1px;
+}
+.review-card__count {
+  margin-top: 4px;
+  color: #8d949d;
+  font: 12px / 1.4 var(--font-sans);
+  text-align: right;
+}
+
+.review-card__checks ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+  color: #e5d0be; /* sand: something to look at, without alarm */
+  font-size: 14px;
+  line-height: 1.55;
+}
+.review-card__checks li + li {
+  margin-top: 6px;
+}
+
+.review-card__more {
+  margin-top: 18px;
+  color: #c9d0d8;
+  font-size: 14px;
+}
+.review-card__more summary {
+  cursor: pointer;
+}
+.review-card__more summary span {
+  color: #8d949d;
+}
+.review-card__reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 10px;
+}
+.review-card__comment {
+  padding: 8px 12px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.review-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 22px;
+}
+.review-card__approve {
+  margin: 0;
+  border-color: rgb(255 255 255 / 0.16);
+  background: var(--color-forest);
+  color: #f2f7f8;
+}
+.review-card__save {
+  color: #8d949d;
+  font: 12.5px / 1.4 var(--font-sans);
+}
+
+@media (max-width: 959px) {
+  .review-card {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .review-card__details {
+    border-left: 0;
+    border-top: 1px solid rgb(255 255 255 / 0.07);
+  }
+  .review-card__media {
+    position: static;
+    height: auto;
+  }
+  .review-card__image {
+    height: auto;
+    max-height: 60vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .review-card__details {
+    padding: 20px 16px;
+  }
+  .review-card__media {
+    padding: 12px;
+  }
+  .review__keys-hint {
+    display: none;
+  }
+}

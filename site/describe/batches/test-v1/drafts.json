@@ -1,0 +1,123 @@
+{
+  "promptVersion": "v1",
+  "drafts": [
+    {
+      "id": 18,
+      "description": "A 20th-century photograph from Kabardino-Balkaria, featuring Zaramuk Qerdengushev and Hasan Khavpatchev seated in Circassian dress, with a young man standing behind them. The man on the left plays a bowed string instrument.",
+      "checks": [
+        "Which man is Zaramuk Qerdengushev and which is Hasan Khavpatchev?",
+        "Name of the young man standing behind?",
+        "Name of the instrument (shichepshin?) and should it be glossed?",
+        "Exact year? Draft uses \"20th-century\".",
+        "More specific place in Kabardino-Balkaria?"
+      ]
+    },
+    {
+      "id": 30,
+      "description": "A 20th-century painting titled Spring Equinox Celebration, showing an elderly bearded man raising two bowls under a large tree hung with ribbons, surrounded by men, women and children in Circassian dress.",
+      "checks": [
+        "Artist and year of the painting?",
+        "Is the period (20th) the date of the painting? Draft treats it as such.",
+        "Maykop left out as it may be where the painting is kept, not what it shows. Confirm."
+      ]
+    },
+    {
+      "id": 45,
+      "description": "A 20th-century printed page with drawings of Azheghafe masks, showing a bearded pumpkin mask (left) and two goat masks (right).",
+      "checks": [
+        "Source publication and year?",
+        "The Russian captions on the page say the left mask is made of pumpkin and sheep's wool, from the Shapsug aul of Krasno-Aleksandrovsky, and the right ones are Kabardian felt masks with sheepskin and tin plates, both used at weddings and festivals, from the Central Museum of Ethnology collection. Add any of this?",
+        "Spelling: title has \"Azheghafe\", keywords have \"Ajeghafe\". Which to use, and add a short gloss?",
+        "Country is Kabardino-Balkaria, but the left mask's caption names a Shapsug village. Left out of the draft; confirm the place."
+      ]
+    },
+    {
+      "id": 65,
+      "description": "A 1969 photograph from Damascus, Syria, in the Circassian diaspora, taken at the Circassian Benevolent Association, featuring Zouher, Ferzat, Nabil, Nihad, Adnan, Shareef, Hamadah and Rofa-at.",
+      "checks": [
+        "Year and names taken from the inscription on the photo (\"Year 1969 At CBA Syria\"). Confirm.",
+        "Surnames of the eight men?",
+        "Which man is which? The inscription does not give positions.",
+        "Is the Association in Damascus? Region is Damascus, the inscription says only Syria."
+      ]
+    },
+    {
+      "id": 109,
+      "description": "A 20th-century photograph from Aleppo, Syria, in the Circassian diaspora, featuring three men in the traditional male costume (Tsai) walking along a street, each with a dagger at his belt.",
+      "checks": [
+        "Keyword says Parade. Was this taken during a parade? Not stated in the draft.",
+        "Names of the three men?",
+        "Exact year? Draft uses \"20th-century\".",
+        "Is this in the city of Aleppo or elsewhere in the region?",
+        "Are the daggers qamas? Draft says \"dagger\"."
+      ]
+    },
+    {
+      "id": 116,
+      "description": "A 1904 photograph from Hakurynehebl, Adygea, showing a gathering of Circassians held to send off Circassian volunteers to the Russo-Japanese War. Several dozen men, most in Circassian dress and many holding swords, pose in rows, with a boy seated in the front row.",
+      "checks": [
+        "Year and event taken from the Russian caption on the mount (congress of Circassians of the former Maikop department, Kuban oblast, 1904, in aul Khakurinokhabl). Confirm.",
+        "Names of any of the men, such as the officers in the middle?"
+      ]
+    },
+    {
+      "id": 129,
+      "description": "A 20th-century photograph from Krasnodar, Russia, featuring members of the Shapsugh revolutionary committee, eight standing and six seated in front, in a photographer's studio.",
+      "checks": [
+        "Names of the fourteen men?",
+        "Exact year? Draft uses \"20th-century\".",
+        "Are all fourteen people committee members?",
+        "Spelling: title has \"Shapsugh\", style guide uses \"Shapsug\". Which to use?",
+        "More specific place than Krasnodar?"
+      ]
+    },
+    {
+      "id": 131,
+      "description": "A 20th-century photograph from Hakurynehebl, Adygea, featuring a teacher standing behind girls and boys seated at wooden desks, with pictures pinned along the classroom wall.",
+      "checks": [
+        "Exact year? Draft uses \"20th-century\".",
+        "Name of the teacher?",
+        "Name of the school?",
+        "Title spells the village \"Hakurinahabl\"; draft uses the sub-locality spelling \"Hakurynehebl\"."
+      ]
+    },
+    {
+      "id": 144,
+      "description": "A 20th-century photograph from Amman, Jordan, in the Circassian diaspora, featuring Abida Wmar. A woman in a white headscarf speaks into a microphone held by a second woman, with a tape recorder on the table.",
+      "checks": [
+        "Which woman is Abida Wmar?",
+        "Name of the other woman?",
+        "Is this an interview being recorded? What was it for?",
+        "Exact year? Draft uses \"20th-century\"."
+      ]
+    },
+    {
+      "id": 158,
+      "description": "Four knives displayed in Lazarevskoye, Sochi, Russia: three carved from wood, two of them with a hooked piece hung from a ring, and one with a metal blade.",
+      "checks": [
+        "Name of the museum or collection? Draft says only \"displayed in Lazarevskoye\".",
+        "Is Lazarevskoye where the knives are kept, or where they come from?",
+        "Period or date? Not known.",
+        "Are the three pale knives wood? Judged from the photo.",
+        "What were the knives used for? The third has a handwritten label."
+      ]
+    },
+    {
+      "id": 182,
+      "description": "A 19th-century photograph from the outskirts of Tuapse, Russia, showing a house with a thatched roof, with a person seated against its wall.",
+      "checks": [
+        "\"Outskirts of Tuapse\" taken from the Russian caption on the card, which also calls it Circassian (word partly hidden). Confirm.",
+        "Exact year? Draft uses \"19th-century\"; it is printed as a postcard, which may be later.",
+        "Who is the seated person?"
+      ]
+    },
+    {
+      "id": 199,
+      "description": "A 20th-century photograph of Ein Ziwan in the Golan Heights, Syria, in the Circassian diaspora, showing houses and trees below a hill, taken before 1967.",
+      "checks": [
+        "\"Before 1967\" taken from the caption printed beside the photo. Exact year?",
+        "Source of the photo? It appears to be a scan from a book."
+      ]
+    }
+  ]
+}

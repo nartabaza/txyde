@@ -1,0 +1,123 @@
+{
+  "promptVersion": "v2",
+  "drafts": [
+    {
+      "id": 18,
+      "description": "A 20th-century photograph from Kabardino-Balkaria, featuring Zaramuk Qerdengushev and Hasan Khavpatchev, seated, one playing a bowed string instrument, with a young man standing behind.",
+      "checks": [
+        "Which of the two seated men is Zaramuk Qerdengushev and which is Hasan Khavpatchev?",
+        "Who is the young man standing behind?",
+        "Name of the instrument (shichepshin?)? Draft uses the plain words \"bowed string instrument\".",
+        "Exact year? Draft uses \"20th-century\".",
+        "More specific place in Kabardino-Balkaria?"
+      ]
+    },
+    {
+      "id": 30,
+      "description": "A 20th-century painting titled Spring Equinox Celebration, showing a white-bearded elder raising two bowls under a large tree, surrounded by people in Circassian dress.",
+      "checks": [
+        "Artist and exact year? Not in the data.",
+        "Location is Maykop: is that where the painting is kept, or does it show a celebration in Maykop? Draft leaves the place out.",
+        "Is the central elder a specific figure (for example a priest or elder of a rite)? Not stated in the data."
+      ]
+    },
+    {
+      "id": 45,
+      "description": "A page from a 20th-century publication showing three masks: an Azheghafe mask of pumpkin and sheep's wool (left) and two Kabardian felt masks.",
+      "checks": [
+        "Facts from the printed captions (small print, my reading may be imperfect). Fig. 17: \"Маска из тыквы и бараньей шерсти — «аджэгафэ». Употребляется на чапщах. Шапсуги, аул Красно-Александровский. (Колл. Центр. Музея Народоведения).\" (Mask of pumpkin and sheep's wool, \"adzhegafe\", used at chapsh; Shapsugs, aul Krasno-Aleksandrovsky; collection of the Central Museum of Ethnology.) Fig. 18: \"Кабардинские войлочные маски … с пришитыми кусками бараньей шкуры; украшены вырезанными жестяными пластинками. Употребляются на общественных праздниках и чапщах. (Колл. Центр. Музея Народоведения).\" (Kabardian felt masks with sewn-on pieces of sheepskin, decorated with cut tin plates, used at public festivals and chapsh.)",
+        "Caption for the pumpkin mask says Shapsugs, aul Krasno-Aleksandrovsky, but the metadata country is Kabardino-Balkaria. Which is right? Draft gives no place.",
+        "Spelling \"Azheghafe\" taken from the title (keywords also give \"Ajeghafe\", caption gives \"аджэгафэ\").",
+        "Title and name of the publication, and its year? Draft uses \"20th-century\".",
+        "Keywords mention a goat mask: are the two felt masks goat masks? Not stated on the page.",
+        "Add that the masks were in the Central Museum of Ethnology collection, and that they were used at chapsh? Left out for length."
+      ]
+    },
+    {
+      "id": 65,
+      "description": "A 1969 photograph from Damascus, Syria, in the Circassian diaspora, featuring Zouher, Ferzat, Nabil, Nihad, Adnan, Shareef, Hamadah and Rofa-at at the Circassian Benevolent Association.",
+      "checks": [
+        "Names and year come from the writing on the photo: \"Zouher, Ferzat, Nabil, Nihad, Adnan, Shareef, Hamadah & Rofa-at / Year 1969 At CBA Syria\". Confirm.",
+        "\"CBA\" read as the Circassian Benevolent Association (from the title). Is it in Damascus city?",
+        "Which man is which? Eight men are visible in two rows; the order of the names may not follow the positions.",
+        "Surnames of the eight men?"
+      ]
+    },
+    {
+      "id": 109,
+      "description": "A 20th-century photograph from Aleppo, Syria, in the Circassian diaspora, featuring three men in the traditional male costume (Tsai) walking in line along a street.",
+      "checks": [
+        "Exact year? Draft uses \"20th-century\".",
+        "Names of the three men?",
+        "Keyword is \"Parade\": was this taken during a parade? Not visible or stated, so left out.",
+        "Is the place Aleppo city, or only the region?"
+      ]
+    },
+    {
+      "id": 116,
+      "description": "A 1904 photograph from Hakurynehebl, Adygea, showing a gathering of Circassians of the former Maykop Department of the Kuban Oblast, held to send off Circassian volunteers to the Russo-Japanese War.",
+      "checks": [
+        "Year, event and place come from the caption on the mount: \"Съезд черкесов бывш. Майкопск. Отд. Кубанск. Обл. в 1904 г. в ауле Хакуринохабль по случаю отправки черкесов-добровольцев на Русско-Японскую войну.\" (Gathering of Circassians of the former Maykop Department of the Kuban Oblast in 1904 in the aul of Khakurinokhabl, on the occasion of sending off Circassian volunteers to the Russo-Japanese War.) Confirm.",
+        "Place spelled \"Hakurynehebl\" as in the sub-locality; the caption spells it \"Хакуринохабль\".",
+        "Names of any of the men, for example the officers seated in the middle?"
+      ]
+    },
+    {
+      "id": 129,
+      "description": "A 20th-century photograph from Krasnodar, Russia, featuring members of the Shapsugh revolutionary committee, seated and standing in two rows in a studio.",
+      "checks": [
+        "Exact year? Draft uses \"20th-century\".",
+        "Names of the men? Fourteen are visible (eight standing, six seated).",
+        "More specific place than the Krasnodar region?",
+        "\"Shapsugh\" spelled as in the title; the style guide spells it \"Shapsug\". Which should be used?"
+      ]
+    },
+    {
+      "id": 131,
+      "description": "A 20th-century photograph from Hakurynehebl, Adygea, featuring a teacher and his pupils, girls in front and boys behind, seated at desks in a classroom.",
+      "checks": [
+        "Place spelled \"Hakurynehebl\" as in the sub-locality; the title spells it \"Hakurinahabl\".",
+        "Exact year? Draft uses \"20th-century\".",
+        "Name of the teacher, or of the school?"
+      ]
+    },
+    {
+      "id": 144,
+      "description": "A 20th-century photograph from Amman, Jordan, in the Circassian diaspora, featuring Abida Wmar and another woman at a desk, one holding a microphone to the other beside a tape recorder.",
+      "checks": [
+        "Which woman is Abida Wmar: the woman in the white headscarf, or the woman holding the microphone?",
+        "Who was Abida Wmar? No notes, so the draft does not say. A short line in the past tense could open the description.",
+        "Name of the other woman, and what was being recorded (an interview?)?",
+        "Exact year? Draft uses \"20th-century\"."
+      ]
+    },
+    {
+      "id": 158,
+      "description": "Four knives from Lazarevskoye, Sochi, Russia, three of them with blade and handle carved in one piece.",
+      "checks": [
+        "Which museum are they displayed at? Not in the data.",
+        "Date or period? Period is unknown, so the draft gives none.",
+        "Material: the top three look like wood (or bone?); the bottom one has a metal blade. Confirm before adding.",
+        "There is handwriting on the handle of the third knife (something like \"офиовьч\", hard to read). Is it a name or catalogue number?"
+      ]
+    },
+    {
+      "id": 182,
+      "description": "A 19th-century postcard showing a Circassian house with a thatched roof near Tuapse, Russia, with a person seated beside it.",
+      "checks": [
+        "\"Circassian\" and \"near Tuapse\" come from the printed title: \"Окрестн. Туапсе. Черкесская сакля\" (Environs of Tuapse. Circassian house [saklya]). Confirm.",
+        "Period is 19th century; is that right for this postcard, or is it early 20th century?",
+        "Use the term \"saklya\" from the caption? Not in the style guide, so the plain word \"house\" is used."
+      ]
+    },
+    {
+      "id": 199,
+      "description": "A photograph taken before 1967 from Ein Ziwan, Syria, in the Circassian diaspora, showing houses of the town in the Golan Heights below a hill.",
+      "checks": [
+        "\"Before 1967\" comes from the printed caption: \"عين زيوان قبل عام ١٩٦٧.\" / \"Ein Ziwan before 1967.\" Confirm.",
+        "The image is a scanned page from a publication with a caption. Name of the publication? Draft treats it as a photograph.",
+        "Exact year?"
+      ]
+    }
+  ]
+}
