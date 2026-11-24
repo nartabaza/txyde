@@ -1,0 +1,950 @@
+{
+  "promptVersion": "v4",
+  "drafts": [
+    {
+      "id": 1117,
+      "description": "An oil sketch by Nikolai Alexandrovich Yaroshenko, dating to 1880, titled Kabardinka, showing a Kabardian woman in the traditional female costume with a tall cylindrical hat, held at the Poltava Regional Art Museum.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Museum name: the museum field says Poltava Art Museum, the notes say Poltava Regional Art Museum. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1116,
+      "description": "A page from a 1908 publication showing a Kabardian gelding from the Caucasus, two arshins (142 cm) tall, held by a man in a long Circassian coat and a tall fur hat.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "Location is \"Diaspora\" but the country is Russia (Saint-Petersburg). Which is right?"
+        },
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The photographer field and the notes give V. P. Lozinsky, but the caption reads \"Съ фотографіи, доставленной Есауломъ Собственнаго Его Величества конвоя В. П. Логвиновымъ\" (from a photograph supplied by Esaul V. P. Logvinov of His Majesty's Own Convoy); the German line has \"W. P. Logwinoff\". Lozinsky or Logvinov? Draft names no photographer."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Кабардинская лошадь. (Кавказъ). Меринъ, ростъ 2 арш.\" (Kabardian horse (Caucasus). Gelding, height 2 arshins); the German and French lines give \"1 m. 42 cm\". The height in the draft comes from here and the notes."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The plate is signed lower left \"Э. Сулиманъ-Грудзинскій 1907\" (E. Suliman-Grudzinsky, 1907), so it may be a drawing or a retouched print after the photograph. Confirm before adding."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Who is the man holding the horse?"
+        }
+      ]
+    },
+    {
+      "id": 1115,
+      "description": "A 19th-century lithograph by H. Schenck, titled Tscherkesse (Circassian), showing a Circassian (Kabardin) horse beside a mountain horseman in a heavy wool burka (cloak), from a book on Russian horse breeds published in Halle.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Art date is 1880, but date taken and the notes say 1881. Which year? Draft uses \"19th-century\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Title under the plate: \"Tscherkesse.\" (Circassian). The small printer's line at lower right looks like \"Druck v. E. A. Funke, Leipzig\" but is not reliably legible."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out per the style guide: the book (Carl Freytag, Russlands Pferde-Racen, Halle, 1881). Add?"
+        }
+      ]
+    },
+    {
+      "id": 1114,
+      "description": "A photograph dating to 1871 - 1890, from Loovsky aul, an Abaza village now called Krasny Vostok, Karachay-Cherkessia, featuring Hadji-Khan Dzhandarov and a companion seated together on one horse, in traditional male and female costumes.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Caption: \"3504 Кубанская область. Лоовскій аулъ. [?] Джандарова, Хаджи-ханъ верхомъ и Ло[...]\" (No. 3504, Kuban Oblast, Loovsky aul. ... Dzhandarova, Hadji-Khan on horseback and Lo...). The word before \"Джандарова\" is hidden by a mark and the end is cut off. Is Hadji-Khan the young man in front or the girl in the tall hat behind him? The notes call the second rider a female companion."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the companion?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: photographer Dmitry Yermakov, and prints and negatives kept at ROSPHOTO, St. Petersburg. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1113,
+      "description": "A photograph dating to 1870 - 1890, from Kumsko-Loovsky aul, now Krasny Vostok, Karachay-Cherkessia, featuring Kambot Loov and the girl Khimsad Loov riding together on one horse, Kambot in front.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Куб. обл. Лоовскій аулъ. Ѣзда Абазинцевъ, мужчина Кампотъ и дѣвушка Химса[дъ]\" (Kuban Oblast, Loovsky aul. Abazins riding, the man Kampot and the girl Khimsad). Handwritten below in Hungarian: \"Abazinek, Kubán vidék, loovi kerület\" (Abazins, Kuban region, Loov district)."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The caption spells the man's name \"Кампотъ\" (Kampot); the title has Kambot. Draft uses the title."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Notes: some sources say Kambot is Khimsad's father. Add if confirmed?"
+        }
+      ]
+    },
+    {
+      "id": 1112,
+      "description": "A photograph dating to 1870 - 1890, from Kumsko-Loovsky aul, now Krasny Vostok, Karachay-Cherkessia, featuring Khimsad Loov, an Abazin girl from the Loov family, standing beside a saddle, kept at the Russian Museum of Ethnography, St. Petersburg.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "ID 1111 is a postcard print of this same photograph (\"Types de Caucase. № 24\"). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"№ 3502. Куб. область. Лоовскій аулъ. Абазинка изъ фамиліи Лоова, дѣвушка Х[...]\" (No. 3502. Kuban Oblast, Loovsky aul. An Abazin woman from the Loov family, the girl Kh...); the end is cut off. Handwritten \"212-20\" at lower left and a mirror stamp along the top edge."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: the negative was acquired by A. A. Miller and indexed into the Ethnographic Department of the Russian Museum of Emperor Alexander III in 1913. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1111,
+      "description": "A postcard from the series Types de Caucase (Caucasian types), No. 24, showing Khimsad Loov, an Abazin girl from the Loov family, standing beside a saddle.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Кавказскiе типы.—Types de Caucase. № 24. Дѣвушка Абадзинка.\" (Caucasian types. No. 24. Abazin girl). The postcard does not name her; the name comes from the title."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same photograph as ID 1112 (marked there as a duplicate)."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "The notes are copied from ID 1112 and describe the original negative. Year and publisher of the postcard?"
+        }
+      ]
+    },
+    {
+      "id": 1109,
+      "description": "A hand-coloured copperplate map by Johann Baptist Homann, made in Nuremberg and dating approximately to 1720, titled Tabula Geographica qua pars Russiae Magnae, Pontus Euxinus seu Mare Nigrum et Tartaria Minor, showing the Black Sea region with Circassia.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Cartouche: \"Tabula Geographica qua pars Russiae Magnae, Pontus Euxinus seu Mare Nigrum et Tartaria Minor cum finitimis Bulgariae, Romaniae et Natoliae Provinciis exhibetur a Ioh. Baptista Homanno ... Noribergae\" (A map showing part of Great Russia, the Euxine or Black Sea and Lesser Tartary, with the neighbouring provinces of Bulgaria, Romania and Anatolia, by Johann Baptist Homann, Nuremberg)."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The notes spell \"Rusiae\"; the map has \"Russiae\". Draft uses the map."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Circassia is labelled \"Circassia seu Regio Circassorum\" (Circassia, or the region of the Circassians), with Cabardinia and Petigoria nearby. Mention them?"
+        }
+      ]
+    },
+    {
+      "id": 1108,
+      "description": "A detail of a copper-engraved map by Alexis-Hubert Jaillot, dating approximately to 1696 - 1700, titled Nova Imperii Turcarum Tabula, ad usum Serenissimi Burgundiae Ducis (New Map of the Turkish Empire, for the use of the Most Serene Duke of Burgundy), marking Circassia and Abassa in the Caucasus.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This is a crop of the map in IDs 1106 and 1107. Keep it as a separate photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Labels in the detail: \"CIRKASKI ou TARTARES CIRCASSES\" (Cirkaski or Circassian Tartars) and \"ABASSA\". The notes write \"CIRKASI\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1696 (Accurate); the notes say around 1696–1700. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1107,
+      "description": "A copper-engraved map by Alexis-Hubert Jaillot, dating approximately to 1696 - 1700, titled Nova Imperii Turcarum Tabula, ad usum Serenissimi Burgundiae Ducis (New Map of the Turkish Empire, for the use of the Most Serene Duke of Burgundy), marking Circassia and Abassa in the Caucasus.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same map as ID 1106 (this copy is uncoloured) and ID 1108 (a crop). Keep all three?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Stamp at lower right: \"HARVARD COLLEGE LIBRARY\", with the pencilled shelfmark \"G7430 1696 .J3\". Is this the Harvard copy? Add where it is kept?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1696 (Accurate); the notes say around 1696–1700. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1106,
+      "description": "A hand-coloured copper-engraved map by Alexis-Hubert Jaillot, dating approximately to 1696 - 1700, titled Nova Imperii Turcarum Tabula, ad usum Serenissimi Burgundiae Ducis (New Map of the Turkish Empire, for the use of the Most Serene Duke of Burgundy), marking Circassia and Abassa in the Caucasus.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "IDs 1107 (an uncoloured copy) and 1108 (a crop) show the same map."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1696 (Accurate); the notes say around 1696–1700. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1105,
+      "description": "A detail of a map by Thomas Kitchin, dating to 1790, engraved for the publisher Robert Sayer from the maps of the Imperial Academy at St. Petersburg, showing the Caucasus, Circassia and the Black Sea coast.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This is a crop of the map in ID 1104. Keep it as a separate photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Visible labels: \"BLACK SEA\", \"GEORGIA\", \"ARMENIA\", \"CASPIAN\", and the scales \"Geometrical Miles 60 to a Degree\" and \"Wersts of Russia 104 to a Degree\". The spaced label across the Kuban area seems to read CIRCASSIA but is only partly legible."
+        }
+      ]
+    },
+    {
+      "id": 1104,
+      "description": "A map of the Russian Empire by Thomas Kitchin, dating to 1790, engraved for the publisher Robert Sayer from the maps of the Imperial Academy at St. Petersburg, showing Circassia and the Black Sea coast among the empire's borderlands.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Cartouches: \"The European Part of the Russian Empire, from the Maps Published by the Imperial Academy at St. Petersburg, with the New Provinces on the Black Sea\" and \"The Asiatic Part of the Russian Empire ... with the New Discoveries of Capt. Cook &c.\", both \"London, Printed for Robert Sayer\". Kitchin's name is not legible at this size."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1105 is a crop of this map."
+        }
+      ]
+    },
+    {
+      "id": 1103,
+      "description": "A hand-coloured copperplate map of Europe titled L'Europe distinguée suivant l'estendue de ses principales parties, a late impression printed in Amsterdam around 1710 - 1720 from Pierre Mortier's 1696 plate, with heavy colour washes marking Circassia.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1696 and the period 17th, but the notes say this impression was printed around 1710–1720 (18th century). Which date and period should the record carry?"
+        },
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Another impression of the map in IDs 1101 and 1102. Keep all three?"
+        }
+      ]
+    },
+    {
+      "id": 1102,
+      "description": "A hand-coloured copperplate map of Europe titled L'Europe distinguée suivant l'estendue de ses principales parties, printed in Amsterdam around 1705 from Pierre Mortier's 1696 plate, with full colour washes separating Circassia from Muscovy and Tartary.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1696 and the period 17th, but the notes say this impression was printed around 1705 (18th century). Which date and period should the record carry?"
+        },
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Another impression of the map in IDs 1101 and 1103. Keep all three?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out per the style guide: printed for the Nieuwe Atlas. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1101,
+      "description": "A copperplate map of Europe titled L'Europe distinguée suivant l'estendue de ses principales parties, printed in Amsterdam by Pierre Mortier from his 1696 plate after French maps by Jaillot and Sanson, with outline colouring marking Circassia on the north-eastern Black Sea coast.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "IDs 1102 and 1103 are other impressions of the same map."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The label near Astrakhan reads \"TARTARES CIRCASSES\" (Circassian Tartars); the notes say Circassia is marked \"Circassie\". Is there a separate \"Circassie\" label?"
+        }
+      ]
+    },
+    {
+      "id": 1100,
+      "description": "A copper-engraved map by Guillaume Delisle, engraved by Charles Inselin, dating approximately to 1705, titled Carte Generale de l'Europe, marking the Circassians (Circasses) north of the Caucasus.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same map as ID 1099, in a different scan with a Turkish caption added below. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Turkish caption below the map: \"Harita, 17. yüzyıl sonu veya 18. yüzyıl başına tarihlenmektedir ve muhtemelen Guillaume Delisle'ye aittir...\" (The map dates to the late 17th or early 18th century and probably belongs to Guillaume Delisle...). The caption says \"probably\"; the notes name Delisle outright. Confirm."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Red stamp of the Bibliothèque nationale and blue stamp of the Dépôt géographique des Affaires étrangères. Is the map held in Paris? Add where it is kept?"
+        }
+      ]
+    },
+    {
+      "id": 1099,
+      "description": "A copper-engraved map by Guillaume Delisle, engraved by Charles Inselin, dating approximately to 1705, titled Carte Generale de l'Europe, marking the Circassians (Circasses) north of the Caucasus.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1100 is the same map; its Turkish caption calls Delisle only the probable author. Confirm the attribution."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Red stamp of the Bibliothèque nationale and blue stamp of the Dépôt géographique des Affaires étrangères. Is the map held in Paris? Add where it is kept?"
+        }
+      ]
+    },
+    {
+      "id": 1098,
+      "description": "A map of the Caucasus from Kâtip Çelebi's Ottoman geographic encyclopedia, drawn by Ahmed al-Kırımî and printed around 1732 at the press of İbrahim Müteferrika in Istanbul, naming the Circassians (Zharkas), the Abaza and several Circassian tribes.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "English caption below the image: \"Region of The Caucasus (Ulunogay, Circassians, Abhasia, Georgia, Kars, Gence, Çıldır and Mount Elbrus)\". I could not read the Ottoman Turkish labels on the map; the names in the draft come from the notes."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Name the tribes? The notes list Zhane, Hatuquai, Tamuquai (unclear), Buzadq (Bzhedug), Temyrguey and Kabartai, plus Mount Elbrus, Sukhum and the Laba river."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1732 (Accurate); the notes say printed around 1732. Draft follows the notes. Book title (Cihannümâ) left out per the style guide."
+        }
+      ]
+    },
+    {
+      "id": 1094,
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series, showing a Circassian imperial body guard of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same card as ID 1093 (same museum link). Keep both?"
+        },
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The notes give object number N224.531, the same as ID 1091 (Circassian Cavalry); ID 1093, the same card as this one, has N224.530. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Illust'd Sweet Caporal. Circassian Imperial Body Guard. Russia-1886.\""
+        }
+      ]
+    },
+    {
+      "id": 1093,
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series, showing a Circassian imperial body guard of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Illust'd Sweet Caporal. Circassian Imperial Body Guard. Russia-1886.\""
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1094 is another copy of this card."
+        }
+      ]
+    },
+    {
+      "id": 1092,
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series, showing a Circassian cavalryman of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same card as ID 1091 (same museum link). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Illust'd Sweet Caporal. Circassian Cavalry. Russia-1886.\""
+        }
+      ]
+    },
+    {
+      "id": 1091,
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series, showing a Circassian cavalryman of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The notes give object number N224.531, the same as ID 1094 (Circassian Imperial Body Guard); ID 1092, the same card as this one, has N224.532. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Illust'd Sweet Caporal. Circassian Cavalry. Russia-1886.\" ID 1092 is another copy of this card."
+        }
+      ]
+    },
+    {
+      "id": 1090,
+      "description": "The back of a Liebig trade card from the series Au Caucase, pays et habitants (In the Caucasus, Countries and Inhabitants), issued around 1908, with a French text on the peoples of the North Caucasus, among them the Kabardians and the Circassians.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the text: \"Le nord du Caucase est occupé par les Cabardines, les Tchetchènes et les Circassiens ... Quand ils furent définitivement vaincus et dépossédés de leurs territoires par les Russes en 1866, environ ?00 000 d'entre eux quittèrent leur vieille patrie et émigrèrent en Turquie et en Asie Mineure.\" (The north of the Caucasus is occupied by the Kabardians, Chechens and Circassians ... When they were finally defeated and dispossessed of their lands by the Russians in 1866, about ?00,000 of them left their old homeland and emigrated to Turkey and Asia Minor.) The first digit of the number is hidden by the blue Liebig signature. Draft leaves this out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the back of the card in IDs 1088 and 1089."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1908 (Accurate); the notes say issued around 1908. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1089,
+      "description": "A Liebig trade card from the series Au Caucase, pays et habitants (In the Caucasus, Countries and Inhabitants), issued around 1908, showing (left to right) a Circassian woman, a Kabardian woman and a Circassian man in front of a Circassian village in the mountains.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same card as ID 1088. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Labels on the card: \"Circassienne\" (Circassian woman), \"Femme cabardine\" (Kabardian woman) and \"Circassien\" (Circassian man), each above one figure; \"Dans le pays des Circassiens. Village circassien dans les montagnes.\" (In the land of the Circassians. A Circassian village in the mountains.); \"Ciscaucasie\"; \"Véritable extrait de viande Liebig\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1908 (Accurate); the notes say issued around 1908. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1088,
+      "description": "A Liebig trade card from the series Au Caucase, pays et habitants (In the Caucasus, Countries and Inhabitants), issued around 1908, showing (left to right) a Circassian woman, a Kabardian woman and a Circassian man in front of a Circassian village in the mountains.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Labels on the card: \"Circassienne\" (Circassian woman), \"Femme cabardine\" (Kabardian woman) and \"Circassien\" (Circassian man), each above one figure; \"Dans le pays des Circassiens. Village circassien dans les montagnes.\" (In the land of the Circassians. A Circassian village in the mountains.); \"Ciscaucasie\"; \"Véritable extrait de viande Liebig\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1089 is another copy of this card; ID 1090 is its back."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1908 (Accurate); the notes say issued around 1908. Draft follows the notes."
+        }
+      ]
+    },
+    {
+      "id": 1087,
+      "description": "The back of a 1905 cigarette card, No. 23, Circassian Brigand, from the Riders of the World series issued by John Player & Sons of Nottingham, with an English text on the Circassians.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the text: \"The Circassians, who inhabit a territory in the Western Caucasus, are a people whose characteristics are the love of a life of independence and a distaste of restraint or compulsion in any form. They are now subject to Russia, who, beyond calling on them to supply mounted contingents, under certain conditions, for military purposes, does not impose any arduous form of government upon them.\" Draft leaves this out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the back of the card in IDs 1085 and 1086."
+        }
+      ]
+    },
+    {
+      "id": 1086,
+      "description": "A 1905 cigarette card by John Player & Sons, from the Riders of the World series, titled Circassian Brigand, showing a horseman at a gallop.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same card as ID 1085. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Player's Navy Cut Cigarettes\" and \"Circassian Brigand\"."
+        }
+      ]
+    },
+    {
+      "id": 1085,
+      "description": "A 1905 cigarette card by John Player & Sons, from the Riders of the World series, titled Circassian Brigand, showing a horseman at a gallop.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Player's Navy Cut Cigarettes\" and \"Circassian Brigand\". ID 1086 is another copy; ID 1087 is the back."
+        }
+      ]
+    },
+    {
+      "id": 1084,
+      "description": "An 1886 trade card for Allen & Ginter's Cigarettes of Richmond, Virginia, from the Natives in Costume series, titled Circassia, showing a bearded man in a long red coat and fur hat, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same card as ID 1083 (same museum link; object numbers .14 and .13). Two copies at the Met, or one? Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Circassia. Allen & Ginter's Cigarettes, Richmond, Virginia.\""
+        }
+      ]
+    },
+    {
+      "id": 1083,
+      "description": "An 1886 trade card for Allen & Ginter's Cigarettes of Richmond, Virginia, from the Natives in Costume series, titled Circassia, showing a bearded man in a long red coat and fur hat, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Circassia. Allen & Ginter's Cigarettes, Richmond, Virginia.\" ID 1084 shows the same card."
+        }
+      ]
+    },
+    {
+      "id": 1082,
+      "description": "An 1886 trade card for Allen & Ginter Cigarettes, from the Types of All Nations series, titled Circassia, a later edition of an 1881 print, showing a bearded man in a mail hood and spiked helmet, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same object number (63.350.201.24.11) and museum link as ID 1080; this image looks like an enlarged crop of it. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The word \"CIRCASSIA\" is printed on the red cloth at the bottom."
+        }
+      ]
+    },
+    {
+      "id": 1081,
+      "description": "An 1881 trade card for Abdul Cigarettes, from the Races of Mankind series, titled Circassia, showing a bearded man in a mail hood and spiked helmet, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same picture as IDs 1080 and 1082 (Allen & Ginter, 1886), on a different card. Keep all?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"CIRCASSIA.\""
+        }
+      ]
+    },
+    {
+      "id": 1080,
+      "description": "An 1886 trade card for Allen & Ginter Cigarettes, from the Types of All Nations series, titled Circassia, a later edition of an 1881 print, showing a bearded man in a mail hood and spiked helmet, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1082 has the same object number and looks like a crop of this card; ID 1081 has the same picture on an 1881 Abdul Cigarettes card."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The word \"CIRCASSIA\" is printed on the red cloth at the bottom."
+        }
+      ]
+    },
+    {
+      "id": 1079,
+      "description": "A French trade card for Chocolat d'Aiguebelle, from the late 19th or early 20th century, showing a Circassian man beside a map of the Caucasus with Circassia marked.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No date or period in the fields. Exact year? Draft follows the notes."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Chocolat d'Aiguebelle\", \"Circassien\" (Circassian), and on the map \"Caucasie\", \"Circassie\", \"Mer Noire\", \"Mer Caspienne\", \"Géorgie\", \"Arménie\", \"Astrakan\", \"Mozdok\", \"Tiflis\", \"Erivan\", \"Pétrole\"."
+        }
+      ]
+    },
+    {
+      "id": 1078,
+      "description": "A photograph from around 1870, from Maykop, Adygea, featuring an Abdzekh girl in the traditional female costume, kept at the D.N. Anuchin Research Institute and Museum of Anthropology of Lomonosov Moscow State University.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Title and notes spell Abdzekh; the tribe field has Abzakh/Abadzekh. Draft uses the title."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Notes say 1870s; date taken is circa 1870. Draft uses \"around 1870\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: photographer A. S. Starzhevsky, and the collection gathered by E. D. Felitsyn for the 1879 Moscow Anthropological Exhibition. Add?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1074,
+      "description": "A 21st-century photograph from Nalchik, Kabardino-Balkaria, showing Lenin Avenue, laid out in line with the 180-metre Nalchik TV Tower, built in 1968, with the snow-covered Caucasus Mountains behind.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 1073,
+      "description": "A photograph from the first Circassian charity evening, held in Ekaterinodar (Krasnodar), Russia, on 18 January 1908, featuring a young woman in the traditional female costume.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the woman?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "It is a studio portrait with a painted backdrop. Taken at the evening, or for its album? The notes mention one album for each evening."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Photographer Шавловский Семен Афанасьевич (Semyon Afanasyevich Shavlovsky): add?"
+        }
+      ]
+    },
+    {
+      "id": 1072,
+      "description": "A 20th-century photograph from Starobzhegokay, Adygea, featuring a Bzhedug woman in a black lace headscarf, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken reads \"1914 - 1913\" (reversed, and later than the 1913 stamp), but the notes say the photo was taken in 1910. Which? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text at the top is too faint to read in this image."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: kept at the Russian Museum of Ethnography, St. Petersburg (notes). Add?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the woman?"
+        }
+      ]
+    },
+    {
+      "id": 1071,
+      "description": "A 20th-century photograph from Starobzhegokay, Adygea, featuring a Bzhedug woman seated between two men under a tree, in traditional costumes, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is \"1913 - 1913\", but the notes say the photo was taken in 1910 and stamped in 1913. Which? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text along the top edge reads \"Э.О.Р.М.И.АЛ.III.1913\" (Ethnographic Department of the Russian Museum of Emperor Alexander III, 1913), as the notes say."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the three people?"
+        }
+      ]
+    },
+    {
+      "id": 1070,
+      "description": "A 20th-century photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in profile, wearing a traditional embroidered hat, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is \"1912 - 1913\", but the notes say the photo was taken in 1910. Which? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is she the same girl as in ID 1065? The hat looks the same."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1069,
+      "description": "A 20th-century photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in the traditional female costume, standing in a field, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is \"1911 - 1913\", but the notes say the photo was taken in 1910. Which? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1068,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in the traditional female costume with a white veil, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1067,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in the traditional female costume with a long white veil, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text along the top edge reads \"Э.О.Р.М.И.АЛ.III.1913\" (Ethnographic Department of the Russian Museum of Emperor Alexander III, 1913), as the notes say."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1066,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in a traditional embroidered hat with a tassel, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text along the top edge reads \"Э.О.Р.М.И.АЛ.III.1913\" (Ethnographic Department of the Russian Museum of Emperor Alexander III, 1913), as the notes say."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is she the same girl as in ID 1065 or 1070? The hats look alike."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1065,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in a traditional embroidered hat with a tassel, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text along the top edge appears to match the 1913 museum stamp in IDs 1066 and 1067 but is only partly legible here."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is she the same girl as in ID 1066 or 1070?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the girl?"
+        }
+      ]
+    },
+    {
+      "id": 1059,
+      "description": "A 20th-century photograph from Abkhazia showing the Nartaa ethnographic choir of Abkhazian centenarians, founded in 1948 by the composer Ivan Kourtua, with an elderly man dancing inside a circle of singers.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year and place of the photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: later led by Konstantin Chengelia; the original singers were aged from 70 to over 100. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1058,
+      "description": "A photograph dating to 1861 - 1865, from Abkhazia, featuring four armed Abkhazian highlanders from Tsebelda, three standing and one seated, kept at the State Historical Museum.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Original title: \"Кавказские типы. Цебельдинцы\" (Types of the Caucasus. Tsebelda residents)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Notes: some sources say they were members of the native militia fighting alongside the imperial troops. Add if confirmed?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Several men wear medals; the keywords mention the St. George Cross. Mention it?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the men?"
+        }
+      ]
+    },
+    {
+      "id": 1057,
+      "description": "A photograph dating to 1945 - 1950, from Amman, Jordan, in the Circassian diaspora, featuring Reshid Bey late in life, during his years in exile.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The notes say he was \"the first Grand National Assembly of Turkey (TBMM) ledger\". What is meant: a member of the first Assembly? Draft leaves it out."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The names field has \"Cherkes Reshid Bey\"; the title has Reshid Bey. Draft uses the title."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The image is very small (180 x 238 pixels). Is there a larger copy?"
+        }
+      ]
+    },
+    {
+      "id": 1056,
+      "description": "A 1920 photograph from Ankara, Türkiye, in the Circassian diaspora, featuring Reshid Bey in a formal studio portrait for the official album of the Grand National Assembly of Turkey (TBMM), taken while he was representative for Saruhan (Manisa), shortly before his family was exiled in January 1921.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The notes say he was \"the first Grand National Assembly of Turkey (TBMM) ledger\". What is meant: a member of the first Assembly? Draft leaves it out."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The names field has \"Cherkes Reshid Bey\"; the title has Reshid Bey. Draft uses the title."
+        }
+      ]
+    }
+  ]
+}

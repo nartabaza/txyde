@@ -1,0 +1,849 @@
+{
+  "batch": "round-2",
+  "sheet": "PhotoArchive_Master_Sheet20251123.xlsx",
+  "items": [
+    {
+      "id": 193,
+      "title": "A senior with three girls",
+      "period": "19th",
+      "dateTaken": "1880",
+      "location": "Homeland",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "context": {
+        "ornaments": "sabot shoes/clogs shoes",
+        "fashion": "Traditional male and female costumes",
+        "other": "Photo session"
+      },
+      "image": "images/193.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/193_nAn_19th_A+senior+with+three+girls.jpg"
+    },
+    {
+      "id": 198,
+      "title": "Azadin Doghoz",
+      "period": "20th",
+      "dateTaken": "199?",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "names": "Azadin Doghoz",
+      "originalNames": "عزالدين دوغوظ",
+      "dignitaries": "Doghoz Azadin / Тыгъуж Азадин",
+      "dignitaryBorn": "1920",
+      "dignitaryDied": "2003",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "One of the rarest who sang old traditional circassian songs, most songs are considered lost even in homeland and had been saved by him in the diaspora (Qunaitra, Syria)",
+      "image": "images/198.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/198_SYR_20th_Azadin+Doghoz.jpg"
+    },
+    {
+      "id": 210,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1939",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Ismael Anzor, Akef Sharif Khonagua",
+      "tribe": "All, Kabardian/Kabartai/Kabardey",
+      "collection": "عزالدين سطاس",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Education, School, Students, Circassian school uniform",
+      "context": {
+        "fashion": "Traditional male hat",
+        "other": "Photo Session, The Circassian School"
+      },
+      "image": "images/210.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/210_SYR_20th_The+Adyghe+School+in+Syria.jpg"
+    },
+    {
+      "id": 212,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1935",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Sharlot",
+      "tribe": "All",
+      "collection": "عزالدين سطاس",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Education, School, Students, Circassian school uniform",
+      "context": {
+        "fashion": "Traditional male and female Adyghe school costume",
+        "other": "The Circassian School"
+      },
+      "image": "images/212.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/212_SYR_20th_The+Adyghe+School+in+Syria.jpg"
+    },
+    {
+      "id": 213,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1940",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Akef Sharif Khonagua, Ismael Anzor",
+      "tribe": "All",
+      "collection": "عزالدين سطاس",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Education, School, Students, Circassian school uniform, Ensemble",
+      "context": {
+        "place": "Qunaitra",
+        "fashion": "Traditional male Adyghe school costume",
+        "music": "Circassian school ensemble",
+        "instrument": "Marching drums",
+        "other": "The Circassian School"
+      },
+      "image": "images/213.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/213_SYR_20th_The+Adyghe+School+in+Syria.jpg"
+    },
+    {
+      "id": 215,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1934",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "tribe": "All",
+      "collection": "عزالدين سطاس",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Education, School, Students, Circassian school uniform, Annual festival",
+      "context": {
+        "place": "Qunaitra",
+        "house": "A style in Diaspora, Black stone,",
+        "fashion": "Traditional male Adyghe school costume",
+        "sport": "The Circassian school sport Annual festival",
+        "other": "The Circassian School"
+      },
+      "image": "images/215.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/215_SYR_20th_The+Adyghe+School+in+Syria.jpg"
+    },
+    {
+      "id": 221,
+      "title": "Amin Ayob Samgugh",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Amin Ayob Samgugh",
+      "dignitaries": "Amin Ayob Samgugh",
+      "dignitaryBorn": "1903",
+      "dignitaryDied": "1952",
+      "notes": "Amin Samgugh was born in Mansure village in Qunaitra region in Syria. Got two diplomas after studying in France where he was an activist in the Circassian affairs. Came back to Syria and stablished the Circassian school in Qunaitra, and tried to open brances in some other regions.",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/221.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/221_SYR_20th_Amin+Ayob+Samgugh.jpg"
+    },
+    {
+      "id": 229,
+      "title": "14th Cherkess Squadron",
+      "period": "20th",
+      "dateTaken": "1935 - 1937",
+      "location": "Diaspora",
+      "country": "Syria",
+      "tribe": "All",
+      "notes": "14th Cherkess Squadron in French army in Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Army, Circassian Cavalry"
+      },
+      "image": "images/229.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/229_SYR_20th_14th+Cherkess+Squadron.jpg"
+    },
+    {
+      "id": 230,
+      "title": "Cherkess Squadron",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "tribe": "All",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Army, Circassian Cavalry"
+      },
+      "image": "images/230.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/230_SYR_20th_Cherkess+Squadron.jpg"
+    },
+    {
+      "id": 231,
+      "title": "Cherkess Squadron",
+      "period": "20th",
+      "dateTaken": "1922 -",
+      "location": "Diaspora",
+      "country": "Syria",
+      "tribe": "All",
+      "notes": "An original photograph from Damascus of the Circassian troops during the French mandate with Philibert Collet, Commander of the Circassian Cavalry.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Army, Circassian Cavalry"
+      },
+      "image": "images/231.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/231_SYR_20th_Cherkess+Squadron.jpg"
+    },
+    {
+      "id": 232,
+      "title": "Kabardian",
+      "period": "19th",
+      "dateTaken": "1870 - 1889",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "museum": "Museum of Anthropology and Ethnography, St. Petersburg (Kunstkamera).",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian, French",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Photo Session"
+      },
+      "image": "images/232.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/232_KBR_19th_Kabardian.jpg"
+    },
+    {
+      "id": 235,
+      "title": "The youth union conference",
+      "period": "20th",
+      "dateTaken": "1924",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "tribe": "Shapsugh",
+      "collection": "Тамара Половинкина",
+      "inscription": "Both",
+      "inscriptionLanguage": "Russian",
+      "context": {
+        "fashion": "Traditional male hat"
+      },
+      "image": "images/235.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/235_RUS_20th_The+youth+union+conference.jpg"
+    },
+    {
+      "id": 237,
+      "title": "Circassian guards with the Syrian president",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Homs",
+      "tribe": "All",
+      "collection": "فرحان حسين صفر",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Syrian President",
+      "notes": "With the Syrian president Shukri Al Quatli",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/237.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/237_SYR_20th_Circassian+guards+with+the+Syrian+president.jpg"
+    },
+    {
+      "id": 239,
+      "title": "Public event",
+      "period": "20th",
+      "location": "Diaspora",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/239.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/239_nAn_20th_Public+event.bmp"
+    },
+    {
+      "id": 243,
+      "title": "Map of Circassia",
+      "location": "Homeland",
+      "context": {
+        "other": "Circassia"
+      },
+      "image": "images/243.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/243_nAn_nAn_Map+of+Circassia.jpg"
+    },
+    {
+      "id": 245,
+      "title": "Abzakh girl",
+      "period": "20th",
+      "dateTaken": "1920",
+      "location": "Homeland",
+      "country": "Adygea",
+      "photographer": "Анохин",
+      "names": "Nawruzova Khadijet",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "Two photos (front and side) of an Abzakh girl from Naurzoqu family and the pic could be in the late a9th century",
+      "context": {
+        "fashion": "Traditional female costume",
+        "other": "Photo Session"
+      },
+      "image": "images/245.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/245_ADG_20th_Abzakh+girl.jpg"
+    },
+    {
+      "id": 246,
+      "title": "Abzakh girl",
+      "period": "20th",
+      "dateTaken": "1920",
+      "location": "Homeland",
+      "country": "Adygea",
+      "photographer": "Анохин",
+      "names": "Nawruzova Khadijet",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "Two photos (front and side) of an Abzakh girl from Naurzoqu family and the pic could be in the late a9th century",
+      "context": {
+        "fashion": "Traditional female costume",
+        "other": "Photo Session"
+      },
+      "image": "images/246.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/246_ADG_20th_Abzakh+girl.jpg"
+    },
+    {
+      "id": 247,
+      "title": "female traditional hat",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Lazarevskoye",
+      "museum": "Лазаревский этнографический музей",
+      "context": {
+        "fashion": "Traditional female hat"
+      },
+      "image": "images/247.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/247_RUS_nAn_female+traditional+hat.jpg"
+    },
+    {
+      "id": 250,
+      "title": "Shaguj Issak with daughters",
+      "period": "20th",
+      "dateTaken": "1920 - 1930",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Shaguj Issak",
+      "originalNames": "Шагуджев Исхак",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "Town Kalezh, Shaguj Issak is Mahmud's father (The famous occordionist) АУЛ КАЛЕЖ",
+      "context": {
+        "fashion": "Traditional costume"
+      },
+      "image": "images/250.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/250_RUS_20th_Shaguj+Issak+with+daughters.jpg"
+    },
+    {
+      "id": 253,
+      "title": "Circassian girl",
+      "period": "20th",
+      "context": {
+        "fashion": "Traditional female costume",
+        "other": "Photo Session"
+      },
+      "image": "images/253.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/253_nAn_20th_Circassian+girl.jpg"
+    },
+    {
+      "id": 254,
+      "title": "Circassian girl",
+      "period": "20th",
+      "context": {
+        "fashion": "Traditional female costume",
+        "other": "Photo Session"
+      },
+      "image": "images/254.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/254_nAn_20th_Circassian+girl.jpg"
+    },
+    {
+      "id": 286,
+      "title": "Circassian warriors",
+      "period": "19th",
+      "dateTaken": "1880",
+      "location": "Diaspora",
+      "country": "Russia",
+      "notes": "The photos were taken for a warrior costumes' collection",
+      "context": {
+        "fashion": "Traditional male costume and warrior costume",
+        "other": "Photo Session, Weapon,"
+      },
+      "image": "images/286.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/286_RUS_19th_Circassian+warriors.jpg"
+    },
+    {
+      "id": 287,
+      "title": "Circassian warriors",
+      "period": "19th",
+      "dateTaken": "1880",
+      "location": "Diaspora",
+      "country": "Russia",
+      "notes": "The photos were taken for a warrior costumes' collection",
+      "context": {
+        "fashion": "warrior costume",
+        "other": "Photo Session, Weapon,"
+      },
+      "image": "images/287.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/287_RUS_19th_Circassian+warriors.jpg"
+    },
+    {
+      "id": 288,
+      "title": "Adnaniyeh football team",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "notes": "Adnaniyeh is a circassian village in Golan hights and its team in the photo with the police team of football in the day of the game which ended with Adnaniyeh winnin 3-2",
+      "context": {
+        "sport": "Adnaniyeh footbal team"
+      },
+      "image": "images/288.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/288_SYR_20th_Adnaniyeh+football+team.jpg"
+    },
+    {
+      "id": 289,
+      "title": "Kabardian theatre",
+      "period": "20th",
+      "dateTaken": "1946",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Nalchik",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "It started as Drama theatre and then became the Kabardian theatre where plays are conducted in Circassian language",
+      "context": {
+        "place": "Kabardian drama theatre"
+      },
+      "image": "images/289.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/289_KBR_20th_Kabardian+theatre.jpg"
+    },
+    {
+      "id": 290,
+      "title": "Tokh Chilezakh with his daughters",
+      "period": "20th",
+      "dateTaken": "1925",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Khadzhiko",
+      "names": "Tokh Chilezakh Mustafovich with his daughters Vakhida, and Maret.",
+      "dignitaries": "Tokh Chilezakh Mustafovich",
+      "dignitaryBorn": "1850",
+      "dignitaryDied": "1928",
+      "tribe": "Shapsugh",
+      "notes": "From Shapsug Khadjuque village in Tuapse district near the black sea coast",
+      "context": {
+        "ornaments": "Necklace",
+        "fashion": "Traditional male and female costumes",
+        "other": "Photo Session"
+      },
+      "image": "images/290.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/290_RUS_20th_Tokh+Chilezakh+with+his+daughters.jpg"
+    },
+    {
+      "id": 292,
+      "title": "Fatimat Skhabo Tesheve",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "locality": "Sochi",
+      "sublocality": "Khadzhiko",
+      "names": "the second Fatimet Skhabo-Tesheva",
+      "dignitaries": "Fatimet Skhabo-Tesheva",
+      "dignitaryBorn": "1890",
+      "dignitaryDied": "1930",
+      "tribe": "Shapsugh",
+      "notes": "One of the famouse gold thread makerfrom Shapsug Khadjuque village",
+      "context": {
+        "ornaments": "Traditional female costumes",
+        "fashion": "Traditional male and female costumes",
+        "other": "Photo Session"
+      },
+      "image": "images/292.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/292_RUS_20th_Fatimat+Skhabo+Tesheve.jpg"
+    },
+    {
+      "id": 293,
+      "title": "Traditional Circassian hat",
+      "location": "Homeland",
+      "country": "Russia",
+      "locality": "Tuapse",
+      "museum": "Tuapse Museum of history and local lore",
+      "notes": "There are couple different forms of female traditional hats and this one is the kind of low comparing with the other high forms",
+      "context": {
+        "ornaments": "Female hat",
+        "fashion": "Traditional female hat",
+        "other": "Goldthread"
+      },
+      "image": "images/293.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/293_RUS_nAn_Traditional+Circassian+hat.jpg"
+    },
+    {
+      "id": 302,
+      "title": "plowing instrument",
+      "period": "20th",
+      "dateTaken": "1920",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "keywords": "plowing tool",
+      "context": {
+        "other": "Agriculture, plowing"
+      },
+      "image": "images/302.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/302_RUS_20th_plowing+instrument.jpg"
+    },
+    {
+      "id": 303,
+      "title": "Fatimat Skhabo Shkhalakhova",
+      "period": "20th",
+      "location": "Homeland",
+      "names": "Zulikhan, her sister Fatimet Skhabo-Shkhelakhova",
+      "notes": "On the right Fatimat Skhabo Shkhalakhova and on the left her sister Zulikhan with her grand-daughters",
+      "image": "images/303.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/303_nAn_20th_Fatimat+Skhabo+Shkhalakhova.jpg"
+    },
+    {
+      "id": 304,
+      "title": "Khatat Khakushteshevich Skhabo",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "names": "Khatat Khakushteshevich Skhabo",
+      "book": "Нагучев Д.М. Мой аул Хаджико",
+      "notes": "(1824-1943). His family was obliged to be deprted to Turkey. His father Khakushtesh (Khakushtej) could flee to the mountains but was killed later by the militants of the russian tsardom, while Khatat and his brother Nekhurai returned later with their uncle Mustaf and settled in Skhabo village",
+      "context": {
+        "other": "Circassian dagger (Qame), Photo Session"
+      },
+      "image": "images/304.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/304_RUS_20th_Khatat+Khakushteshevich+Skhabo.jpg"
+    },
+    {
+      "id": 305,
+      "title": "Khatat Khakushteshevich Skhabo",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "names": "Khatat Khakushteshevich Skhabo",
+      "notes": "(1824-1943). His family was obliged to be deprted to Turkey. His father Khakushtesh (Khakushtej) could flee to the mountains but was killed later by the militants of the russian tsardom, while Khatat and his brother Nekhurai returned later with their uncle Mustaf and settled in Skhabo village",
+      "context": {
+        "other": "Circassian dagger (Qame), Photo Session"
+      },
+      "image": "images/305.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/305_RUS_20th_Khatat+Khakushteshevich+Skhabo.jpg"
+    },
+    {
+      "id": 306,
+      "title": "Qadyrkhan Khatatovna Tkhagusheva (Skhabo)",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "names": "Qadyrkhan Khatatovna Tkhagusheva (Skhabo)",
+      "book": "Нагучев Д.М. Мой аул Хаджико",
+      "notes": "Qadyrkhan is Khatat's daughter",
+      "image": "images/306.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/306_RUS_20th_Qadyrkhan+Khatatovna+Tkhagusheva+%28Skhabo%29.jpg"
+    },
+    {
+      "id": 307,
+      "title": "The certification of Qadyrkhan Skhabo",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "book": "Нагучев Д.М. Мой аул Хаджико",
+      "inscription": "Script",
+      "inscriptionLanguage": "Russian",
+      "notes": "Qadyrkhan is Khatat's daughter and this the certification of being the Heroin mother",
+      "context": {
+        "other": "Document"
+      },
+      "image": "images/307.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/307_RUS_20th_The+certification+of+Qadyrkhan+Skhabo.jpg"
+    },
+    {
+      "id": 308,
+      "title": "Fatima Natyrbova (Sheretlukova)",
+      "period": "20th",
+      "dateTaken": "1908",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Fatima Natyrbova (Sheretlukova)",
+      "dignitaries": "Fatima Natyrbova (Sheretlukova)",
+      "dignitaryBorn": "1890",
+      "dignitaryDied": "1983",
+      "notes": "Participated in the Circassian charity evening in Ekaterinodar in 1908 and got indroduced to her future husband Kutchuk Natyrbov and got married in 1909. In 1919 they moved to the Ottman Empire and she established there The Circassian woman Committee and helped refugees. She moved with her husband, 4 children, and two sisters to USA in 1923 and kept her activism for the circassian till she passed away.",
+      "context": {
+        "ornaments": "Traditional female costumes",
+        "fashion": "Traditional female costume"
+      },
+      "image": "images/308.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/308_RUS_20th_Fatima+Natyrbova+%28Sheretlukova%29.jpg"
+    },
+    {
+      "id": 309,
+      "title": "The traditional dress of Fatima Natyrbova",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "notes": "This is the traditional circassian dress Fatima Natyrbova (Sheretlukova) was wearing in the Circassian charity evening in Ekaterinodar.",
+      "context": {
+        "ornaments": "Traditional female costumes",
+        "fashion": "Traditional female costume"
+      },
+      "image": "images/309.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/309_RUS_20th_The+traditional+dress+of+Fatima+Natyrbova.jpg"
+    },
+    {
+      "id": 310,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "inscription": "Script",
+      "inscriptionLanguage": "Russian",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "book cover": "The Album of Circassian Evening 1914",
+        "other": "Photo album"
+      },
+      "image": "images/310.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/310_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 311,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/311.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/311_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 312,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/312.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/312_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 313,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/313.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/313_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 314,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/314.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/314_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 315,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/315.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/315_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 316,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/316.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/316_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 317,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/317.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/317_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 318,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume"
+      },
+      "image": "images/318.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/318_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 319,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "2nd row, 4th Sultan Dovlet-Girey",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional male and female costumes"
+      },
+      "image": "images/319.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/319_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 320,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume"
+      },
+      "image": "images/320.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/320_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 327,
+      "title": "Akhmed Achmezov and Gumer Khusht",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Bolshoi Kechmai",
+      "names": "Akhmed Achmezov Aslanovich, Gumer Khusht",
+      "dignitaries": "Akhmed Achmezov Aslanovich",
+      "dignitaryBorn": "1857",
+      "dignitaryDied": "1951",
+      "notes": "From Bolshoi Kuchmai village",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/327.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/327_RUS_20th_Akhmed+Achmezov+and+Gumer+Khusht.jpg"
+    },
+    {
+      "id": 328,
+      "title": "Dancing in the independence day of Syria",
+      "period": "20th",
+      "dateTaken": "1958",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Aleppo",
+      "sublocality": "Manbij",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/328.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/328_SYR_20th_Dancing+in+the+independence+day+of+Syria.jpg"
+    },
+    {
+      "id": 329,
+      "title": "Tokh Chilezakh",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "names": "Tokh Chilezakh Mustafovich",
+      "dignitaries": "Tokh Chilezakh Mustafovich",
+      "dignitaryBorn": "1850",
+      "dignitaryDied": "1928",
+      "tribe": "Shapsugh",
+      "notes": "From Shapsug Khadjuque village in Tuapse district near the black sea coast",
+      "image": "images/329.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/329_RUS_20th_Tokh+Chilezakh.jpg"
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "promptVersion": "v4",
+  "drafts": [
+    {
+      "id": 1055,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Tevfik Bey, the middle brother and a Kuvâ-yi Seyyâre commander.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Tevfik Bey (title, dignitaries) and Tavfik (names field: \"Cherkes Tavfik Bey\"). Draft uses the title."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Middle brother of whom? ID 1054 says Ali Bey's sons included Çerkez Ethem, Reşid and Tevfik. Name the brothers?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1054,
+      "description": "A photograph from around 1910, from Türkiye, in the Circassian diaspora, featuring Ali Bey, father of five sons including the militia commander Çerkez Ethem and the officers Reşid and Tevfik, who settled in Emreköy near Bandırma and worked in agriculture and milling.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The notes spell \"Çerkez Ethem\"; other rows in this batch use \"Cherkes Ethem\". Draft keeps the notes' spelling. Use one form?"
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Was the photo taken in Emreköy? Draft says only Türkiye."
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "description": "A 1919 photograph from Manisa, Türkiye, in the Circassian diaspora, showing delegates and leaders at the Alashehir Congress of the Turkish National Movement, among them Demirci Mehmet Efe, Refet Bele and Cherkes Ethem, seated in the front row.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"Seated: The third is Demirci Mehmet Efe, then Refet Bele then Cherkes Ethem\". Counted from the left? Then they are the man with the cartridge belts and sash, the man in the light coat and the man in the leather jacket. Draft names them without positions."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Manisa comes from the notes (the congress was held in Manisa); the place fields give only Türkiye."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: the congress dates, 16 to 25 August 1919. Add them?"
+        }
+      ]
+    },
+    {
+      "id": 1052,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (Ethem the Circassian) with members of his irregular Kuva-yi Seyyare (Mobile Force) unit during the Turkish War of Independence.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"The middle row the second: Cherkes Ethem\". Counted from the left? Draft names him without a position."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Two men in the middle row have numbers written on their coats (\"5\" and \"3\"). Do they refer to a key that names the men?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1051,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (Ethem the Circassian) with members of his irregular Kuva-yi Seyyare (Mobile Force) unit during the Turkish War of Independence.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"The second seated: Cherkes Ethem\". Second from the left of the four men sitting in front? Draft names him without a position."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same group as ID 1052, in a different pose? Not a copy."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1050,
+      "description": "A photograph from around 1940, from Amman, Jordan, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence. Declared a traitor and rebel in late 1920, he was defeated and spent the rest of his life in exile.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Two handwritten notes on the photo: one in Latin script at bottom left and one in Arabic script at bottom right. Neither can be read reliably at this resolution. Inscription language is given as Turkish. What do they say?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year? Draft uses \"around 1940\"."
+        }
+      ]
+    },
+    {
+      "id": 1049,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1048,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence, posed with a rifle before a painted backdrop.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1047,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 1046 (another print or scan, lighter and cropped tighter). Keep both?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as ID 1047 (another print or scan). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "There is a handwritten signature at bottom right; it cannot be read reliably. Whose is it?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date type is Circa. Exact year of the photo? Draft uses \"around 1920\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "description": "A 1920 photograph from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948) in a fur coat beside Mustafa Kemal Atatürk in a white coat, with soldiers of Ethem's volunteer militia, the Kuvâ-yi Seyyâre, and officers including Salih Bozok and Kâzım Özalp.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which men are Salih Bozok and Kâzım Özalp? Draft names them without positions."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Names field has \"Ataturk\", the notes \"Atatürk\". Draft follows the notes."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Türkiye was the photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 1043,
+      "description": "A photograph dating to the 1940s, from Tamysh, Abkhazia, featuring the traditional storyteller Ashkhangeri Bzhania, one of the most celebrated long-lived elders in the history of Abkhazia, standing between the English novelist and playwright John B. Priestley and his wife Jane Wyndham-Lewis.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1946, but the notes say the photo is from 1945. Which year? Draft uses \"the 1940s\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed caption under the photo: \"Mr. and Mrs. J. B. Priestley with the 150-year-old Abkhazian peasant.\" The draft does not use the age."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Born 1800 and died 1947 gives a lifespan of 147 years; the notes call him a supercentenarian. Draft leaves the years out. Add them as claimed?"
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Was the photo taken in Tamysh, or is that his home village?"
+        }
+      ]
+    },
+    {
+      "id": 1042,
+      "description": "A 20th-century photograph from Tamysh, Abkhazia, featuring Ashkhangeri Bzhania, a traditional storyteller (skazitiel) and one of the most celebrated long-lived elders in the history of Abkhazia, in ceremonial costume.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "He holds a staff with an object on top and has a towel over his shoulder. What is the occasion or ritual?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Born 1800 and died 1947 gives a lifespan of 147 years. Draft leaves the years out. Add them as claimed?"
+        }
+      ]
+    },
+    {
+      "id": 1041,
+      "description": "An illustration by R. Tucker, dating to 1854, titled Circassians, showing a group of Circassian men in armour and traditional costume and a woman beside a hut.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same engraving as ID 1038 (another scan), and it also appears on the page in ID 1036. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the image: \"CIRCASSIANS.\""
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Art type is Lithograph but the category notes say wood engraving. Draft says \"illustration\". Which is it?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No researcher notes: any background to add?"
+        }
+      ]
+    },
+    {
+      "id": 1039,
+      "description": "An illustration by R. Tucker, dating approximately to 1851 - 1855, titled The Campaign of the Caucasus, showing Russian troops on horseback assembling for the campaign of the Caucasus.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "\"Russian troops\" comes from the caption: \"ASSEMBLING OF RUSSIAN TROOPS FOR THE CAMPAIGN OF THE CAUCASUS.\" and \"[For description, see page 87.]\". Confirm."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No researcher notes: exact year and issue? Are Circassians among the riders?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Keywords say \"long smoking pipe\", which is not visible here; copied from the other R. Tucker rows?"
+        }
+      ]
+    },
+    {
+      "id": 1038,
+      "description": "An illustration by R. Tucker, dating to 1854, titled Circassians, showing a group of Circassian men in armour and traditional costume and a woman beside a hut.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same engraving as ID 1041 (another scan), and it also appears on the page in ID 1036. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the image: \"CIRCASSIANS.\""
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Book field says Gleason's Pictorial Drawing-Room Companion; ID 1041 (same engraving) says The Illustrated London News, 3 June 1854. Which publication is this print from?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No researcher notes: any background to add?"
+        }
+      ]
+    },
+    {
+      "id": 1037,
+      "description": "A wood engraving by R. Tucker, dating to 1854, titled A Circassian Family, showing the interior of a traditional Caucasian dwelling with figures in traditional attire and weapons mounted on the walls.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same engraving as ID 1035 (another scan), and it also appears on the page in ID 1036. Keep both?"
+        },
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The book field says Gleason's Pictorial Drawing-Room Companion (Boston), but the notes say The Illustrated London News. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the image: \"A CIRCASSIAN FAMILY.\""
+        }
+      ]
+    },
+    {
+      "id": 1036,
+      "description": "A page from an 1854 publication showing two wood engravings by R. Tucker, titled Circassians and A Circassian Family, with an article headed The Circassians.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This page holds the engravings of IDs 1038/1041 (Circassians) and 1035/1037 (A Circassian Family)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Headings on the page: \"CIRCASSIANS.\" and \"THE CIRCASSIANS.\" The article text is too small to read at this resolution."
+        }
+      ]
+    },
+    {
+      "id": 1035,
+      "description": "A wood engraving by R. Tucker, dating to 1854, titled A Circassian Family, showing the interior of a traditional Caucasian dwelling with figures in traditional attire and weapons mounted on the walls.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same engraving as ID 1037 (another scan), and it also appears on the page in ID 1036. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption \"A CIRCASSIAN FAMILY.\" and signature \"R. Tucker\" on the image."
+        }
+      ]
+    },
+    {
+      "id": 1032,
+      "description": "A page from an 1876 publication showing sketches from the travel album of Mikhail Mikeshin, titled Types and Views of the Caucasus and Asia Minor, of Kurdish Yazidis, a Kabardian, a Chechen and a Muslim Kurd.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed text: \"Типы и виды Кавказа и Малой Азіи\" (Types and Views of the Caucasus and Asia Minor), \"Изъ путевого альбома М. О. Микѣшина\" (From the travel album of M. O. Mikeshin), and labels \"Курды-Іезиды (Чертопоклонники)\" (Kurdish Yazidis, \"devil-worshippers\"), \"Кабардинецъ\" (a Kabardian), \"Чеченецъ\" (a Chechen), \"Курдъ-магометанинъ изъ окрестностей ...\" (a Muslim Kurd from the area of ...; the last word cannot be read reliably)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The printer's credit line under the title is too small to read; the notes give A. I. Kovalev. Confirm the name."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Which of the heads is the Kabardian? Possibly the man in the fur hat, third from left, above the label \"Кабардинецъ\"."
+        }
+      ]
+    },
+    {
+      "id": 1029,
+      "description": "A photograph dating approximately to 1900 - 1910, showing the Kabardian stallion Aslan, owned by the breeder Kukharenko, held by a man in the traditional male costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 1027 (that copy has no caption strip). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Handwritten caption at the top: \"... выст. дом. жив. / \"Асланъ\" Кухаренко\" (... exhibition of domestic animals, \"Aslan\", Kukharenko). The first word may be \"Екатеринод.\" (Ekaterinodar) but cannot be read reliably, and a line above it is cut off."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Place? No place fields are filled in."
+        }
+      ]
+    },
+    {
+      "id": 1028,
+      "description": "A photograph dating approximately to 1937 - 1939, showing the Kabardian racehorse Gastroler (foaled 1935, by Istorik out of Geparda), an elite representative of the breed, bred at the Malka Stud Farm in Kabardino-Balkaria.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where was this photo taken? No place fields are filled in."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same horse as ID 1026, but a different photograph. Left out: the Istorik sire line. Add it?"
+        }
+      ]
+    },
+    {
+      "id": 1027,
+      "description": "A photograph dating approximately to 1900 - 1910, showing a saddled Kabardian horse held by a man in the traditional male costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as ID 1029, which has a caption naming the stallion \"Aslan\" and the breeder Kukharenko. Keep both?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No researcher notes: place and background?"
+        }
+      ]
+    },
+    {
+      "id": 1026,
+      "description": "A 1939 photograph from Moscow, Russia, showing the Kabardian racehorse Gastroler (foaled 1935, by Istorik out of Geparda), bred at the Malka Stud Farm in Kabardino-Balkaria, at the All-Union Agricultural Exhibition.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "Location is \"Diaspora\" but the country is Russia (Moscow). Which is right? Draft leaves out \"in the Circassian diaspora\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: the Istorik sire line and that the exhibition site is now VDNH. Add them?"
+        }
+      ]
+    },
+    {
+      "id": 1022,
+      "description": "A 19th-century photograph, printed in a publication, showing a Circassian horseman in traditional attire mounted on a light-coloured horse along a rural path.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed caption: \"Fig. 555.—Circassian horse (15.½)\" and \"Photo by] [J. DELTON, PARIS.\" The photographer field says Louis-Jean Delton, but the notes say no credible source confirms he took it. Draft leaves the photographer out."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which publication is the page from, and what year?"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "description": "A 1930s photograph from Adygea, featuring the Nalmes Ensemble, officially organized in 1936, whose early repertoire was collected and transcribed by the artistic director Shaban Kubov and the composer Abdul Bedzhashev.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is \"1938 - 1936\", a range written backwards. Which years? Draft uses \"1930s\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the members, and which are Shaban Kubov and Abdul Bedzhashev, if present?"
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "description": "A 1930s photograph from Adygea, featuring the Nalmes Ensemble, officially organized in 1936, whose early repertoire was collected and transcribed by the artistic director Shaban Kubov and the composer Abdul Bedzhashev, with an accordion (pshine) player among the men.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is \"1937 - 1936\", a range written backwards. Which years? Draft uses \"1930s\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Sign on the door: \"НЕ КУРИ\" (Do not smoke). Where was this taken?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the members?"
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "description": "A 1936 photograph from Adygea, featuring a man and a woman of the Nalmes Ensemble, officially organized in 1936, whose early repertoire was collected and transcribed by the artistic director Shaban Kubov and the composer Abdul Bedzhashev, dancing in a dance circle (Dzhegu) to an accordion (pshine).",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 1015 (this one is less tightly cropped). Their dates also differ: \"1936 - 1936\" here, \"1935 - 1936\" in ID 1015. Keep both, and which date?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the dancers and the accordion player?"
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "description": "A photograph dating approximately to 1935 - 1936, from Adygea, featuring a man and a woman of the Nalmes Ensemble, officially organized in 1936, whose early repertoire was collected and transcribed by the artistic director Shaban Kubov and the composer Abdul Bedzhashev, dancing in a dance circle (Dzhegu) to an accordion (pshine).",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as ID 1016 (this one is cropped tighter). Their dates also differ: \"1935 - 1936\" here, \"1936 - 1936\" in ID 1016. Keep both, and which date?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the dancers and the accordion player?"
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "description": "A 1960 photograph from Khabez, Karachay-Cherkessia, showing a wedding dance circle (Dzhegu) in a village yard, with women in the traditional female costume and a crowd of onlookers.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 1013 (another scan). Keep both?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Title reads \"Awedding in Khabez\"; should be \"A wedding in Khabez\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: the photo comes from the personal archive of researcher Aslan Gosgeshev. Add a credit?"
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "description": "A 1960 photograph from Khabez, Karachay-Cherkessia, showing a wedding dance circle (Dzhegu) in a village yard, with women in the traditional female costume and a crowd of onlookers.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as ID 1014 (another scan, with a border). Keep both?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Title reads \"Awedding in Khabez\"; should be \"A wedding in Khabez\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: the photo comes from the personal archive of researcher Aslan Gosgeshev. Add a credit?"
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "description": "A 1909 photograph from Tugurgoi, Adygea, showing wedding guests: a row of women in the traditional female costume and men beside a horse-drawn carriage.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed caption at the bottom, cut off on both sides: \"...909. Аулъ Тугургой близъ г. Екатеринодара. Выход...\" (...909. Aul Tugurgoy near the town of Ekaterinodar. Exit/Departure ...). The first digit of the year is cut off."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Spelling of the village: Tugurgoi (sub-locality) and Tugurgoy (title, notes). Draft uses Tugurgoi, as the guide says."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The notes say the photo is in the collections of the E.D. Felitsyn Krasnodar State Historical and Archaeological Museum-Reserve. Add \"held at\" to the description?"
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "description": "A 1909 photograph from Tugurgoi, Adygea, showing a wedding, with men in long coats in the foreground and women in white veils standing in a line behind.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Spelling of the village: Tugurgoi (sub-locality) and Tugurgoy (title, notes). Draft uses Tugurgoi, as the guide says."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "One man raises an arm and a white bundle lies on the ground. Which part of the wedding is this?"
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "description": "A 20th-century photograph from Tugurgoi, Adygea, showing wedding guests: two women in the traditional female costume standing between men, one of them playing an accordion (pshine).",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1909, but the notes say \"another source mentions this as 1930 photo\". Which year? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Spelling of the village: Tugurgoi (sub-locality) and Tugurgoy (title, notes). Draft uses Tugurgoi, as the guide says."
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "description": "A 1909 photograph from Tugurgoi, Adygea, showing wedding guests: an older man holding a stick and young women in the traditional female costume with white veils.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Spelling of the village: Tugurgoi (sub-locality) and Tugurgoy (title, notes). Draft uses Tugurgoi, as the guide says."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is the man holding a ritual stick, as a wedding dance organizer (Hatyak'ue)? Not stated in the data."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Is one of the women the bride?"
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "description": "A 19th-century studio photograph by Dmitry Ermakov featuring a young Kabardian girl in the traditional female costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as IDs 1006 and 1005 (other prints or scans); ID 1004 shows her in a slightly different pose. Keep all?"
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Place left out: the country field says Kabardino-Balkaria, but the notes say the photo could have been taken in Ermakov's own studio in Tbilisi. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "description": "A 19th-century studio photograph by Dmitry Ermakov featuring a young Kabardian girl in the traditional female costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as IDs 1007 and 1005 (other prints or scans). Keep all?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Small white text at bottom left, partly legible: possibly \"Кавказъ / Кабардинка\" (Caucasus / Kabardian woman). Cannot be read reliably."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Place left out: the country field says Kabardino-Balkaria, but the notes say the photo could have been taken in Ermakov's own studio in Tbilisi. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "description": "A 19th-century studio photograph by Dmitry Ermakov featuring a young Kabardian girl in the traditional female costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as IDs 1007 and 1006 (other prints or scans). Keep all?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"14683. Кабардинка дѣвушка 1291.\" (14683. Kabardian girl 1291). Is 1291 a year or a number? Watermark in Georgian at top right: \"ეროვნული ბიბლიოთეკა\" (National Library)."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Place left out: the country field says Kabardino-Balkaria, but the notes say the photo could have been taken in Ermakov's own studio in Tbilisi. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "description": "A 19th-century studio photograph by Dmitry Ermakov featuring a young Kabardian girl in the traditional female costume, looking down.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"14683. Кабардинка дѣвушка 1291.\" (14683. Kabardian girl 1291), the same as ID 1005. Is 1291 a year or a number?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same sitting as IDs 1005-1007, in a slightly different pose (eyes lowered). Not a copy."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Place left out: the country field says Kabardino-Balkaria, but the notes say the photo could have been taken in Ermakov's own studio in Tbilisi. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "description": "A 19th-century photograph from Kabardino-Balkaria featuring a young Kabardian woman in a tall decorated hat and veil, shown with the back of the card, stamped as part of the collection of Nikolai Sergeyevich Stromilov.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Back of the card: \"Кабардинка\" (Kabardian woman), purple stamp \"СТРОМИЛОВА 5614\" (Stromilov's, 5614), red \"КП-ф 173\", and pencil \"021_05549_95171\", \"№26 папка 237\" (No. 26, folder 237), \"13.03.03г\" (13.03.03) and \"2-1060\". One more line may be a name such as \"Ермаков\" (Ermakov) but cannot be read reliably."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Photographer and year?"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "description": "A 1930 photograph from Abkhazia showing a group of Abkhaz men with saddled horses seeing off a guest in the yard in front of the house.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Abkhazia? Names of the host and the guest?"
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "description": "A 1929 photograph from Zvandrysh, Abkhazia, showing a traditional council assembly gathered to settle a community dispute, the reconciliation of a blood feud through the efforts of the peasants themselves.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of any of the men?"
+        }
+      ]
+    },
+    {
+      "id": 999,
+      "description": "A photograph dating approximately to 1927 - 1929, from Kaldakhvara, Abkhazia, featuring the Abkhaz folk singer and storyteller Shach Chukbar playing an apkhartsa (a two-stringed bowed instrument) at the bedside of the ailing Khoza Ampar, with Alexa Ampar. Performances like this were used to comfort the sick, promote healing and soothe spirits.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 996 (this scan is clearer). Keep both?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which man is Alexa Ampar? Presumably the man seated on the right holding a stick. Draft names him without a position."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Original names give \"Ампар Хоза (Гуаза)\" and \"Ампар Алыкса\"; the names field has Khoza and Alexa. Draft uses the names field."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Shach Chukbar's years (born around the mid-1840s, died around the 1930s): add them?"
+        }
+      ]
+    },
+    {
+      "id": 998,
+      "description": "An 1881 photograph from Abkhazia by F. Barganov, featuring an Abkhaz girl spinning wool or cotton yarn in front of a wattle fence.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Abkhazia, and the girl's name?"
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "description": "A photograph dating approximately to 1927 - 1929, from Kaldakhvara, Abkhazia, featuring the Abkhaz folk singer and storyteller Shach Chukbar playing an apkhartsa (a two-stringed bowed instrument) at the bedside of the ailing Khoza Ampar, with Alexa Ampar. Performances like this were used to comfort the sick, promote healing and soothe spirits.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Same photograph as ID 999 (this is a lower-quality print or scan). Keep both?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which man is Alexa Ampar? Presumably the man seated on the right holding a stick. Draft names him without a position."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Original names give \"Ампар Хоза (Гуаза)\" and \"Ампар Алыкса\"; the names field has Khoza and Alexa. Draft uses the names field."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Shach Chukbar's years (born around the mid-1840s, died around the 1930s): add them?"
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "description": "A photograph from around 1890, from Ulap, Adygea, featuring two Circassian women in the traditional female costume, with Lyubov Edygovna Dokshokova, née Shekhova, on the right.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Village: Ulap (sub-locality) and Ulyap (notes). Draft uses Ulap, as the guide says."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The category notes say \"Traditional male costume\", but both women wear the female costume. Correct the field?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the woman on the left? Is the woman on the right the same as in ID 994?"
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "description": "A photograph from around 1890, from Ulap, Adygea, featuring Lyubov Edygovna Dokshokova, née Shekhova, in the traditional female costume, held at the National Museum of the Republic of Adygea.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Village: Ulap (sub-locality) and Ulyap (notes). Draft uses Ulap, as the guide says."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is the photograph itself kept at the National Museum of the Republic of Adygea?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The category notes say \"Traditional male costume\", but she wears the female costume. Correct the field?"
+        }
+      ]
+    },
+    {
+      "id": 986,
+      "description": "A photograph dating approximately to 1870 - 1880, by Alexander Engel, from the series Caucasian Types, featuring a Kabardian man and two girls in traditional costume, the girl on the left from the Tovchenova family.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Text on the mount: \"Кавказскіе типы\" (Caucasian Types), \"№ 22. Кабардинцы.\" (No. 22. Kabardians), \"Въ Пятигорскѣ\" and \"на Кавказѣ\" (In Pyatigorsk, in the Caucasus), \"Фотографія А. Энгель\" (Photography A. Engel)."
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "The mount says Pyatigorsk (the studio?); the country field says Kabardino-Balkaria. Draft leaves the place out. Add one?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the man and the taller girl?"
+        }
+      ]
+    },
+    {
+      "id": 984,
+      "description": "A photograph dating approximately to 1870 - 1880, featuring a Kabardian girl from the Tovchenova family in the traditional female costume, cropped from a larger photograph by Alexander Engel.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the girl on the left in ID 986, cropped (as the notes say)."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Her first name?"
+        }
+      ]
+    },
+    {
+      "id": 982,
+      "description": "A photograph dating to the 1940s, from Kamennomostsky, Kabardino-Balkaria, featuring a Kabardian woman with her four grandchildren.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1940; the notes say \"1940s\". Draft follows the notes. Exact year?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Village: Kamennomostsky (sub-locality) and Kamennomostskoye (notes). Draft uses the sub-locality spelling."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the woman and the children?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "batch": "round-3",
+  "sheet": "PhotoArchive_Master_Sheet20251123.xlsx",
+  "items": [
+    {
+      "id": 1173,
+      "title": "Pshemakho Kotsev",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "names": "the third is Pshemakho Tamashevich Kotsev",
+      "dignitaries": "Pshemakho Tamashevich Kotsev",
+      "dignitaryBorn": "1884",
+      "dignitaryDied": "1962",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "image": "images/1173.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1173_TUR_20th_Pshemakho+Kotsev.jpg"
+    },
+    {
+      "id": 1172,
+      "title": "Pshemakho Kotsev",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "names": "on the right Pshemakho Tamashevich Kotsev",
+      "dignitaries": "Pshemakho Tamashevich Kotsev",
+      "dignitaryBorn": "1884",
+      "dignitaryDied": "1962",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "image": "images/1172.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1172_TUR_20th_Pshemakho+Kotsev.jpg"
+    },
+    {
+      "id": 1171,
+      "title": "Syrian president Ahmad Nami",
+      "period": "20th",
+      "dateTaken": "1926",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "names": "Ahmad Nami",
+      "dignitaries": "Ahmad Nami",
+      "dignitaryBorn": "1873",
+      "dignitaryDied": "1963",
+      "book": "Almusawar magazine, Cairo, Issue No 90",
+      "notes": "Ahmad Ibrahim Fakhri Nami (Damat Ahmet Nami). Married to Aysha, the daughter of Ottoman Sultan Abdul Hamid II. He was a prominent political figure who served as the second President of Syria and its fifth Prime Minister.",
+      "context": {
+        "other": "President"
+      },
+      "image": "images/1171.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1171_SYR_20th_Syrian+president+Ahmad+Nami.jpg"
+    },
+    {
+      "id": 1170,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "notes": "Students at the Adyghe school in Quneitra, Syria, perform physical exercises outdoors in a stone-walled field. Established in 1934 under the leadership of Amin Samkough, this first Circassian school in the Golan Heights taught primary education, sports, and traditional heritage while preserving the native Adyghebze language.",
+      "context": {
+        "place": "Qunaitra",
+        "fashion": "Traditional male and female Adyghe school costume",
+        "other": "The Circassian School"
+      },
+      "image": "images/1170.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1170_SYR_20th_The+Adyghe+School+in+Syria.jpg"
+    },
+    {
+      "id": 1167,
+      "title": "Circassian from Golan",
+      "period": "20th",
+      "dateTaken": "1930 - 1940",
+      "location": "Diaspora",
+      "country": "Syria",
+      "notes": "Probobly are members of Circassian cavalry squadrons (Groupement d'Escadrons Tcherkesses), which aligns with the military bearing, riding boots, and crops/whips seen in the photo",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Dagger, horse whipe"
+      },
+      "image": "images/1167.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1167_SYR_20th_Circassian+from+Golan.jpg"
+    },
+    {
+      "id": 1166,
+      "title": "Officer Ahmet Agha",
+      "period": "19th",
+      "dateTaken": "1871 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Ahmet Agha",
+      "notes": "The photograph shows the Circassian officer Ahmet Agha (Ahmad Agha) in traditional Circassian military attire from the Ottoman Empire, dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Dagger"
+      },
+      "image": "images/1166.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1166_TUR_19th_Officer+Ahmet+Agha.jpg"
+    },
+    {
+      "id": 1165,
+      "title": "Captain Haji Mehmet Efendi",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Haji Mehmet Efendi",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "notes": "The photograph shows Yüzbaşı Hacı Mehmet Efendi (Captain Haji Mehmet Efendi), an officer serving in the Ottoman Circassian Guard Regiment during the late 19th century. photographed in Constantinople (Istanbul) dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1165.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1165_TUR_19th_Captain+Haji+Mehmet+Efendi.jpg"
+    },
+    {
+      "id": 1164,
+      "title": "Sergeant Mehmet Agha",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Mehmet Agha",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "notes": "The photograph shows Mehmet-Agha, a Circassian sergeant of the Second Imperial Battalion in Ottoman service, photographed in Constantinople (Istanbul) dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1164.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1164_TUR_19th_Sergeant+Mehmet+Agha.jpg"
+    },
+    {
+      "id": 1163,
+      "title": "Captain Safer Bey",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Safer Bey or Bek",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "notes": "The person depicted in the photo is often identified in Istanbul University archive collections as Yüzbaşı Sefer Bey (Captain Sefer/Safer Bey). He served in the Ottoman Imperial Guard—specifically within the Second Imperial Battalion (İkinci İmparatorluk Taburu) during the late 19th century. photographed in Constantinople (Istanbul) dating from the 1870s to 1880s by the Levantine photographer Pascal Sébah.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "medal, Dagger"
+      },
+      "image": "images/1163.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1163_TUR_19th_Captain+Safer+Bey.jpg"
+    },
+    {
+      "id": 1162,
+      "title": "Captain Safer Bey",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Safer Bey or Bek",
+      "notes": "The person depicted in the photo is often identified in Istanbul University archive collections as Yüzbaşı Sefer Bey (Captain Sefer/Safer Bey). He served in the Ottoman Imperial Guard—specifically within the Second Imperial Battalion (İkinci İmparatorluk Taburu) during the late 19th century. photographed in Constantinople (Istanbul) dating from the 1870s to 1880s by the Levantine photographer Pascal Sébah.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "medal, Dagger"
+      },
+      "image": "images/1162.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1162_TUR_19th_Captain+Safer+Bey.jpg"
+    },
+    {
+      "id": 1161,
+      "title": "Hadji-Khan Dzhandarov",
+      "period": "19th",
+      "dateTaken": "1871 - 1890",
+      "location": "Homeland",
+      "country": "Karachay-Cherkessia",
+      "locality": "Malokarachayevsky District",
+      "sublocality": "Krasny Vostok",
+      "photographer": "Dmitry Ivanovich Yermakov (Ermakov)",
+      "names": "Hadji-Khan Dzhandarov",
+      "tribe": "Abazin",
+      "notes": "This historical photograph, cataloged as number 3504, was taken by the photographer Dmitry Ivanovich Ermakov between the 1870s and 1890s. The image captures Hadji-Khan Dzhandarov and a female companion, in Loovsky aul, an Abaza settlement located in the Kuban Oblast of the Russian Empire, which is known today as the village of Krasny Vostok in the Karachay-Cherkess Republic. Original prints and negatives from this ethnographic series are preserved today within the permanent collections of the ROSPHOTO State Museum and Exhibition Centre in Saint Petersburg. and some sources inform that this edition was a part of J. Guthrie Watson's album. J. Guthrie Watson (c. 1850–1913) was an English traveller. A member of the Conservative Club in London, Watson appears to have been a former military officer and was, in his words, “well acquainted with the Caucasus (particularly that portion known as Circassia).” In 1889 he embarked on a journey across the Russian Empire, which included Circassia in the North Caucasus. He published the photo-album “A Journey Across Russia” upon his return to England in 1889. It is not certain how many of the views in this album were photographed by Watson himself. In 1899 he exhibited a collection of photographs at the Anthropological Institute in London.",
+      "context": {
+        "fashion": "Traditional male and female costumes",
+        "other": "Wooden fence,"
+      },
+      "image": "images/1161.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1161_KChR_19th_Hadji-Khan+Dzhandarov.jpg"
+    },
+    {
+      "id": 1160,
+      "title": "Damascus dancing troupe",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "names": "Hani Issaq, Khaldoun Haj Kuba, Hilmi Tokel, Naser Yacoub, Wahid Dada, and sitting Ahmad Qanqosh.",
+      "notes": "Damascus dancing troupe, probobly in the 80s",
+      "context": {
+        "fashion": "Traditional male costume (Troupe costume)",
+        "dance": "Damascus dancing troupe"
+      },
+      "image": "images/1160.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1160_SYR_20th_Damascus+dancing+troupe.jpg"
+    },
+    {
+      "id": 1159,
+      "title": "Traditional female belt",
+      "period": "19th",
+      "dateTaken": "1898",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "Women's belt of the Circassian culture. From Ekaterinodar, Circassia, 1898. Collection of Baron Joseph de Bay. Paris, France, Quai Branly Museum - Jacques-Chirac.",
+      "context": {
+        "ornaments": "Traditional female belt",
+        "fashion": "Traditional female belt"
+      },
+      "image": "images/1159.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1159_RUS_19th_Traditional+female+belt.jpg"
+    },
+    {
+      "id": 1158,
+      "title": "Wasfi Mirza Pasha",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Wasfi Mirza",
+      "dignitaries": "Wasfi Mirza Pasha or (Mirza Pasha Wasfi)",
+      "dignitaryBorn": "1837",
+      "dignitaryDied": "1932",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "This portrait depicts Mirza Wasfi Pasha or (Mirza Pasha Wasfi) and some sources mention Komoq as well, but he is considered an Abzakh Circassian commander who fought Russian armies at Kars and served in Ottoman campaigns from Serbia to Gaza. He later welcomed Emir Abdullah I to Amman, becoming Field Marshal of Jordan's foundational cavalry forces. This photo though could be edited to look clearer.",
+      "context": {
+        "other": "medal"
+      },
+      "image": "images/1158.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1158_JRD_20th_Wasfi+Mirza+Pasha.jpg"
+    },
+    {
+      "id": 1157,
+      "title": "Wasfi Mirza Pasha",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Wasfi Mirza",
+      "dignitaries": "Wasfi Mirza Pasha or (Mirza Pasha Wasfi)",
+      "dignitaryBorn": "1837",
+      "dignitaryDied": "1932",
+      "tribe": "Abzakh/Abadzekh",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "notes": "This portrait depicts Mirza Wasfi Pasha or (Mirza Pasha Wasfi) and some sources mention Komoq as well, but he is considered an Abzakh Circassian commander who fought Russian armies at Kars and served in Ottoman campaigns from Serbia to Gaza. He later welcomed Emir Abdullah I to Amman, becoming Field Marshal of Jordan's foundational cavalry forces.",
+      "context": {
+        "other": "medal"
+      },
+      "image": "images/1157.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1157_JRD_20th_Wasfi+Mirza+Pasha.jpg"
+    },
+    {
+      "id": 1156,
+      "title": "Issaq Zemzer Limpiz",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Issaq Zemzer Limpiz",
+      "dignitaries": "Issaq Zemzer Limpiz",
+      "dignitaryDied": "1943",
+      "notes": "Al-Hajj Issaq Zemzer Limpiz (d. 1943) was a prominent Circassian community leader in Jordan. Renowned for his decorated service under the Ottoman Empire, he played a foundational role in Amman's civic development, famously donating his home to serve as the first headquarters for the Circassian Charity Association upon its founding in 1932.",
+      "context": {
+        "other": "medal"
+      },
+      "image": "images/1156.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1156_JRD_20th_Issaq+Zemzer+Limpiz.jpg"
+    },
+    {
+      "id": 1155,
+      "title": "Sharaf al-Din Rustam",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Sharaf al-Din Rustam",
+      "dignitaries": "Sharaf al-Din Rustam",
+      "dignitaryBorn": "1897",
+      "dignitaryDied": "1947",
+      "notes": "Sharaf al-Din Yehia Rustam (1897–1979) was a Jordanian officer of Circassian descent born in Wadi al-Seer. He achieved historical permanence by becoming the first officially registered soldier (Serial Number 1) in the foundational rolls of the Jordanian Armed Forces.",
+      "image": "images/1155.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1155_JRD_20th_Sharaf+al-Din+Rustam.jpg"
+    },
+    {
+      "id": 1154,
+      "title": "Sharaf al-Din Rustam",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Sharaf al-Din Rustam",
+      "dignitaries": "Sharaf al-Din Rustam",
+      "dignitaryBorn": "1897",
+      "dignitaryDied": "1947",
+      "inscription": "Watermark",
+      "inscriptionLanguage": "English",
+      "notes": "Sharaf al-Din Yehia Rustam (1897–1979) was a Jordanian officer of Circassian descent born in Wadi al-Seer. He achieved historical permanence by becoming the first officially registered soldier (Serial Number 1) in the foundational rolls of the Jordanian Armed Forces.",
+      "image": "images/1154.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1154_JRD_20th_Sharaf+al-Din+Rustam.jpg"
+    },
+    {
+      "id": 1153,
+      "title": "Sharaf al-Din Rustam",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Jordan",
+      "names": "Sharaf al-Din Rustam",
+      "dignitaries": "Sharaf al-Din Rustam",
+      "dignitaryBorn": "1897",
+      "dignitaryDied": "1947",
+      "notes": "Sharaf al-Din Yehia Rustam (1897–1979) was a Jordanian officer of Circassian descent born in Wadi al-Seer. He achieved historical permanence by becoming the first officially registered soldier (Serial Number 1) in the foundational rolls of the Jordanian Armed Forces.",
+      "image": "images/1153.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1153_JRD_20th_Sharaf+al-Din+Rustam.jpg"
+    },
+    {
+      "id": 1150,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1931",
+      "location": "Diaspora",
+      "country": "Syria",
+      "artType": "Painting",
+      "creator": "Pierre Albert Leroux (1874–1959)",
+      "artDate": "1931",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "notes": "This illustration depicts the Circassian cavalry squadrons (Escadrons Tcherkesses) with The French officer Osman Bey, serving under the French Army of the Levant during the French Mandate for Syria and the Lebanon (1922–1946)",
+      "context": {
+        "art": "A modern uniformology plate",
+        "other": "Groupement Cherkess, Circassian Squadron, Banner"
+      },
+      "image": "images/1150.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1150_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1149,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1931",
+      "location": "Diaspora",
+      "country": "Syria",
+      "artType": "Painting",
+      "creator": "Pierre Albert Leroux (1874–1959)",
+      "artDate": "1931",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "notes": "This illustration depicts the Circassian cavalry squadrons (Escadrons Tcherkesses) with the French officer Philibert Collet, serving under the French Army of the Levant during the French Mandate for Syria and the Lebanon (1922–1946)",
+      "context": {
+        "art": "A modern uniformology plate",
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron, Banner"
+      },
+      "image": "images/1149.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1149_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1148,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1148.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1148_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1147,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1923 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1147.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1147_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1146,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "context": {
+        "other": "Groupement Cherkess, Circassian Squadron, Banner"
+      },
+      "image": "images/1146.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1146_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1145,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1931",
+      "location": "Diaspora",
+      "country": "Syria",
+      "artType": "Painting",
+      "creator": "Pierre Albert Leroux (1874–1959)",
+      "artDate": "1931",
+      "notes": "This illustration depicts the Circassian cavalry squadrons (Escadrons Tcherkesses) with the French officer Philibert Collet, serving under the French Army of the Levant during the French Mandate for Syria and the Lebanon (1922–1946)",
+      "context": {
+        "art": "A modern uniformology plate",
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron, Banner"
+      },
+      "image": "images/1145.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1145_1146_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1144,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1144.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1144_1145_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1142,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1142.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1142_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1141,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1141.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1141_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1139,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Sitting: Mohamad Salim Safar Baktamar, andon the right Jawad Anzor",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1139.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1139_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1138,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Sitting: Mohamad Salim Safar Baktamar, and standing: Jankari Shkai",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1138.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1138_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1137,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Sitting: Mohamad Salim Safar Baktamar, and standing: Jankari Shkai",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1137.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1137_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg"
+    },
+    {
+      "id": 1136,
+      "title": "Circassians in a National Syrian occasion",
+      "period": "20th",
+      "dateTaken": "1958 - 1962",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "On the left Farouq Abaza, the occordionist is Hisham Belto, the others are Bashir Tawesh Jiji, Khaled Bat, Mamdouh Zaki Dadoh, and Anwar Bagh/",
+      "notes": "A photograph of Circassian and other Caucassian men in a national Syrian occasion probobly the anniversary of the Unity between Syria and Egypt (1958 - 1962)",
+      "context": {
+        "fashion": "Traditional male costume",
+        "instrument": "Occordion"
+      },
+      "image": "images/1136.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1136_SYR_20th_Circassians+in+a+National+Syrian+occasion.jpg"
+    },
+    {
+      "id": 1135,
+      "title": "Aul Karmovo",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Zolsky District",
+      "sublocality": "Kamennomostsky",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "a1930 photograph featuring a man standing in front of a traditional watermill built over a mountain stream in the aul of Karmovo.",
+      "context": {
+        "house": "Outside, looks like a watermill",
+        "other": "Watermill"
+      },
+      "image": "images/1135.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1135_KBR_20th_Aul+Karmovo.jpg"
+    },
+    {
+      "id": 1134,
+      "title": "Aul Karmovo",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Zolsky District",
+      "sublocality": "Kamennomostsky",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "A 1930 photograph featuring a Kabardian family in the aul of Karmovo",
+      "context": {
+        "fashion": "Traditional male and female costumes"
+      },
+      "image": "images/1134.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1134_KBR_20th_Aul+Karmovo.jpg"
+    },
+    {
+      "id": 1133,
+      "title": "Aul Karmovo",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Zolsky District",
+      "sublocality": "Kamennomostsky",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "A 1930 photograph featuring a Kabardian family outside a traditional thatched-roof, wattle-and-daub house in the aul of Karmovo",
+      "context": {
+        "house": "Outside, Thatched-roof wattle-and-daub house",
+        "fashion": "Peasant costume"
+      },
+      "image": "images/1133.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1133_KBR_20th_Aul+Karmovo.jpg"
+    },
+    {
+      "id": 1132,
+      "title": "Batyrbek Bekmurazovich Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "names": "Batyrbek Bekmurazovich Shardanov",
+      "dignitaries": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov",
+      "dignitaryBorn": "1860",
+      "dignitaryDied": "1937",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov (1860–1937) was a prominent Circassian (Kabardian) nobleman, a pioneering civil engineer, an influential public intellectual, and a generous philanthropist. He holds a historic distinction as the first Kabardian railway engineer in the Russian Empire",
+      "image": "images/1132.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1132_RUS_20th_Batyrbek+Bekmurazovich+Shardanov.jpg"
+    },
+    {
+      "id": 1131,
+      "title": "Batyrbek Bekmurazovich Shardanov",
+      "period": "20th",
+      "dateTaken": "1907",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Batyrbek Bekmurazovich Shardanov",
+      "dignitaries": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov",
+      "dignitaryBorn": "1860",
+      "dignitaryDied": "1937",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "notes": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov (1860–1937) was a prominent Circassian (Kabardian) nobleman, a pioneering civil engineer, an influential public intellectual, and a generous philanthropist. He holds a historic distinction as the first Kabardian railway engineer in the Russian Empire",
+      "image": "images/1131.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1131_RUS_20th_Batyrbek+Bekmurazovich+Shardanov.jpg"
+    },
+    {
+      "id": 1130,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Sultan Devlet-Girey",
+      "image": "images/1130.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1130_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg"
+    },
+    {
+      "id": 1129,
+      "title": "The residence Batyrbek Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "Batyrbek Shardanov built this residence in 1905. Today, this building serves as the Kovalenko Krasnodar Regional Art Museum",
+      "image": "images/1129.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1129_RUS_20th_The+residence+Batyrbek+Shardanov.jpg"
+    },
+    {
+      "id": 1128,
+      "title": "The residence Batyrbek Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "Batyrbek Shardanov built this residence in 1905. Today, this building serves as the Kovalenko Krasnodar Regional Art Museum",
+      "image": "images/1128.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1128_RUS_20th_The+residence+Batyrbek+Shardanov.jpg"
+    },
+    {
+      "id": 1127,
+      "title": "Batyrbek Bekmurazovich Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "names": "Batyrbek Bekmurazovich Shardanov",
+      "dignitaries": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov",
+      "dignitaryBorn": "1860",
+      "dignitaryDied": "1937",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov (1860–1937) was a prominent Circassian (Kabardian) nobleman, a pioneering civil engineer, an influential public intellectual, and a generous philanthropist. He holds a historic distinction as the first Kabardian railway engineer in the Russian Empire",
+      "image": "images/1127.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1127_RUS_20th_Batyrbek+Bekmurazovich+Shardanov.jpg"
+    },
+    {
+      "id": 1126,
+      "title": "Batyrbek Bekmurazovich Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "names": "Batyrbek Bekmurazovich Shardanov the fourth in the middle row",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "Batyrbek Bekmurazovich (or Murzabekovich) Shardanov (1860–1937) was a prominent Circassian (Kabardian) nobleman, a pioneering civil engineer, an influential public intellectual, and a generous philanthropist. He holds a historic distinction as the first Kabardian railway engineer in the Russian Empire",
+      "image": "images/1126.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1126_RUS_20th_Batyrbek+Bekmurazovich+Shardanov.jpg"
+    },
+    {
+      "id": 1125,
+      "title": "Batyrbek Shardanov and Mikhail Babych",
+      "period": "20th",
+      "dateTaken": "1911",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Middle row the first or the second Mikhail Pavlovich Babych, the third Batyrbek Bekmurazovich Shardanov, The third row seated the first Sultan Devlet-Girey",
+      "museum": "National Museum of the Republic of Adygea",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "notes": "A 1911 photograph depicts Batyrbek Shardanov, Mikhail Babych, and Sultan Devlet-Girey among the Circassians of the Kuban Oblast. Batyrbek Bekmurazovich (or Murzabekovich) Shardanov (1860–1937) was a prominent Circassian (Kabardian) nobleman, a pioneering civil engineer, an influential public intellectual, and a generous philanthropist. He holds a historic distinction as the first Kabardian railway engineer in the Russian Empire",
+      "image": "images/1125.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1125_RUS_20th_Batyrbek+Shardanov+and+Mikhail+Babych.jpg"
+    },
+    {
+      "id": 1124,
+      "title": "Klishbi Aisovich Adzhigiriev",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Chegemsky Distric",
+      "sublocality": "Nartan",
+      "names": "Klishbi Aisovich Adzhigiriev",
+      "originalNames": "Аджигириев Клишби Аисович",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "Klishbi Aisovich Adzhigiriev (born 1876), a Kabardian man from the village of Nartan in the Chegemsky district, Kabardino-Balkaria. For the Soviet authorities, the social background of the Adzhigiriev family served as an indicator of \"anti-Soviet sentiment.\" In December 1931, at the age of 55, Klishbi was arrested and accused of \"preparing an armed uprising against Soviet power.\" In 1989, Klishbi Adzhigiriev was fully rehabilitated. Klishbi had six children; his wife was from the Ashabokov family. Two of his sons were executed by firing squad in 1937. Another son, Mukhametgeri, returned to the Kabardino-Balkarian ASSR after his period of exile.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "CCCP detained"
+      },
+      "image": "images/1124.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1124_KBR_20th_Klishbi+Aisovich+Adzhigiriev.jpg"
+    },
+    {
+      "id": 1123,
+      "title": "The riders of the Abkhaz Hundred",
+      "period": "20th",
+      "location": "Homeland",
+      "names": "Seated the third is Colonel Georgy Merchul",
+      "tribe": "Abkhaz",
+      "book": "http://apsnyteka.org/file/Gozhba_Abkhazskie_vsadniki.pdf",
+      "notes": "The officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 that served as the 4th squadron of the Circassian Cavalry Regiment within the Russian Empire's famous Caucasian Native Cavalry Division (\"Wild Division\"). Pictured during World War I in a formal studio setting with Colonel Georgy Merchul seated at the center.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "The Abkhaz Hundred, Circassian Cavalry Regiment"
+      },
+      "image": "images/1123.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1123_Non_20th_The+riders+of+the+Abkhaz+Hundred.png"
+    },
+    {
+      "id": 1122,
+      "title": "The riders of the Abkhaz Hundred",
+      "period": "20th",
+      "location": "Homeland",
+      "names": "Seated the third is Colonel Georgy Merchul",
+      "tribe": "Abkhaz",
+      "book": "http://apsnyteka.org/file/Gozhba_Abkhazskie_vsadniki.pdf",
+      "notes": "The officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 that served as the 4th squadron of the Circassian Cavalry Regiment within the Russian Empire's famous Caucasian Native Cavalry Division (\"Wild Division\"). Pictured during World War I in a formal studio setting with Colonel Georgy Merchul seated at the center.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "The Abkhaz Hundred, Circassian Cavalry Regiment"
+      },
+      "image": "images/1122.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1122_Non_20th_The+riders+of+the+Abkhaz+Hundred.jpg"
+    },
+    {
+      "id": 1121,
+      "title": "Muhammad Mustafa Hapa",
+      "period": "20th",
+      "dateTaken": "1940",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Muhammad Mustafa Hapa (Kabartai)",
+      "originalNames": "Хьэпэ",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "Circassian (Kabardian) Muhammad-Mustafa Hapa (Hape), father of the Circassian historian and retired Syrian Arab Army (SAA) General Adnan Kabartai, in the city of Quneitra, Syria, 1940s.",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/1121.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1121_SYR_20th_Muhammad+Mustafa+Hapa.jpg"
+    },
+    {
+      "id": 1120,
+      "title": "Murat Khadzhokov",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Teuchezhsky District",
+      "sublocality": "Pshikuykhabl",
+      "names": "Murat Khadzhokov",
+      "notes": "Murat Khadzhokov (Hadzhoque) from Pshikuykhabl in Adygea. it thought that it dates back to the late 19th century or early 20th century (circa 1890s–1910s).",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1120.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1120_ADG_nAn_Murat+Khadzhokov.jpg"
+    },
+    {
+      "id": 1119,
+      "title": "Murat Khadzhokov",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Teuchezhsky District",
+      "sublocality": "Pshikuykhabl",
+      "names": "Murat Khadzhokov",
+      "originalNames": "Пщыкъуйхьабл",
+      "notes": "Murat Khadzhokov (Hadzhoque) from Pshikuykhabl in Adygea. it thought that it dates back to the late 19th century or early 20th century (circa 1890s–1910s).",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1119.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1119_ADG_nAn_Murat+Khadzhokov.jpg"
+    },
+    {
+      "id": 1118,
+      "title": "Sasa Sagidovna Khurum",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Takhtamukaysky District",
+      "sublocality": "Pseytuk",
+      "names": "Sasa Sagidovna Khurum",
+      "notes": "This portrait captures Sasa Sagidovna Khurum from Pseituk in traditional Circassian festive attire with long split sleeves represent an ancient tradition, hanging loosely from the shoulder rather than serving as the modern, open-front pendants. This photograph remains a vital testament to a handcrafted family heirloom lost during wartime evacuation. The photo was taken at the Bolshoi Theatre in Moscow for the anniversary of the October Revolution.",
+      "context": {
+        "fashion": "Traditional female costume, split sleeves,"
+      },
+      "image": "images/1118.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1118_ADG_20th_Sasa+Sagidovna+Khurum.jpg"
+    }
+  ]
+}

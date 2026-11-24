@@ -190,12 +190,14 @@
     tags.hidden = !keywords.length;
     tags.replaceChildren(...keywords.map((k) => Object.assign(document.createElement('li'), { textContent: k })));
 
-    // The researcher's own notes and names: the source of most drafts, folded away to keep cards short.
-    const source = [['Names', item.names], ["Researcher's notes", item.notes]].filter(([, v]) => v);
+    // The researcher's own "Photo description" from the sheet: the source of most drafts. Open, so it
+    // can be read beside the draft; it folds away if it gets in the way.
+    const source = [['Names', item.names], ['Photo description', item.notes]].filter(([, v]) => v);
     if (source.length) {
       const box = document.createElement('details');
       box.className = 'review-card__source';
-      box.innerHTML = '<summary>Sources for this draft</summary>';
+      box.open = true;
+      box.innerHTML = '<summary>From the sheet</summary>';
       source.forEach(([label, value]) => {
         const p = document.createElement('p');
         p.innerHTML = '<strong></strong> ';

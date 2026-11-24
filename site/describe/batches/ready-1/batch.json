@@ -1,0 +1,994 @@
+{
+  "batch": "ready-1",
+  "rounds": [
+    "round-2",
+    "round-3",
+    "round-4",
+    "round-5"
+  ],
+  "items": [
+    {
+      "id": 215,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1934",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "tribe": "All",
+      "collection": "عزالدين سطاس",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "keywords": "Education, School, Students, Circassian school uniform, Annual festival",
+      "context": {
+        "place": "Qunaitra",
+        "house": "A style in Diaspora, Black stone,",
+        "fashion": "Traditional male Adyghe school costume",
+        "sport": "The Circassian school sport Annual festival",
+        "other": "The Circassian School"
+      },
+      "image": "images/215.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/215_SYR_20th_The+Adyghe+School+in+Syria.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 229,
+      "title": "14th Cherkess Squadron",
+      "period": "20th",
+      "dateTaken": "1935 - 1937",
+      "location": "Diaspora",
+      "country": "Syria",
+      "tribe": "All",
+      "notes": "14th Cherkess Squadron in French army in Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Army, Circassian Cavalry"
+      },
+      "image": "images/229.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/229_SYR_20th_14th+Cherkess+Squadron.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 239,
+      "title": "Public event",
+      "period": "20th",
+      "location": "Diaspora",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/239.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/239_nAn_20th_Public+event.bmp",
+      "round": "round-2"
+    },
+    {
+      "id": 247,
+      "title": "female traditional hat",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Sochi",
+      "sublocality": "Lazarevskoye",
+      "museum": "Лазаревский этнографический музей",
+      "context": {
+        "fashion": "Traditional female hat"
+      },
+      "image": "images/247.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/247_RUS_nAn_female+traditional+hat.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 250,
+      "title": "Shaguj Issak with daughters",
+      "period": "20th",
+      "dateTaken": "1920 - 1930",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "names": "Shaguj Issak",
+      "originalNames": "Шагуджев Исхак",
+      "tribe": "Abzakh/Abadzekh",
+      "notes": "Town Kalezh, Shaguj Issak is Mahmud's father (The famous occordionist) АУЛ КАЛЕЖ",
+      "context": {
+        "fashion": "Traditional costume"
+      },
+      "image": "images/250.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/250_RUS_20th_Shaguj+Issak+with+daughters.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 289,
+      "title": "Kabardian theatre",
+      "period": "20th",
+      "dateTaken": "1946",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Nalchik",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "It started as Drama theatre and then became the Kabardian theatre where plays are conducted in Circassian language",
+      "context": {
+        "place": "Kabardian drama theatre"
+      },
+      "image": "images/289.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/289_KBR_20th_Kabardian+theatre.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 293,
+      "title": "Traditional Circassian hat",
+      "location": "Homeland",
+      "country": "Russia",
+      "locality": "Tuapse",
+      "museum": "Tuapse Museum of history and local lore",
+      "notes": "There are couple different forms of female traditional hats and this one is the kind of low comparing with the other high forms",
+      "context": {
+        "ornaments": "Female hat",
+        "fashion": "Traditional female hat",
+        "other": "Goldthread"
+      },
+      "image": "images/293.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/293_RUS_nAn_Traditional+Circassian+hat.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 302,
+      "title": "plowing instrument",
+      "period": "20th",
+      "dateTaken": "1920",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "keywords": "plowing tool",
+      "context": {
+        "other": "Agriculture, plowing"
+      },
+      "image": "images/302.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/302_RUS_20th_plowing+instrument.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 306,
+      "title": "Qadyrkhan Khatatovna Tkhagusheva (Skhabo)",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "names": "Qadyrkhan Khatatovna Tkhagusheva (Skhabo)",
+      "book": "Нагучев Д.М. Мой аул Хаджико",
+      "notes": "Qadyrkhan is Khatat's daughter",
+      "image": "images/306.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/306_RUS_20th_Qadyrkhan+Khatatovna+Tkhagusheva+%28Skhabo%29.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 307,
+      "title": "The certification of Qadyrkhan Skhabo",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "locality": "Tuapse",
+      "book": "Нагучев Д.М. Мой аул Хаджико",
+      "inscription": "Script",
+      "inscriptionLanguage": "Russian",
+      "notes": "Qadyrkhan is Khatat's daughter and this the certification of being the Heroin mother",
+      "context": {
+        "other": "Document"
+      },
+      "image": "images/307.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/307_RUS_20th_The+certification+of+Qadyrkhan+Skhabo.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 310,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "inscription": "Script",
+      "inscriptionLanguage": "Russian",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "book cover": "The Album of Circassian Evening 1914",
+        "other": "Photo album"
+      },
+      "image": "images/310.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/310_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 311,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/311.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/311_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 312,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/312.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/312_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 313,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "fashion": "Traditional female costume and warrior costume",
+        "other": "Actors, Theatre, warrior"
+      },
+      "image": "images/313.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/313_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 314,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/314.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/314_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 315,
+      "title": "The second Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1914",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+      "context": {
+        "other": "Actors, Theatre,"
+      },
+      "image": "images/315.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/315_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "round-2"
+    },
+    {
+      "id": 1166,
+      "title": "Officer Ahmet Agha",
+      "period": "19th",
+      "dateTaken": "1871 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Ahmet Agha",
+      "notes": "The photograph shows the Circassian officer Ahmet Agha (Ahmad Agha) in traditional Circassian military attire from the Ottoman Empire, dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Dagger"
+      },
+      "image": "images/1166.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1166_TUR_19th_Officer+Ahmet+Agha.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1165,
+      "title": "Captain Haji Mehmet Efendi",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Haji Mehmet Efendi",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "notes": "The photograph shows Yüzbaşı Hacı Mehmet Efendi (Captain Haji Mehmet Efendi), an officer serving in the Ottoman Circassian Guard Regiment during the late 19th century. photographed in Constantinople (Istanbul) dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1165.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1165_TUR_19th_Captain+Haji+Mehmet+Efendi.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1164,
+      "title": "Sergeant Mehmet Agha",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "region": "Istanbul",
+      "photographer": "Pascal Sebah",
+      "names": "Mehmet Agha",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Turkish",
+      "notes": "The photograph shows Mehmet-Agha, a Circassian sergeant of the Second Imperial Battalion in Ottoman service, photographed in Constantinople (Istanbul) dating from the 1870s to 1880s",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Sword, Dagger"
+      },
+      "image": "images/1164.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1164_TUR_19th_Sergeant+Mehmet+Agha.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1148,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1148.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1148_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1146,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "context": {
+        "other": "Groupement Cherkess, Circassian Squadron, Banner"
+      },
+      "image": "images/1146.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1146_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1141,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/1141.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1141_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1129,
+      "title": "The residence Batyrbek Shardanov",
+      "period": "20th",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "notes": "Batyrbek Shardanov built this residence in 1905. Today, this building serves as the Kovalenko Krasnodar Regional Art Museum",
+      "image": "images/1129.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1129_RUS_20th_The+residence+Batyrbek+Shardanov.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1122,
+      "title": "The riders of the Abkhaz Hundred",
+      "period": "20th",
+      "location": "Homeland",
+      "names": "Seated the third is Colonel Georgy Merchul",
+      "tribe": "Abkhaz",
+      "book": "http://apsnyteka.org/file/Gozhba_Abkhazskie_vsadniki.pdf",
+      "notes": "The officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 that served as the 4th squadron of the Circassian Cavalry Regiment within the Russian Empire's famous Caucasian Native Cavalry Division (\"Wild Division\"). Pictured during World War I in a formal studio setting with Colonel Georgy Merchul seated at the center.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "The Abkhaz Hundred, Circassian Cavalry Regiment"
+      },
+      "image": "images/1122.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1122_Non_20th_The+riders+of+the+Abkhaz+Hundred.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1121,
+      "title": "Muhammad Mustafa Hapa",
+      "period": "20th",
+      "dateTaken": "1940",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Muhammad Mustafa Hapa (Kabartai)",
+      "originalNames": "Хьэпэ",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "notes": "Circassian (Kabardian) Muhammad-Mustafa Hapa (Hape), father of the Circassian historian and retired Syrian Arab Army (SAA) General Adnan Kabartai, in the city of Quneitra, Syria, 1940s.",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/1121.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1121_SYR_20th_Muhammad+Mustafa+Hapa.jpg",
+      "round": "round-3"
+    },
+    {
+      "id": 1117,
+      "title": "Kabardinka",
+      "period": "19th",
+      "dateTaken": "1880",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Ukraine",
+      "region": "Poltava Oblast",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "artType": "Painting",
+      "creator": "Nikolai Alexandrovich Yaroshenko",
+      "artDate": "1880",
+      "museum": "Poltava Art Museum",
+      "notes": "\"Kabardinka\" is an 1880 oil sketch by Realist painter Nikolai Yaroshenko, housed in the Poltava Regional Art Museum. Created during his travels in the Caucasus, the portrait captures a Kabardian woman in traditional Circassian attire, featuring a distinctive cylindrical hat and draped veil.",
+      "context": {
+        "art": "oil sketch",
+        "fashion": "Traditional female costume,"
+      },
+      "image": "images/1117.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1117_UKR_19th_Kabardinka.jpeg",
+      "round": "round-4"
+    },
+    {
+      "id": 1111,
+      "title": "Khimsad Loov",
+      "period": "19th",
+      "dateTaken": "1870 - 1890",
+      "location": "Homeland",
+      "country": "Karachay-Cherkessia",
+      "locality": "Malokarachayevsky District",
+      "sublocality": "Krasny Vostok",
+      "photographer": "Dmitry Ivanovich Yermakov (Ermakov)",
+      "names": "Khimsad Loov",
+      "tribe": "Abazin",
+      "book": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ermakov_katalog_I_-_1896.pdf",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "keywords": "saddle",
+      "notes": "\"Khimsad Loov, an Abazin girl from the Loov family. It was captured between 1870 and 1890 by the photographer Dmitry Ivanovich Yermakov in Kumsko-Loovsky Aul (present-day Krasny Vostok, Karachay-Cherkessia) and is officially registered under master negative plate № 3502. Decades later, the glass negative was acquired by archaeologist and ethnographer Alexander Alexandrovich Miller during his regional field expeditions, leading to its formal indexing and top-stamping into the Ethnographic Department of the Russian Museum of Emperor Alexander III in 1913. Today, this foundational visual record is preserved within the permanent national collections of the Russian Museum of Ethnography in St. Petersburg [ROSPHOTO Works by Tiflis Photographer on the Verge of the ..., ROSPHOTO Writing with Light. Dmitry Yermakov].",
+      "context": {
+        "fashion": "Traditional female costume,"
+      },
+      "image": "images/1111.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1111_KChR_19th_Khimsad+Loov.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1106,
+      "title": "Circassia on a map of the Turkish Empire",
+      "period": "17th",
+      "dateTaken": "1696",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "France",
+      "region": "Paris",
+      "inscription": "Both",
+      "inscriptionLanguage": "French",
+      "notes": "A copper-engraved map titled Nova Imperii Turcarum Tabula, ad usum Serenissimi Burgundiae Ducis (New Map of the Turkish Empire, for the use of the Most Serene Duke of Burgundy), created by the prominent French cartographer and geographer Alexis-Hubert Jaillot around 1696–1700. It mentions CIRKASI, CIRCASSES, and ABASSA in Caucasus.",
+      "context": {
+        "map": "A copper-engraved",
+        "other": "Circassia"
+      },
+      "image": "images/1106.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1106_FRA_17th_Circassia+on+a+map+of+the+Turkish+Empire.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1104,
+      "title": "Circassia on a map of the Russian Empire",
+      "period": "18th",
+      "dateTaken": "1790",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United Kingdom",
+      "region": "London",
+      "inscription": "Both",
+      "inscriptionLanguage": "English",
+      "notes": "A 1790 antique map by British cartographer Thomas Kitchin depicts the Caucasus, Circassia, and the Black Sea coast. Engraved for publisher Robert Sayer, it translates official charts from the Imperial Academy at St. Petersburg. Featuring distinctive dual scales in geometrical miles and Russian wersts, the map documents late 18th-century borderlines, tribal territories like the \"Kuban Tartars,\" and historic steppe migration zones before the mid-19th-century Caucasian War.",
+      "context": {
+        "other": "Circassia"
+      },
+      "image": "images/1104.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1104_UK_18th_Circassia+on+a+map+of+the+Russian+Empire.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1093,
+      "title": "A card of a Circassian imperial body guard",
+      "period": "19th",
+      "dateTaken": "1888",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United States",
+      "artType": "Lithograph",
+      "artDate": "1888",
+      "artOwner": "The Metropolitan Museum of Art, The Jefferson R. Burdick Collection,",
+      "museum": "https://www.metmuseum.org/art/collection/search/725500",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "A 1888 commercial color lithograph trade card, depicting a uniformed subject from 1886, issued by the Kinney Brothers Tobacco Company as part of their \"Military Series\" (N224) to promote Sweet Caporal Cigarettes. It is a part of The Jefferson R. Burdick Collection, and it reserved in the The Metropolitan Museum of Art. Object Number: Burdick 218, N224.530",
+      "context": {
+        "art": "chromolithograph",
+        "fashion": "military costumes from the late middle ages.",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1093.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1093_USA_19th_A+card+of+a+Circassian+imperial+body+guard.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1088,
+      "title": "A card of Circassians",
+      "period": "20th",
+      "dateTaken": "1908",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "France",
+      "artType": "Lithograph",
+      "artDate": "1908",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "notes": "A collectible advertising trade card titled \"Au Caucase, pays et habitants\" (In the Caucasus, Countries and Inhabitants), issued around 1908 (Series S919) by the Liebig Company to promote their meat extract product",
+      "context": {
+        "art": "chromolithograph",
+        "fashion": "Traditional male and female costumes",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1088.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1088_FRA_20th_A+card+of+Circassians.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1087,
+      "title": "A card of a Circassian brigand",
+      "period": "20th",
+      "dateTaken": "1905",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United Kingdom",
+      "inscription": "Script",
+      "inscriptionLanguage": "English",
+      "notes": "The back cover of a tobacco card titled \"Circassian Brigand\" (#23) from the \"Riders of the World\" series issued in 1905 by John Player & Sons (Player's Navy Cut Cigarettes) in Nottingham, England.",
+      "context": {
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1087.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1087_UK_20th_A+card+of+a+Circassian+brigand.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1085,
+      "title": "A card of a Circassian brigand",
+      "period": "20th",
+      "dateTaken": "1905",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United Kingdom",
+      "artType": "Lithograph",
+      "artDate": "1905",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "A tobacco card titled \"Circassian Brigand\" (#23) from the \"Riders of the World\" series issued in 1905 by John Player & Sons (Player's Navy Cut Cigarettes) in Nottingham, England.",
+      "context": {
+        "art": "chromolithograph by John Player & Sons",
+        "fashion": "Traditional male costume",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1085.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1085_UK_20th_A+card+of+a+Circassian+brigand.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1083,
+      "title": "A card of a Circassian",
+      "period": "19th",
+      "dateTaken": "1886",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United States",
+      "artType": "Lithograph",
+      "artDate": "1886",
+      "artOwner": "The Metropolitan Museum of Art, The Jefferson R. Burdick Collection,",
+      "museum": "https://www.metmuseum.org/art/collection/search/408386",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "A part of The Jefferson R. Burdick Collection, and it reserved in the The Metropolitan Museum of Art Under the title of Circassia, from the Natives in Costume series (N16) for Allen & Ginter Cigarettes Brands. Object Number: 63.350.201.16.13",
+      "context": {
+        "art": "chromolithograph",
+        "fashion": "Traditional male costume",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1083.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1083_USA_19th_A+card+of+a+Circassian.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1080,
+      "title": "A card of a Circassian",
+      "period": "19th",
+      "dateTaken": "1886",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "United States",
+      "artType": "Lithograph",
+      "artDate": "1886",
+      "artOwner": "The Metropolitan Museum of Art, The Jefferson R. Burdick Collection,",
+      "museum": "https://www.metmuseum.org/art/collection/search/409754",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "A part of The Jefferson R. Burdick Collection, and it reserved in the The Metropolitan Museum of Art Under the title of Circassia, from the Types of All Nations series (N24) for Allen & Ginter Cigarettes. This version is a secondary edition of an original print in 1881, Object Number: 63.350.201.24.11",
+      "context": {
+        "art": "chromolithograph by George S. Harris & Sons.",
+        "fashion": "military halmet from the late middle ages.",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1080.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1080_USA_19th_A+card+of+a+Circassian.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1079,
+      "title": "A card of a Circassian and the map of Caucasus",
+      "location": "Diaspora",
+      "country": "France",
+      "artType": "Lithograph",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "notes": "A late 19th or early 20th-century French chromolithograph trade card, used as a promotional collectible inside packages of Chocolat d'Aiguebelle. This specific card belongs to a geographical series focusing on the Caucasus region, highlighting its local people, geography, and natural resources",
+      "context": {
+        "art": "chromolithograph",
+        "fashion": "Traditional male costume",
+        "other": "Trade card, ephemera"
+      },
+      "image": "images/1079.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1079_FRA_nAn_A+card+of+a+Circassian+and+the+map+of+Caucasus.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1074,
+      "title": "Lenin Avenue in Nalchik",
+      "period": "21st",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "locality": "Nalchik",
+      "notes": "The street is designed to align perfectly with the Nalchik TV Tower, a 180-meter-tall structure originally built in 1968. Rising majestically behind the cityscape are the snow-covered peaks of the Ciscaucasian parts of the Caucasus Mountains",
+      "context": {
+        "other": "Avenue, street"
+      },
+      "image": "images/1074.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1074_KBR_21st_Lenin+Avenue+in+Nalchik.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1068,
+      "title": "Bzhedug young girl",
+      "period": "20th",
+      "dateTaken": "1910 - 1913",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Takhtamukaysky District",
+      "sublocality": "Starobzhegokay",
+      "photographer": "Alexander Alexandrovich Miller",
+      "tribe": "Bzhedug/Bjedugh",
+      "museum": "The Russian Museum of Ethnography in St. Petersburg. РЭМ 2400-2/1",
+      "inscription": "Watermark",
+      "inscriptionLanguage": "Russian",
+      "keywords": "(Э.О.Р.М. И. АЛ. III. 1913)",
+      "notes": "The photo is part of the photographic and ethnographic collections stored at the Russian Ethnographic Museum (Российский этнографический музей) in St. Petersburg, Russia. The photograph was taken in 1910 by the prominent Russian archaeologist and ethnographer Alexander A. Miller during his expedition to the Adyghe (Circassian) people of the Kuban region. The mirror text at the top of the photo goes for Ethnographic Department of the Russian Museum of Emperor Alexander III, stamped in 1913 when the photo plate was formally indexed into the collection",
+      "context": {
+        "ornaments": "Traditional female costume,",
+        "fashion": "Traditional female costume",
+        "other": "Expedition"
+      },
+      "image": "images/1068.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1068_ADG_20th_Bzhedug+young+girl.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1067,
+      "title": "Bzhedug young girl",
+      "period": "20th",
+      "dateTaken": "1910 - 1913",
+      "location": "Homeland",
+      "country": "Adygea",
+      "locality": "Takhtamukaysky District",
+      "sublocality": "Starobzhegokay",
+      "photographer": "Alexander Alexandrovich Miller",
+      "tribe": "Bzhedug/Bjedugh",
+      "museum": "The Russian Museum of Ethnography in St. Petersburg. РЭМ 2400-14/1",
+      "inscription": "Watermark",
+      "inscriptionLanguage": "Russian",
+      "keywords": "(Э.О.Р.М. И. АЛ. III. 1913)",
+      "notes": "The photo is part of the photographic and ethnographic collections stored at the Russian Ethnographic Museum (Российский этнографический музей) in St. Petersburg, Russia. The photograph was taken in 1910 by the prominent Russian archaeologist and ethnographer Alexander A. Miller during his expedition to the Adyghe (Circassian) people of the Kuban region. The mirror text at the top of the photo goes for Ethnographic Department of the Russian Museum of Emperor Alexander III, stamped in 1913 when the photo plate was formally indexed into the collection",
+      "context": {
+        "fashion": "Traditional female costume",
+        "other": "Expedition"
+      },
+      "image": "images/1067.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1067_ADG_20th_Bzhedug+young+girl.jpg",
+      "round": "round-4"
+    },
+    {
+      "id": 1055,
+      "title": "Tevfik Bey",
+      "period": "20th",
+      "dateTaken": "1920",
+      "dateType": "Circa",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "names": "Cherkes Tavfik Bey",
+      "dignitaries": "Cherkes Tevfik Bey",
+      "tribe": "Shapsugh",
+      "notes": "Tevfik Bey is the middle brother and Kuvâ-yi Seyyâre Commander",
+      "image": "images/1055.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1055_TUR_20th_Tevfik+Bey.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1049,
+      "title": "Cherkes Ethem",
+      "period": "20th",
+      "dateTaken": "1920",
+      "dateType": "Circa",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "names": "Cherkes Ethem",
+      "dignitaries": "Cherkes Ethem",
+      "tribe": "Shapsugh",
+      "notes": "Cherkes Ethem (1886–1948) was a prominent Circassian guerrilla leader who became a vital militia commander in the early stages of the Turkish War of Independence. Leading the irregular Kuvâ-yi Seyyâre (Mobile Forces), he initially earned national acclaim for stalling the Greek military advance and suppressing internal anti-revolutionary rebellions. However, his independent stance and refusal to merge his forces into the newly established regular Turkish army led to a bitter conflict with the central Ankara government. Declared a traitor and rebel in late 1920, he was defeated and spent the remainder of his life in exile.",
+      "image": "images/1049.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1049_TUR_20th_Cherkes+Ethem.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1048,
+      "title": "Cherkes Ethem",
+      "period": "20th",
+      "dateTaken": "1920",
+      "dateType": "Circa",
+      "location": "Diaspora",
+      "country": "Türkiye",
+      "names": "Cherkes Ethem",
+      "dignitaries": "Cherkes Ethem",
+      "tribe": "Shapsugh",
+      "notes": "Cherkes Ethem (1886–1948) was a prominent Circassian guerrilla leader who became a vital militia commander in the early stages of the Turkish War of Independence. Leading the irregular Kuvâ-yi Seyyâre (Mobile Forces), he initially earned national acclaim for stalling the Greek military advance and suppressing internal anti-revolutionary rebellions. However, his independent stance and refusal to merge his forces into the newly established regular Turkish army led to a bitter conflict with the central Ankara government. Declared a traitor and rebel in late 1920, he was defeated and spent the remainder of his life in exile.",
+      "image": "images/1048.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1048_TUR_20th_Cherkes+Ethem.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1036,
+      "title": "A Circassian Family",
+      "period": "19th",
+      "dateTaken": "1851 - 1855",
+      "location": "Homeland",
+      "artType": "Lithograph",
+      "creator": "R. Tucker",
+      "artDate": "1854",
+      "book": "The Illustrated London News on June 3, 1854",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "keywords": "long smoking pipe",
+      "notes": "an 1854 two wood engravings titled \"A Circassian Family\" and \"Circassians\" by British artist R. Tucker, published in The Illustrated London News. one of them depicts the interior of a traditional Caucasian dwelling with figures in traditional attire, weapons mounted on the walls",
+      "context": {
+        "house": "inside",
+        "art": "Wood engraving",
+        "fashion": "Traditional male and female costumes and military costumes from the late middle ages."
+      },
+      "image": "images/1036.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1036_nAn_19th_A+Circassian+Family.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1035,
+      "title": "A Circassian Family",
+      "period": "19th",
+      "dateTaken": "1851 - 1855",
+      "location": "Homeland",
+      "artType": "Lithograph",
+      "creator": "R. Tucker",
+      "artDate": "1854",
+      "book": "The Illustrated London News on June 3, 1854",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "keywords": "long smoking pipe",
+      "notes": "an 1854 wood engraving titled \"A Circassian Family\" by British artist R. Tucker, published in The Illustrated London News. It depicts the interior of a traditional Caucasian dwelling with figures in traditional attire, weapons mounted on the walls",
+      "context": {
+        "house": "inside",
+        "art": "Wood engraving",
+        "fashion": "Traditional male and female costumes and military costumes from the late middle ages."
+      },
+      "image": "images/1035.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1035_nAn_19th_A+Circassian+Family.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1032,
+      "title": "Types and Views of the Caucasus and Asia Minor",
+      "period": "19th",
+      "dateTaken": "1876",
+      "originalNames": "Типы и виды Кавказа и Малой Азии",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "artType": "Lithograph",
+      "creator": "Mikhail Mikeshin",
+      "artDate": "1876",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "notes": "From the travel album of M. O. Mikeshin, and photo-electro-relief print by A. I. Kovalev. Detailed sketches of different ethnic groups from the Caucasus region and Asia Minor, labeled at the bottom (including a Kurdish Yazidis, a Kabardian, a Chechen, and a Muslim Kurd )",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/1032.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1032_nAn_19th_Types+and+Views+of+the+Caucasus+and+Asia+Minor.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1022,
+      "title": "Circassian horseman",
+      "period": "19th",
+      "photographer": "Louis-Jean Delton",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "A Circassian horseman in traditional Circassian attire mounted on a light-colored horse along a rural path. There is no credible source assures that J. Delton took this photo, and probobly Delton’s studio acquired, reproduced, or sold prints of ethnographic photos taken by regional photographers in the Russian Empire, which later found their way into European publications under his studio's stamp.",
+      "context": {
+        "fashion": "military costumes from the late middle ages."
+      },
+      "image": "images/1022.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1022_nAn_19th_Circassian+horseman.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1013,
+      "title": "Awedding in Khabez",
+      "period": "20th",
+      "dateTaken": "1960",
+      "location": "Homeland",
+      "country": "Karachay-Cherkessia",
+      "sublocality": "Khabez",
+      "originalNames": "Хьэбэз",
+      "collection": "Aslan Gosgeshev",
+      "notes": "This image comes from the personal historical archives of researcher Aslan Gosgeshev",
+      "context": {
+        "place": "a yard in Khabez village",
+        "house": "outside, roof",
+        "ritual": "wedding, dance circle (Dzhegu)",
+        "fashion": "Traditional male and female costumes",
+        "dance": "wedding dance circle (Dzhegu)"
+      },
+      "image": "images/1013.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1013_KCHR_20th_Awedding+in+Khabez.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1003,
+      "title": "Kabardian girl",
+      "period": "19th",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Russian",
+      "notes": "\"СТРОМИЛОВА / 5614\": A purple stamp signifies that this photograph was part of the renowned private collection of Nikolai Sergeyevich Stromilov",
+      "context": {
+        "fashion": "Traditional female hat and skarf",
+        "other": "ethnographic studio portraiture, document"
+      },
+      "image": "images/1003.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1003_KBR_19th_Kabardian+girl.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1001,
+      "title": "Seeing off a guest",
+      "period": "20th",
+      "dateTaken": "1930",
+      "location": "Homeland",
+      "country": "Abkhazia",
+      "tribe": "Abkhaz",
+      "notes": "A photo featuring a group of Abkhazian seeing off a guest in the yard in front of the house.",
+      "context": {
+        "house": "Outside, Roof, Terrace, Fence,",
+        "ritual": "seeing off a guest",
+        "fashion": "Traditional male costume",
+        "other": "Yard, Fence"
+      },
+      "image": "images/1001.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1001_ABK_20th_Seeing+off+a+guest.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 1000,
+      "title": "Reconciliation meeting",
+      "period": "20th",
+      "dateTaken": "1929",
+      "location": "Homeland",
+      "country": "Abkhazia",
+      "region": "Gudauta District",
+      "sublocality": "Zvandrysh",
+      "tribe": "Abkhaz",
+      "notes": "Reconciliation of blood feuds through the efforts of the peasants themselves, and captures a traditional council assembly gathered to settle a community dispute or blood feud (village of Zvandrysh, Gudauta) 1929.",
+      "context": {
+        "place": "the village of Zvandrysh",
+        "ritual": "Reconciliation of blood feuds",
+        "fashion": "Traditional male costume",
+        "other": "Fence"
+      },
+      "image": "images/1000.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/1000_ABK_20th_Reconciliation+meeting.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 998,
+      "title": "Abkhazian girl",
+      "period": "19th",
+      "dateTaken": "1881",
+      "location": "Homeland",
+      "country": "Abkhazia",
+      "photographer": "F. Barganov",
+      "tribe": "Abkhaz",
+      "notes": "A photo by Barganov featuring an Abkhazian girl spinnig wool or cotton yarn",
+      "context": {
+        "ritual": "Spinning",
+        "other": "Fence"
+      },
+      "image": "images/998.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/998_ABK_19th_Abkhazian+girl.jpg",
+      "round": "round-5"
+    },
+    {
+      "id": 984,
+      "title": "Kabardian Girl Tovchenova",
+      "period": "19th",
+      "dateTaken": "1870 - 1880",
+      "location": "Homeland",
+      "country": "Kabardino-Balkaria",
+      "names": "From Tovchenova family",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "book": "Альбом «Кавказские виды и типы» Caucasian Views and Types by Alexander Engel",
+      "notes": "A cropped part from a bigger photo. The girl is from the Tovchenova family",
+      "context": {
+        "fashion": "Traditional female costume"
+      },
+      "image": "images/984.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/984_KBR_19th_A+kabardian+female.jpg",
+      "round": "round-5"
+    }
+  ]
+}

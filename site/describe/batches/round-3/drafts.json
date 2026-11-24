@@ -1,0 +1,830 @@
+{
+  "promptVersion": "v4",
+  "drafts": [
+    {
+      "id": 1173,
+      "description": "A 20th-century photograph from Istanbul, Türkiye, in the Circassian diaspora, featuring Pshemakho Tamashevich Kotsev (1884-1962), third from the left, seated on a sofa with a woman and two men.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field says \"the third\"; draft reads it as third from the left (the older man), which matches ID 1172, where he sits on the right of the woman. Confirm."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the woman and the two men? Year?"
+        }
+      ]
+    },
+    {
+      "id": 1172,
+      "description": "A 20th-century photograph from Istanbul, Türkiye, in the Circassian diaspora, featuring Pshemakho Tamashevich Kotsev (1884-1962), on the right, seated on a sofa beside a woman.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This looks like another print or crop of ID 1173 (same pose; the edges of the other two men are visible). Keep both?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the woman? Year?"
+        }
+      ]
+    },
+    {
+      "id": 1171,
+      "description": "Ahmad Ibrahim Fakhri Nami (Damat Ahmet Nami) (1873-1963), married to Aysha, the daughter of Ottoman Sultan Abdul Hamid II, served as the second President of Syria and its fifth Prime Minister.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1926 and the source is Almusawar magazine (Cairo, issue 90). Add \"in 1926\"?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The notes do not say he was Circassian. Add his link to the archive?"
+        }
+      ]
+    },
+    {
+      "id": 1170,
+      "description": "A 20th-century photograph from Quneitra, Syria, in the Circassian diaspora, showing students of the Adyghe School performing physical exercises outdoors in a stone-walled field.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Notes say the school was established in 1934; the approved description of ID 7 says 1932. Draft leaves the year out. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: founded under Amin Samkough; the first Circassian school in the Golan Heights, teaching in Adyghebze. Add? Round 2 (ID 221) spells him Amin Ayob Samgugh."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Exact year of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 1167,
+      "description": "A photograph dating to 1930 - 1940 from the Golan Heights, Syria, in the Circassian diaspora, featuring six men in the traditional male costume seated on a rock, probably members of the Circassian cavalry squadrons.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "\"Golan\" comes from the title only; there is no region field. Confirm."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the six men?"
+        }
+      ]
+    },
+    {
+      "id": 1166,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring the Circassian officer Ahmet Agha in traditional Circassian military dress, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1871 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ]
+    },
+    {
+      "id": 1165,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Captain Haji Mehmet Efendi, an officer of the Ottoman Circassian Guard Regiment, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the mount (Ottoman Turkish) appears to read \"چركس يوزباشى حجى محمد افندى\" (Circassian Captain Haji Mehmed Efendi); the last word is abbreviated and not fully legible. Matches the data."
+        },
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1870 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ]
+    },
+    {
+      "id": 1164,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Mehmet Agha, a Circassian sergeant of the Second Imperial Battalion in Ottoman service, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the mount (Ottoman Turkish) appears to read \"چركس چاوشى محمد اغا\" (Circassian Sergeant Mehmed Agha). Matches the data."
+        },
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1870 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ]
+    },
+    {
+      "id": 1163,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Captain Safer Bey of the Second Imperial Battalion of the Ottoman Imperial Guard, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the mount (Ottoman Turkish) appears to read \"چركس يوزباشى صفر بك\" (Circassian Captain Safer/Sefer Bey); the name is not fully legible."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Safer (title) or Sefer (notes)? Draft uses the title."
+        },
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1870 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ]
+    },
+    {
+      "id": 1162,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Captain Safer Bey of the Second Imperial Battalion of the Ottoman Imperial Guard, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This is the same photograph as ID 1163, without the album mount and caption. Keep both?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Safer (title) or Sefer (notes)? Draft uses the title."
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "description": "A photograph dating to the 1870s - 1890s from Krasny Vostok, then the Abaza aul of Loovsky, Karachay-Cherkessia, featuring Hadji-Khan Dzhandarov and a female companion on horseback, taken by Dmitry Ivanovich Ermakov.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the woman? Who are the children by the house on the left?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Photographer: Yermakov (field) or Ermakov (notes)? Draft uses the notes."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: catalogue number 3504, ROSPHOTO collection, J. Guthrie Watson's album. Add any?"
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "description": "A photograph from Damascus, Syria, in the Circassian diaspora, probably from the 1980s, featuring members of the Damascus dancing troupe: Hani Issaq, Khaldoun Haj Kuba, Hilmi Tokel, Naser Yacoub, Wahid Dada and, in front, Ahmad Qanqosh.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which of the five standing men is which? The names field gives no order. The man in the middle wears a white shirt, not the troupe costume."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "The notes say \"probably in the 80s\". Exact year?"
+        }
+      ]
+    },
+    {
+      "id": 1159,
+      "description": "A Circassian women's belt from Ekaterinodar, dating to 1898, from the collection of Baron Joseph de Bay, displayed at the Quai Branly Museum - Jacques Chirac, Paris.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The museum comes from the notes; the museum field is empty. Is it on display or only in the collection?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The belt is metal with engraved ornament, set with coloured stones. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1158,
+      "description": "Wasfi Mirza Pasha (1837-1932) was an Abzakh Circassian commander who fought Russian armies at Kars and served in Ottoman campaigns from Serbia to Gaza. He later welcomed Emir Abdullah I to Amman and became Field Marshal of Jordan's founding cavalry forces.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This is the same portrait as ID 1157; the notes say this copy may have been edited to look clearer. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: some sources mention Komoq. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1157,
+      "description": "Wasfi Mirza Pasha (1837-1932) was an Abzakh Circassian commander who fought Russian armies at Kars and served in Ottoman campaigns from Serbia to Gaza. He later welcomed Emir Abdullah I to Amman and became Field Marshal of Jordan's founding cavalry forces.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption under the photo: \"الفريق ميرزا باشا وصفي\" (al-Fariq Mirza Pasha Wasfi; al-Fariq is a general's rank). The notes say Field Marshal. Confirm the rank."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: some sources mention Komoq. Add?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "description": "Al-Hajj Issaq Zemzer Limpiz (d. 1943) was a Circassian community leader in Jordan, decorated for his service under the Ottoman Empire, who donated his home in Amman as the first headquarters of the Circassian Charity Association in 1932.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year and place of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 1155,
+      "description": "Sharaf al-Din Yehia Rustam, born in 1897 in Wadi al-Seer, was a Jordanian officer of Circassian descent and the first officially registered soldier (Serial Number 1) of the Jordanian Armed Forces.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Year of death: the dignitary field says 1947, the notes say 1979. Which is right? Draft leaves it out."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 1154,
+      "description": "Sharaf al-Din Yehia Rustam, born in 1897 in Wadi al-Seer, was a Jordanian officer of Circassian descent and the first officially registered soldier (Serial Number 1) of the Jordanian Armed Forces.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Year of death: the dignitary field says 1947, the notes say 1979. Which is right? Draft leaves it out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Watermark on the photo: \"HistoryOfJordan.com\". Source to credit?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1153 is another print of the same photo (marked there as the duplicate)."
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "description": "Sharaf al-Din Yehia Rustam, born in 1897 in Wadi al-Seer, was a Jordanian officer of Circassian descent and the first officially registered soldier (Serial Number 1) of the Jordanian Armed Forces.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Year of death: the dignitary field says 1947, the notes say 1979. Which is right? Draft leaves it out."
+        },
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This is another print of the same photo as ID 1154. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 1150,
+      "description": "A page from a 1931 publication showing the field uniforms of the Circassian cavalry squadrons (Escadrons Tcherkesses) of the French Army of the Levant in Syria, with the officer Osman Bey.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The creator field says Pierre Albert Leroux, but the plate is signed \"Bucquoy 1931\" (signature as read). Who is the artist? Draft leaves the artist out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed text: \"LE PASSEPOIL 11e Année\", \"PLANCHE N° 15\", \"GROUPEMENT D'ESCADRONS TCHERKESSES — TENUES DE CAMPAGNE — 1925-1931\" (Group of Circassian squadrons, field uniforms, 1925-1931); \"Capitaine Osman-bey, adjoint au Commandant du groupement, 1926\" (Captain Osman Bey, deputy to the group's commander, 1926)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The caption also names Adjudant Hadj-bey carrying the group's standard (1926) and Lieutenant Dejoux (1930). Add?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which figure is Osman Bey? Not stated; draft gives no position."
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "description": "A page from a 1931 publication showing the parade uniforms of the Circassian cavalry squadrons (Escadrons Tcherkesses) of the French Army of the Levant in Syria, with their commander, Captain Philibert Collet.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The creator field says Pierre Albert Leroux, but the plate is signed \"Bucquoy 1931\" (signature as read). Who is the artist? Draft leaves the artist out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed text: \"LE PASSEPOIL 11e Année\", \"PLANCHE N° 16\", \"GROUPEMENT D'ESCADRONS TCHERKESSES — TENUES DE PARADE — 1930-1931\" (parade uniforms, 1930-1931); \"Le Capitaine Collet, commandant le groupement\" (Captain Collet, commanding the group). \"Philibert\" comes from the notes."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The caption also names Lieutenant Rejjab-bey with a squadron pennant and Captain Taoufik-bey with the group's standard. Add?"
+        }
+      ]
+    },
+    {
+      "id": 1148,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing a line of mounted riders of the Circassian Cavalry Squadron in the traditional male costume, one carrying a flag.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: exact year, place and occasion? Names of the riders?"
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "description": "A photograph dating to 1923 - 1946 from Syria, in the Circassian diaspora, featuring four men of the Circassian Cavalry Squadron posing with a machine gun.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: names, year and place?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken starts at 1923; the other squadron photos say 1922. Intended?"
+        }
+      ]
+    },
+    {
+      "id": 1146,
+      "description": "The banner of the Groupement d'Escadrons Tcherkesses (Circassian cavalry squadrons) in a glass display case, embroidered with ten place names, among them Djebel Druze, Ghouta and Anti-Liban.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Banner text: \"GROUPEMENT D'ESCAD[RONS] TCHERKESS\"; HADJILAR, DJEBEL DRUZE, KALAAT DJENDAL, MEJDEL CHEMS, KATANA, DJEBAT EL KHACHAB, GHOUTA, MAARABA, ANTI-LIBAN, DREIDJE. Part of the first line is hidden by a reflection."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which museum displays the banner? Date taken (1922 - 1946) is the squadrons' period; this photo of the display case looks recent."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1145 has the same image file (marked there as the duplicate)."
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "description": "The banner of the Groupement d'Escadrons Tcherkesses (Circassian cavalry squadrons) in a glass display case, embroidered with ten place names, among them Djebel Druze, Ghouta and Anti-Liban.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The data (painting by Pierre Albert Leroux, 1931, with Philibert Collet) describes a uniform plate, but the image is the banner photo of ID 1146; the file name is \"1145_1146\". Which image belongs to this record? Draft follows the image."
+        },
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same image as ID 1146. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 1144,
+      "description": "An illustration showing officers and riders of the Circassian cavalry squadrons in Syria, in uniform and the traditional male costume, with two green banners.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This image is a crop of the plate in ID 1149 (without the caption); the file name is \"1144_1145\". Keep both?"
+        },
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The data has no art type and a photo date (1922 - 1946), but the image is the 1931 illustration. Which is right?"
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing riders of the Circassian Cavalry Squadron lined up on horseback in the traditional male costume.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: exact year, place and occasion?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "One rider in the centre wears a light kepi and uniform. Is he a French officer?"
+        }
+      ]
+    },
+    {
+      "id": 1141,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing riders of the Circassian Cavalry Squadron in the traditional male costume forming a human pyramid on three horses.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: names, year and occasion?"
+        }
+      ]
+    },
+    {
+      "id": 1139,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, featuring riders of the Circassian Cavalry Squadron: Mohamad Salim Safar Baktamar on horseback, a man standing on his shoulders, and Jawad Talostan Anzor (1900-1948) on the right.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "The names field says \"Sitting\" for Baktamar; draft reads it as the mounted man. Confirm."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the man on his shoulders and the man on the left?"
+        }
+      ]
+    },
+    {
+      "id": 1138,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, featuring riders of the Circassian Cavalry Squadron: Mohamad Salim Safar Baktamar on horseback with Jankari Shkai standing on his shoulders, holding a lance.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "\"Sitting\" (names field) read as on horseback, \"standing\" as on his shoulders. Confirm."
+        }
+      ]
+    },
+    {
+      "id": 1137,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, featuring riders of the Circassian Cavalry Squadron: Mohamad Salim Safar Baktamar on horseback with Jankari Shkai standing on his shoulders, holding a lance.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This looks like a cropped, tinted copy of ID 1138. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 1136,
+      "description": "A photograph dating to 1958 - 1962 from Syria, in the Circassian diaspora, featuring Circassian and other Caucasian men in the traditional male costume at a Syrian national occasion, probably an anniversary of the union of Syria and Egypt, with Farouq Abaza on the left and Hisham Belto playing the accordion.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which of the others are Bashir Tawesh Jiji, Khaled Bat, Mamdouh Zaki Dadoh and Anwar Bagh? Draft names only the two with positions."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "The names field ends \"Anwar Bagh/\". Is the name complete?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Place in Syria?"
+        }
+      ]
+    },
+    {
+      "id": 1135,
+      "description": "A 1930 photograph from the aul of Karmovo, Kabardino-Balkaria, showing a man standing in front of a traditional watermill built over a mountain stream.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Title and notes say the aul of Karmovo; the sublocality field says Kamennomostsky (Zolsky District). Same place? Draft uses Karmovo."
+        }
+      ]
+    },
+    {
+      "id": 1134,
+      "description": "A 1930 photograph from the aul of Karmovo, Kabardino-Balkaria, featuring a Kabardian family in traditional costumes outside a house.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Title and notes say the aul of Karmovo; the sublocality field says Kamennomostsky (Zolsky District). Same place? Draft uses Karmovo."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "There is a domed building with a minaret in the background. A mosque? Add?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Handwritten \"83\" in the top right corner (catalogue number?)."
+        }
+      ]
+    },
+    {
+      "id": 1133,
+      "description": "A 1930 photograph from the aul of Karmovo, Kabardino-Balkaria, featuring a Kabardian family outside a traditional thatched-roof, wattle-and-daub house.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "Title and notes say the aul of Karmovo; the sublocality field says Kamennomostsky (Zolsky District). Same place? Draft uses Karmovo."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Handwritten number in the top left corner, probably \"134\" (catalogue number?)."
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "description": "Batyrbek Bekmurazovich Shardanov (1860-1937) was a Circassian (Kabardian) nobleman, civil engineer, public intellectual and philanthropist, and the first Kabardian railway engineer in the Russian Empire.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year and place of the photo?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Patronymic: Bekmurazovich (title) or Murzabekovich (notes)? Draft uses the title."
+        }
+      ]
+    },
+    {
+      "id": 1131,
+      "description": "A 1907 photograph from Krasnodar, Russia, featuring Batyrbek Bekmurazovich Shardanov (1860-1937), a Circassian (Kabardian) nobleman and civil engineer, the first Kabardian railway engineer in the Russian Empire.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Б. Б. ШАРДАНОВ. ФОТО 1907 г. Из личного архива С. Т. Жогишевой\" (B. B. Shardanov. Photo 1907. From the personal archive of S. T. Zhogisheva). The mount reads \"ЕКАТЕРИНОДАРЪ\" (Ekaterinodar) with a studio name (\"Фот. ...\") that is not reliably legible. Matches the data."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Patronymic: Bekmurazovich (title) or Murzabekovich (notes)? Draft uses the title."
+        }
+      ]
+    },
+    {
+      "id": 1130,
+      "description": "A 1914 photograph from the second Circassian charity evening in Ekaterinodar, Russia, featuring a large group of participants in traditional costumes, among them Sultan Devlet-Girey.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: which one is Sultan Devlet-Girey? Names of the others?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Round 2 (ID 319) spells him Dovlet-Girey; here Devlet-Girey. Which?"
+        }
+      ]
+    },
+    {
+      "id": 1129,
+      "description": "A 20th-century photograph from Krasnodar, Russia, showing the residence Batyrbek Shardanov built in 1905, which today houses the Kovalenko Krasnodar Regional Art Museum.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Exact year of the photo? A tram is visible on the street."
+        }
+      ]
+    },
+    {
+      "id": 1128,
+      "description": "A photograph from Krasnodar, Russia, showing the upper floors of the residence Batyrbek Shardanov built in 1905, which today houses the Kovalenko Krasnodar Regional Art Museum.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Period is 20th, but this looks like a recent colour photograph. Draft leaves the date out. Which period?"
+        }
+      ]
+    },
+    {
+      "id": 1127,
+      "description": "Batyrbek Bekmurazovich Shardanov (1860-1937) was a Circassian (Kabardian) nobleman, civil engineer, public intellectual and philanthropist, and the first Kabardian railway engineer in the Russian Empire.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year and place of the photo?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Patronymic: Bekmurazovich (title) or Murzabekovich (notes)? Draft uses the title."
+        }
+      ]
+    },
+    {
+      "id": 1126,
+      "description": "A 20th-century photograph from Russia featuring Batyrbek Bekmurazovich Shardanov (1860-1937), the first Kabardian railway engineer in the Russian Empire, with a group of men in Circassian dress and uniforms.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"the fourth in the middle row\". From the left (the man in the peaked cap)? Draft gives no position."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Inscription on the photo: \"18_CIRCASSIAN_64\". A cut-off caption below looks like the one on ID 1125 (\"Б. Б. ШАРДАНОВ И М. П. БАБЫЧ…\") but is not legible. Same occasion, 1911?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Place and year?"
+        }
+      ]
+    },
+    {
+      "id": 1125,
+      "description": "A 1911 photograph from Krasnodar, Russia, featuring Batyrbek Shardanov, Mikhail Pavlovich Babych and Sultan Devlet-Girey among the Circassians of the Kuban Oblast, held at the National Museum of the Republic of Adygea.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Б. Б. ШАРДАНОВ И М. П. БАБЫЧ СРЕДИ ЧЕРКЕСОВ КУБАНСКОЙ ОБЛАСТИ. ФОТО 1911 г.\" (B. B. Shardanov and M. P. Babych among the Circassians of the Kuban Oblast. Photo 1911). Matches the data."
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: Babych \"the first or the second\" in the middle row, Shardanov third, Devlet-Girey first seated in the third row. Draft names them without positions. Which is Babych?"
+        }
+      ]
+    },
+    {
+      "id": 1124,
+      "description": "Klishbi Aisovich Adzhigiriev (born 1876), a Kabardian man from Nartan in the Chegemsky District, Kabardino-Balkaria, was arrested in December 1931, accused of preparing an armed uprising against Soviet power, and fully rehabilitated in 1989. Two of his sons were executed in 1937.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: his six children, his wife from the Ashabokov family, his son Mukhametgeri's return from exile. Add any?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Locality field reads \"Chegemsky Distric\". Fix to District?"
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "description": "A World War I photograph featuring officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 as the 4th squadron of the Circassian Cavalry Regiment in the Caucasian Native Cavalry Division (\"Wild Division\"), including Colonel Georgy Merchul.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "Same photograph as ID 1122 (this one from a PNG file). Keep both?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"Seated the third\"; notes: \"seated at the center\". Four men are seated, so neither is certain. Draft gives no position."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Location is Homeland with no country or place. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "description": "A World War I photograph featuring officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 as the 4th squadron of the Circassian Cavalry Regiment in the Caucasian Native Cavalry Division (\"Wild Division\"), including Colonel Georgy Merchul.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"Seated the third\"; notes: \"seated at the center\". Four men are seated, so neither is certain. Draft gives no position."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Location is Homeland with no country or place. Where was it taken?"
+        }
+      ]
+    },
+    {
+      "id": 1121,
+      "description": "A photograph from the 1940s from Quneitra, Syria, in the Circassian diaspora, featuring the Kabardian Muhammad Mustafa Hapa (Hape) on horseback, father of the Circassian historian and retired Syrian Arab Army General Adnan Kabartai.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1940; the notes say the 1940s. Draft uses the notes."
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "description": "A photograph thought to date to the 1890s - 1910s, from Pshikuykhabl, Adygea, featuring Murat Khadzhokov (Hadzhoque) on horseback in the traditional male costume.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This looks like another print of ID 1119. Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The period field is empty; the notes say circa 1890s - 1910s. Set the period?"
+        }
+      ]
+    },
+    {
+      "id": 1119,
+      "description": "A photograph thought to date to the 1890s - 1910s, from Pshikuykhabl, Adygea, featuring Murat Khadzhokov (Hadzhoque) on horseback in the traditional male costume.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The period field is empty; the notes say circa 1890s - 1910s. Set the period?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The original names field holds \"Пщыкъуйхьабл\", the village name in Circassian, not a person's name. Intended?"
+        }
+      ]
+    },
+    {
+      "id": 1118,
+      "description": "A photograph featuring Sasa Sagidovna Khurum from Pseytuk, Adygea, in the traditional festive costume with long split sleeves, taken at the Bolshoi Theatre in Moscow for an anniversary of the October Revolution. The costume, a family heirloom, was later lost during a wartime evacuation.",
+      "checks": [
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "The place fields give Pseytuk, Adygea, but the notes say the photo was taken in Moscow. Draft gives both."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Pseytuk (field) or Pseituk (notes)? Draft uses the field."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year?"
+        }
+      ]
+    }
+  ]
+}

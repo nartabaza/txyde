@@ -145,7 +145,9 @@ specific, for example:
 - *Painting looks like it may be by Alberto Pasini. Confirm before adding.*
 - *Is the building a school? Not stated in the data.*
 
-If nothing needs checking, leave the list empty.
+If nothing needs checking, leave the list empty. Each check also has a type and is either blocking
+or not; `prompt.md` ("Checks") says which. In short: blocking when the description could be wrong
+or the data contradicts itself, not blocking when the answer would only add to it.
 
 ## Changes
 
@@ -154,6 +156,9 @@ If nothing needs checking, leave the list empty.
   accurate but about twice as long as the approved ones, so: one sentence, identify rather than
   inventory (section 4). Added rules for text on the image, conflicting spellings, objects with no
   museum, paintings with no artist, printed pages, date ranges, regions, and who-is-who.
+- **v4 (prompt only, 2026-11-23):** checks are typed and marked blocking or not, so drafts with
+  data problems go to an issues list instead of the review page. The description rules are
+  unchanged from v3.
 - **v3:** the master sheet gives the researcher's notes and many more fields (date taken and type,
   names with positions, dignitaries, creator, museum). The notes are now the main source
   (section 3); the image is for checking and for plain visible detail.

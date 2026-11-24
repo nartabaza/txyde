@@ -1,0 +1,579 @@
+{
+  "promptVersion": "v4",
+  "drafts": [
+    {
+      "id": 215,
+      "description": "A 1934 photograph from Quneitra, Syria, in the Circassian diaspora, showing students forming a human pyramid at the annual sports festival of the Adyghe School.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"المهرجان الرياضي السنوي للمدرسة الأديغية - القنيطرة ١٩٣٤\" (the annual sports festival of the Adyghe School - Quneitra 1934). Matches the data."
+        }
+      ],
+      "round": "round-2"
+    },
+    {
+      "id": 229,
+      "description": "A photograph dating approximately to 1935 - 1937, from Syria, in the Circassian diaspora, showing the 14th Cherkess Squadron of the French army on horseback with a flag.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 239,
+      "description": "A 20th-century photograph showing guests seated under a canopy of branches at a public event, among them a man in the traditional male costume.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Draft leaves out \"in the Circassian diaspora\" because no country is given."
+        }
+      ],
+      "round": "round-2"
+    },
+    {
+      "id": 247,
+      "description": "A traditional female hat from Lazarevskoye, Sochi, Russia, with gold embroidery and a net of cords hung with coins, displayed at the Lazarevskoye Ethnographic Museum.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 250,
+      "description": "A photograph dating approximately to 1920 - 1930, from Kalezh, Russia, featuring Shaguj Issak, the father of the accordionist Mahmud, with two of his daughters.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling of the village: Kalezh (notes: \"АУЛ КАЛЕЖ\")."
+        }
+      ],
+      "round": "round-2"
+    },
+    {
+      "id": 289,
+      "description": "A 1946 photograph from Nalchik, Kabardino-Balkaria, showing the Kabardian theatre, which began as a drama theatre and became a theatre staging plays in the Circassian language.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 293,
+      "description": "A traditional Circassian female hat of the low form, with gold thread embroidery and a net of cords hung with coins, displayed at the Tuapse Museum of History and Local Lore.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 302,
+      "description": "A 1920 photograph from Krasnodar, Russia, showing a wooden plough in front of a house, with a young man standing beside it and three boys on the porch.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 306,
+      "description": "A 20th-century photograph from Tuapse, Russia, featuring Qadyrkhan Khatatovna Tkhagusheva (Skhabo), the daughter of Khatat Skhabo, with a young child.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 307,
+      "description": "A Soviet certificate awarding Qadyrkhan Tkhagusheva, the daughter of Khatat Skhabo, the honorary title of Mother Heroine.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the certificate: \"МАТЕРИ-ГЕРОИНЕ\" and \"почетное звание «Мать-героиня»\" (the honorary title of Mother Heroine). The handwritten name looks like \"Тхагушевой\" (Tkhagusheva)."
+        }
+      ],
+      "round": "round-2"
+    },
+    {
+      "id": 310,
+      "description": "The cover of an album in memory of the second Circassian charity evening, held in Ekaterinodar on 2 January 1914.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Cover text: \"Альбомъ въ память о Черкесскомъ благотворительномъ вечерѣ устроенномъ второй разъ 2 января 1914 г. въ Екатеринодарѣ\" (Album in memory of the Circassian charity evening, held for the second time on 2 January 1914 in Ekaterinodar)."
+        }
+      ],
+      "round": "round-2"
+    },
+    {
+      "id": 311,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in a chain-mail helmet kneeling before a seated woman.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 312,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in chain mail with a drawn sword holding a woman.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 313,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in chain mail raising a sword above a woman.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 314,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing actors on stage before a painted village backdrop.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 315,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a group of actors on stage before a painted village backdrop, one of them kneeling.",
+      "checks": [],
+      "round": "round-2"
+    },
+    {
+      "id": 1166,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring the Circassian officer Ahmet Agha in traditional Circassian military dress, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1871 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1165,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Captain Haji Mehmet Efendi, an officer of the Ottoman Circassian Guard Regiment, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the mount (Ottoman Turkish) appears to read \"چركس يوزباشى حجى محمد افندى\" (Circassian Captain Haji Mehmed Efendi); the last word is abbreviated and not fully legible. Matches the data."
+        },
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1870 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1164,
+      "description": "A photograph dating to the 1870s or 1880s from Istanbul, Türkiye, in the Circassian diaspora, featuring Mehmet Agha, a Circassian sergeant of the Second Imperial Battalion in Ottoman service, taken by Pascal Sebah.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption on the mount (Ottoman Turkish) appears to read \"چركس چاوشى محمد اغا\" (Circassian Sergeant Mehmed Agha). Matches the data."
+        },
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1870 - 1880; the notes say the 1870s to 1880s. Draft uses the notes' wider range."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1148,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing a line of mounted riders of the Circassian Cavalry Squadron in the traditional male costume, one carrying a flag.",
+      "checks": [],
+      "round": "round-3"
+    },
+    {
+      "id": 1146,
+      "description": "The banner of the Groupement d'Escadrons Tcherkesses (Circassian cavalry squadrons) in a glass display case, embroidered with ten place names, among them Djebel Druze, Ghouta and Anti-Liban.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Banner text: \"GROUPEMENT D'ESCAD[RONS] TCHERKESS\"; HADJILAR, DJEBEL DRUZE, KALAAT DJENDAL, MEJDEL CHEMS, KATANA, DJEBAT EL KHACHAB, GHOUTA, MAARABA, ANTI-LIBAN, DREIDJE. Part of the first line is hidden by a reflection."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1145 has the same image file (marked there as the duplicate)."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1141,
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing riders of the Circassian Cavalry Squadron in the traditional male costume forming a human pyramid on three horses.",
+      "checks": [],
+      "round": "round-3"
+    },
+    {
+      "id": 1129,
+      "description": "A 20th-century photograph from Krasnodar, Russia, showing the residence Batyrbek Shardanov built in 1905, which today houses the Kovalenko Krasnodar Regional Art Museum.",
+      "checks": [],
+      "round": "round-3"
+    },
+    {
+      "id": 1122,
+      "description": "A World War I photograph featuring officers and riders of the Abkhaz Hundred, a volunteer cavalry unit formed in 1914 as the 4th squadron of the Circassian Cavalry Regiment in the Caucasian Native Cavalry Division (\"Wild Division\"), including Colonel Georgy Merchul.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Names field: \"Seated the third\"; notes: \"seated at the center\". Four men are seated, so neither is certain. Draft gives no position."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1121,
+      "description": "A photograph from the 1940s from Quneitra, Syria, in the Circassian diaspora, featuring the Kabardian Muhammad Mustafa Hapa (Hape) on horseback, father of the Circassian historian and retired Syrian Arab Army General Adnan Kabartai.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": false,
+          "text": "Date taken is 1940; the notes say the 1940s. Draft uses the notes."
+        }
+      ],
+      "round": "round-3"
+    },
+    {
+      "id": 1117,
+      "description": "An oil sketch by Nikolai Alexandrovich Yaroshenko, dating to 1880, titled Kabardinka, showing a Kabardian woman in the traditional female costume with a tall cylindrical hat, held at the Poltava Regional Art Museum.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Museum name: the museum field says Poltava Art Museum, the notes say Poltava Regional Art Museum. Draft follows the notes."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1111,
+      "description": "A postcard from the series Types de Caucase (Caucasian types), No. 24, showing Khimsad Loov, an Abazin girl from the Loov family, standing beside a saddle.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"Кавказскiе типы.—Types de Caucase. № 24. Дѣвушка Абадзинка.\" (Caucasian types. No. 24. Abazin girl). The postcard does not name her; the name comes from the title."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Same photograph as ID 1112 (marked there as a duplicate)."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1106,
+      "description": "A hand-coloured copper-engraved map by Alexis-Hubert Jaillot, dating approximately to 1696 - 1700, titled Nova Imperii Turcarum Tabula, ad usum Serenissimi Burgundiae Ducis (New Map of the Turkish Empire, for the use of the Most Serene Duke of Burgundy), marking Circassia and Abassa in the Caucasus.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "IDs 1107 (an uncoloured copy) and 1108 (a crop) show the same map."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1696 (Accurate); the notes say around 1696–1700. Draft follows the notes."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1104,
+      "description": "A map of the Russian Empire by Thomas Kitchin, dating to 1790, engraved for the publisher Robert Sayer from the maps of the Imperial Academy at St. Petersburg, showing Circassia and the Black Sea coast among the empire's borderlands.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Cartouches: \"The European Part of the Russian Empire, from the Maps Published by the Imperial Academy at St. Petersburg, with the New Provinces on the Black Sea\" and \"The Asiatic Part of the Russian Empire ... with the New Discoveries of Capt. Cook &c.\", both \"London, Printed for Robert Sayer\". Kitchin's name is not legible at this size."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1105 is a crop of this map."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1093,
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series, showing a Circassian imperial body guard of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Illust'd Sweet Caporal. Circassian Imperial Body Guard. Russia-1886.\""
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1094 is another copy of this card."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1088,
+      "description": "A Liebig trade card from the series Au Caucase, pays et habitants (In the Caucasus, Countries and Inhabitants), issued around 1908, showing (left to right) a Circassian woman, a Kabardian woman and a Circassian man in front of a Circassian village in the mountains.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Labels on the card: \"Circassienne\" (Circassian woman), \"Femme cabardine\" (Kabardian woman) and \"Circassien\" (Circassian man), each above one figure; \"Dans le pays des Circassiens. Village circassien dans les montagnes.\" (In the land of the Circassians. A Circassian village in the mountains.); \"Ciscaucasie\"; \"Véritable extrait de viande Liebig\"."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1089 is another copy of this card; ID 1090 is its back."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1908 (Accurate); the notes say issued around 1908. Draft follows the notes."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1087,
+      "description": "The back of a 1905 cigarette card, No. 23, Circassian Brigand, from the Riders of the World series issued by John Player & Sons of Nottingham, with an English text on the Circassians.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the text: \"The Circassians, who inhabit a territory in the Western Caucasus, are a people whose characteristics are the love of a life of independence and a distaste of restraint or compulsion in any form. They are now subject to Russia, who, beyond calling on them to supply mounted contingents, under certain conditions, for military purposes, does not impose any arduous form of government upon them.\" Draft leaves this out."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the back of the card in IDs 1085 and 1086."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1085,
+      "description": "A 1905 cigarette card by John Player & Sons, from the Riders of the World series, titled Circassian Brigand, showing a horseman at a gallop.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Player's Navy Cut Cigarettes\" and \"Circassian Brigand\". ID 1086 is another copy; ID 1087 is the back."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1083,
+      "description": "An 1886 trade card for Allen & Ginter's Cigarettes of Richmond, Virginia, from the Natives in Costume series, titled Circassia, showing a bearded man in a long red coat and fur hat, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Circassia. Allen & Ginter's Cigarettes, Richmond, Virginia.\" ID 1084 shows the same card."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1080,
+      "description": "An 1886 trade card for Allen & Ginter Cigarettes, from the Types of All Nations series, titled Circassia, a later edition of an 1881 print, showing a bearded man in a mail hood and spiked helmet, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 1082 has the same object number and looks like a crop of this card; ID 1081 has the same picture on an 1881 Abdul Cigarettes card."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The word \"CIRCASSIA\" is printed on the red cloth at the bottom."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1079,
+      "description": "A French trade card for Chocolat d'Aiguebelle, from the late 19th or early 20th century, showing a Circassian man beside a map of the Caucasus with Circassia marked.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Card text: \"Chocolat d'Aiguebelle\", \"Circassien\" (Circassian), and on the map \"Caucasie\", \"Circassie\", \"Mer Noire\", \"Mer Caspienne\", \"Géorgie\", \"Arménie\", \"Astrakan\", \"Mozdok\", \"Tiflis\", \"Erivan\", \"Pétrole\"."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1074,
+      "description": "A 21st-century photograph from Nalchik, Kabardino-Balkaria, showing Lenin Avenue, laid out in line with the 180-metre Nalchik TV Tower, built in 1968, with the snow-covered Caucasus Mountains behind.",
+      "checks": [],
+      "round": "round-4"
+    },
+    {
+      "id": 1068,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in the traditional female costume with a white veil, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1067,
+      "description": "A 1910 photograph from Starobzhegokay, Adygea, featuring a young Bzhedug girl in the traditional female costume with a long white veil, taken by Alexander A. Miller during his expedition to the Adyghe people of the Kuban region.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Date taken is 1910 - 1913; the notes say taken in 1910 (the plate was stamped in 1913). Draft uses 1910."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The mirror text along the top edge reads \"Э.О.Р.М.И.АЛ.III.1913\" (Ethnographic Department of the Russian Museum of Emperor Alexander III, 1913), as the notes say."
+        }
+      ],
+      "round": "round-4"
+    },
+    {
+      "id": 1055,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Tevfik Bey, the middle brother and a Kuvâ-yi Seyyâre commander.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Tevfik Bey (title, dignitaries) and Tavfik (names field: \"Cherkes Tavfik Bey\"). Draft uses the title."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1049,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence.",
+      "checks": [],
+      "round": "round-5"
+    },
+    {
+      "id": 1048,
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence, posed with a rifle before a painted backdrop.",
+      "checks": [],
+      "round": "round-5"
+    },
+    {
+      "id": 1036,
+      "description": "A page from an 1854 publication showing two wood engravings by R. Tucker, titled Circassians and A Circassian Family, with an article headed The Circassians.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This page holds the engravings of IDs 1038/1041 (Circassians) and 1035/1037 (A Circassian Family)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Headings on the page: \"CIRCASSIANS.\" and \"THE CIRCASSIANS.\" The article text is too small to read at this resolution."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1035,
+      "description": "A wood engraving by R. Tucker, dating to 1854, titled A Circassian Family, showing the interior of a traditional Caucasian dwelling with figures in traditional attire and weapons mounted on the walls.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption \"A CIRCASSIAN FAMILY.\" and signature \"R. Tucker\" on the image."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1032,
+      "description": "A page from an 1876 publication showing sketches from the travel album of Mikhail Mikeshin, titled Types and Views of the Caucasus and Asia Minor, of Kurdish Yazidis, a Kabardian, a Chechen and a Muslim Kurd.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed text: \"Типы и виды Кавказа и Малой Азіи\" (Types and Views of the Caucasus and Asia Minor), \"Изъ путевого альбома М. О. Микѣшина\" (From the travel album of M. O. Mikeshin), and labels \"Курды-Іезиды (Чертопоклонники)\" (Kurdish Yazidis, \"devil-worshippers\"), \"Кабардинецъ\" (a Kabardian), \"Чеченецъ\" (a Chechen), \"Курдъ-магометанинъ изъ окрестностей ...\" (a Muslim Kurd from the area of ...; the last word cannot be read reliably)."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The printer's credit line under the title is too small to read; the notes give A. I. Kovalev. Confirm the name."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1022,
+      "description": "A 19th-century photograph, printed in a publication, showing a Circassian horseman in traditional attire mounted on a light-coloured horse along a rural path.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Printed caption: \"Fig. 555.—Circassian horse (15.½)\" and \"Photo by] [J. DELTON, PARIS.\" The photographer field says Louis-Jean Delton, but the notes say no credible source confirms he took it. Draft leaves the photographer out."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1013,
+      "description": "A 1960 photograph from Khabez, Karachay-Cherkessia, showing a wedding dance circle (Dzhegu) in a village yard, with women in the traditional female costume and a crowd of onlookers.",
+      "checks": [
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Title reads \"Awedding in Khabez\"; should be \"A wedding in Khabez\"."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1003,
+      "description": "A 19th-century photograph from Kabardino-Balkaria featuring a young Kabardian woman in a tall decorated hat and veil, shown with the back of the card, stamped as part of the collection of Nikolai Sergeyevich Stromilov.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Back of the card: \"Кабардинка\" (Kabardian woman), purple stamp \"СТРОМИЛОВА 5614\" (Stromilov's, 5614), red \"КП-ф 173\", and pencil \"021_05549_95171\", \"№26 папка 237\" (No. 26, folder 237), \"13.03.03г\" (13.03.03) and \"2-1060\". One more line may be a name such as \"Ермаков\" (Ermakov) but cannot be read reliably."
+        }
+      ],
+      "round": "round-5"
+    },
+    {
+      "id": 1001,
+      "description": "A 1930 photograph from Abkhazia showing a group of Abkhaz men with saddled horses seeing off a guest in the yard in front of the house.",
+      "checks": [],
+      "round": "round-5"
+    },
+    {
+      "id": 1000,
+      "description": "A 1929 photograph from Zvandrysh, Abkhazia, showing a traditional council assembly gathered to settle a community dispute, the reconciliation of a blood feud through the efforts of the peasants themselves.",
+      "checks": [],
+      "round": "round-5"
+    },
+    {
+      "id": 998,
+      "description": "An 1881 photograph from Abkhazia by F. Barganov, featuring an Abkhaz girl spinning wool or cotton yarn in front of a wattle fence.",
+      "checks": [],
+      "round": "round-5"
+    },
+    {
+      "id": 984,
+      "description": "A photograph dating approximately to 1870 - 1880, featuring a Kabardian girl from the Tovchenova family in the traditional female costume, cropped from a larger photograph by Alexander Engel.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the girl on the left in ID 986, cropped (as the notes say)."
+        }
+      ],
+      "round": "round-5"
+    }
+  ]
+}

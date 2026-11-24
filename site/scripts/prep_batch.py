@@ -2,6 +2,7 @@
 """Prepare a batch of photos for Claude to draft descriptions for.
 
     python scripts/prep_batch.py NAME --next 20            the next 20 photos whose description needs review
+    python scripts/prep_batch.py NAME --next 50 --from-end the same, counting from the end of the sheet
     python scripts/prep_batch.py NAME --ids 21 22 24       these photos
     python scripts/prep_batch.py examples --ids 7 13 …     rewrite describe/examples.json from approved photos
 
@@ -123,6 +124,7 @@ def main():
     pick = parser.add_mutually_exclusive_group(required=True)
     pick.add_argument("--ids", type=int, nargs="+")
     pick.add_argument("--next", type=int, metavar="N")
+    parser.add_argument("--from-end", action="store_true", help="with --next: take photos from the end of the sheet")
     parser.add_argument("--sheet", type=Path)
     parser.add_argument("--allow-missing-images", action="store_true")
     parser.add_argument("--images-from", type=Path, metavar="DIR",
@@ -143,7 +145,7 @@ def main():
         done = already_batched()
         chosen = [p for p in photos.values()
                   if p["status"] == "Accepted" and not p["ready"] and p["id"] not in done]
-        chosen.sort(key=lambda p: p["id"])
+        chosen.sort(key=lambda p: p["id"], reverse=args.from_end)
         missing = []
 
     copies = json.loads(IMAGE_COPIES.read_text(encoding="utf-8")) if IMAGE_COPIES.exists() else {}

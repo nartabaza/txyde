@@ -24,7 +24,11 @@ Claude Code session on the subscription.
    `<id>_…` as Drive names them).
 2. **Draft:** in Claude Code, say *"Draft the descriptions for batch round-1, following
    describe/prompt.md."* This writes `batches/round-1/drafts.json`.
-3. **Send to the sheet:** `python scripts/push_drafts.py push round-1`.
+3. **Send to the sheet:** `python scripts/push_drafts.py push round-1`. Only ready drafts go:
+   ones whose only questions are missing-info. Their cards show just the notes.
+   `python scripts/push_drafts.py issues round-1` writes every question to `issues/`, for the
+   researcher to answer in bulk (column `waiting`: the photo is held back until answered).
+   `ready NAME ROUND...` gathers the ready drafts of several rounds into one review batch.
 4. **Review:** the researcher opens `/review/` on the preview site and works through the batch.
 5. **Learn:** `python scripts/push_drafts.py pull round-1`, then ask Claude to compare the drafts
    with the researcher's versions and update `style-guide.md`, `prompt.md` and `examples.json`

@@ -1,0 +1,824 @@
+{
+  "promptVersion": "v4",
+  "drafts": [
+    {
+      "id": 193,
+      "description": "A 19th-century photograph featuring an elderly man and three girls in traditional Kabardian costumes, seated on a rug with a pair of raised clogs in front of them.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken says 1880, but the photo is marked \"1860.\" in the corner. Which is right? Draft uses \"19th-century\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Place? Only \"Homeland\" is given."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the man and the girls? Is he their grandfather?"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "description": "Azadin Doghoz (1920-2003) was one of the few singers of old traditional Circassian songs, many considered lost even in the homeland, which he preserved in the diaspora in Quneitra, Syria.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date taken is \"199?\". Exact year of the photo?"
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "The region field says Damascus, the notes say Quneitra. Where was this photo taken?"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "description": "A 1939 photograph from Quneitra, Syria, in the Circassian diaspora, featuring the teachers Akef Sharif Khonagua and Ismael Anzor with students of the Adyghe School at a graduation.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "The caption on the mount reads \"القنيطرة - ١٩٢٩\" (Quneitra - 1929), but date taken is 1939 (Accurate). The approved description of ID 7 says the school opened in 1932. Which year?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "\"At a graduation\" comes from the caption: \"المدرسة الأديغية بمناسبة تخرج بعض الطلاب\" (the Adyghe School, on the graduation of some students). Confirm."
+        },
+        {
+          "type": "spelling",
+          "blocking": true,
+          "text": "The caption spells the name \"خوناكو\" (Khonako); the names field has Khonagua. Draft uses the names field."
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Are the two seated men in suits the teachers? Which is which?"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "description": "A 1935 photograph from Quneitra, Syria, in the Circassian diaspora, showing the fourth class of the Adyghe School with their teacher Sharlot.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "The caption reads \"القنيطرة - ١٩٢٥\" (Quneitra - 1925?), but date taken is 1935 (Accurate). Which year?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "\"Fourth class\" comes from the caption: \"الصف الرابع - المدرسة الأديغية مع المعلمة شارلوت\". Confirm."
+        },
+        {
+          "type": "spelling",
+          "blocking": true,
+          "text": "Teacher's name: \"Sharlot\" (names field) or \"Charlotte\"? Is she the woman standing at the back by the window?"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "description": "A 1940 photograph from Quneitra, Syria, in the Circassian diaspora, featuring the music ensemble of the Adyghe School, with drums, and the teachers Akef Sharif Khonagua and Ismael Anzor.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"القنيطرة - ١٩٤٠ / الفرقة الموسيقية للمدرسة الأديغية\" (Quneitra - 1940, the music ensemble of the Adyghe School)."
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which of the men are Akef Sharif Khonagua and Ismael Anzor?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is the building behind them the school?"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "description": "A 1934 photograph from Quneitra, Syria, in the Circassian diaspora, showing students forming a human pyramid at the annual sports festival of the Adyghe School.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"المهرجان الرياضي السنوي للمدرسة الأديغية - القنيطرة ١٩٣٤\" (the annual sports festival of the Adyghe School - Quneitra 1934). Matches the data."
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "description": "Amin Ayob Samgugh (1903-1952) was born in Mansure village in the Quneitra region of Syria. After earning two diplomas in France, where he was active in Circassian affairs, he founded the Circassian school in Quneitra.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is \"the Circassian school\" the Adyghe School of IDs 210-215? If so, the draft could name it."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Spelling of the village: Mansure?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: \"tried to open branches in some other regions\". Add it?"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "description": "A photograph dating approximately to 1935 - 1937, from Syria, in the Circassian diaspora, showing the 14th Cherkess Squadron of the French army on horseback with a flag.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where in Syria?"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "description": "A 20th-century photograph from Syria, in the Circassian diaspora, showing a large group of men of the Cherkess Squadron in traditional costume, with brass instruments in front.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: year, place and occasion?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is this the squadron's band? Many of the men wear medals."
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "description": "A 20th-century photograph from Damascus, Syria, in the Circassian diaspora, showing Circassian cavalry troops during the French mandate with Philibert Collet, commander of the Circassian Cavalry.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date taken is \"1922 -\". From 1922 on? Draft uses \"20th-century\"."
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which rider is Philibert Collet? Possibly the man in the light kepi, right of centre."
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "description": "A photograph dating approximately to 1870 - 1889, from Kabardino-Balkaria, featuring an elderly Kabardian man in the traditional male costume, held at the Kunstkamera, St. Petersburg.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption under the photo: \"Кабардинецъ Kabardiner\" (a Kabardian). The photo is numbered \"92\"."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Name of the man?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is the photograph itself kept at the Museum of Anthropology and Ethnography (Kunstkamera)?"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "description": "A 1924 photograph from Tuapse, Russia, showing the delegates of the 3rd Tuapse district conference of the RKSM youth union on the steps of a building, under banners.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the caption: \"3я очередная Туапсинская районная конференция РКСМ 25/III 1924\" (the 3rd regular Tuapse district conference of the RKSM, 25 March 1924). Add the exact date?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which of the people are Shapsugh? Any names?"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "description": "A 20th-century photograph from Homs, Syria, in the Circassian diaspora, featuring Circassian guards with the Syrian president Shukri Al Quatli.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which man is the president, and which are the guards? One guard in Circassian costume with a sword stands front right."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "There is handwriting in blue ink on the photo (Arabic, partly legible). Does it name the people?"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "description": "A 20th-century photograph showing guests seated under a canopy of branches at a public event, among them a man in the traditional male costume.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: which event, where, which country, and when?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Draft leaves out \"in the Circassian diaspora\" because no country is given."
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "description": "A map showing Circassia between the Black Sea and the Caspian Sea.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": true,
+          "text": "No notes: date, mapmaker and source? It looks like a detail of a larger map."
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "description": "A photograph from Adygea featuring Nawruzova Khadijet, an Abzakh girl from the Naurzoqu family, in the traditional female costume, seen in profile.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1920, but the notes say the photo could be from the late 19th century. Which? Draft leaves the date out."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Nawruzova (names) and Naurzoqu (notes). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Photographer Anokhin (Анохин): add?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the side view; ID 246 is the front view."
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "description": "A photograph from Adygea featuring Nawruzova Khadijet, an Abzakh girl from the Naurzoqu family, in the traditional female costume, seen from the front.",
+      "checks": [
+        {
+          "type": "date",
+          "blocking": true,
+          "text": "Date taken is 1920, but the notes say the photo could be from the late 19th century. Which? Draft leaves the date out."
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Nawruzova (names) and Naurzoqu (notes). Keep both?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "This is the front view; ID 245 is the side view."
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "description": "A traditional female hat from Lazarevskoye, Sochi, Russia, with gold embroidery and a net of cords hung with coins, displayed at the Lazarevskoye Ethnographic Museum.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date or period of the hat?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Circassian name for this hat?"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "description": "A photograph dating approximately to 1920 - 1930, from Kalezh, Russia, featuring Shaguj Issak, the father of the accordionist Mahmud, with two of his daughters.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Mahmud's full name?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the daughters?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling of the village: Kalezh (notes: \"АУЛ КАЛЕЖ\")."
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "description": "A 20th-century photograph featuring a young woman in the traditional female costume and a tall pointed hat.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": true,
+          "text": "No notes: name, place and year?"
+        },
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Is she the same woman as in ID 254?"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "description": "A 20th-century photograph featuring a young woman in the traditional female costume and an embroidered cap.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": true,
+          "text": "No notes: name, place and year?"
+        },
+        {
+          "type": "duplicate",
+          "blocking": false,
+          "text": "Is she the same woman as in ID 253?"
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "description": "An 1880 photograph from Russia featuring two Circassian warriors, one mounted with a lance and a chain-mail hood, taken for a collection of warrior costumes.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "Location is \"Diaspora\" but the country is Russia. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "There is a red \"BN\" stamp on the photo. Which collection holds it?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the men?"
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "description": "An 1880 photograph from Russia featuring two Circassian warriors in chain mail standing beside a saddled horse, taken for a collection of warrior costumes.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "Location is \"Diaspora\" but the country is Russia. Which is right?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "There is a red \"BN\" stamp on the photo. Which collection holds it?"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "description": "A 20th-century photograph from Syria, in the Circassian diaspora, featuring the football team of Adnaniyeh, a Circassian village in the Golan Heights, with the police team on the day of a match Adnaniyeh won 3-2.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The handwriting at the top is mostly illegible; it includes \"٢-٣\" (3-2). What else does it say?"
+        },
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which players are from Adnaniyeh?"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "description": "A 1946 photograph from Nalchik, Kabardino-Balkaria, showing the Kabardian theatre, which began as a drama theatre and became a theatre staging plays in the Circassian language.",
+      "checks": []
+    },
+    {
+      "id": 290,
+      "description": "A 1925 photograph from Khadzhiko, Russia, a Shapsug village near the Black Sea coast, featuring Tokh Chilezakh Mustafovich (1850-1928), seated, with his daughters Vakhida and Maret.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which daughter is which?"
+        },
+        {
+          "type": "place",
+          "blocking": false,
+          "text": "The locality field says Sochi; the notes say Tuapse district. Which?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Khadzhiko (field) or Khadjuque (notes)? Draft uses the field."
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "description": "A 20th-century photograph from Khadzhiko, Russia, featuring Fatimat Skhabo Tesheve (1890-1930), second from the left, a known gold thread maker of the village, with two women and two men.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": true,
+          "text": "The names field says \"the second\": second from the left?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Fatimat Skhabo Tesheve (title) or Fatimet Skhabo-Tesheva (names)? Draft uses the title."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the other four?"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "description": "A traditional Circassian female hat of the low form, with gold thread embroidery and a net of cords hung with coins, displayed at the Tuapse Museum of History and Local Lore.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Date or period of the hat?"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "description": "A 1920 photograph from Krasnodar, Russia, showing a wooden plough in front of a house, with a young man standing beside it and three boys on the porch.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes: which village?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the people?"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "description": "A 20th-century photograph featuring Fatimat Skhabo Shkhalakhova (right) and her sister Zulikhan (left) at a table with grand-daughters.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Whose grand-daughters, Zulikhan's or both sisters'?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Shkhalakhova (title) or Shkhelakhova (names)? Draft uses the title."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Place and year?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Are they doing needlework? There are spools of thread on the table."
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "description": "Khatat Khakushteshevich Skhabo (1824-1943). His family was deported to Turkey; his father Khakushtesh fled to the mountains and was later killed by tsarist forces, while Khatat and his brother Nekhurai returned with their uncle Mustaf and settled in Skhabo village.",
+      "checks": [
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The dates 1824-1943 would make him 119. Correct?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year of the photo?"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "description": "A colourised portrait of Khatat Khakushteshevich Skhabo (1824-1943). His family was deported to Turkey; his father Khakushtesh fled to the mountains and was later killed by tsarist forces, while Khatat and his brother Nekhurai returned with their uncle Mustaf and settled in Skhabo village.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This looks like a colourised copy of ID 304. Confirm."
+        },
+        {
+          "type": "contradiction",
+          "blocking": true,
+          "text": "The dates 1824-1943 would make him 119. Correct?"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "description": "A 20th-century photograph from Tuapse, Russia, featuring Qadyrkhan Khatatovna Tkhagusheva (Skhabo), the daughter of Khatat Skhabo, with a young child.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Who is the child?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Year?"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "description": "A Soviet certificate awarding Qadyrkhan Tkhagusheva, the daughter of Khatat Skhabo, the honorary title of Mother Heroine.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "From the certificate: \"МАТЕРИ-ГЕРОИНЕ\" and \"почетное звание «Мать-героиня»\" (the honorary title of Mother Heroine). The handwritten name looks like \"Тхагушевой\" (Tkhagusheva)."
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "The year is only partly legible (\"194_\"). Exact year?"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "description": "Fatima Natyrbova (Sheretlukova) (1890-1983) met her future husband Kutchuk Natyrbov at the Circassian charity evening in Ekaterinodar in 1908. In 1919 they moved to the Ottoman Empire, where she founded the Circassian Woman Committee and helped refugees, and in 1923 to the USA.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Was this photo taken at the 1908 charity evening? Date taken is 1908."
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Left out: married in 1909; moved with 4 children and two sisters; her activism in the USA. Add any?"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "description": "The traditional Circassian dress that Fatima Natyrbova (Sheretlukova) wore at the Circassian charity evening in Ekaterinodar, shown on a mannequin.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Where is the dress kept now? A museum?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "The 1908 evening (ID 308)?"
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "description": "The cover of an album in memory of the second Circassian charity evening, held in Ekaterinodar on 2 January 1914.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Cover text: \"Альбомъ въ память о Черкесскомъ благотворительномъ вечерѣ устроенномъ второй разъ 2 января 1914 г. въ Екатеринодарѣ\" (Album in memory of the Circassian charity evening, held for the second time on 2 January 1914 in Ekaterinodar)."
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in a chain-mail helmet kneeling before a seated woman.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the actors, or the play?"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in chain mail with a drawn sword holding a woman.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the actors, or the play?"
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a staged scene of a warrior in chain mail raising a sword above a woman.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the actors, or the play?"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing actors on stage before a painted village backdrop.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which play was performed?"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing a group of actors on stage before a painted village backdrop, one of them kneeling.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which play was performed?"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing dancers and seated performers on stage in a painted palace setting.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Which play or performance?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 317 shows nearly the same moment. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, showing dancers and seated performers on stage in a painted palace setting.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 316 shows nearly the same moment. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, featuring seven young women in traditional female costumes.",
+      "checks": [
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "Names of the women?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "ID 320 looks like another print of the same photo. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, featuring a large group of participants in traditional costumes, with Sultan Dovlet-Girey fourth in the second row.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": true,
+          "text": "\"2nd row, 4th\": counted from the left, and the second row from the front or the back?"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar, Russia, on 2 January 1914, featuring seven young women in traditional female costumes.",
+      "checks": [
+        {
+          "type": "duplicate",
+          "blocking": true,
+          "text": "This looks like another print of ID 318. Keep both?"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "description": "A 20th-century photograph from Bolshoi Kechmai, Russia, featuring Akhmed Achmezov Aslanovich (1857-1951) and Gumer Khusht, seated in the traditional male costume.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Which man is which?"
+        },
+        {
+          "type": "spelling",
+          "blocking": false,
+          "text": "Spelling: Bolshoi Kechmai (field) or Kuchmai (notes)? Draft uses the field."
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "description": "A 1958 photograph from Manbij, Syria, in the Circassian diaspora, showing men dancing in a circle of onlookers at the Independence Day celebrations.",
+      "checks": [
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Caption: \"منبج ١٩٥٨ احتفالات بأعياد الجلاء\" (Manbij 1958, Evacuation Day celebrations). Evacuation Day is Syria's Independence Day; keep \"Independence Day\"?"
+        },
+        {
+          "type": "other",
+          "blocking": false,
+          "text": "Is it a Circassian dance? Not stated in the data."
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "description": "A 20th-century photograph from Sochi, Russia, linked to Tokh Chilezakh Mustafovich (1850-1928), showing a house with a man seated on its front steps.",
+      "checks": [
+        {
+          "type": "who-is-who",
+          "blocking": false,
+          "text": "Is the seated man Tokh Chilezakh? Is it his house?"
+        },
+        {
+          "type": "missing-info",
+          "blocking": false,
+          "text": "No notes on the house: where and when?"
+        }
+      ]
+    }
+  ]
+}
