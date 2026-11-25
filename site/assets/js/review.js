@@ -191,22 +191,24 @@
     tags.replaceChildren(...keywords.map((k) => Object.assign(document.createElement('li'), { textContent: k })));
 
     // The researcher's own "Photo description" from the sheet: the source of most drafts. Open, so it
-    // can be read beside the draft; it folds away if it gets in the way.
-    const source = [['Names', item.names], ['Photo description', item.notes]].filter(([, v]) => v);
-    if (source.length) {
-      const box = document.createElement('details');
-      box.className = 'review-card__source';
-      box.open = true;
-      box.innerHTML = '<summary>From the sheet</summary>';
-      source.forEach(([label, value]) => {
-        const p = document.createElement('p');
-        p.innerHTML = '<strong></strong> ';
-        p.firstChild.textContent = `${label}:`;
-        p.append(value);
-        box.append(p);
-      });
-      tags.after(box);
-    }
+    // can be read beside the draft; it folds away if it gets in the way. Always shown, and says so when
+    // the sheet has no description, so an empty cell isn't mistaken for a missing section.
+    const filled = (v) => v && String(v).trim() && v !== 'nAn';
+    const source = [['Names', item.names, false], ['Photo description', item.notes, true]]
+      .filter(([, v, always]) => always || filled(v));
+    const box = document.createElement('details');
+    box.className = 'review-card__source';
+    box.open = true;
+    box.innerHTML = '<summary>From the sheet</summary>';
+    source.forEach(([label, value]) => {
+      const p = document.createElement('p');
+      p.innerHTML = '<strong></strong> ';
+      p.firstChild.textContent = `${label}:`;
+      if (filled(value)) p.append(value);
+      else p.append(Object.assign(document.createElement('em'), { className: 'review-card__empty', textContent: 'empty in the sheet' }));
+      box.append(p);
+    });
+    tags.after(box);
 
     const pending = unsaved()[itemKey(item)];
     text.value = pending ?? (item.status && item.status !== 'rejected' ? item.final : item.draft);
