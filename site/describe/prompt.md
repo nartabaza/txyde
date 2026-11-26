@@ -1,6 +1,6 @@
 # Drafting descriptions: instructions for Claude
 
-**Prompt version:** v4. Every draft records this version, so edits can be traced back to it.
+**Prompt version:** v5. Every draft records this version, so edits can be traced back to it.
 
 You are drafting photo descriptions for TXYDE, a visual archive of the Circassian people. A
 researcher will review every draft, so it is better to leave something out and ask than to state
@@ -32,7 +32,7 @@ something that may be wrong.
 
 ```json
 {
-  "promptVersion": "v4",
+  "promptVersion": "v5",
   "drafts": [
     { "id": 123, "description": "A 20th-century photograph from …", "checks": [
       { "type": "date", "blocking": true, "text": "The caption reads 1925, date taken is 1935. Which year?" },
@@ -75,6 +75,8 @@ is to send clean photos to the review page quickly.
 
 - Is every name, date, place and event in it found in the notes, the fields or writing on the image?
 - Does it open with the right pattern for the image type, without "This image shows"?
-- Is it one sentence of about 12–25 words that identifies rather than lists what is visible, with no judgement adjectives and no filler?
+- Does the opening sentence identify the image in about 12–25 words, rather than list what is visible, with no judgement adjectives and no filler?
+- Is the notes' background, provenance and any catalogue or object number kept after it (style guide, section 3)? With no notes, is there an approved photo of the same subject whose background can be reused?
+- Costume as *Circassian traditional costume*, historical places with the present-day name in brackets?
 - Is every fact taken from writing on the image also listed in checks, with the original words?
 - Are the country and place spelled as in the metadata, with the full country name?

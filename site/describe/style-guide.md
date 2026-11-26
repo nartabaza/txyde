@@ -1,6 +1,6 @@
 # TXYDE description style guide
 
-**Version:** v3 (2026-11-14). Drawn from the approved descriptions in the master sheet (column CN) and
+**Version:** v5 (2026-11-26). Drawn from the approved descriptions in the master sheet (column CN) and
 the "Photo description instructions" on its Help tab. Each review round may change this file; bump the
 version and note what changed at the bottom.
 
@@ -52,22 +52,34 @@ description.
 - Drop what repeats the fields already shown beside the description (title, period, country) only
   when the sentence reads fine without it; the opening formula usually carries them.
 - Rephrase into the house style; fix spelling and grammar. Do not add anything the notes don't say.
-- Notes about the source (a book, a museum, a collection) belong in the description only when they
-  say where an object is kept (*displayed at the National Museum in Maykop*). Book titles do not.
+- **Keep the notes' background.** When the notes give history (what a school or event was, what
+  happened to a person) or provenance (who took the photo, how it reached a museum, where it is
+  kept now), keep it in one or more sentences after the opening sentence, staying close to the
+  notes' wording. The researcher added these back to almost every draft that cut them (ready-1).
+- **Keep catalogue details** from the notes: series codes and numbers (*Military Series (N224)*),
+  object or inventory numbers (*Object Number: 63.350.201.16.13.*), negative plate numbers. Put the
+  series code in brackets after the series name and the object number as a closing sentence.
+- **Shared background.** When a photo has no notes but an approved photo of the same subject (same
+  title, in the batch or the examples) has background notes, reuse that background sentence and say
+  in checks which ID it came from. Example: ID 215 took the school's history from ID 7.
+- Book titles do not go in the description; where an object is kept does.
 - When the notes and the fields disagree (a different year, a different spelling), follow the notes
   and say so in checks.
 
 ## 4. Length
 
-- Usually **one sentence of about 12–25 words**. The approved set has a median of 16 words.
+- **The opening sentence** identifies the image in about 12–25 words. When the notes give
+  background (section 3), it follows in further sentences; there is no fixed limit, but every
+  sentence must come from the notes. With no background, one sentence is the whole description.
 - A description **identifies** (what, who, when, where). It is not an inventory of the picture.
   Add at most **one short clause** of visible detail, and only when it says something the title
   doesn't: *forming a dancing circle*, *of which one (left) is made of pumpkin*. When names, an
   event or a date are known, they come first and visible detail is usually not needed at all.
 - When nothing is known beyond the title, one plain sentence about what is visible is right
   (the Help tab example). Still keep it short.
-- Longer (up to about 60 words) when the notes give real history worth telling: a person's role,
-  what an event or tradition was. Example: the trial of the Kabardian horsemen at Bromberg (ID 96).
+- Longer when the notes give real history or provenance worth telling: a person's role, what an
+  event or tradition was, where the original is kept. Examples: the trial of the Kabardian horsemen
+  at Bromberg (ID 96); Cherkes Ethem (ID 1049); the Kinney Brothers trade card (ID 1093).
 - Never pad. Do not end with filler such as *"It documents traditional dress and cultural context."*
 - Details you saw but left out can go in checks if the researcher might want them.
 
@@ -102,6 +114,8 @@ Use the pattern that fits the image type.
 - **Place:** the most specific known place, then the country: *from Damascus, Syria*;
   *from Hakurynehebl, Adygea*; *from Sochi, Russia*. Use the country's full name, never the code.
   When only a region is given, use it as the place without words like *Krai* or *Governorate*.
+- **Historical place names:** give the present-day name in brackets on first use:
+  *Ekaterinodar (Krasnodar city)*.
 - **Diaspora:** for Diaspora photographs with a known country, add *in the Circassian diaspora*
   straight after *from {place}, {country}*, as the Syrian photos do: *from Damascus, Syria, in the
   Circassian diaspora, showing…* Use it once, and only in that position.
@@ -125,11 +139,20 @@ Use the pattern that fits the image type.
 ## 8. Words and spelling
 
 - **Circassian terms:** use the archive's spelling (title, keywords, Glossary tab), with a short
-  English gloss or the term in brackets: *a qama (Circassian short sword)*, *the traditional male
-  costume (Tsai)*. The terms in this guide and in the examples may be used. Use a term only when
+  English gloss or the term in brackets: *a qama (Circassian short sword)*. The terms in this guide and in the examples may be used. Use a term only when
   you are sure it names what is shown; otherwise use the plain English word and ask in checks.
 - **Place names:** follow the spelling in the sheet's Options tab: Quneitra, Hakurynehebl,
   Khushnyieh, Golan Heights, Kabardino-Balkaria.
+- **Costume:** write *the Circassian traditional costume*, or *the Circassian traditional male
+  costume* when it matters that it is the men's; never just *the traditional male/female costume*.
+- **Say who they are.** When the event or the data makes the people Circassian, say so where the
+  draft would otherwise say only *a warrior* or *a woman*: *a Circassian warrior in chain mail
+  kneeling before a seated woman in Circassian traditional costume*. Write *the Circassian (Adyghe)
+  people*, Circassian first.
+- **Maps and printed names:** copy the place names exactly as printed: *marking CIRKASI, CIRCASSES
+  and ABASSA*.
+- **Illustrations:** a painted or printed backdrop of a village or landscape is *an imagined
+  Circassian village*, not a real place, unless the data names it.
 - Capitalise *Circassian*, *Adyghe*, *Kabardian*, *Shapsug*, *Soviet*, *Victorian*.
 - Write *the Bolsheviks*, *World War I* (or *WW1*, as the archive does), and *fourth* (not *forth*).
 - Plain, neutral words. No judgement adjectives (*beautiful, striking, proud, distinguished,
@@ -150,6 +173,12 @@ or not; `prompt.md` ("Checks") says which. In short: blocking when the descripti
 or the data contradicts itself, not blocking when the answer would only add to it.
 
 ## Changes
+
+- **v5 (2026-11-26):** after the ready-1 review (52 drafts: 28 approved, 24 edited). The drafts cut
+  too much of the notes, so the notes' background, provenance and catalogue numbers now follow the
+  opening sentence (sections 3 and 4), and shared background may be reused from a photo of the same
+  subject. Added: *Circassian traditional costume*, present-day names for historical places,
+  naming people as Circassian, map names as printed, imagined backdrops (sections 6 and 8).
 
 - **v1:** first version, drawn from the approved set.
 - **v2:** after a blind test on 12 approved images (`describe/tests/test-v1.md`). Drafts were

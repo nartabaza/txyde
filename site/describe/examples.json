@@ -1,5 +1,5 @@
 {
-  "note": "Approved descriptions (column CN) with the input the drafting gets for each photo. Made by scripts/prep_batch.py examples; edit a description here to correct it.",
+  "note": "Approved descriptions (column CN) with the input the drafting gets for each photo. Made by scripts/prep_batch.py examples; edit a description here to correct it. From v5, examples also include descriptions the researcher edited on the review page (ready-1).",
   "examples": [
     {
       "input": {
@@ -307,6 +307,126 @@
         }
       },
       "description": "Rhyton with the Pegasus protome from burial mound 4 near the village of Ulyap displayed at the State Museum of Oriental Art, Moscow."
+    },
+    {
+      "input": {
+        "id": 215,
+        "title": "The Adyghe School in Syria",
+        "period": "20th",
+        "dateTaken": "1934",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "country": "Syria",
+        "region": "Quneitra",
+        "tribe": "All",
+        "collection": "عزالدين سطاس",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "Arabic",
+        "keywords": "Education, School, Students, Circassian school uniform, Annual festival",
+        "context": {
+          "place": "Qunaitra",
+          "house": "A style in Diaspora, Black stone,",
+          "fashion": "Traditional male Adyghe school costume",
+          "sport": "The Circassian school sport Annual festival",
+          "other": "The Circassian School"
+        }
+      },
+      "description": "A 1934 photograph from Quneitra, Syria, in the Circassian diaspora, showing students forming a human pyramid at the annual sports festival of the Adyghe School. The school was established in 1932 and continued operating until 1942. It was the first Circassian elementary school in the diaspora where the entire curriculum was taught in the Circassian language except for Arabic language classes."
+    },
+    {
+      "input": {
+        "id": 311,
+        "title": "The second Circassian charity evening in Ekaterinodar",
+        "period": "20th",
+        "dateTaken": "1914",
+        "dateType": "Accurate",
+        "location": "Homeland",
+        "country": "Russia",
+        "region": "Krasnodar",
+        "notes": "This is the second evening was conducted in Ekatrinodar on the 2nd of January 1914",
+        "context": {
+          "fashion": "Traditional female costume and warrior costume",
+          "other": "Actors, Theatre, warrior"
+        }
+      },
+      "description": "A photograph from the second Circassian charity evening, held in Ekaterinodar (Krasnodar city), Russia, on 2 January 1914, showing a staged scene of a Circassian warrior in a chain-mail helmet kneeling before a seated woman in Circassian traditional costume."
+    },
+    {
+      "input": {
+        "id": 1049,
+        "title": "Cherkes Ethem",
+        "period": "20th",
+        "dateTaken": "1920",
+        "dateType": "Circa",
+        "location": "Diaspora",
+        "country": "Türkiye",
+        "names": "Cherkes Ethem",
+        "dignitaries": "Cherkes Ethem",
+        "tribe": "Shapsugh",
+        "notes": "Cherkes Ethem (1886–1948) was a prominent Circassian guerrilla leader who became a vital militia commander in the early stages of the Turkish War of Independence. Leading the irregular Kuvâ-yi Seyyâre (Mobile Forces), he initially earned national acclaim for stalling the Greek military advance and suppressing internal anti-revolutionary rebellions. However, his independent stance and refusal to merge his forces into the newly established regular Turkish army led to a bitter conflict with the central Ankara government. Declared a traitor and rebel in late 1920, he was defeated and spent the remainder of his life in exile."
+      },
+      "description": "A photograph from around 1920, from Türkiye, in the Circassian diaspora, featuring Cherkes Ethem (1886–1948), a Circassian guerrilla leader who commanded the irregular Kuvâ-yi Seyyâre (Mobile Forces) in the early stages of the Turkish War of Independence. Declared a traitor and rebel in late 1920, he was defeated and spent the remainder of his life in exile."
+    },
+    {
+      "input": {
+        "id": 1088,
+        "title": "A card of Circassians",
+        "period": "20th",
+        "dateTaken": "1908",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "country": "France",
+        "artType": "Lithograph",
+        "artDate": "1908",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "French",
+        "notes": "A collectible advertising trade card titled \"Au Caucase, pays et habitants\" (In the Caucasus, Countries and Inhabitants), issued around 1908 (Series S919) by the Liebig Company to promote their meat extract product",
+        "context": {
+          "art": "chromolithograph",
+          "fashion": "Traditional male and female costumes",
+          "other": "Trade card, ephemera"
+        }
+      },
+      "description": "A Liebig trade card from the series Au Caucase, pays et habitants (In the Caucasus, Countries and Inhabitants), issued around 1908, showing (left to right) a Circassian woman, a Kabardian woman and a Circassian man in front of an imagined Circassian village in the mountains."
+    },
+    {
+      "input": {
+        "id": 1093,
+        "title": "A card of a Circassian imperial body guard",
+        "period": "19th",
+        "dateTaken": "1888",
+        "dateType": "Accurate",
+        "location": "Diaspora",
+        "country": "United States",
+        "artType": "Lithograph",
+        "artDate": "1888",
+        "artOwner": "The Metropolitan Museum of Art, The Jefferson R. Burdick Collection,",
+        "museum": "https://www.metmuseum.org/art/collection/search/725500",
+        "inscription": "Sidenote",
+        "inscriptionLanguage": "English",
+        "notes": "A 1888 commercial color lithograph trade card, depicting a uniformed subject from 1886, issued by the Kinney Brothers Tobacco Company as part of their \"Military Series\" (N224) to promote Sweet Caporal Cigarettes. It is a part of The Jefferson R. Burdick Collection, and it reserved in the The Metropolitan Museum of Art. Object Number: Burdick 218, N224.530",
+        "context": {
+          "art": "chromolithograph",
+          "fashion": "military costumes from the late middle ages.",
+          "other": "Trade card, ephemera"
+        }
+      },
+      "description": "An 1888 trade card by the Kinney Brothers Tobacco Company for Sweet Caporal cigarettes, from the Military Series (N224), showing a Circassian imperial body guard of Russia in 1886, held in the Jefferson R. Burdick Collection at the Metropolitan Museum of Art. Object Number: Burdick 218, N224.530"
+    },
+    {
+      "input": {
+        "id": 1148,
+        "title": "Circassian Cavalry Squadron in Syria",
+        "period": "20th",
+        "dateTaken": "1922 - 1946",
+        "location": "Diaspora",
+        "country": "Syria",
+        "context": {
+          "fashion": "Traditional male costume",
+          "other": "Groupement Cherkess, Circassian Squadron"
+        }
+      },
+      "description": "A photograph dating to 1922 - 1946 from Syria, in the Circassian diaspora, showing a line of mounted riders of the Circassian Cavalry Squadron in the Circassian traditional male costume, one carrying a flag."
     }
   ]
 }

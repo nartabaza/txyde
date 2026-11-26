@@ -3,7 +3,7 @@
 
     python scripts/prep_batch.py NAME --next 20            the next 20 photos whose description needs review
     python scripts/prep_batch.py NAME --next 50 --from-end the same, counting from the end of the sheet
-    python scripts/prep_batch.py NAME --ids 21 22 24       these photos
+    python scripts/prep_batch.py NAME --ids 21 22 24       these photos (not those already marked ready)
     python scripts/prep_batch.py examples --ids 7 13 …     rewrite describe/examples.json from approved photos
 
 Reads the newest data/PhotoArchive_Master_Sheet*.xlsx (or --sheet). A photo "needs review" when
@@ -127,6 +127,8 @@ def main():
     parser.add_argument("--from-end", action="store_true", help="with --next: take photos from the end of the sheet")
     parser.add_argument("--sheet", type=Path)
     parser.add_argument("--allow-missing-images", action="store_true")
+    parser.add_argument("--include-ready", action="store_true",
+                        help="with --ids: also take photos whose description is already marked ready")
     parser.add_argument("--images-from", type=Path, metavar="DIR",
                         help='use image files already downloaded to DIR, named "<id>_…" as the sheet names them')
     args = parser.parse_args()
@@ -141,6 +143,12 @@ def main():
     if args.ids:
         chosen = [photos[i] for i in args.ids if i in photos]
         missing = [i for i in args.ids if i not in photos]
+        if not args.include_ready:
+            ready = [p["id"] for p in chosen if p["ready"]]
+            chosen = [p for p in chosen if not p["ready"]]
+            if ready:
+                print(f"  {len(ready)} already marked Description ready, left out (--include-ready to keep): "
+                      + ", ".join(map(str, ready)))
     else:
         done = already_batched()
         chosen = [p for p in photos.values()

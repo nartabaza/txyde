@@ -1,0 +1,780 @@
+{
+  "batch": "stories-ready",
+  "rounds": [
+    "stories-1"
+  ],
+  "items": [
+    {
+      "id": 369,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1932 - 1942",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "names": "Amin Ayob Samgugh",
+      "dignitaries": "Amin Ayob Samgugh",
+      "dignitaryBorn": "1903",
+      "dignitaryDied": "1952",
+      "tribe": "All",
+      "keywords": "Students, teacher, black stone house",
+      "context": {
+        "place": "Qunaitra",
+        "fashion": "Circassian school uniform",
+        "other": "The Circassian School,"
+      },
+      "image": "images/369.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/369_SYR_20th_The+Adyghe+School+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 374,
+      "title": "The Adyghe School in Syria",
+      "period": "20th",
+      "dateTaken": "1932 - 1942",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "tribe": "All",
+      "keywords": "Students, teacher, school occasion",
+      "context": {
+        "place": "Qunaitra",
+        "fashion": "Circassian school uniform",
+        "other": "The Circassian School,"
+      },
+      "image": "images/374.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/374_SYR_20th_The+Adyghe+School+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 393,
+      "title": "The first Circassian charity evening in Ekaterinodar",
+      "period": "20th",
+      "dateTaken": "1908",
+      "dateType": "Accurate",
+      "location": "Homeland",
+      "country": "Russia",
+      "region": "Krasnodar",
+      "photographer": "Шавловский Семен Афанасьевич",
+      "names": "Sultan Devlet-Girey",
+      "dignitaries": "Sultan Devlet-Girey",
+      "dignitaryBorn": "1875",
+      "dignitaryDied": "1918",
+      "keywords": "Dagger",
+      "notes": "The evening was conducted in Ekaterinodar (Krasnodar) and the eveing was on the 18th of January, 1908 while another evening was conducted as well in 1914 after they established the Xasa (The association) there. There are two albums, one in each evening.",
+      "context": {
+        "other": "Photo session, Weapon,"
+      },
+      "image": "images/393.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/393_RUS_20th_The+first+Circassian+charity+evening+in+Ekaterinodar.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 394,
+      "title": "Sultan Dovlet Girey",
+      "period": "20th",
+      "dateTaken": "1905 - 1910",
+      "dateType": "Estimate",
+      "country": "Russia",
+      "names": "Sultan Devlet-Girey",
+      "dignitaries": "Sultan Devlet-Girey",
+      "dignitaryBorn": "1875",
+      "dignitaryDied": "1918",
+      "keywords": "Dagger",
+      "notes": "Sultan Dovlet Girey with unknown older man.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Photo session, Weapon,"
+      },
+      "image": "images/394.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/394_RUS_20th_Sultan+Dovlet+Girey.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 395,
+      "title": "Sultan Dovlet Girey at the anniversary",
+      "period": "20th",
+      "dateTaken": "1913",
+      "dateType": "Accurate",
+      "country": "Russia",
+      "names": "1. Депутат от Кубанского казачества.2. Князь Уцмиев Султан-Мурат (кумык).3. Князь Наурузов Таусултан (черкес).4. Полковник Хагундоков (черкес).5. Депутат от Терского казачества. And Sitting 1. Sultan Devlet-Girey Султан Дивлет-Гирей (черкес).2. Генерал-майор Хоранов Созрыко (осетин).3. Ген.-лейтенант Кусов Джена (осетин).4. Ген.-майор Куденетов Джанхот (черкес).5. Полковник Гусов (осетин).6. Князь Капланов Будайхан (кумык).",
+      "dignitaries": "Sultan Devlet-Girey",
+      "dignitaryBorn": "1875",
+      "dignitaryDied": "1918",
+      "keywords": "Dagger, Medal",
+      "notes": "At the anniversary of the House of Romanov",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Photo session, Weapon,"
+      },
+      "image": "images/395.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/395_RUS_20th_Sultan+Dovlet+Girey+at+the+anniversary.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 521,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1940",
+      "dateType": "Estimate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Circassian Squadron"
+      },
+      "image": "images/521.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/521_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 522,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1940",
+      "dateType": "Estimate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Niazi Haidar, Nazem Bek Sanjer, Jawad Anzor, Tawfiq Kabartai, Kamal Qushha, Kamel Bek, Haider bek, Tawfiq Anzor, Amin Anzor, Safou Qushha.",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "Arabic",
+      "notes": "The Circassian Cavalry Corps in Syria was established in the 1920s. There were 15 squadrons of Circassian cavalry, of which three were motorized, each with about a hundred cavaliers. They were led by Circassian officers and non-commissioned officers with a small cadre of French officers. The overall leader of the Corps was French colonel Philibert Collet. The Corps was disbanded in 1946, upon independence of Syria.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Circassian Squadron"
+      },
+      "image": "images/522.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/522_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 524,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1940",
+      "dateType": "Estimate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "1 Jawad Anzor, 2 Wimar Qwbatiy, 3 Nejdet Qwbatiy, 4 Kamal Qaniqwe, 5 Kamal Qarebezhak.",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English, Circassian",
+      "notes": "The Circassian Cavalry Corps in Syria was established in the 1920s. There were 15 squadrons of Circassian cavalry, of which three were motorized, each with about a hundred cavaliers. They were led by Circassian officers and non-commissioned officers with a small cadre of French officers. The overall leader of the Corps was French colonel Philibert Collet. The Corps was disbanded in 1946, upon independence of Syria.",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Circassian Squadron"
+      },
+      "image": "images/524.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/524_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 525,
+      "title": "The banner of the Circassian Squadron in Syria",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "notes": "The Circassian Cavalry Corps in Syria was established in the 1920s. There were 15 squadrons of Circassian cavalry, of which three were motorized, each with about a hundred cavaliers. They were led by Circassian officers and non-commissioned officers with a small cadre of French officers. The overall leader of the Corps was French colonel Philibert Collet. The Corps was disbanded in 1946, upon independence of Syria.",
+      "context": {
+        "other": "Circassian Squadron, Banner,"
+      },
+      "image": "images/525.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/525_SYR_20th_The+banner+of+the+Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 526,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1941",
+      "location": "Diaspora",
+      "country": "Syria",
+      "tribe": "All",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "notes": "The Circassian Cavalry Corps in Syria was established in the 1920s. There were 15 squadrons of Circassian cavalry, of which three were motorized, each with about a hundred cavaliers. They were led by Circassian officers and non-commissioned officers with a small cadre of French officers. The overall leader of the Corps was French colonel Philibert Collet. The Corps was disbanded in 1946, upon independence of Syria.",
+      "context": {
+        "fashion": "Hat",
+        "other": "Circassian Squadron"
+      },
+      "image": "images/526.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/526_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 606,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "context": {
+        "fashion": "Hat or costume Badge of Cherkess Cavalry Squadron in Syria",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/606.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/606_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 607,
+      "title": "Circassian Squadron in Syria",
+      "period": "20th",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Nuradin Ahmad Stash",
+      "tribe": "Bzhedug/Bjedugh",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Regiment Cherkess, Circassian Squadron"
+      },
+      "image": "images/607.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/607_SYR_20th_Circassian+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 927,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "notes": "The flag belonged to the 19th Circassian Cavalry Squadron (Escadron Tcherkess). 8 Squadrons from 12 to 19 were created in 1925–1926",
+      "image": "images/927.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/927_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 929,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "First row the third: Jawad Anzor",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/929.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/929_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 930,
+      "title": "Jawad Talostan Anzor",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "Jawad Anzor",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/930.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/930_SYR_20th_Jawad+Talostan+Anzor.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 931,
+      "title": "Jawad Talostan Anzor",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "names": "On the right: Jawad Anzor",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "dignitaries": "Jawad Talostan Anzor",
+      "dignitaryBorn": "1900",
+      "dignitaryDied": "1948",
+      "tribe": "Kabardian/Kabartai/Kabardey",
+      "context": {
+        "fashion": "Traditional male costume",
+        "other": "Medals"
+      },
+      "image": "images/931.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/931_SYR_20th_Jawad+Talostan+Anzor.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 932,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/932.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/932_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 933,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/933.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/933_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 934,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Quneitra",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "place": "Quneitra",
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/934.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/934_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 935,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/935.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/935_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 936,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume",
+        "instrument": "Accordion (pshine)"
+      },
+      "image": "images/936.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/936_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 937,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume",
+        "instrument": "Accordion (pshine)"
+      },
+      "image": "images/937.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/937_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 938,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/938.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/938_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 939,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/939.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/939_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 940,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/940.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/940_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 941,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/941.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/941_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 942,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "French",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/942.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/942_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 943,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/943.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/943_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 944,
+      "title": "A hat from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male hat",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/944.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/944_SYR_20th_A+hat+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 945,
+      "title": "A badge from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "context": {
+        "fashion": "Hat Badge of Cherkess Cavalry Squadron in Syria",
+        "other": "Badge, Groupement Cherkess, Circassian Squadron"
+      },
+      "image": "images/945.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/945_SYR_20th_A+badge+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 946,
+      "title": "A saddle from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "other": "Horse saddle"
+      },
+      "image": "images/946.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/946_SYR_20th_A+saddle+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 947,
+      "title": "A cloth from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "ornaments": "on a horse saddle"
+      },
+      "image": "images/947.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/947_SYR_20th_A+cloth+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 948,
+      "title": "A whip from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "other": "Horse whip,"
+      },
+      "image": "images/948.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/948_SYR_20th_A+whip+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 949,
+      "title": "A whip from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "other": "Horse whip,"
+      },
+      "image": "images/949.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/949_SYR_20th_A+whip+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 950,
+      "title": "A whip from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "other": "Horse whip,"
+      },
+      "image": "images/950.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/950_SYR_20th_A+whip+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 951,
+      "title": "A whip from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "inscription": "Script",
+      "inscriptionLanguage": "French",
+      "notes": "This whip belongs to Robert Fargues from the the 14th Squadron of the Circassian cavalry in Syria",
+      "context": {
+        "other": "Horse whip,"
+      },
+      "image": "images/951.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/951_SYR_20th_A+whip+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 952,
+      "title": "A dagger from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "ornaments": "on a dagger",
+        "other": "Dagger"
+      },
+      "image": "images/952.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/952_SYR_20th_A+dagger+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 953,
+      "title": "A dagger from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "ornaments": "on a dagger",
+        "other": "Dagger"
+      },
+      "image": "images/953.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/953_SYR_20th_A+dagger+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 954,
+      "title": "A belt from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "ornaments": "on a belt"
+      },
+      "image": "images/954.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/954_SYR_20th_A+belt+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 955,
+      "title": "A belt from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "ornaments": "on a belt"
+      },
+      "image": "images/955.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/955_SYR_20th_A+belt+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 956,
+      "title": "A razor from Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "other": "straight razor"
+      },
+      "image": "images/956.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/956_SYR_20th_A+razor+from+Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 957,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/957.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/957_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 958,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1941",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "inscription": "Sidenote",
+      "inscriptionLanguage": "English",
+      "notes": "this photograph was taken during the Syria-Lebanon Campaign of 1941, specifically in connection with the surrender of Vichy French forces in Damascus.",
+      "context": {
+        "place": "(AlHijaz) Railway station in Damascus"
+      },
+      "image": "images/958.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/958_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 959,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1941",
+      "dateType": "Accurate",
+      "location": "Diaspora",
+      "country": "Syria",
+      "region": "Damascus",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "notes": "this photograph was taken during the Syria-Lebanon Campaign of 1941, specifically in connection with the surrender of Vichy French forces in Damascus.",
+      "context": {
+        "place": "(AlHijaz) Railway station in Damascus"
+      },
+      "image": "images/959.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/959_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    },
+    {
+      "id": 960,
+      "title": "Circassian Cavalry Squadron in Syria",
+      "period": "20th",
+      "dateTaken": "1922 - 1946",
+      "location": "Diaspora",
+      "country": "Syria",
+      "originalNames": "Escadron Tcherkess or Groupement Tcherkess",
+      "context": {
+        "fashion": "Traditional male costume"
+      },
+      "image": "images/960.jpg",
+      "imageUrl": "https://cdn.txyde.com/03_Root_Final/960_SYR_20th_Circassian+Cavalry+Squadron+in+Syria.jpg",
+      "round": "stories-1"
+    }
+  ]
+}

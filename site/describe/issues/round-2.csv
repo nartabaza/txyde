@@ -1,0 +1,19 @@
+﻿type,id,title,question,answer,batch,image
+date,193,A senior with three girls,"Date taken says 1880, but the photo is marked ""1860."" in the corner. Which is right? Draft uses ""19th-century"".",,round-2,https://cdn.txyde.com/03_Root_Final/193_nAn_19th_A+senior+with+three+girls.jpg
+date,210,The Adyghe School in Syria,"The caption on the mount reads ""القنيطرة - ١٩٢٩"" (Quneitra - 1929), but date taken is 1939 (Accurate). The approved description of ID 7 says the school opened in 1932. Which year?",,round-2,https://cdn.txyde.com/03_Root_Final/210_SYR_20th_The+Adyghe+School+in+Syria.jpg
+date,212,The Adyghe School in Syria,"The caption reads ""القنيطرة - ١٩٢٥"" (Quneitra - 1925?), but date taken is 1935 (Accurate). Which year?",,round-2,https://cdn.txyde.com/03_Root_Final/212_SYR_20th_The+Adyghe+School+in+Syria.jpg
+date,245,Abzakh girl,"Date taken is 1920, but the notes say the photo could be from the late 19th century. Which? Draft leaves the date out.",,round-2,https://cdn.txyde.com/03_Root_Final/245_ADG_20th_Abzakh+girl.jpg
+date,246,Abzakh girl,"Date taken is 1920, but the notes say the photo could be from the late 19th century. Which? Draft leaves the date out.",,round-2,https://cdn.txyde.com/03_Root_Final/246_ADG_20th_Abzakh+girl.jpg
+spelling,210,The Adyghe School in Syria,"The caption spells the name ""خوناكو"" (Khonako); the names field has Khonagua. Draft uses the names field.",,round-2,https://cdn.txyde.com/03_Root_Final/210_SYR_20th_The+Adyghe+School+in+Syria.jpg
+spelling,212,The Adyghe School in Syria,"Teacher's name: ""Sharlot"" (names field) or ""Charlotte""? Is she the woman standing at the back by the window?",,round-2,https://cdn.txyde.com/03_Root_Final/212_SYR_20th_The+Adyghe+School+in+Syria.jpg
+contradiction,286,Circassian warriors,"Location is ""Diaspora"" but the country is Russia. Which is right?",,round-2,https://cdn.txyde.com/03_Root_Final/286_RUS_19th_Circassian+warriors.jpg
+contradiction,287,Circassian warriors,"Location is ""Diaspora"" but the country is Russia. Which is right?",,round-2,https://cdn.txyde.com/03_Root_Final/287_RUS_19th_Circassian+warriors.jpg
+contradiction,304,Khatat Khakushteshevich Skhabo,The dates 1824-1943 would make him 119. Correct?,,round-2,https://cdn.txyde.com/03_Root_Final/304_RUS_20th_Khatat+Khakushteshevich+Skhabo.jpg
+contradiction,305,Khatat Khakushteshevich Skhabo,The dates 1824-1943 would make him 119. Correct?,,round-2,https://cdn.txyde.com/03_Root_Final/305_RUS_20th_Khatat+Khakushteshevich+Skhabo.jpg
+who-is-who,292,Fatimat Skhabo Tesheve,"The names field says ""the second"": second from the left?",,round-2,https://cdn.txyde.com/03_Root_Final/292_RUS_20th_Fatimat+Skhabo+Tesheve.jpg
+who-is-who,319,The second Circassian charity evening in Ekaterinodar,"""2nd row, 4th"": counted from the left, and the second row from the front or the back?",,round-2,https://cdn.txyde.com/03_Root_Final/319_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg
+duplicate,305,Khatat Khakushteshevich Skhabo,This looks like a colourised copy of ID 304. Confirm.,,round-2,https://cdn.txyde.com/03_Root_Final/305_RUS_20th_Khatat+Khakushteshevich+Skhabo.jpg
+duplicate,320,The second Circassian charity evening in Ekaterinodar,This looks like another print of ID 318. Keep both?,,round-2,https://cdn.txyde.com/03_Root_Final/320_RUS_20th_The+second+Circassian+charity+evening+in+Ekaterinodar.jpg
+missing-info,243,Map of Circassia,"No notes: date, mapmaker and source? It looks like a detail of a larger map.",,round-2,https://cdn.txyde.com/03_Root_Final/243_nAn_nAn_Map+of+Circassia.jpg
+missing-info,253,Circassian girl,"No notes: name, place and year?",,round-2,https://cdn.txyde.com/03_Root_Final/253_nAn_20th_Circassian+girl.jpg
+missing-info,254,Circassian girl,"No notes: name, place and year?",,round-2,https://cdn.txyde.com/03_Root_Final/254_nAn_20th_Circassian+girl.jpg

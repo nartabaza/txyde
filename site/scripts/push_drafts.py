@@ -6,6 +6,7 @@
     python scripts/push_drafts.py ready NAME ROUND... [--skip IDS] [--keep IDS]
                                                      gather the ready drafts of several rounds into one batch
     python scripts/push_drafts.py issues NAME ...    write the open questions to describe/issues/NAME.csv
+    python scripts/push_drafts.py remove NAME IDS    take unreviewed drafts out of the Review tab (IDS: 7,66,214)
     python scripts/push_drafts.py pull [NAME]        save the Review tab (or one batch) to describe/reviews/
     python scripts/push_drafts.py sample NAME        use a batch as the review page's demo data (no sheet needed)
 
@@ -196,6 +197,14 @@ def issues(names):
             print(f"  {kind}: {counts[kind]}")
 
 
+def remove(name, ids):
+    body = {"key": key(), "action": "removeDrafts", "batch": name, "ids": sorted(ids)}
+    request = urllib.request.Request(endpoint(), data=json.dumps(body).encode("utf-8"), method="POST")
+    result = call(request)
+    print(f"Removed {result['removed']} drafts from the Review tab"
+          f" (kept {result['kept']} already reviewed).")
+
+
 def pull(name=None):
     query = {"key": key(), "action": "items"}
     if name:
@@ -219,6 +228,8 @@ if __name__ == "__main__":
             return {int(v) for v in args[args.index(flag) + 1].split(",")} if flag in args else set()
         names = [a for i, a in enumerate(args) if not a.startswith("--") and (i == 0 or not args[i - 1].startswith("--"))]
         ready(names[0], names[1:], ids("--skip"), ids("--keep"))
+    elif command == "remove" and len(args) == 2:
+        remove(args[0], {int(v) for v in args[1].split(",")})
     elif command == "issues" and args:
         issues(args)
     elif command == "sample" and args:
