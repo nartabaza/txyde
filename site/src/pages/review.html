@@ -2,12 +2,13 @@
 title: Description review - TXYDE
 description: Review the drafted photo descriptions
 styles: gallery, review
-scripts: review
+scripts: review, review-nav
 ---
 <div class="section section--contained">
   <div class="gallery review" data-endpoint="{{ site.review.endpoint }}" data-base="{{ base }}">
     <div class="gallery__inner">
-      <h1 class="text-h2 gallery__title">Description review</h1>
+      {{> review-nav }}
+      <h1 class="text-h2 gallery__title" tabindex="-1">Description review</h1>
       <p class="review__intro">Read each draft beside its photo. Approve it as it is, or correct it and then approve. Every decision is saved straight away.</p>
 
       <form class="review__key" hidden>
@@ -37,6 +38,7 @@ scripts: review
 
       <p class="review__message" hidden></p>
       <div class="review__list"></div>
+      {{> review-foot }}
     </div>
   </div>
 </div>

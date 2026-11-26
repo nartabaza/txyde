@@ -1,0 +1,39 @@
+---
+title: Rule checks - TXYDE
+description: Fields that break a rule of the archive sheet
+styles: gallery, review, quality
+scripts: quality, quality-rules, review-nav
+---
+<div class="section section--contained">
+  <div class="gallery review quality" data-endpoint="{{ site.review.endpoint }}" data-base="{{ base }}">
+    <div class="gallery__inner">
+      {{> review-nav }}
+      <h1 class="text-h2 gallery__title" tabindex="-1">Rule checks</h1>
+      <p class="review__intro">Each section is one rule that some rows break. Set the value for all of them at once, untick the exceptions, and save. Nothing changes in the sheet until the list of changes is checked and applied.</p>
+
+      <p class="review__message" hidden></p>
+      <form class="review__key" hidden>
+        <label class="filter-group__label" for="review-key">Review key</label>
+        <div class="review__key-row">
+          <input id="review-key" class="review__input" type="password" autocomplete="current-password" required>
+          <button class="filter-button filter-button--primary is-active" type="submit">Open</button>
+        </div>
+        <p class="review__key-error" hidden>That key was not accepted. Please check it and try again.</p>
+      </form>
+
+      <div class="filter-panel review__panel" role="group" aria-label="Filter and progress" hidden>
+        <div class="filter-group">
+          <div class="filter-group__label">Show</div>
+          <div class="filter-group__buttons" data-show></div>
+        </div>
+        <div class="review__progress">
+          <div class="review__progress-text" aria-live="polite"></div>
+          <div class="review__progress-bar"><span></span></div>
+        </div>
+      </div>
+
+      <div class="q-list"></div>
+      {{> review-foot }}
+    </div>
+  </div>
+</div>

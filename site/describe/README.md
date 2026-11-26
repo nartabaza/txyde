@@ -40,10 +40,47 @@ Claude Code session on the subscription.
 7. **Publish:** copy approved descriptions into the Description column of the Main tab, then run
    the usual `import_sheet.py`.
 
+## Data checks (separate from the descriptions)
+
+The `/quality/` pages help the researcher fix the data in the master sheet itself. Each kind of
+problem has its own page, because each needs a different kind of work:
+
+| Page | What it shows | How it is settled |
+|---|---|---|
+| `/quality-rules/` | Fields that break a rule: Diaspora with a homeland country (or Homeland abroad), a period that does not match the date, a date range written backwards, an impossible lifespan, Anonymous with names | Once per rule: set the value for all rows, untick the exceptions |
+| `/quality-spelling/` | Capital letters first, as rules: short description fields start with a capital, photo titles in sentence case, names keep their capitals (Black Sea, Kfar Kama). Then one name or term written several ways, in a column (museum names) or inside longer text (`quality/terms.json` and the sheet's Glossary tab) | A capitals rule is approved once, unticking the exceptions. For a spelling, pick the form to keep (the glossary's is marked); "Compare the records" shows the records behind each form side by side, and rows that are different people can be left out |
+| `/quality-text/` | Captions, stamps and signatures read off the photos while drafting, and not in the sheet yet: a reading already in a description (word for word or translated), and the inscription type and language the researcher filled in, count as done. In sections: partly legible, disagrees with the sheet, marked as having no text, clear | Full cards for the first three (for a disagreement: "The photo is right" or "The sheet is right", recorded in the change list's why column); the clear readings as a grid, confirmed together, marking any that are wrong. Any reading can be answered "Can't tell": nothing changes, and the "Can't tell" filter lists them to pass on to someone who reads that language or hand (decision `keep`, note "Can't tell") |
+
+1. Put the latest master sheet export in `data/`, then `python scripts/quality_checks.py build`.
+   It writes `quality/checks.json`: one row per possible change to one cell.
+2. `python scripts/quality_checks.py push` sends the checks to the "Data checks" tab. Run it after
+   every new export: new problems are added, decided rows are kept, and undecided rows that no
+   longer apply (the sheet was fixed) are removed.
+3. The researcher works through `/quality/`. Add `?demo` to any of the pages to try them on the
+   sample data (`quality_checks.py sample`), without the sheet.
+4. `python scripts/quality_checks.py pull` writes `quality/changes.csv`: ID, column letter, column,
+   old value, new value, and why. Check it, then apply it to the Main tab by hand. A cell that
+   changed in the sheet after its check was made is flagged in the warning column.
+
+**The glossary.** The researcher's Glossary tab (column A) is the standard for spelling. `build`
+reads it from the export: a glossary word written another way in the sheet (Shapsugh for Shapsug)
+becomes a card with the glossary form chosen, and its names of two words or more written in capitals
+("Circassian Cavalry") join the names that keep their capitals. A term ending in "?" is one the
+researcher is unsure of; its card says so.
+
+`quality/terms.json` holds what the glossary does not: pairs found while drafting (add a new one
+when drafting finds a name spelled two ways), plain typos, and `capitals`, names the title rule must
+not lower (a group, a painting). Once a spelling is settled it is worth adding to the Glossary tab
+too, so the next export checks against it.
+
+`push` also sends a snapshot of each spelling photo's record (date, place, source, description) to
+a "Data check records" tab, for "Compare the records". It is replaced on every push.
+
 ## One-time setup
 
-One Apps Script project does two jobs: `Uploader.gs` copies the photos from Drive to S3 and fills
-the "Final file S3" column, and `Code.gs` links the review page to the sheet.
+One Apps Script project does three jobs: `Uploader.gs` copies the photos from Drive to S3 and fills
+the "Final file S3" column, `Code.gs` links the review page to the sheet, and `Checks.gs` keeps the
+"Data checks" and "Data check records" tabs for the `/quality/` pages (routed through `Code.gs`).
 
 **Make the project in your own Google account**, not inside the sheet. A script attached to the
 sheet would show its keys to everyone who can edit the sheet. Your account only needs edit access
@@ -70,8 +107,10 @@ add new originals to `03_Root_Final/` but never replace one, read anything, or d
 
 ### 2. The script project
 
-1. Go to script.google.com → New project. Name it "TXYDE sheet". Add two script files and paste
-   `apps-script/Code.gs` and `apps-script/Uploader.gs` into them. Save.
+1. Go to script.google.com → New project. Name it "TXYDE sheet". Add three script files and paste
+   `apps-script/Code.gs`, `apps-script/Uploader.gs` and `apps-script/Checks.gs` into them. Save.
+   (Adding `Checks.gs` to an existing project: paste it, update `Code.gs`, run `setup`, then
+   Deploy → Manage deployments → edit the web app → Version: New version. The address stays the same.)
 2. Project Settings → Script properties. Add:
    - `SHEET_ID`: the long ID in the sheet's address (`docs.google.com/spreadsheets/d/<SHEET_ID>/edit`).
    - `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`: the uploader key from step 1.

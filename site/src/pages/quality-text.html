@@ -1,0 +1,39 @@
+---
+title: Text on the photos - TXYDE
+description: Captions, stamps and signatures read off the photos
+styles: gallery, review, quality
+scripts: quality, quality-text, review-nav
+---
+<div class="section section--contained">
+  <div class="gallery review quality" data-endpoint="{{ site.review.endpoint }}" data-base="{{ base }}">
+    <div class="gallery__inner">
+      {{> review-nav }}
+      <h1 class="text-h2 gallery__title" tabindex="-1">Text on the photos</h1>
+      <p class="review__intro">While drafting, Claude read the text on these photos: captions, stamps, signatures and labels. Only what the sheet does not have yet is here: readings already in a description, and the inscription type and language you filled in, count as done. The photos that need the closest look come first; the clear readings at the end can be confirmed together.</p>
+
+      <p class="review__message" hidden></p>
+      <form class="review__key" hidden>
+        <label class="filter-group__label" for="review-key">Review key</label>
+        <div class="review__key-row">
+          <input id="review-key" class="review__input" type="password" autocomplete="current-password" required>
+          <button class="filter-button filter-button--primary is-active" type="submit">Open</button>
+        </div>
+        <p class="review__key-error" hidden>That key was not accepted. Please check it and try again.</p>
+      </form>
+
+      <div class="filter-panel review__panel" role="group" aria-label="Filter and progress" hidden>
+        <div class="filter-group">
+          <div class="filter-group__label">Show</div>
+          <div class="filter-group__buttons" data-show></div>
+        </div>
+        <div class="review__progress">
+          <div class="review__progress-text" aria-live="polite"></div>
+          <div class="review__progress-bar"><span></span></div>
+        </div>
+      </div>
+
+      <div class="q-list"></div>
+      {{> review-foot }}
+    </div>
+  </div>
+</div>

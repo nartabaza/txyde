@@ -1,0 +1,52 @@
+---
+title: Data checks - TXYDE
+description: Check and improve the data in the archive sheet
+styles: gallery, review, quality
+scripts: quality, review-nav
+---
+<div class="section section--contained">
+  <div class="gallery review quality" data-endpoint="{{ site.review.endpoint }}" data-base="{{ base }}" data-page="hub">
+    <div class="gallery__inner">
+      {{> review-nav }}
+      <h1 class="text-h2 gallery__title" tabindex="-1">Data checks</h1>
+      <p class="review__intro">Problems found in the archive sheet, sorted by the kind of work they need. The number on each card is what is still open. Your decisions are saved straight away, and the archive sheet itself changes only after they are checked.</p>
+
+      <p class="review__message" hidden></p>
+      <form class="review__key" hidden>
+        <label class="filter-group__label" for="review-key">Review key</label>
+        <div class="review__key-row">
+          <input id="review-key" class="review__input" type="password" autocomplete="current-password" required>
+          <button class="filter-button filter-button--primary is-active" type="submit">Open</button>
+        </div>
+        <p class="review__key-error" hidden>That key was not accepted. Please check it and try again.</p>
+      </form>
+
+      <div class="q-hub" role="list">
+        <a class="q-hub__card" href="/quality-rules/" data-count="rules" role="listitem">
+          <span class="q-hub__number">–</span>
+          <span class="q-hub__name">Rule checks</span>
+          <span class="q-hub__what">A field that breaks a rule: Diaspora with a homeland country, a date outside its period, a date range written backwards. Decided once per rule.</span>
+          <span class="q-hub__meta"></span>
+          <span class="review__progress-bar"><span></span></span>
+        </a>
+        <a class="q-hub__card" href="/quality-spelling/" data-count="spelling" role="listitem">
+          <span class="q-hub__number">–</span>
+          <span class="q-hub__name">Spelling</span>
+          <span class="q-hub__what">Capital letters, settled one rule at a time, and names or terms written several ways: Shapsug and Shapsugh, Quneitra and Qunaitra. The glossary's form is marked; pick one form for all rows.</span>
+          <span class="q-hub__meta"></span>
+          <span class="review__progress-bar"><span></span></span>
+        </a>
+        <a class="q-hub__card" href="/quality-text/" data-count="text" role="listitem">
+          <span class="q-hub__number">–</span>
+          <span class="q-hub__name">Text on the photos</span>
+          <span class="q-hub__what">Captions, stamps and signatures read off the photos while drafting and not in the sheet yet. Partly legible ones first; clear ones are confirmed together.</span>
+          <span class="q-hub__meta"></span>
+          <span class="review__progress-bar"><span></span></span>
+        </a>
+      </div>
+
+      <div class="q-list"></div>
+      {{> review-foot }}
+    </div>
+  </div>
+</div>

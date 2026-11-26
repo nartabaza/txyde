@@ -279,8 +279,8 @@ function build() {
     const url = name === 'index' ? '/' : `/${name}/`;
     const { data, body } = parseFrontMatter(read(path.join(SRC, 'pages', file)));
     const list = (value) => (value ? value.split(',').map((s) => s.trim()) : []);
-    // Page bodies may use {{ site.* }} and {{ base }} (the review page reads its settings this way).
-    const content = render(body, { site, base: BASE }, partials);
+    // Page bodies may use {{ site.* }}, {{ base }} and {{{ icons.* }}} (the review page reads its settings this way).
+    const content = render(body, { site, base: BASE, icons: ICONS }, partials);
     writePage(url, renderDocument(env, { ...data, url, styles: list(data.styles), scripts: list(data.scripts), content }));
     built.push(url);
   }

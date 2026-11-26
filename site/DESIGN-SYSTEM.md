@@ -568,19 +568,45 @@ There are no focus, active or disabled styles for `.btn`.
   - Keyboard: Escape closes, Left/Right arrows step.
 - **≤768px:** photo edge to edge at the top, details underneath on one scroll, prev/next in the bottom corners over a fade, close at `10px/10px`, padding accounts for `env(safe-area-inset-bottom)`.
 
+### Data check pages (internal)
+
+**Purpose:** the researcher's pages for fixing the archive sheet: `/quality/` (start page), `/quality-rules/`, `/quality-spelling/`, `/quality-text/`. Not linked from the public navigation. Styles in `quality.css`, built on `review.css` (key form, panel, progress bar, photo cards) and `gallery.css` (filter panel and buttons); behaviour in `quality.js` plus one script per page.
+
+- **Start page:** `.q-hub` grid of `.q-hub__card` links on `--color-surface`, `--radius-md`, hairline border that brightens on hover. Each shows the open count (`.q-hub__number`, heading font), a one-line description and a progress bar.
+- **Rule and spelling groups:** `.q-rule` / `.q-spell` sections on `#0a0e0c` (as the review card's details column) with a hairline border and `--radius-md`. Header: question (`.q-rule__question`, heading font), hint, count pill. Rows (`.q-row`, `.q-where__row`) are separated by hairlines; a row left out is shown at 0.55 opacity (`.is-off`).
+- **Spelling forms:** `.q-form` radio rows; the chosen one gets a teal tint (`rgb(47 95 107 / 0.22)`). The form inside a longer text is marked with a sand tint (`mark`), like the review page's checks.
+- **Readings:** `.q-reading` blocks on a faint white tint. A confirmed reading gets a teal border and tint; a wrong one is dimmed and struck through.
+- **Thumbnails:** `.q-thumb--small` (84px, `--radius-sm`) and `.q-thumb--tiny` (40px, `--radius-xs`); each opens the full image.
+- **Colour:** teal for the primary action (`.filter-button.is-active`) and the chosen option. Forest and brick are not used here, because they mean Homeland and Diaspora, which are values these pages decide on.
+- **Arabic and other right-to-left text** inside English is wrapped in `<bdi>`; reading boxes use `dir="auto"`.
+- **Capital-letter rules** (spelling page, `.q-caps`): one card per rule, a `.q-caps__row` per distinct value with a tick, the current value with the changed letters marked (sand `mark`), an editable new value and a strip of tiny thumbnails. Unticked rows are exceptions (0.55 opacity). Section labels above the two kinds of card are `.q-list__heading` (the `.q-label` type style).
+- **Records:** `.q-record` is a photo's record as a grid of label/value pairs (`dt` in the `.q-label` style); description, source and keywords span the full width. "Compare the records" (`.q-compare`, a `<details>`) puts one column per spelling (`.q-compare__form`, up to three across, one column below 960px) of `.q-compare__record` cards: hairline border, `--radius-sm`, faint white tint. Each cell row in "Show the cells" has a `.q-where__more` pill that opens its record.
+- **Text page sections:** `.q-section` headings (`.q-list__heading` plus one muted line) split the photos by how much attention they need. Clear readings sit in `.q-grid`: `.q-tile` cards (110px `.q-thumb--tile`, `--radius-md`, hairline border on `#0a0e0c`) with the reading in an editable box and three small answers (Right, Wrong, Can't tell; the chosen one teal). A wrong reading is dimmed and struck through; one the researcher can't judge gets a dashed, muted box, on the full cards too. One primary button saves the whole grid.
+- **Glossary marker:** `.q-form__glossary`, a small hairline pill beside the form the researcher's glossary uses.
+
+### Review navigation (internal)
+
+**Purpose:** moving between the five review pages (`/review/` and the four data check pages). Partials `review-nav.html` (top) and `review-foot.html` (bottom), behaviour in `review-nav.js`, styles in `review.css`.
+
+- `.review-nav`: a centred row of small sans links above the page title (12px, 0.06em tracking, `#c9d0d8`). "Descriptions" is split from the data check group by a hairline; the data check pages follow "Data checks" after a slash. The current page (`aria-current="page"`) gets a hairline pill border and `--color-text`.
+- `.review-toc`: the page's sections (any `[data-toc]` element in `.q-list`, with a short name and an optional count), as a sticky row of small links above the list. It sits under the site header's pinned bar (61px at 1240px and wider) on a 0.94 `--color-bg` backdrop with a hairline below, scrolls sideways when it does not fit, and outlines the section in view (`aria-current="location"`). Shown only when a page has two or more sections.
+- `.review-pager`: previous and next page in the bar's order, below a hairline at the end of the page; the label (`.review-pager__label`) uses the `.q-label` type style and the page name the heading font.
+- `.review-top`: the footer's back-to-top button (42×42 `.btn--light`, `icons.up` in `--color-icon-muted`), fixed to the bottom-right corner and shown once the page has scrolled one screen.
+- `?demo` is kept on every link.
+
 ---
 
 ## 7. Iconography and imagery
 
 ### Icons
 
-Three inline SVG icons are defined in `build.js` (`ICONS`), extracted from the old theme's icon font. They render as `<svg class="icon" viewBox="0 0 1000 1000" aria-hidden="true">` and are inserted into partials with `{{{ icons.menu }}}`, `{{{ icons.close }}}`, `{{{ icons.up }}}`.
+Three inline SVG icons are defined in `build.js` (`ICONS`), extracted from the old theme's icon font. They render as `<svg class="icon" viewBox="0 0 1000 1000" aria-hidden="true">` and are inserted into partials (and page bodies) with `{{{ icons.menu }}}`, `{{{ icons.close }}}`, `{{{ icons.up }}}`.
 
 | Icon | Used in |
 |---|---|
 | `menu` | `.menu-toggle` |
 | `close` | `.drawer__close` |
-| `up` | `.back-to-top` |
+| `up` | `.back-to-top`, `.review-top` |
 
 `.icon` is `1em × 1em` and `fill: currentColor`, so size it with `font-size` and colour it with `color` on the parent. The viewer uses text characters instead (`&times;`, `&#8249;`, `&#8250;`).
 

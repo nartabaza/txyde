@@ -3,7 +3,8 @@
  *
  * Keeps one "Review" tab in the archive sheet, with one row per drafted image per batch. The review
  * page reads a batch from here and sends back each decision; scripts/push_drafts.py adds new drafts.
- * Nothing here touches the Main tab. (Uploader.gs, in the same project, fills its S3 links.)
+ * Nothing here touches the Main tab. (Uploader.gs, in the same project, fills its S3 links;
+ * Checks.gs keeps the "Data checks" tab for the /quality/ pages.)
  *
  * Setup: see describe/README.md ("One-time setup"). In short: create a script project, paste this
  * file and Uploader.gs, set the script properties SHEET_ID and REVIEW_KEY, run setup() once, then
@@ -31,6 +32,10 @@ function doGet(e) {
     const action = e.parameter.action || 'items';
     if (action === 'batches') return { batches: listBatches() };
     if (action === 'items') return { items: readRows().filter((r) => !e.parameter.batch || r.batch === e.parameter.batch) };
+    if (action === 'checks') {
+      const checks = readChecks().filter((r) => !e.parameter.page || r.page === e.parameter.page);
+      return { checks, records: readRecords(checks.map((r) => r.id)) };
+    }
     throw new Error('Unknown action: ' + action);
   });
 }
@@ -44,6 +49,9 @@ function doPost(e) {
     try {
       if (body.action === 'save') return saveReview(body);
       if (body.action === 'addDrafts') return addDrafts(body);
+      if (body.action === 'removeDrafts') return removeDrafts(body);
+      if (body.action === 'saveChecks') return saveChecks(body);
+      if (body.action === 'syncChecks') return syncChecks(body);
       throw new Error('Unknown action: ' + body.action);
     } finally {
       lock.releaseLock();
@@ -51,9 +59,11 @@ function doPost(e) {
   });
 }
 
-/** Run once from the editor: creates the Review tab with its header row. */
+/** Run once from the editor: creates the Review and Data checks tabs with their header rows. */
 function setup() {
   sheet();
+  checksSheet();
+  recordsSheet();
   if (!PropertiesService.getScriptProperties().getProperty('REVIEW_KEY')) {
     throw new Error('Now set the script property REVIEW_KEY (Project Settings → Script properties).');
   }
@@ -109,6 +119,24 @@ function addDrafts(body) {
     s.getRange(s.getLastRow() + 1, 1, rows.length, COLUMNS.length).setNumberFormat('@').setValues(rows);
   }
   return { added: rows.length, skipped: (body.items || []).length - rows.length };
+}
+
+/** Removes a batch's drafts for the given IDs, but only those not reviewed yet, so no decision is lost. */
+function removeDrafts(body) {
+  if (!body.batch) throw new Error('Missing batch name');
+  const ids = new Set((body.ids || []).map(String));
+  const s = sheet();
+  const values = s.getDataRange().getValues();
+  const batchCol = COLUMNS.indexOf('batch'), idCol = COLUMNS.indexOf('id'), statusCol = COLUMNS.indexOf('status');
+  let removed = 0, kept = 0;
+  for (let i = values.length - 1; i >= 1; i--) { // bottom up, so row numbers stay valid
+    const row = values[i];
+    if (String(row[batchCol]) !== body.batch || !ids.has(String(row[idCol]))) continue;
+    if (row[statusCol]) { kept += 1; continue; }
+    s.deleteRow(i + 1);
+    removed += 1;
+  }
+  return { removed, kept };
 }
 
 // ---- Helpers ---------------------------------------------------------------------

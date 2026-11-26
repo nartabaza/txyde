@@ -1,0 +1,31 @@
+{
+  "_about": "Names and terms written more than one way across the sheet. scripts/quality_checks.py finds every cell that uses one of the forms and asks the researcher which to keep (page /quality-spelling/). Put the form most rows use first. A term with \"fix\" is a plain typo: the fix is proposed even when only one form is left. Add new pairs as drafting finds them; once settled they drop out on their own, because only one form is left.",
+  "_capitals": "Names that keep their capitals wherever they appear, written the right way. A lower-case \"Black sea\" is changed to \"Black Sea\" (one rule on /quality-spelling/), and the title rule never lowers their words. Add a name here when the title rule would lower it, like the name of a group or a painting.",
+  "capitals": [
+    "Black Sea", "Golan Heights", "Kfar Kama", "Middle Ages", "Al Quds", "Russian Empire", "Ottoman Empire",
+    "Tsarskoye Selo", "Abkhaz Hundred", "Circassian Charity Association", "Nalmes Ensemble", "Nartaa Ensemble",
+    "Circassian Benevolent Association", "The Circassian National Anthem",
+    "The Last Year of the Circassian War of Independence"
+  ],
+  "terms": [
+    { "forms": ["Devlet-Girey", "Dovlet-Girey"] },
+    { "forms": ["Yermakov", "Ermakov"] },
+    { "forms": ["Cherkes Ethem", "Çerkez Ethem", "Çerkes Ethem"] },
+    { "forms": ["Quneitra", "Qunaitra", "Kuneitra"] },
+    { "forms": ["Khadzhiko", "Khadjuque"] },
+    { "forms": ["Bolshoi Kechmai", "Bolshoi Kuchmai"] },
+    { "forms": ["Pseytuk", "Pseituk"] },
+    { "forms": ["Safer", "Sefer"] },
+    { "forms": ["Nawruzova", "Naurzoqu"] },
+    { "forms": ["Shkhalakhova", "Shkhelakhova"] },
+    { "forms": ["Khonagua", "Khonako"] },
+    { "forms": ["Kambot", "Kampot"] },
+    { "forms": ["Sharlot", "Charlotte"] },
+    { "forms": ["Samgugh", "Samkough"] },
+    { "forms": ["Adnaniyeh", "Adnaniye"] },
+    { "forms": ["Distric", "District"], "fix": "District",
+      "question": "\"Distric\" is missing its last letter.", "hint": "Confirm, and every row gets District." },
+    { "forms": ["Awedding", "A wedding"], "fix": "A wedding",
+      "question": "\"Awedding\" is missing a space.", "hint": "Confirm, and every row gets A wedding." }
+  ]
+}
