@@ -1,0 +1,39 @@
+name: Log Commits to Notion
+
+on:
+  push:
+    branches:
+      - "**"
+  workflow_dispatch:  # manual trigger for backfill
+    inputs:
+      backfill:
+        description: 'Set to true to log full git history'
+        required: false
+        default: 'true'
+
+jobs:
+  log-to-notion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Notion logging script
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          REPO_NAME: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+          COMMITS_JSON: ${{ toJson(github.event.commits) }}
+          IS_BACKFILL: ${{ github.event.inputs.backfill || 'false' }}
+        run: python .github/scripts/log_commits.py
