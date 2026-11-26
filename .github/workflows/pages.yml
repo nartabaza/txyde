@@ -26,32 +26,32 @@ jobs:
     env:
       HAS_AWS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID != '' }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       # Smaller copies of the photos (see site/README.md). They are uploaded only when AWS
       # access is set up, and an upload problem never blocks the deploy: the build then
       # uses whichever copies are already live, and the originals for the rest.
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Restore downloaded originals and copies
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: site/images
           key: images-${{ hashFiles('site/src/categories/*.json', 'site/scripts/make_images.py') }}
           restore-keys: images-
       - name: AWS access (role, no stored key)
         if: vars.AWS_ROLE_ARN != ''
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: ${{ vars.AWS_ROLE_ARN }}
           aws-region: eu-north-1
       - name: AWS access (access key)
         if: vars.AWS_ROLE_ARN == '' && env.HAS_AWS_KEY == 'true'
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -77,9 +77,9 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}
           PREVIEW: 1
           GATE_PASSWORD_HASH: ${{ vars.GATE_PASSWORD_HASH }}
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site/dist
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
